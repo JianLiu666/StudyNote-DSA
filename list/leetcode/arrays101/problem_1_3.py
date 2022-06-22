@@ -20,7 +20,24 @@ Constraints:
 
 from typing import List
 
+# My Solution
+# Time Complexity: O(n)
 def sortedSquares(nums: List[int]) -> List[int]:
-    pass
+    head, tail = 0, len(nums)-1
+    offset = len(nums)-1
+
+    result = [None] * len(nums)
+    while head != tail:
+        if abs(nums[head]) > abs(nums[tail]):
+            result[offset] = nums[head] ** 2
+            head += 1
+        else:
+            result[offset] = nums[tail] ** 2
+            tail -= 1
+        offset -= 1
+
+    result[offset] = nums[head] ** 2
+
+    return result
 
 print(sortedSquares([-4,-1,0,3,10]))
