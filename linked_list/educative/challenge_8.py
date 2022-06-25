@@ -1,18 +1,20 @@
 '''
-Problem Statement
+Remove Duplicates from Linked List
+
+Problem Statement:
     You will now be implementing the remove_duplicates() function. 
     When a linked list is passed to this function, it removes any node which is a duplicate of another existing node.
 
-Input
+Input:
     A linked list.
 
-Sample Input
+Sample Input:
     LinkedList = 1->2->2->2->3->4->4->5->6
 
-Output
+Output:
     A list with all the duplicates removed.
 
-Sample Output
+Sample Output:
     LinkedList = 1->2->3->4->5->6
 '''
 

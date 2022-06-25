@@ -1,17 +1,19 @@
 '''
-Problem Statement
+Find Second Maximum Value in a List
+
+Problem Statement:
     Implement a function find_second_maximum(lst) which returns the second largest element in the list.
 
-Input
+Input:
     A List
 
-Sample Input
+Sample Input:
     [9,2,3,6]
 
-Output
+Output:
     Second largest element in the list
 
-Sample Output
+Sample Output:
     6
 '''
 

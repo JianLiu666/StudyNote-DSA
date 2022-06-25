@@ -1,21 +1,23 @@
 '''
-Problem Statement
+Right Rotate List
+
+Problem Statement:
     Implement a function right_rotate(lst, k) which will rotate the given list by k.
     This means that the right-most elements will appear at the left-most position in the list and so on.
     You only have to rotate the list by one element at a time.
 
-Input
+Input:
     A list and a positive number by which to rotate that list
 
-Sample Input
+Sample Input:
     lst = [10,20,30,40,50]
     k = 3
 
-Output
+Output:
     The given list rotated by k elements
 
-Sample Output
-lst = [30,40,50,10,20]
+Sample Output:
+    lst = [30,40,50,10,20]
 '''
 
 # My Solution

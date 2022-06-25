@@ -1,18 +1,20 @@
 '''
-Problem Statement
+Find Two Numbers that Add up to "k"
+
+Problem Statement:
     In this problem, you have to implement the find_sum(lst,k) function which will take a number k as input and return two numbers that add up to k.
 
-Input
+Input:
     A list and a number k
 
-Sample Input
+Sample Input:
     lst = [1,21,3,14,5,60,7,6]
     k = 81
 
-Output
+Output:
     A list with two integers a and b that add up to k
 
-Sample Output
+Sample Output:
     lst = [21,60]
 '''
 

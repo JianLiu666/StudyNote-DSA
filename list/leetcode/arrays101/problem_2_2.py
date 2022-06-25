@@ -34,3 +34,57 @@ Constraints:
     1 <= m + n <= 200
     -10^9 <= nums1[i], nums2[j] <= 10^9
 '''
+from typing import List
+
+# My Solution
+# Time Complexity: O(2(m+n))
+def merge_sol1(nums1: List[int], m: int, nums2: List[int], n: int) -> None:
+    result = [None] * (m+n)
+    current, mIdx, nIdx = 0, 0, 0
+
+    while mIdx < m or nIdx < n:
+        if mIdx >= m:
+            result[current] = nums2[nIdx]
+            nIdx += 1
+        elif nIdx >= n:
+            result[current] = nums1[mIdx]
+            mIdx += 1
+        else:
+            if nums1[mIdx] <= nums2[nIdx]:
+                result[current] = nums1[mIdx]
+                mIdx += 1
+            else:
+                result[current] = nums2[nIdx]
+                nIdx += 1
+        
+        current += 1
+
+    for i in range(len(nums1)):
+        nums1[i] = result[i]
+
+list1 = [1,2,3,0,0,0]
+merge_sol1(list1, 3, [2,5,6], 3)
+print(list1)
+
+# LeetCode Solution
+# Time Complexity: O(m+n)
+def merge_sol2(nums1: List[int], m: int, nums2: List[int], n: int) -> None:
+    current = len(nums1)-1
+    while m > 0 and n > 0:
+        if nums1[m-1] >= nums2[n-1]:
+            nums1[current] = nums1[m-1]
+            m -= 1
+        else:
+            nums1[current] = nums2[n-1]
+            n -= 1
+        
+        current -= 1
+    
+    while n > 0:
+        nums1[current] = nums2[n-1]
+        current -= 1
+        n -= 1
+
+list2 = [1,2,3,0,0,0]
+merge_sol2(list2, 3, [2,5,6], 3)
+print(list2)

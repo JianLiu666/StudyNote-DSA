@@ -1,17 +1,19 @@
 '''
-Problem Statement
+Find Minimum Value in List
+
+Problem Statement:
     Implement a function findMinimum(lst) which finds the smallest number in the given list.
 
-Input
+Input:
     A list of integers
 
-Sample Input
+Sample Input:
     arr = [9,2,3,6]
 
-Output
+Output:
     The smallest number in the list
 
-Sample Output
+Sample Output:
     2
 '''
 

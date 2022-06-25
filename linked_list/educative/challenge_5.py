@@ -1,19 +1,21 @@
 '''
-Problem Statement
+Reverse a Linked List
+
+Problem Statement:
     You have to define the reverse function, which takes a singly linked list and produces the exact opposite list.
     i.e., the links of the output linked list should be reversed.
 
-Input
+Input:
     A singly linked list.
 
-Sample Input
+Sample Input:
     The input linked list object:
     LinkedList = 0->1->2->3-4
 
-Output
+Output:
     The reversed linked list.
 
-Sample Output
+Sample Output:
     The reversed linked list:
     LinkedList = 4->3->2->1->0
 '''

@@ -1,18 +1,20 @@
 '''
-Problem Statement
+Detect Loop in a Linked List
+
+Problem Statement:
     By definition, a loop is formed when a node in your linked list points to a previously traversed node.
     You must implement the detect_loop() function which will take a linked list as input and deduce whether or not a loop is present.
 
-Input
+Input:
     A singly linked list.
 
-Sample Input
+Sample Input:
     LinkedList = 7->14->21->7 # Both '7's are the same node. Not duplicates.
 
-Output
+Output:
     Returns True if the given linked list contains a loop. Otherwise, it returns False
 
-Sample Output
+Sample Output:
     True
 '''
 

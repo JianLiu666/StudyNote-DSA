@@ -1,5 +1,7 @@
 '''
-Problem Statement
+Union & Intersection of Linked Lists
+
+Problem Statement:
     Union and intersection are two of the most popular operations which can be performed on data sets. 
 
     Now, you will be implementing them for linked lists! Let’s take a look at their definitions:
@@ -9,18 +11,18 @@ Problem Statement
     The union function will take two linked lists and return their union.
     The intersection function will return all the elements that are common between two linked lists.
 
-Input
+Input:
     Two linked lists.
 
-Sample Input
+Sample Input:
     list1 = 10->20->80->60
     list2 = 15->20->30->60->45
 
-Output
+Output:
     A list containing the union of the two lists.
     A list containing the intersection of the two lists.
 
-Sample Output
+Sample Output:
     union = 10->20->80->60->15->30->45
     intersection = 20->60
 '''

@@ -1,18 +1,20 @@
 '''
-Problem statement
+Maximum Sum Sublist
+
+Problem statement:
     Given an integer list, return the maximum sublist sum. 
     The list may contain both positive and negative integers and is unsorted.
 
-Input
+Input:
     a list lst
 
-Sample input
+Sample input:
     lst = [-4, 2, -5, 1, 2, 3, 6, -5, 1]
 
-Output
+Output:
     a number (maximum subarray sum)
 
-Sample output
+Sample output:
     largest_sum = 12
 '''
 

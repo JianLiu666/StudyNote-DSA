@@ -1,19 +1,21 @@
 '''
-Problem Statement
+Insertion at Tail
+
+Problem Statement:
     We need to insert a new object at the end of the linked list. 
     You can naturally guess, that this newly added node will point to None as it is at the tail.
 
-Input
+Input:
     A linked list and an integer value.
 
-Sample Input
+Sample Input:
     Linked List = 0->1->2
     integer = 3
 
-Output
+Output:
     The updated linked list with the value inserted.
 
-Sample Output
+Sample Output:
     Linked List = 0->1->2->3
 '''
 

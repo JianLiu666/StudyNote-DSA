@@ -1,19 +1,21 @@
 '''
-Problem Statement
+Deletion by Value
+
+Problem Statement:
     In this function, we can pass a particular value that we want to delete from the list. 
     The node containing this value could be anywhere in the list. It is also possible that such a node may not exist at all.
 
-Input
+Input:
     A linked list and an integer to be deleted.
 
-Sample Input
+Sample Input:
     LinkedList = 3->2->1->0
     Integer = 2
 
-Output
+Output:
     True if the value is deleted. Otherwise, False.
 
-Sample Output
+Sample Output:
     True
 '''
 

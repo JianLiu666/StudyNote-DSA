@@ -1,17 +1,19 @@
 '''
-Problem Statement
+List of Products of all Elements
+
+Problem Statement:
     Implement a function, find_product(lst), which modifies a list so that each index has a product of all the numbers present in the list except the number stored at that index.
 
-Input
+Input:
     A list of numbers (could be floating points or integers)
 
-Sample Input
+Sample Input:
     arr = [1,2,3,4]
 
-Output
+Output:
     A list such that each index has a product of all the numbers in the list except the number stored at that index.
 
-Sample Output
+Sample Output:
     arr = [24,12,8,6]
 '''
 

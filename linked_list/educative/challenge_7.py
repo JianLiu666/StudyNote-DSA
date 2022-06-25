@@ -1,18 +1,20 @@
 '''
-Problem Statement
+Find Middle Node of Linked List
+
+Problem Statement:
     You have to implement the find_mid() function which will take a linked list as an input and return the value of the middle node. 
     If the length of the list is even, the middle value will occur at length/2. For a list of odd length, the middle value will be (length+1)/2
 
-Input
+Input:
     A singly linked list.
 
-Sample Input
+Sample Input:
     LinkedList = 7->14->10->21
 
-Output
+Output:
     The integer value of the middle node.
 
-Sample Output
+Sample Output:
     14
 '''
 

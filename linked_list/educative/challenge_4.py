@@ -1,17 +1,19 @@
 '''
-Problem Statement
+Find the Length of a Linked List
+
+Problem Statement:
     In this problem, you have to implement the length() function which will find the length of a given linked list.
 
-Input
+Input:
     A linked list.
 
-Sample Input
+Sample Input:
     linkedlist = 0->1->2->3->4
 
-Output
+Output:
     The number of nodes in the list.
 
-Sample Output
+Sample Output:
     5 
 '''
 

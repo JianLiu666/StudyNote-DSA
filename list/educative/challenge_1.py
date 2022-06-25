@@ -1,21 +1,20 @@
 '''
-Problem Statement
+Remove Even Integers from List
 
+Problem Statement:
     Implement a function that removes all the even elements from a given list.
     Name it remove_even(lst).
 
-Input
-
+Input:
     A list with random integers.
 
-Sample Input
+Sample Input:
     my_list = [1,2,4,5,10,6,3]
 
-Output
-
+Output:
     A list with only odd integers.
 
-Sample Output
+Sample Output:
     my_list = [1,5,3]
 '''
 

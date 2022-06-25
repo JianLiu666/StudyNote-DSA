@@ -1,20 +1,22 @@
 '''
-Problem Statement
+Search in a Singly Linked List
+
+Problem Statement:
     The search algorithm in a linked list can be generalized to the following steps:
      - Start from the head node.
      - Traverse the list till you either find a node with the given value or you reach the end node which will indicate that the given node doesn’t exist in the list.
 
-Input
+Input:
     A linked list and an integer to be searched.
 
-Sample Input
+Sample Input:
     Linked List = 5->90->10->4  
     Integer = 4
 
-Output
+Output:
     True if the integer is found. False otherwise.
 
-Sample Output
+Sample Output:
     True
 '''
 
