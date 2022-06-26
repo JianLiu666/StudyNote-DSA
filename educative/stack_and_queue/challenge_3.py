@@ -30,3 +30,52 @@ Output:
 Sample Output:
     3
 '''
+
+# My Solution
+# Time Complexity: O(n)
+class Stack:
+    def __init__(self):
+        self.main = []
+        self.length = 0
+
+    def is_empty(self):
+        return self.length == 0
+
+    def peek(self):
+        if self.is_empty():
+            return None
+        
+        return self.main[-1]
+    
+    def size(self):
+        return self.length
+
+    def push(self, data):
+        self.length += 1
+        self.main.append(data)
+
+    def pop(self):
+        if self.is_empty():
+            return None
+        
+        data = self.main.pop()
+        self.length -= 1
+        return data
+
+def evaluate_post_fix_sol1(exp):
+    stack = Stack()
+    try:
+        for char in exp:
+            if char.isdigit():
+                stack.push(char)
+            else:
+                right = stack.pop()
+                left = stack.pop()
+                stack.push(str(eval(left + char + right)))
+        
+        return int(float(stack.pop()))
+    except TypeError:
+        return "Invalid Sequence"
+
+print(evaluate_post_fix_sol1("921*-8-4+"))
+print(evaluate_post_fix_sol1("921*-8--4+"))
