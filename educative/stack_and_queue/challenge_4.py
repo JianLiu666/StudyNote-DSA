@@ -22,3 +22,59 @@ Output:
 Sample Output:
     result = [6, 8, 8, 8, -1, -1]
 '''
+
+# Solution: Stack Iteration
+# Time Complexity: O(n^2)
+from typing import List
+
+
+class Stack:
+    def __init__(self):
+        self.main = []
+        self.length = 0
+    
+    def is_empty(self):
+        return self.length == 0
+    
+    def size(self):
+        return self.length
+    
+    def peek(self):
+        if self.is_empty():
+            return None
+        
+        return self.main[-1]
+    
+    def push(self, data):
+        self.main.append(data)
+        self.length += 1
+    
+    def pop(self):
+        if self.is_empty():
+            return None
+        
+        data = self.main.pop()
+        self.length -= 1
+        return data
+
+def next_greater_element(lst: List):
+    if len(lst) < 1:
+        return lst
+    
+    stack = Stack()
+
+    result = [-1] * len(lst)
+    for i in range(len(lst)-1, -1, -1):
+        if stack.is_empty() == False:
+            while stack.is_empty() == False and stack.peek() <= lst[i]:
+                stack.pop()
+        if stack.is_empty() == False:
+            result[i] = stack.peek()
+        
+        stack.push(lst[i])
+
+    return result
+
+list1 = [13, 3, 12, 16, 15, 11, 1, 2]
+print(list1)
+print(next_greater_element(list1))
