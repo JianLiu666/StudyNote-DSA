@@ -21,6 +21,14 @@ Constraints:
     0 <= arr[i] <= 9
 '''
 
+'''
+解題方向:
+    - Brute-force 就是遇到零的時候按照規則往後位移 -> O(n^2)
+    - Two-pointers: fixed width -> left pointer and right pointer
+        - 第一次先掃過一遍確定有多少個0, 定位出新陣列的終點 (決定 left pointer and right pointer 的位置)
+        - 逐一往前複製, 遇到0時要特別處理, right pointer 要多補一個0
+'''
+
 from typing import List
 
 class Solution:
@@ -55,6 +63,38 @@ class Solution:
                 offset += 1
             offset += 1
 
+    # LeetCode Solution
+    # Time Complexity: O(2n)
+    def duplicateZeros_sol3(self, arr: List[int]) -> None:
+        left = -1
+        capacity = len(arr)
+        right = capacity -1
+
+        # 定位出要複製的最末端
+        while capacity > 0:
+            left += 1
+            capacity -= 1
+
+            if arr[left] == 0:
+                capacity -= 1
+
+        # 最後一個位置是 0 的時候
+        if arr[left] == 0 and capacity < 0:
+            arr[right] = arr[left]
+            left -= 1
+            right -= 1
+
+        # 由後往前逐一複製
+        while left > -1:
+            arr[right] = arr[left]
+            right -= 1
+
+            if arr[left] == 0 and left <= right:
+                arr[right] = arr[left]
+                right -= 1
+
+            left -= 1
+
 if __name__ == '__main__':
     s = Solution()
 
@@ -74,4 +114,13 @@ if __name__ == '__main__':
     assert list1 == [1,0,0,2,3,0,0,4]
 
     s.duplicateZeros_sol2(list2)
+    assert list2 == [1,2,3]
+
+    list1 = [1,0,2,3,0,4,5,0]
+    list2 = [1,2,3]
+
+    s.duplicateZeros_sol3(list1)
+    assert list1 == [1,0,0,2,3,0,0,4]
+
+    s.duplicateZeros_sol3(list2)
     assert list2 == [1,2,3]
