@@ -24,6 +24,13 @@ Constraints:
     1 <= nums[i] <= 10^5
 '''
 
+'''
+解題方向:
+    - For Loop 一遍沒有異議 -> O(n)
+    - number 的解法就是一邊計數(counting)一邊除以10直到歸零, 取商數確認數字數量
+    - string 的解法就是直接轉成文字後取商數確認數字數量
+'''
+
 from typing import List
 
 class Solution:

@@ -19,6 +19,16 @@ Constraints:
     nums is sorted in non-decreasing order.
 '''
 
+'''
+解題方向:
+    - 題目已經明確表示為 non-descreasing order, 只需考慮如何解決負數問題
+    - Two-pointers 解法: head and tail pointer
+        - head pointer 從頭開始檢查
+        - tail pointer 從尾巴開始檢查
+    - 持續比較頭尾數字平方後的大小, 將大的那邊塞進新的 list (從尾巴開始往前塞), 然後往對方前進
+    - 直到 head pointer 與 tail pointer 相遇 -> O(n)
+'''
+
 from typing import List
 
 # My Solution

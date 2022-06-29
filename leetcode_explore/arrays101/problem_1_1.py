@@ -17,6 +17,14 @@ Constraints:
     nums[i] is either 0 or 1.
 '''
 
+'''
+解題方向:
+    - For Loop 一遍沒有異議 -> O(n)
+    - 用兩個變數紀錄 local_maximum 與 global_maximum
+    - 遇到 0 的時候重置 local_maximum
+    - 每次計數後都確認一次 local_maximum 是否大於 global_maximum
+'''
+
 from typing import List
 
 # My Solution
