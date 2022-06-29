@@ -23,22 +23,27 @@ from typing import List
 
 # My Solution
 # Time Complexity: O(n)
-def sortedSquares(nums: List[int]) -> List[int]:
-    head, tail = 0, len(nums)-1
-    offset = len(nums)-1
+class Solution:
+    def sortedSquares(self, nums: List[int]) -> List[int]:
+        head, tail = 0, len(nums)-1
+        offset = len(nums)-1
 
-    result = [None] * len(nums)
-    while head != tail:
-        if abs(nums[head]) > abs(nums[tail]):
-            result[offset] = nums[head] ** 2
-            head += 1
-        else:
-            result[offset] = nums[tail] ** 2
-            tail -= 1
-        offset -= 1
+        result = [None] * len(nums)
+        while head != tail:
+            if abs(nums[head]) > abs(nums[tail]):
+                result[offset] = nums[head] ** 2
+                head += 1
+            else:
+                result[offset] = nums[tail] ** 2
+                tail -= 1
+            offset -= 1
 
-    result[offset] = nums[head] ** 2
+        result[offset] = nums[head] ** 2
 
-    return result
+        return result
 
-print(sortedSquares([-4,-1,0,3,10]))
+if __name__ == '__main__':
+    s = Solution()
+
+    assert s.sortedSquares([-4,-1,0,3,10]) == [0,1,9,16,100]
+    assert s.sortedSquares([-7,-3,2,3,11]) == [4,9,9,49,121]

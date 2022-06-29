@@ -32,9 +32,10 @@ Constraints:
 
 from typing import List
 
-# My Solution
-# Time Complexity: O(n)
-def removeElement_sol1(nums: List[int], val: int) -> int:
+class Solution:
+    # My Solution
+    # Time Complexity: O(n)
+    def removeElement_sol1(self, nums: List[int], val: int) -> int:
         k = len(nums)
         
         head, tail = 0, len(nums)-1
@@ -55,19 +56,22 @@ def removeElement_sol1(nums: List[int], val: int) -> int:
 
         return k
 
-list1 = [0,1,2,2,3,0,4,2]
-print(list1[:removeElement_sol1(list1, 2)])
+    # LeetCode Solution
+    # Time Complexity: O(n)
+    def removeElement_sol2(self, nums: List[int], val: int) -> int:
+        count = 0
+        for offset in range(len(nums)):
+            if nums[offset] != val:
+                nums[count] = nums[offset]
+                count += 1
 
-# LeetCode Solution
-# Time Complexity: O(n)
-def removeElement_sol2(nums: List[int], val: int) -> int:
-    count = 0
-    for offset in range(len(nums)):
-        if nums[offset] != val:
-            nums[count] = nums[offset]
-            count += 1
+        return count
 
-    return count
+if __name__ == '__main__':
+    s = Solution()
 
-list2 = [0,1,2,2,3,0,4,2]
-print(list2[:removeElement_sol2(list2, 2)])
+    assert s.removeElement_sol1([3,2,2,3], 3) == 2
+    assert s.removeElement_sol1([0,1,2,2,3,0,4,2], 2) == 5
+
+    assert s.removeElement_sol2([3,2,2,3], 3) == 2
+    assert s.removeElement_sol2([0,1,2,2,3,0,4,2], 2) == 5

@@ -23,41 +23,55 @@ Constraints:
 
 from typing import List
 
-# My Solution
-# Time Complexity: O(n^2)
-def duplicateZeros_sol1(arr: List[int]) -> None:
-    offset = 0
-    while offset < len(arr)-1:
-        if arr[offset] != 0:
+class Solution:
+        
+    # My Solution
+    # Time Complexity: O(n^2)
+    def duplicateZeros_sol1(self, arr: List[int]) -> None:
+        offset = 0
+        while offset < len(arr)-1:
+            if arr[offset] != 0:
+                offset += 1
+                continue
+            
+            # 從尾巴開始將資料依序往後位移
+            for idx in range(len(arr)-2, offset, -1):
+                arr[idx+1] = arr[idx]
+            
+            # 在指定位置補0
+            arr[offset+1] = 0
+            offset += 2
+
+    # LeetCode Solution
+    # Time Complexity: O(n^2)
+    #  - built-in pop operation at the last element -> O(1)
+    #  - built-in insert operation -> O(n)
+    def duplicateZeros_sol2(self, arr: List[int]) -> None:
+        offset = 0
+        while offset < len(arr):
+            if arr[offset] == 0:
+                arr.pop()
+                arr.insert(offset, 0)
+                offset += 1
             offset += 1
-            continue
-        
-        # 從尾巴開始將資料依序往後位移
-        for idx in range(len(arr)-2, offset, -1):
-            arr[idx+1] = arr[idx]
-        
-        # 在指定位置補0
-        arr[offset+1] = 0
-        
-        offset += 2
 
-list1 = [1,0,2,3,0,4,5,0]
-duplicateZeros_sol1(list1)
-print(list1)
+if __name__ == '__main__':
+    s = Solution()
 
-# LeetCode Solution
-# Time Complexity: O(n^2)
-#  - built-in pop operation at the last element -> O(1)
-#  - built-in insert operation -> O(n)
-def duplicateZeros_sol2(arr: List[int]) -> None:
-    offset = 0
-    while offset < len(arr):
-        if arr[offset] == 0:
-            arr.pop()
-            arr.insert(offset, 0)
-            offset += 1
-        offset += 1
+    list1 = [1,0,2,3,0,4,5,0]
+    list2 = [1,2,3]
 
-list2 = [1,0,2,3,0,4,5,0]
-duplicateZeros_sol2(list2)
-print(list2)
+    s.duplicateZeros_sol1(list1)
+    assert list1 == [1,0,0,2,3,0,0,4]
+
+    s.duplicateZeros_sol1(list2)
+    assert list2 == [1,2,3]
+
+    list1 = [1,0,2,3,0,4,5,0]
+    list2 = [1,2,3]
+
+    s.duplicateZeros_sol2(list1)
+    assert list1 == [1,0,0,2,3,0,0,4]
+
+    s.duplicateZeros_sol2(list2)
+    assert list2 == [1,2,3]

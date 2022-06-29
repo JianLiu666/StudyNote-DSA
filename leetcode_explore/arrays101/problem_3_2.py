@@ -33,16 +33,20 @@ from typing import List
 
 # My Solution
 # Time Complexity: O(n)
-def removeDuplicates_sol1(nums: List[int]) -> int:
-    count = 1
-    dup = nums[0]
-    for offset in range(len(nums)):
-        if nums[offset] != dup:
-            nums[count] = nums[offset]
-            dup = nums[offset]
-            count += 1
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        count = 1
+        dup = nums[0]
+        for offset in range(len(nums)):
+            if nums[offset] != dup:
+                nums[count] = nums[offset]
+                dup = nums[offset]
+                count += 1
 
-    return count
+        return count
 
-list1 = [0,0,1,1,1,2,2,3,3,4]
-print(list1[:removeDuplicates_sol1(list1)])
+if __name__ == '__main__':
+    s = Solution()
+
+    assert s.removeDuplicates([1,1,2]) == 2
+    assert s.removeDuplicates([0,0,1,1,1,2,2,3,3,4]) == 5
