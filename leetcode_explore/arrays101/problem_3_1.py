@@ -30,6 +30,12 @@ Constraints:
     0 <= val <= 100
 '''
 
+'''
+解題方向:
+    - Two pointers: slow and fast pointer
+        - slow pointer 只有在處理目標外的元素後才會向後位移一格
+'''
+
 from typing import List
 
 class Solution:

@@ -29,6 +29,12 @@ Constraints:
     nums is sorted in non-decreasing order.
 '''
 
+'''
+解題方向
+    - Two pointers: slow and fast pointer
+        - slow pointer 紀錄不重複的數字
+'''
+
 from typing import List
 
 # My Solution
