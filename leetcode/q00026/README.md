@@ -58,4 +58,6 @@ Explanation:
 
 # 解題方向
 
-施工中 ...
+Two Pointers (Slow and Fast Pointer)
+- Slow Pointer : 紀錄不重複的數字
+- Fast Pointer : index in foreach loop
