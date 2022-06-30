@@ -34,6 +34,19 @@ Constraints:
     1 <= m + n <= 200
     -10^9 <= nums1[i], nums2[j] <= 10^9
 '''
+
+'''
+解題方向
+    - nums1 已經預留好合併後的 array size 了, 所以我們可以給定一個 offset = len(nums)-1, 從尾巴往前位移
+    - 比較 nums1[m] 跟 nums2[n] 當前位置的大小, 將較大的數字塞進 nums1[offset] 後再將位置往前為宜
+        - e.g.
+            nums1[m] > nums2[n]
+            nums1[current] = nums1[m]
+            offset -= 1
+            m -= 1
+
+'''
+
 from typing import List
 
 class Solution:
