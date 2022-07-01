@@ -1,4 +1,4 @@
-# `Easy` PAscal's Triangle
+# `Easy` Pascal's Triangle
 
 Given an integer `numRows`, return the first numRows of **Pascal's triangle**.
 
@@ -32,3 +32,13 @@ Output: [[1]]
 ---
 
 # 解題方向
+
+### Minimize Space Complexity
+
+Brute-force, 就是單純將每層結果當成下一層的輸入傳遞進去計算
+
+### Minimize Time Complexity
+
+直接上圖比較快
+
+![image](./image/MinimizeTimeComplexity.jpg)
