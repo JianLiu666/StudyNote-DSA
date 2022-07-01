@@ -54,6 +54,11 @@ Explanation:
 - -100 <= nums[i] <= 100
 - nums is sorted in **non-decreasing** order.
 
+### Related Topics
+
+- Array
+- Two Pointers
+
 ---
 
 # 解題方向

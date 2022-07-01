@@ -1,5 +1,7 @@
 package q00088
 
+// Time Complexity: O(m+n)
+// Space Complexity: O(1)
 func merge(nums1 []int, m int, nums2 []int, n int) {
 	current := len(nums1) - 1
 
