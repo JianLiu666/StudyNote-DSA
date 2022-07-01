@@ -39,19 +39,23 @@ class Solution2:
         levels = [[1] * level for level in range(1, numRows+1)]
         memo = {}
         for col in range(1, numRows-1):
-            self.recurse(numRows-1, col, levels)
+            self.recurse(numRows-1, col, levels, memo)
 
         return levels
 
     def recurse(self, row: int, col: int, levels: List[List[int]], memo: Dict[List[int], int]) -> int:
+        if col > row:
+            return 0
         if col == 0 or row <= 1:
             return 1
         if (row, col) in memo:
             return memo[(row, col)]
 
-        value = self.recurse(row-1, col-1) + self.recurse(row-1, col)
+        value = self.recurse(row-1, col-1, levels, memo) + self.recurse(row-1, col, levels, memo)
         levels[row][col] = value
         memo[(row, col)] = value
+
+        return value
 
 
 if __name__ == '__main__':
@@ -59,6 +63,6 @@ if __name__ == '__main__':
     assert s.generate(5) == [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
     assert s.generate(1) == [[1]]
 
-    s2 = Solution()
+    s2 = Solution2()
     assert s2.generate(5) == [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
     assert s2.generate(1) == [[1]]
