@@ -8,8 +8,8 @@
 <img src="https://img.shields.io/badge/Hard-1-red" alt="">
 </p>
 
-| #    | Solution                        |  Difficulty | Title | Related Topics |
-| ---: | :-----------------------------: | :---------: | :---: | :------------- |
+| #    | Solution                        |  Difficulty | Title |
+| ---: | :-----------------------------: | :---------: | :--- | :------------- |
 |    1 | [:ok_hand:](./q00001/README.md) | Easy        | [Two Sum](https://leetcode.com/problems/two-sum/) |
 |   26 | [:ok_hand:](./q00001/README.md) | Easy        | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |
 |   66 | [:ok_hand:](./q00001/README.md) | Easy        | [Plus One](https://leetcode.com/problems/plus-one/) |
@@ -21,4 +21,4 @@
 |  217 | [:ok_hand:](./q00001/README.md) | Easy        | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) |
 |  268 | [:ok_hand:](./q00001/README.md) | Easy        | [Missing Number](https://leetcode.com/problems/missing-number/) |
 |  283 | [:ok_hand:](./q00001/README.md) | Easy        | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) |
-|  350 | [:ok_hand:](./q00001/README.md) | Easy        | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting` |
+|  350 | [:ok_hand:](./q00001/README.md) | Easy        | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) |
