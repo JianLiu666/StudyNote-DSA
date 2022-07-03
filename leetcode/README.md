@@ -8,17 +8,17 @@
 <img src="https://img.shields.io/badge/Hard-1-red" alt="">
 </p>
 
-| # | Title | Difficulty | Solution |
-| :--- | :--- | :---: | :---: |
-|   1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [Link](./q00001/README.md) |
-|  26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | [Link](./q00026/README.md) |
-|  66 | [Plus One]() | Easy | [Link](./q00066/README.md) |
-|  88 | [Merge Sorted Array]() | Easy | [Link](./q00088/README.md) |
-| 118 | [Pascal's Triangle]() | Easy | [Link](./q00118/README.md) |
-| 121 | [Bets Time to Buy and Sell Stock]() | Easy | [Link](./q00121/README.md) |
-| 136 | [Single Number]() | Easy | [Link](./q00136/README.md) |
-| 169 | [Majority Element]() | Easy | [Link](./q00169/README.md) |
-| 217 | [Contains Duplicate]() | Easy | [Link](./q00217/README.md) |
-| 268 | [Missing Number]() | Easy | [Link](./q00268/README.md) |
-| 283 | [Move Zeroes]() | Easy | [Link](./q00283/README.md) |
-| 350 | [Intersection of Two Arrays II]() | Easy | [Link](./q00350/README.md) |
+| #    | Solution                        |  Difficulty | Title | Related Topics |
+| ---: | :-----------------------------: | :---------: | :---: | :------------- |
+|    1 | [:ok_hand:](./q00001/README.md) | Easy        | [Two Sum](https://leetcode.com/problems/two-sum/) |
+|   26 | [:ok_hand:](./q00001/README.md) | Easy        | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |
+|   66 | [:ok_hand:](./q00001/README.md) | Easy        | [Plus One](https://leetcode.com/problems/plus-one/) |
+|   88 | [:ok_hand:](./q00001/README.md) | Easy        | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) |
+|  118 | [:ok_hand:](./q00001/README.md) | Easy        | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) |
+|  121 | [:ok_hand:](./q00001/README.md) | Easy        | [Bets Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |
+|  136 | [:ok_hand:](./q00001/README.md) | Easy        | [Single Number](https://leetcode.com/problems/single-number/) |
+|  169 | [:ok_hand:](./q00001/README.md) | Easy        | [Majority Element](https://leetcode.com/problems/majority-element/) |
+|  217 | [:ok_hand:](./q00001/README.md) | Easy        | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) |
+|  268 | [:ok_hand:](./q00001/README.md) | Easy        | [Missing Number](https://leetcode.com/problems/missing-number/) |
+|  283 | [:ok_hand:](./q00001/README.md) | Easy        | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) |
+|  350 | [:ok_hand:](./q00001/README.md) | Easy        | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting` |
