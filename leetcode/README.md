@@ -9,7 +9,7 @@
 </p>
 
 | #    | Solution                        |  Difficulty | Title |
-| ---: | :-----------------------------: | :---------: | :--- | :------------- |
+| ---: | :-----------------------------: | :---------: | :--- |
 |    1 | [:ok_hand:](./q00001/README.md) | Easy        | [Two Sum](https://leetcode.com/problems/two-sum/) |
 |   26 | [:ok_hand:](./q00001/README.md) | Easy        | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |
 |   66 | [:ok_hand:](./q00001/README.md) | Easy        | [Plus One](https://leetcode.com/problems/plus-one/) |
