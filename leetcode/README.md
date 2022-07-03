@@ -1,10 +1,12 @@
 # Fake it till you make it
 
+<p>
 <img src="https://img.shields.io/badge/It's%20Me%2C-Jian-blue" alt="">
 <img src="https://img.shields.io/badge/Solved-46%2F2328-orange" alt="">
 <img src="https://img.shields.io/badge/Easy-41-green" alt="">
 <img src="https://img.shields.io/badge/Medium-5-yellow" alt="">
 <img src="https://img.shields.io/badge/Hard-1-red" alt="">
+</p>
 
 | # | Title | Difficulty | Solution |
 | :--- | :--- | :---: | :---: |
