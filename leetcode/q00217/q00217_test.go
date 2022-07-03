@@ -1,7 +1,6 @@
 package q00217
 
 import (
-	"fmt"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
@@ -49,6 +48,9 @@ func TestQuestion(t *testing.T) {
 }
 
 func TestMergeSort(t *testing.T) {
-	fmt.Println(merge_sort([]int{1, 2, 3, 1}))
-	fmt.Println(merge_sort([]int{1, 2, 3, 4}))
+	ast := assert.New(t)
+
+	ast.Equal([]int{1, 1, 2, 3}, merge_sort([]int{1, 2, 3, 1}))
+	ast.Equal([]int{1, 2, 3, 4}, merge_sort([]int{1, 2, 3, 4}))
+	ast.Equal([]int{1, 1, 1, 2, 2, 3, 3, 3, 4, 4}, merge_sort([]int{1, 1, 1, 3, 3, 4, 3, 2, 4, 2}))
 }
