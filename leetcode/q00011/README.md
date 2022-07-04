@@ -1,4 +1,9 @@
-# `Medium` Container With Most Water
+[![image](https://img.shields.io/badge/Leetcode-Link-blue?logo=leetcode)](https://leetcode.com/problems/container-with-most-water/)
+![image](https://img.shields.io/badge/Difficulty-Medium-yellow)
+
+---
+
+# Container With Most Water
 
 You are given an integer array `height` of length `n`. There are `n` vertical lines drawn such that the two endpoints of the $i^{th}$ line are `(i, 0)` and `(i, height[i])`.
 
@@ -43,5 +48,6 @@ Output: 1
 
 # 解題方向
 
-施工中 ...
+Two Pinters: head and tail pointers
+- 兩個 pointers 之間的距離就是容器的寬度
 
