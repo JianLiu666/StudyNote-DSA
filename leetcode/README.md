@@ -1,15 +1,16 @@
 # Fake it till you make it
 
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue)](https://leetcode.com/jianliu0616/)
-![image](https://img.shields.io/badge/Solved-46%2F2328-orange)
+![image](https://img.shields.io/badge/Solved-48%2F2328-orange)
 ![image](https://img.shields.io/badge/Easy-41-green)
-![image](https://img.shields.io/badge/Medium-5-yellow)
+![image](https://img.shields.io/badge/Medium-6-yellow)
 ![image](https://img.shields.io/badge/Hard-1-red)
 
 | #    | Title | Difficulty | Related Topics |
 | ---: | :---- |:---------- | :------------- |
 |    1 | [Two Sum](./q00001/README.md) | Easy | `Array` `Hash Table` |
 |   11 | [Container With Most Water](./q00011/README.md) | Medium | `Array` `Two Pointers` `Greedy` |
+|   15 | [3Sum](./q00015/README.md) | Medium | `Array` `Two Pointers` `Sorting` |
 |   26 | [Remove Duplicates from Sorted Array](./q00026/README.md) | Easy | `Array` `Two Pointers` |
 |   66 | [Plus One](./q00066/README.md) | Easy | `Array` `Math` |
 |   88 | [Merge Sorted Array](./q00088/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
