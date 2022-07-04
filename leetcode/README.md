@@ -8,18 +8,18 @@
 <img src="https://img.shields.io/badge/Hard-1-red" alt="">
 </p>
 
-| #    | Solution                        |  Difficulty | Title |
-| ---: | :-----------------------------: | :---------: | :--- |
-|    1 | [:ok_hand:](./q00001/README.md) | Easy        | [Two Sum](https://leetcode.com/problems/two-sum/) |
-|   11 | [:ok_hand:](./q00011/README.md) | Medium      | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) |
-|   26 | [:ok_hand:](./q00001/README.md) | Easy        | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |
-|   66 | [:ok_hand:](./q00001/README.md) | Easy        | [Plus One](https://leetcode.com/problems/plus-one/) |
-|   88 | [:ok_hand:](./q00001/README.md) | Easy        | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) |
-|  118 | [:ok_hand:](./q00001/README.md) | Easy        | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) |
-|  121 | [:ok_hand:](./q00001/README.md) | Easy        | [Bets Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |
-|  136 | [:ok_hand:](./q00001/README.md) | Easy        | [Single Number](https://leetcode.com/problems/single-number/) |
-|  169 | [:ok_hand:](./q00001/README.md) | Easy        | [Majority Element](https://leetcode.com/problems/majority-element/) |
-|  217 | [:ok_hand:](./q00001/README.md) | Easy        | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) |
-|  268 | [:ok_hand:](./q00001/README.md) | Easy        | [Missing Number](https://leetcode.com/problems/missing-number/) |
-|  283 | [:ok_hand:](./q00001/README.md) | Easy        | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) |
-|  350 | [:ok_hand:](./q00001/README.md) | Easy        | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) |
+| #    | Title | Difficulty |
+| ---: | :--- |:--------- |
+|    1 | [Two Sum](./q00001/README.md) | Easy |
+|   11 | [Container With Most Water](./q00011/README.md) | Medium      |
+|   26 | [Remove Duplicates from Sorted Array](./q00001/README.md) | Easy |
+|   66 | [Plus One](./q00001/README.md) | Easy |
+|   88 | [Merge Sorted Array](./q00001/README.md) | Easy |
+|  118 | [Pascal's Triangle](./q00001/README.md) | Easy |
+|  121 | [Bets Time to Buy and Sell Stock](./q00001/README.md) | Easy |
+|  136 | [Single Number](./q00001/README.md) | Easy |
+|  169 | [Majority Element](./q00001/README.md) | Easy |
+|  217 | [Contains Duplicate](./q00001/README.md) | Easy |
+|  268 | [Missing Number](./q00001/README.md) | Easy |
+|  283 | [Move Zeroes](./q00001/README.md) | Easy |
+|  350 | [Intersection of Two Arrays II](./q00001/README.md) | Easy |

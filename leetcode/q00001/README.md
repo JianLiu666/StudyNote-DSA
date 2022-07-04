@@ -1,4 +1,8 @@
-# `Easy` 1. Two Sum
+# 1. Two Sum
+
+[![image](https://img.shields.io/badge/Leetcode-Link-blue?logo=leetcode)](https://leetcode.com/problems/two-sum/)
+![image](https://img.shields.io/badge/Difficulty-Easy-green)
+
 
 Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`.
 
