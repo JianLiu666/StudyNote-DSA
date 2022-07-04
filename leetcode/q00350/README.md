@@ -1,4 +1,9 @@
-# `Easy` Intersection of Two Arrays II
+[![image](https://img.shields.io/badge/Leetcode-Link-blue?logo=leetcode)](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
+![image](https://img.shields.io/badge/Difficulty-Easy-green)
+
+---
+
+# Intersection of Two Arrays II
 
 Given two integer arrays `nums1` and `nums2`, return an array of their intersection. Each element in the result must appear as many times as it shows in both arrays and you may return the result in **any order**.
 

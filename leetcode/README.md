@@ -20,4 +20,4 @@
 |  217 | [Contains Duplicate](./q00001/README.md) | Easy | |
 |  268 | [Missing Number](./q00001/README.md) | Easy | |
 |  283 | [Move Zeroes](./q00001/README.md) | Easy | |
-|  350 | [Intersection of Two Arrays II](./q00001/README.md) | Easy | |
+|  350 | [Intersection of Two Arrays II](./q00001/README.md) | Easy | `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting` |
