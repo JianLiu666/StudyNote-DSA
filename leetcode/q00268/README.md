@@ -1,4 +1,9 @@
-# `Easy` Missing Number
+[![image](https://img.shields.io/badge/Leetcode-Link-blue?logo=leetcode)](https://leetcode.com/problems/missing-number/)
+![image](https://img.shields.io/badge/Difficulty-Easy-green)
+
+---
+
+# Missing Number
 
 Given an array `nums` containing `n` distinct numbers in the range `[0, n]`, return the only number in the range that is missing from the array.
 

@@ -10,14 +10,14 @@
 | ---: | :---- |:---------- | :------------- |
 |    1 | [Two Sum](./q00001/README.md) | Easy | `Array` `Hash Table` |
 |   11 | [Container With Most Water](./q00011/README.md) | Medium | `Array` `Two Pointers` `Greedy` |
-|   26 | [Remove Duplicates from Sorted Array](./q00001/README.md) | Easy | |
-|   66 | [Plus One](./q00001/README.md) | Easy | |
-|   88 | [Merge Sorted Array](./q00001/README.md) | Easy | |
-|  118 | [Pascal's Triangle](./q00001/README.md) | Easy | |
-|  121 | [Bets Time to Buy and Sell Stock](./q00001/README.md) | Easy | |
-|  136 | [Single Number](./q00001/README.md) | Easy | |
-|  169 | [Majority Element](./q00001/README.md) | Easy | |
-|  217 | [Contains Duplicate](./q00001/README.md) | Easy | |
-|  268 | [Missing Number](./q00001/README.md) | Easy | |
-|  283 | [Move Zeroes](./q00001/README.md) | Easy | |
-|  350 | [Intersection of Two Arrays II](./q00001/README.md) | Easy | `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting` |
+|   26 | [Remove Duplicates from Sorted Array](./q00026/README.md) | Easy | |
+|   66 | [Plus One](./q00066/README.md) | Easy | |
+|   88 | [Merge Sorted Array](./q00088/README.md) | Easy | |
+|  118 | [Pascal's Triangle](./q00118/README.md) | Easy | |
+|  121 | [Bets Time to Buy and Sell Stock](./q00121/README.md) | Easy | |
+|  136 | [Single Number](./q00136/README.md) | Easy | |
+|  169 | [Majority Element](./q00169/README.md) | Easy | |
+|  217 | [Contains Duplicate](./q00217/README.md) | Easy | |
+|  268 | [Missing Number](./q00268/README.md) | Easy | `Array` `Hash Table` `Math` `Binary Search` `Bit Manipulation` `Sorting` |
+|  283 | [Move Zeroes](./q00283/README.md) | Easy | `Array` `Two Pointers` |
+|  350 | [Intersection of Two Arrays II](./q00350/README.md) | Easy | `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting` |

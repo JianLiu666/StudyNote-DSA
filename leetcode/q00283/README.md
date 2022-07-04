@@ -1,4 +1,9 @@
-# `Easy` Move Zeroes
+[![image](https://img.shields.io/badge/Leetcode-Link-blue?logo=leetcode)](https://leetcode.com/problems/move-zeroes/)
+![image](https://img.shields.io/badge/Difficulty-Easy-green)
+
+---
+
+# Move Zeroes
 
 Given an integer array `nums`, move all `0`'s to the end of it while maintaining the relative order of the non-zero elements.
 
