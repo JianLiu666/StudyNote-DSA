@@ -8,17 +8,17 @@
 
 | #    | Title | Difficulty | Related Topics |
 | ---: | :---- |:---------- | :------------- |
-|    1 | [Two Sum](./q00001/README.md) | Easy | `Array` `Hash Table` |
-|   11 | [Container With Most Water](./q00011/README.md) | Medium | `Array` `Two Pointers` `Greedy` |
-|   15 | [3Sum](./q00015/README.md) | Medium | `Array` `Two Pointers` `Sorting` |
-|   26 | [Remove Duplicates from Sorted Array](./q00026/README.md) | Easy | `Array` `Two Pointers` |
-|   66 | [Plus One](./q00066/README.md) | Easy | `Array` `Math` |
-|   88 | [Merge Sorted Array](./q00088/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
-|  118 | [Pascal's Triangle](./q00118/README.md) | Easy | `Arary` `Dynamic Programming` |
-|  121 | [Bets Time to Buy and Sell Stock](./q00121/README.md) | Easy | `Array` `Dynamic Programming` |
-|  136 | [Single Number](./q00136/README.md) | Easy | `Array` `Bit Manipulation` |
-|  169 | [Majority Element](./q00169/README.md) | Easy | `Array` `Hash Table` `Divide and Conquer` `Sorting` `Countint` |
-|  217 | [Contains Duplicate](./q00217/README.md) | Easy | `Array` `Hash Table` `Sorting` |
-|  268 | [Missing Number](./q00268/README.md) | Easy | `Array` `Hash Table` `Math` `Binary Search` `Bit Manipulation` `Sorting` |
-|  283 | [Move Zeroes](./q00283/README.md) | Easy | `Array` `Two Pointers` |
-|  350 | [Intersection of Two Arrays II](./q00350/README.md) | Easy | `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting` |
+|    1 | [Two Sum](./p00001/README.md) | Easy | `Array` `Hash Table` |
+|   11 | [Container With Most Water](./p00011/README.md) | Medium | `Array` `Two Pointers` `Greedy` |
+|   15 | [3Sum](./p00015/README.md) | Medium | `Array` `Two Pointers` `Sorting` |
+|   26 | [Remove Duplicates from Sorted Array](./p00026/README.md) | Easy | `Array` `Two Pointers` |
+|   66 | [Plus One](./p00066/README.md) | Easy | `Array` `Math` |
+|   88 | [Merge Sorted Array](./p00088/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
+|  118 | [Pascal's Triangle](./p00118/README.md) | Easy | `Arary` `Dynamic Programming` |
+|  121 | [Bets Time to Buy and Sell Stock](./p00121/README.md) | Easy | `Array` `Dynamic Programming` |
+|  136 | [Single Number](./p00136/README.md) | Easy | `Array` `Bit Manipulation` |
+|  169 | [Majority Element](./p00169/README.md) | Easy | `Array` `Hash Table` `Divide and Conquer` `Sorting` `Countint` |
+|  217 | [Contains Duplicate](./p00217/README.md) | Easy | `Array` `Hash Table` `Sorting` |
+|  268 | [Missing Number](./p00268/README.md) | Easy | `Array` `Hash Table` `Math` `Binary Search` `Bit Manipulation` `Sorting` |
+|  283 | [Move Zeroes](./p00283/README.md) | Easy | `Array` `Two Pointers` |
+|  350 | [Intersection of Two Arrays II](./p00350/README.md) | Easy | `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting` |
