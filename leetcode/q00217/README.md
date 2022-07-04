@@ -1,4 +1,9 @@
-# `Easy` Contains Duplicate
+[![image](https://img.shields.io/badge/Leetcode-Link-blue?logo=leetcode)](https://leetcode.com/problems/contains-duplicate/)
+![image](https://img.shields.io/badge/Difficulty-Easy-green)
+
+---
+
+# Contains Duplicate
 
 Given an integer array `nums`, return `true` if any value appears **at least twice** in the array, and return `false` if every element is distinct.
 

@@ -1,4 +1,9 @@
-# `Easy` Pascal's Triangle
+[![image](https://img.shields.io/badge/Leetcode-Link-blue?logo=leetcode)](https://leetcode.com/problems/pascals-triangle/)
+![image](https://img.shields.io/badge/Difficulty-Easy-green)
+
+---
+
+# Pascal's Triangle
 
 Given an integer `numRows`, return the first numRows of **Pascal's triangle**.
 

@@ -1,4 +1,9 @@
-# `Easy` Bets Time to Buy and Sell Stock
+[![image](https://img.shields.io/badge/Leetcode-Link-blue?logo=leetcode)](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+![image](https://img.shields.io/badge/Difficulty-Easy-green)
+
+---
+
+# Bets Time to Buy and Sell Stock
 
 You are given an array `prices` where `prices[i]` is the price of a given stock on the $i^{th}$ day.
 

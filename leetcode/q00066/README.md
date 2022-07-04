@@ -1,4 +1,9 @@
-# `Easy` 66. Plus One
+[![image](https://img.shields.io/badge/Leetcode-Link-blue?logo=leetcode)](https://leetcode.com/problems/plus-one/)
+![image](https://img.shields.io/badge/Difficulty-Easy-green)
+
+---
+
+# 66. Plus One
 
 You are given a **large integer** represented as an integer array `digits`, where each `digits[i]` is the $i^{th}$ digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading `0`'s.
 

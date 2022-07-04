@@ -1,4 +1,9 @@
-# `Easy` Majority Element
+[![image](https://img.shields.io/badge/Leetcode-Link-blue?logo=leetcode)](https://leetcode.com/problems/majority-element/)
+![image](https://img.shields.io/badge/Difficulty-Easy-green)
+
+---
+
+# Majority Element
 
 Given an array `nums` of size `n`, return the majority element.
 

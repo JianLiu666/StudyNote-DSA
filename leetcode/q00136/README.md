@@ -1,4 +1,9 @@
-# `Easy` Single Number
+[![image](https://img.shields.io/badge/Leetcode-Link-blue?logo=leetcode)](https://leetcode.com/problems/single-number/)
+![image](https://img.shields.io/badge/Difficulty-Easy-green)
+
+---
+
+# Single Number
 
 Given a **non-empty** array of integers `nums`, every element appears twice except for one. Find that single one.
 
