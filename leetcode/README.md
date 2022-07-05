@@ -13,6 +13,7 @@
 |   15 | [3Sum](./p00015/README.md) | Medium | `Array` `Two Pointers` `Sorting` |
 |   26 | [Remove Duplicates from Sorted Array](./p00026/README.md) | Easy | `Array` `Two Pointers` |
 |   27 | [Remove Element](./p00027/README.md) | Easy | `Array` `Two Pointers` |
+|   33 | [Search in Rotated Sorted Array](./p00033/README.md) | Medium | `Array` `Binary Search` |
 |   41 | [First Missing Positive](./p00041/README.md) | Hard | `Array` `Hash Table` |
 |   66 | [Plus One](./p00066/README.md) | Easy | `Array` `Math` |
 |   88 | [Merge Sorted Array](./p00088/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
