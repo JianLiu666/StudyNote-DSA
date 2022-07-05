@@ -1,9 +1,9 @@
 # Fake it till you make it
 
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
-![image](https://img.shields.io/badge/Solved-48%2F2328-orange?logo=leetcode)
-![image](https://img.shields.io/badge/Easy-41-green)
-![image](https://img.shields.io/badge/Medium-6-yellow)
+![image](https://img.shields.io/badge/Solved-51%2F2328-orange?logo=leetcode)
+![image](https://img.shields.io/badge/Easy-42-green)
+![image](https://img.shields.io/badge/Medium-8-yellow)
 ![image](https://img.shields.io/badge/Hard-1-red)
 
 | #    | Title | Difficulty | Related Topics |
@@ -22,3 +22,4 @@
 |  268 | [Missing Number](./p00268/README.md) | Easy | `Array` `Hash Table` `Math` `Binary Search` `Bit Manipulation` `Sorting` |
 |  283 | [Move Zeroes](./p00283/README.md) | Easy | `Array` `Two Pointers` |
 |  350 | [Intersection of Two Arrays II](./p00350/README.md) | Easy | `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting` |
+|  941 | [Valid Mountain Array](./p00941/README.md) | Easy | `Array` |
