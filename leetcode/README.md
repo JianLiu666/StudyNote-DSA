@@ -15,6 +15,7 @@
 |   27 | [Remove Element](./p00027/README.md) | Easy | `Array` `Two Pointers` |
 |   33 | [Search in Rotated Sorted Array](./p00033/README.md) | Medium | `Array` `Binary Search` |
 |   41 | [First Missing Positive](./p00041/README.md) | Hard | `Array` `Hash Table` |
+|   53 | [Maximum Subarray](./p00053/README.md) | Medium | `Array` `Divide and Conquer` `Dynamic Programming` |
 |   66 | [Plus One](./p00066/README.md) | Easy | `Array` `Math` |
 |   88 | [Merge Sorted Array](./p00088/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
 |  118 | [Pascal's Triangle](./p00118/README.md) | Easy | `Arary` `Dynamic Programming` |
