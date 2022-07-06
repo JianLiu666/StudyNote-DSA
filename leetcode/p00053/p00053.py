@@ -12,8 +12,7 @@ class Solution:
                 cur = 0
             
             cur += num
-            if cur > res:
-                res = cur
+            res = max(cur, res)
         
         return res
 
