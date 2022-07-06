@@ -22,6 +22,7 @@
 |  121 | [Bets Time to Buy and Sell Stock](./p00121/README.md) | Easy | `Array` `Dynamic Programming` |
 |  136 | [Single Number](./p00136/README.md) | Easy | `Array` `Bit Manipulation` |
 |  169 | [Majority Element](./p00169/README.md) | Easy | `Array` `Hash Table` `Divide and Conquer` `Sorting` `Countint` |
+|  198 | [House Robber](./p00198/README.md) | Medium | `Array` `Dynamic Programming` |
 |  217 | [Contains Duplicate](./p00217/README.md) | Easy | `Array` `Hash Table` `Sorting` |
 |  268 | [Missing Number](./p00268/README.md) | Easy | `Array` `Hash Table` `Math` `Binary Search` `Bit Manipulation` `Sorting` |
 |  283 | [Move Zeroes](./p00283/README.md) | Easy | `Array` `Two Pointers` |
