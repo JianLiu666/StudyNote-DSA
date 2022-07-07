@@ -57,7 +57,7 @@ Explanation:
 - `rob[0]` 只有一種可能，搶就對了，即 `rob[0] == nums[0]`
 - `rob[1]` 就有兩種可能了，不是搶第一間，就是搶第二間，錢多的算，即 `rob[1] = max(nums[1], nums[0])`
 
-將上述邏輯已遞迴的形式表示，如下：
+將上述邏輯以遞迴的形式表示，如下：
 
 ```python
 # Time Complexity: O(2^n)
@@ -95,7 +95,7 @@ def house_robber(nums: List[int]) -> int:
     return rob(len(nums)-1)
 ```
 
-也許我們可以換個形式表示
+把遞迴的形式換成 Bottom-up DP：
 
 ```python
 #        +-----+-----+-----+-----+-----+
@@ -119,4 +119,19 @@ def house_robber(nums: List[int]) -> int:
         robs[i] = max(nums[i]+robs[i-2], robs[i-1])
 
     return robs[-1]
+```
+
+觀察一下後，可以發現其實每次迭代時只需關心往前兩間的資料變化，即：
+
+```python
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+def house_robber(nums: List[int]) -> int:
+    pre = nums[0]
+    nxt = max(nums[1], nums[0])
+
+    for i in range(2, len(nums)):
+        nxt, pre = max(nums[i]+pre, nxt), nxt
+
+    return max(pre, nxt)
 ```
