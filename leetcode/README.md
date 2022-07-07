@@ -31,4 +31,5 @@
 |  448 | [Find All Numbers Disappeared in an Array](./p00448/README.md) | Easy | `Array` `Hash Table` |
 |  485 | [Max Consecutive Ones](./p00485/README.md) | Easy | `Array` |
 |  509 | [Fibonacci Number](./p00509/README.md) | Easy | `Math` `Dynamic Programming` `Recursion` `Memorization` |
+|  905 | [Sort Array By Parity](./p00905/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
 |  941 | [Valid Mountain Array](./p00941/README.md) | Easy | `Array` |
