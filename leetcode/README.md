@@ -33,3 +33,4 @@
 |  509 | [Fibonacci Number](./p00509/README.md) | Easy | `Math` `Dynamic Programming` `Recursion` `Memorization` |
 |  905 | [Sort Array By Parity](./p00905/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
 |  941 | [Valid Mountain Array](./p00941/README.md) | Easy | `Array` |
+|  977 | [Squares of a Sorted Array](./p00977/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
