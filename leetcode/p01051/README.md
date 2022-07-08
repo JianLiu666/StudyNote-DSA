@@ -62,4 +62,4 @@ Explanation:
 
 # 解題方向
 
-施工中 ...
+按照題目提示用 Couting Sort 的原理來處理即可，但需要花費額外的空間來儲存 `counter`
