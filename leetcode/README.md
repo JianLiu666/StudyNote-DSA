@@ -36,3 +36,4 @@
 |  977 | [Squares of a Sorted Array](./p00977/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
 | 1051 | [Height Checker](./p01051/README.md) | Easy | `Array` `Sorting` `Counting Sort` |
 | 1089 | [Duplicate Zeros](./p01089/README.md) | Easy | `Array` `Two Pointers` |
+| 1295 | [Find Numbers with Even Number of Digits](./p01295/README.md) | Easy | `Array` |
