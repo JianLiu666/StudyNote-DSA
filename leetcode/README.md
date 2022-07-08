@@ -46,7 +46,7 @@
 |  350 | [Intersection of Two Arrays II](./p00350/README.md) | Easy | `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting` |
 |  374 | [](./p00374/README.md) | Easy | :see_no_evil: |
 |  387 | [](./p00387/README.md) | Easy | :see_no_evil: |
-|  412 | [](./p00412/README.md) | Easy | :see_no_evil: |
+|  412 | [Fizz Buzz](./p00412/README.md) | Easy | `Math` `String` `Simulation` |
 |  414 | [Third Maximum Number](./p00414/README.md) | Easy | `Array` `Sorting` |
 |  448 | [Find All Numbers Disappeared in an Array](./p00448/README.md) | Easy | `Array` `Hash Table` |
 |  485 | [Max Consecutive Ones](./p00485/README.md) | Easy | `Array` |
