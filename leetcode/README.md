@@ -37,3 +37,4 @@
 | 1051 | [Height Checker](./p01051/README.md) | Easy | `Array` `Sorting` `Counting Sort` |
 | 1089 | [Duplicate Zeros](./p01089/README.md) | Easy | `Array` `Two Pointers` |
 | 1295 | [Find Numbers with Even Number of Digits](./p01295/README.md) | Easy | `Array` |
+| 1299 | [Replace Elements with Greatest Element on Right Side](./p01299/README.md) | Easy | `Array` |
