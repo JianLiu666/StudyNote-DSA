@@ -12,7 +12,7 @@
 |    7 | [](./p00007/README.md) | Medium | :see_no_evil: |
 |   11 | [Container With Most Water](./p00011/README.md) | Medium | `Array` `Two Pointers` `Greedy` |
 |   13 | [](./p00013/README.md) | Easy | :see_no_evil: |
-|   14 | [](./p00014/README.md) | Easy | :see_no_evil: |
+|   14 | [Longest Common Prefix](./p00014/README.md) | Easy | `String` |
 |   15 | [3Sum](./p00015/README.md) | Medium | `Array` `Two Pointers` `Sorting` |
 |   20 | [Valid Parentheses](./p00020/README.md) | Easy | `String` `Stack` |
 |   21 | [](./p00021/README.md) | Easy | :see_no_evil: |
