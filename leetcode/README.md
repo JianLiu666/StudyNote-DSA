@@ -32,13 +32,13 @@
 |  136 | [Single Number](./p00136/README.md) | Easy | `Array` `Bit Manipulation` |
 |  141 | [](./p00141/README.md) | Easy | :see_no_evil: |
 |  169 | [Majority Element](./p00169/README.md) | Easy | `Array` `Hash Table` `Divide and Conquer` `Sorting` `Countint` |
-|  171 | [](./p00171/README.md) | Easy | :see_no_evil: |
+|  171 | [Excel Sheet Column Number](./p00171/README.md) | Easy | `Math` `String` |
 |  198 | [House Robber](./p00198/README.md) | Medium | `Array` `Dynamic Programming` |
 |  206 | [](./p00206/README.md) | Easy | :see_no_evil: |
 |  217 | [Contains Duplicate](./p00217/README.md) | Easy | `Array` `Hash Table` `Sorting` |
 |  234 | [](./p00234/README.md) | Easy | :see_no_evil: |
 |  237 | [](./p00237/README.md) | Easy | :see_no_evil: |
-|  242 | [Valid Anagram](./p00242/README.md) | Easy | `Hash Table` `String` `Sorting` |
+|  242 | [Valid Anagram](./p00242/README.md) | Easy | `Hash Table` `String` `Sortinggi` |
 |  268 | [Missing Number](./p00268/README.md) | Easy | `Array` `Hash Table` `Math` `Binary Search` `Bit Manipulation` `Sorting` |
 |  283 | [Move Zeroes](./p00283/README.md) | Easy | `Array` `Two Pointers` |
 |  326 | [Power of Three](./p00326/README.md) | Easy | `Math` `Recursion` |
