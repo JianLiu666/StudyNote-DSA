@@ -25,7 +25,7 @@
 |   53 | [Maximum Subarray](./p00053/README.md) | Medium | `Array` `Divide and Conquer` `Dynamic Programming` |
 |   66 | [Plus One](./p00066/README.md) | Easy | `Array` `Math` |
 |   69 | [](./p00069/README.md) | Easy | :see_no_evil: |
-|   70 | [](./p00070/README.md) | Easy | :see_no_evil: |
+|   70 | [Climbing Stairs](./p00070/README.md) | Easy | `Math` `Dynamic Programming` `Memorization` |
 |   88 | [Merge Sorted Array](./p00088/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
 |  118 | [Pascal's Triangle](./p00118/README.md) | Easy | `Arary` `Dynamic Programming` |
 |  121 | [Bets Time to Buy and Sell Stock](./p00121/README.md) | Easy | `Array` `Dynamic Programming` |
