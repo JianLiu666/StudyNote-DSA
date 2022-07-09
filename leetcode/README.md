@@ -14,7 +14,7 @@
 |   13 | [](./p00013/README.md) | Easy | :see_no_evil: |
 |   14 | [](./p00014/README.md) | Easy | :see_no_evil: |
 |   15 | [3Sum](./p00015/README.md) | Medium | `Array` `Two Pointers` `Sorting` |
-|   20 | [](./p00020/README.md) | Easy | :see_no_evil: |
+|   20 | [Valid Parentheses](./p00020/README.md) | Easy | `String` `Stack` |
 |   21 | [](./p00021/README.md) | Easy | :see_no_evil: |
 |   26 | [Remove Duplicates from Sorted Array](./p00026/README.md) | Easy | `Array` `Two Pointers` |
 |   27 | [Remove Element](./p00027/README.md) | Easy | `Array` `Two Pointers` |
