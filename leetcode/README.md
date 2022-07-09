@@ -20,7 +20,7 @@
 |   27 | [Remove Element](./p00027/README.md) | Easy | `Array` `Two Pointers` |
 |   28 | [](./p00028/README.md) | Easy | :see_no_evil: |
 |   33 | [Search in Rotated Sorted Array](./p00033/README.md) | Medium | `Array` `Binary Search` |
-|   38 | [](./p00038/README.md) | Medium | :see_no_evil: |
+|   38 | [Count and Say](./p00038/README.md) | Medium | `String` |
 |   41 | [First Missing Positive](./p00041/README.md) | Hard | `Array` `Hash Table` |
 |   53 | [Maximum Subarray](./p00053/README.md) | Medium | `Array` `Divide and Conquer` `Dynamic Programming` |
 |   66 | [Plus One](./p00066/README.md) | Easy | `Array` `Math` |
