@@ -41,7 +41,7 @@
 |  242 | [](./p00242/README.md) | Easy | :see_no_evil: |
 |  268 | [Missing Number](./p00268/README.md) | Easy | `Array` `Hash Table` `Math` `Binary Search` `Bit Manipulation` `Sorting` |
 |  283 | [Move Zeroes](./p00283/README.md) | Easy | `Array` `Two Pointers` |
-|  326 | [](./p00326/README.md) | Easy | :see_no_evil: |
+|  326 | [Power of Three](./p00326/README.md) | Easy | `Math` `Recursion` |
 |  344 | [Reverse String](./p00344/README.md) | Easy | `Two Pointers` `String` `Recursion` |
 |  350 | [Intersection of Two Arrays II](./p00350/README.md) | Easy | `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting` |
 |  374 | [Guess Number Higher or Lower](./p00374/README.md) | Easy | `Binary Search` `Interactive` |
