@@ -60,14 +60,11 @@ DP 經典入門題 : Bottom-up DP
 
 接著確認這些問題子問題的答案要如何計算出來，即：
 
-\[
-    f(x)= 
-    \begin{cases}
-    1,             & \text{if } x=1 \\
-    2,             & \text{if } x=2 \\
-    f(x-1)+f(x-2), & \text{if } x\geq3
-    \end{cases}
-\]
+```
+       ┌ 1,               if n == 1
+f(n) = ┤ 2,               if n == 2
+       └ f(n-1) + f(n-2), if n >= 3
+```
 
 ### Solved using recursion concept
 
