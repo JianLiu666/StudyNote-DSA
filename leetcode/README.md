@@ -30,7 +30,7 @@
 |  118 | [Pascal's Triangle](./p00118/README.md) | Easy | `Arary` `Dynamic Programming` |
 |  121 | [Bets Time to Buy and Sell Stock](./p00121/README.md) | Easy | `Array` `Dynamic Programming` |
 |  136 | [Single Number](./p00136/README.md) | Easy | `Array` `Bit Manipulation` |
-|  141 | [](./p00141/README.md) | Easy | :see_no_evil: |
+|  141 | [Linked List Cycle](./p00141/README.md) | Easy | `Hash Table` `Linked List` `Two Pointers` |
 |  169 | [Majority Element](./p00169/README.md) | Easy | `Array` `Hash Table` `Divide and Conquer` `Sorting` `Countint` |
 |  171 | [Excel Sheet Column Number](./p00171/README.md) | Easy | `Math` `String` |
 |  198 | [House Robber](./p00198/README.md) | Medium | `Array` `Dynamic Programming` |
