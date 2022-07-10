@@ -9,7 +9,7 @@
 | #    | Title | Difficulty | Related Topics |
 | ---: | :---- |:---------- | :------------- |
 |    1 | [Two Sum](./p00001/README.md) | Easy | `Array` `Hash Table` |
-|    7 | [](./p00007/README.md) | Medium | :see_no_evil: |
+|    7 | [Reverse Integer](./p00007/README.md) | Medium | `Math` |
 |   11 | [Container With Most Water](./p00011/README.md) | Medium | `Array` `Two Pointers` `Greedy` |
 |   13 | [Roman to Integer](./p00013/README.md) | Easy | `Hash Table` `Math` `String` |
 |   14 | [Longest Common Prefix](./p00014/README.md) | Easy | `String` |
@@ -21,7 +21,7 @@
 |   28 | [Implement strStr()](./p00028/README.md) | Easy | `Two Pointers` `String` `String Matching` |
 |   33 | [Search in Rotated Sorted Array](./p00033/README.md) | Medium | `Array` `Binary Search` |
 |   38 | [Count and Say](./p00038/README.md) | Medium | `String` |
-|   41 | [First Missing Positive](./p00041/README.md) | Hard | `Array` `Hash Table` |
+|   41 | [First Missing Positive :heart:](./p00041/README.md) | Hard | `Array` `Hash Table` |
 |   53 | [Maximum Subarray](./p00053/README.md) | Medium | `Array` `Divide and Conquer` `Dynamic Programming` |
 |   66 | [Plus One](./p00066/README.md) | Easy | `Array` `Math` |
 |   69 | [Sqrt(x)](./p00069/README.md) | Easy | `Math` `Binary Search` |
