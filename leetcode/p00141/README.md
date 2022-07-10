@@ -67,4 +67,8 @@ Can you solve it using `O(1)` (i.e. constant) memory?
 
 # 解題方向
 
-施工中 ...
+Two Pointers (slow and fast pointer)
+
+ - fast pointer 的移動速度是 slow pointer 的兩倍
+
+假如給定的 `Linked List` 有閉環的話，那 slow pointer 與 fast pointer 最終一定會相遇
