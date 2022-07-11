@@ -50,4 +50,4 @@ A linked list can be reversed either iteratively or recursively. Could you imple
 
 # 解題方向
 
-施工中 ...
+Linked List 暖身題，運用遞迴從頭往後一邊尋訪一邊反轉即可
