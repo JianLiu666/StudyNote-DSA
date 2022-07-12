@@ -1,8 +1,8 @@
 # Fake it till you make it
 
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
-![image](https://img.shields.io/badge/Solved-55%2F2328-orange?logo=leetcode)
-![image](https://img.shields.io/badge/Easy-44-green)
+![image](https://img.shields.io/badge/Solved-56%2F2328-orange?logo=leetcode)
+![image](https://img.shields.io/badge/Easy-45-green)
 ![image](https://img.shields.io/badge/Medium-10-yellow)
 ![image](https://img.shields.io/badge/Hard-1-red)
 
@@ -37,6 +37,7 @@
 |  169 | [Majority Element](./p00169/README.md) | Easy | `Array` `Hash Table` `Divide and Conquer` `Sorting` `Countint` |
 |  171 | [Excel Sheet Column Number](./p00171/README.md) | Easy | `Math` `String` |
 |  198 | [House Robber](./p00198/README.md) | Medium | `Array` `Dynamic Programming` |
+|  203 | [Remove Linked List Elements](./p00203/README.md) | Easy | `Linked List` `Recursion` |
 |  206 | [Reverse Linked List](./p00206/README.md) | Easy | `Linked List` `Recursion` |
 |  217 | [Contains Duplicate](./p00217/README.md) | Easy | `Array` `Hash Table` `Sorting` |
 |  234 | [](./p00234/README.md) | Easy | :see_no_evil: |
