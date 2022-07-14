@@ -102,3 +102,5 @@ Merging the serialization of each level and removing trailing nulls we obtain:
 # 解題方向
 
 深度優先的遞迴暖身題
+
+題外話，我覺得這題測試比題目來的難寫...
