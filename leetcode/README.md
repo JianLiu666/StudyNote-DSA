@@ -1,9 +1,9 @@
 # Fake it till you make it
 
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
-![image](https://img.shields.io/badge/Solved-57%2F2328-orange?logo=leetcode)
+![image](https://img.shields.io/badge/Solved-58%2F2328-orange?logo=leetcode)
 ![image](https://img.shields.io/badge/Easy-45-green)
-![image](https://img.shields.io/badge/Medium-11-yellow)
+![image](https://img.shields.io/badge/Medium-12-yellow)
 ![image](https://img.shields.io/badge/Hard-1-red)
 
 | #    | Title | Difficulty | Related Topics |
@@ -54,6 +54,7 @@
 |  387 | [First Unique Character in a String](./p00387/README.md) | Easy | `Hash Table` `String` `Queue` `Counting` |
 |  412 | [Fizz Buzz](./p00412/README.md) | Easy | `Math` `String` `Simulation` |
 |  414 | [Third Maximum Number](./p00414/README.md) | Easy | `Array` `Sorting` |
+|  430 | [Flatten a Multilevel Doubly Linked List](./p00430/README.md) | Medium | `Linked List` `Depth-First Search` `Doubly Linked List` |
 |  448 | [Find All Numbers Disappeared in an Array](./p00448/README.md) | Easy | `Array` `Hash Table` |
 |  485 | [Max Consecutive Ones](./p00485/README.md) | Easy | `Array` |
 |  509 | [Fibonacci Number](./p00509/README.md) | Easy | `Math` `Dynamic Programming` `Recursion` `Memorization` |
