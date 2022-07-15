@@ -1,9 +1,9 @@
 # Fake it till you make it
 
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
-![image](https://img.shields.io/badge/Solved-58%2F2328-orange?logo=leetcode)
+![image](https://img.shields.io/badge/Solved-61%2F2328-orange?logo=leetcode)
 ![image](https://img.shields.io/badge/Easy-45-green)
-![image](https://img.shields.io/badge/Medium-12-yellow)
+![image](https://img.shields.io/badge/Medium-15-yellow)
 ![image](https://img.shields.io/badge/Hard-1-red)
 
 | #    | Title | Difficulty | Related Topics |
@@ -25,6 +25,7 @@
 |   38 | [Count and Say](./p00038/README.md) | Medium | `String` |
 |   41 | [First Missing Positive :heart:](./p00041/README.md) | Hard | `Array` `Hash Table` |
 |   53 | [Maximum Subarray](./p00053/README.md) | Medium | `Array` `Divide and Conquer` `Dynamic Programming` |
+|   61 | [Rotate List](./p00061/README.md) | Medium | `Linked List` `Two Pointers` |
 |   66 | [Plus One](./p00066/README.md) | Easy | `Array` `Math` |
 |   69 | [Sqrt(x)](./p00069/README.md) | Easy | `Math` `Binary Search` |
 |   70 | [Climbing Stairs](./p00070/README.md) | Easy | `Math` `Dynamic Programming` `Memorization` |
