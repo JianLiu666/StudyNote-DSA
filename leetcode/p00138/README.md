@@ -62,4 +62,5 @@ Output: [[3,null],[3,0],[3,null]]
 
 # 解題方向
 
-施工中 ...
+**Step.1 :** 先複製出一組與 `head` 相同的 `Linked List`，然後在過程中將兩邊的節點用 `Hash Table` 對應
+**Step.2 :** 再從頭尋訪一次 `head` 處理 `random` 對應
