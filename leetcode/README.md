@@ -1,8 +1,8 @@
 # Fake it till you make it
 
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
-![image](https://img.shields.io/badge/Solved-61%2F2328-orange?logo=leetcode)
-![image](https://img.shields.io/badge/Easy-45-green)
+![image](https://img.shields.io/badge/Solved-66%2F2328-orange?logo=leetcode)
+![image](https://img.shields.io/badge/Easy-50-green)
 ![image](https://img.shields.io/badge/Medium-15-yellow)
 ![image](https://img.shields.io/badge/Hard-1-red)
 
@@ -62,6 +62,7 @@
 |  485 | [Max Consecutive Ones](./p00485/README.md) | Easy | `Array` |
 |  509 | [Fibonacci Number](./p00509/README.md) | Easy | `Math` `Dynamic Programming` `Recursion` `Memorization` |
 |  707 | [Design Linked List](./p00707/README.md) | Medium | `Linked List` `Design` |
+|  724 | [Find Pivot Index](./p00724/README.md) | Easy | `Array` `Prefix Sum` |
 |  876 | [Middle of the Linked List](./p00876/README.md) | Easy | `Linked List` `Two Pointers` |
 |  905 | [Sort Array By Parity](./p00905/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
 |  941 | [Valid Mountain Array](./p00941/README.md) | Easy | `Array` |
