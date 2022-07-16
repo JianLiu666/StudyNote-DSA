@@ -68,5 +68,6 @@
 | 1089 | [Duplicate Zeros](./p01089/README.md) | Easy | `Array` `Two Pointers` |
 | 1295 | [Find Numbers with Even Number of Digits](./p01295/README.md) | Easy | `Array` |
 | 1299 | [Replace Elements with Greatest Element on Right Side](./p01299/README.md) | Easy | `Array` |
+| 1342 | [Number of Steps to Reduce a Number to Zero](./p01342/README.md) | Easy | `Math` `Bit Manipulation` |
 | 1346 | [Check If N and Its Double Exist](./p01346/README.md) | Easy | `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting` |
 | 1480 | [Running Sum of 1d Array](./p01480/README.md) | Easy | `Array` `Prefix Sum` |
