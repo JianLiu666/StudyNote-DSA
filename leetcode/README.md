@@ -1,9 +1,9 @@
 # Fake it till you make it
 
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
-![image](https://img.shields.io/badge/Solved-67%2F2328-orange?logo=leetcode)
+![image](https://img.shields.io/badge/Solved-68%2F2328-orange?logo=leetcode)
 ![image](https://img.shields.io/badge/Easy-51-green)
-![image](https://img.shields.io/badge/Medium-15-yellow)
+![image](https://img.shields.io/badge/Medium-16-yellow)
 ![image](https://img.shields.io/badge/Hard-1-red)
 
 | #    | Title | Difficulty | Related Topics |
@@ -60,6 +60,7 @@
 |  430 | [Flatten a Multilevel Doubly Linked List](./p00430/README.md) | Medium | `Linked List` `Depth-First Search` `Doubly Linked List` |
 |  448 | [Find All Numbers Disappeared in an Array](./p00448/README.md) | Easy | `Array` `Hash Table` |
 |  485 | [Max Consecutive Ones](./p00485/README.md) | Easy | `Array` |
+|  498 | [Diagonal Traverse](./p00498/README.md) | Medium | `Array` `Matrix` `Simulation` |
 |  509 | [Fibonacci Number](./p00509/README.md) | Easy | `Math` `Dynamic Programming` `Recursion` `Memorization` |
 |  707 | [Design Linked List](./p00707/README.md) | Medium | `Linked List` `Design` |
 |  724 | [Find Pivot Index](./p00724/README.md) | Easy | `Array` `Prefix Sum` |
