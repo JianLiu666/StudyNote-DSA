@@ -44,7 +44,7 @@
 |  206 | [Reverse Linked List](./p00206/README.md) | Easy | `Linked List` `Recursion` |
 |  217 | [Contains Duplicate](./p00217/README.md) | Easy | `Array` `Hash Table` `Sorting` |
 |  234 | [Palindrome Linked List](./p00234/README.md) | Easy | `Linked List` `Two Pointers` `Stack` `Recursion` |
-|  237 | [](./p00237/README.md) | Easy | :see_no_evil: |
+|  237 | [Delete Node in a Linked List](./p00237/README.md) | Easy | `Linked List` |
 |  242 | [Valid Anagram](./p00242/README.md) | Easy | `Hash Table` `String` `Sortinggi` |
 |  268 | [Missing Number](./p00268/README.md) | Easy | `Array` `Hash Table` `Math` `Binary Search` `Bit Manipulation` `Sorting` |
 |  283 | [Move Zeroes](./p00283/README.md) | Easy | `Array` `Two Pointers` |
