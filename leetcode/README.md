@@ -53,6 +53,7 @@
 |  344 | [Reverse String](./p00344/README.md) | Easy | `Two Pointers` `String` `Recursion` |
 |  350 | [Intersection of Two Arrays II](./p00350/README.md) | Easy | `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting` |
 |  374 | [Guess Number Higher or Lower](./p00374/README.md) | Easy | `Binary Search` `Interactive` |
+|  383 | [Ransom Note](./p00383/README.md) | Easy | `Hash Table` `String` `Counting` |
 |  387 | [First Unique Character in a String](./p00387/README.md) | Easy | `Hash Table` `String` `Queue` `Counting` |
 |  412 | [Fizz Buzz](./p00412/README.md) | Easy | `Math` `String` `Simulation` |
 |  414 | [Third Maximum Number](./p00414/README.md) | Easy | `Array` `Sorting` |
