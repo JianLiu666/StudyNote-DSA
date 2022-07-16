@@ -1,8 +1,8 @@
 # Fake it till you make it
 
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
-![image](https://img.shields.io/badge/Solved-66%2F2328-orange?logo=leetcode)
-![image](https://img.shields.io/badge/Easy-50-green)
+![image](https://img.shields.io/badge/Solved-67%2F2328-orange?logo=leetcode)
+![image](https://img.shields.io/badge/Easy-51-green)
 ![image](https://img.shields.io/badge/Medium-15-yellow)
 ![image](https://img.shields.io/badge/Hard-1-red)
 
