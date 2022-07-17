@@ -28,6 +28,7 @@
 |   54 | [Spiral Matrix](./p00054/README.md) | Medium | `Array` `Matrix` `Simulation` |
 |   61 | [Rotate List](./p00061/README.md) | Medium | `Linked List` `Two Pointers` |
 |   66 | [Plus One](./p00066/README.md) | Easy | `Array` `Math` |
+|   67 | [Add Binary](./p00067/README.md) | Easy | `Math` `String` `Bit Manipulation` `Simulation` |
 |   69 | [Sqrt(x)](./p00069/README.md) | Easy | `Math` `Binary Search` |
 |   70 | [Climbing Stairs](./p00070/README.md) | Easy | `Math` `Dynamic Programming` `Memorization` |
 |   88 | [Merge Sorted Array](./p00088/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
