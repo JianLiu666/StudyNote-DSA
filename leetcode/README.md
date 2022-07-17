@@ -1,9 +1,9 @@
 # Fake it till you make it
 
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
-![image](https://img.shields.io/badge/Solved-69%2F2328-orange?logo=leetcode)
-![image](https://img.shields.io/badge/Easy-51-green)
-![image](https://img.shields.io/badge/Medium-17-yellow)
+![image](https://img.shields.io/badge/Solved-72%2F2328-orange?logo=leetcode)
+![image](https://img.shields.io/badge/Easy-53-green)
+![image](https://img.shields.io/badge/Medium-18-yellow)
 ![image](https://img.shields.io/badge/Hard-1-red)
 
 | #    | Title | Difficulty | Related Topics |
@@ -39,6 +39,7 @@
 |  141 | [Linked List Cycle](./p00141/README.md) | Easy | `Hash Table` `Linked List` `Two Pointers` |
 |  142 | [Linked List Cycle II :heart:](./p00142/README.md) | Medium | `Hash Table` `Linked List` `Two Pointers` |
 |  160 | [Intersection of Two Linked Lists :heart:](./p00160/README.md) | Easy | `Hash Table` `Linked List` `Two Pointers` |
+|  167 | [Two Sum II - Input Array Is Sorted](./p00167/README.md) | Medium | `Array` `Two Pointers` `Binary Search` |
 |  169 | [Majority Element](./p00169/README.md) | Easy | `Array` `Hash Table` `Divide and Conquer` `Sorting` `Countint` |
 |  171 | [Excel Sheet Column Number](./p00171/README.md) | Easy | `Math` `String` |
 |  198 | [House Robber](./p00198/README.md) | Medium | `Array` `Dynamic Programming` |
