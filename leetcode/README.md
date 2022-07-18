@@ -1,8 +1,8 @@
 # Fake it till you make it
 
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
-![image](https://img.shields.io/badge/Solved-74%2F2328-orange?logo=leetcode)
-![image](https://img.shields.io/badge/Easy-53-green)
+![image](https://img.shields.io/badge/Solved-75%2F2328-orange?logo=leetcode)
+![image](https://img.shields.io/badge/Easy-54-green)
 ![image](https://img.shields.io/badge/Medium-20-yellow)
 ![image](https://img.shields.io/badge/Hard-1-red)
 
@@ -33,6 +33,7 @@
 |   70 | [Climbing Stairs](./p00070/README.md) | Easy | `Math` `Dynamic Programming` `Memorization` |
 |   88 | [Merge Sorted Array](./p00088/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
 |  118 | [Pascal's Triangle](./p00118/README.md) | Easy | `Arary` `Dynamic Programming` |
+|  119 | [Pascal's Triangle II](./p00119/README.md) | Easy | `Arary` `Dynamic Programming` |
 |  121 | [Bets Time to Buy and Sell Stock](./p00121/README.md) | Easy | `Array` `Dynamic Programming` |
 |  136 | [Single Number](./p00136/README.md) | Easy | `Array` `Bit Manipulation` |
 |  138 | [Copy List with Random Pointer](./p00138/README.md) | Medium | `Hash Table` `Linked List` |
