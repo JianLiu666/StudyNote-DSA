@@ -1,9 +1,9 @@
 # Fake it till you make it
 
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
-![image](https://img.shields.io/badge/Solved-75%2F2328-orange?logo=leetcode)
-![image](https://img.shields.io/badge/Easy-54-green)
-![image](https://img.shields.io/badge/Medium-20-yellow)
+![image](https://img.shields.io/badge/Solved-77%2F2328-orange?logo=leetcode)
+![image](https://img.shields.io/badge/Easy-55-green)
+![image](https://img.shields.io/badge/Medium-21-yellow)
 ![image](https://img.shields.io/badge/Hard-1-red)
 
 | #    | Title | Difficulty | Related Topics |
@@ -69,6 +69,7 @@
 |  485 | [Max Consecutive Ones](./p00485/README.md) | Easy | `Array` |
 |  498 | [Diagonal Traverse](./p00498/README.md) | Medium | `Array` `Matrix` `Simulation` |
 |  509 | [Fibonacci Number](./p00509/README.md) | Easy | `Math` `Dynamic Programming` `Recursion` `Memorization` |
+|  557 | [Reverse Words in a String III](./p00557/README.md) | Easy | `Two Pointers` `String` |
 |  561 | [Array Partition](./p00561/README.md) | Easy | `Array` `Greddy` `Sorting` `Counting Sort` |
 |  707 | [Design Linked List](./p00707/README.md) | Medium | `Linked List` `Design` |
 |  724 | [Find Pivot Index](./p00724/README.md) | Easy | `Array` `Prefix Sum` |
