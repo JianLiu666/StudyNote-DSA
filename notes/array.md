@@ -18,7 +18,6 @@
       - [Deleting From Anywhere in the Array](#deleting-from-anywhere-in-the-array)
     - [Search](#search)
       - [Linear Search](#linear-search)
-      - [Binary Search](#binary-search)
   - [Concepts](#concepts)
     - [Two-Pointer Techniques](#two-pointer-techniques)
       - [Head and tail pointers](#head-and-tail-pointers)
@@ -133,13 +132,6 @@ Where is the 7?
 +---+---+---+---+---+---+---+---+      +---+---+---+---+---+---+---+---+      +---+---+---+---+---+---+---+---+
 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |  =>  | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |  =>  | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
 +---+---+---+---+---+---+---+---+      +---+---+---+---+---+---+---+---+      +---+---+---+---+---+---+---+---+
-```
-
-#### Binary Search
-- Time Complexity: `O(logn)`
-
-```
-施工中 ...
 ```
 
 ## Concepts
@@ -308,7 +300,7 @@ the pseudocode is :
 
  - eventually result
 
-    we only wanted
+   we only concerned with
    |---------------|
    +---+---+---+---+---+---+---+---+
    | 1 | 2 | 3 | 4 | 3 | 5 | 4 | 5 |
