@@ -13,13 +13,23 @@
 ## My DSA Road Map
 
 ```
-+-------+                    +-------------+      +------------+
-| Array | -----------------> | Linked List | ---> | Hash Table | --> Coming soon ...
-+-------+                    +-------------+      +------------+
-  |
-  ├- Binary Search
-  ├- In-place Operation
-  └- Two Pointers
+Data Structure
+
++-------+                    +-------------+              +------------+
+| Array | -----------------> | Linked List | -----------> | Hash Table | --> Coming soon ...
++-------+                    +-------------+              +------------+
+  |                            |                            |
+  ├- Two-Pointer Techniques    └- Two-Pointer Techniques    └ Hash Function
+  └- In-place Algorithms
+
+Algorithm
+
++---------+        +-----------+
+| Sorting | -----> | Searching |
++---------+        +-----------+
+  |                  |
+  ├ Counting Sort    └ Binary Search
+  └ Merge Sort
 ```
 
 ## Data Structure Notes

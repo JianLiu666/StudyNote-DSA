@@ -18,8 +18,12 @@
       - [Deleting From Anywhere in the Array](#deleting-from-anywhere-in-the-array)
     - [Search](#search)
       - [Linear Search](#linear-search)
+      - [Binary Search](#binary-search)
   - [Concepts](#concepts)
-    - [Binary Search](#binary-search)
+    - [Two-Pointer Techniques](#two-pointer-techniques)
+      - [Head and tail pointers](#head-and-tail-pointers)
+      - [Different step pointers](#different-step-pointers)
+    - [In-place Algorithms](#in-place-algorithms)
 
 ---
  
@@ -131,10 +135,189 @@ Where is the 7?
 +---+---+---+---+---+---+---+---+      +---+---+---+---+---+---+---+---+      +---+---+---+---+---+---+---+---+
 ```
 
+#### Binary Search
+- Time Complexity: `O(logn)`
+
+```
+施工中 ...
+```
+
 ## Concepts
 
-### Binary Search
-- Time Complexity: `O(logn)`
+### Two-Pointer Techniques
+
+Using `two pointers at the same time` to do the iteration.
+
+#### Head and tail pointers
+
+For example : 
+
+ - reverse the elements in an array.
+
+```
+We can set two pointers to the given array
+ - head pointer : starts from the first element.
+ - tail pointer : starts from the last element.
+
+ head                        tail
+  v                           v
++---+---+---+---+---+---+---+---+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
++---+---+---+---+---+---+---+---+
+
+Continue swapping the elements until the two pointers meet each other.
+
+ - step.1
+                                            
+    head                        tail        -> head                tail <-
+     v                           v              v                   v
+   +---+---+---+---+---+---+---+---+      +---+---+---+---+---+---+---+---+
+   | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |  =>  | 8 | 2 | 3 | 4 | 5 | 6 | 7 | 1 |
+   +---+---+---+---+---+---+---+---+      +---+---+---+---+---+---+---+---+
+     ^                           ^
+     └---------------------------┘
+
+ - step.2
+                                            
+        head                tail                -> head        tail <-
+         v                   v                      v           v
+   +---+---+---+---+---+---+---+---+      +---+---+---+---+---+---+---+---+
+   | 8 | 2 | 3 | 4 | 5 | 6 | 7 | 1 |  =>  | 8 | 7 | 3 | 4 | 5 | 6 | 2 | 1 |
+   +---+---+---+---+---+---+---+---+      +---+---+---+---+---+---+---+---+
+         ^                   ^
+         └-------------------┘
+
+ - step.3
+                                            
+            head        tail                        -> headtail <-
+             v           v                              v   v
+   +---+---+---+---+---+---+---+---+      +---+---+---+---+---+---+---+---+
+   | 8 | 7 | 3 | 4 | 5 | 6 | 2 | 1 |  =>  | 8 | 7 | 6 | 4 | 5 | 3 | 2 | 1 |
+   +---+---+---+---+---+---+---+---+      +---+---+---+---+---+---+---+---+
+             ^           ^
+             └-----------┘
+
+ - step.4
+                                            
+                headtail                              Congrats!
+                 v   v                                    
+   +---+---+---+---+---+---+---+---+      +---+---+---+---+---+---+---+---+
+   | 8 | 7 | 3 | 4 | 5 | 6 | 2 | 1 |  =>  | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 |
+   +---+---+---+---+---+---+---+---+      +---+---+---+---+---+---+---+---+
+                 ^   ^
+                 └---┘
+```
+
+#### Different step pointers
+
+For example : 
+
+ - Given an array and a value, remove all instances of that value **in-place** and return the new length.
+
+```
+Let's remove all 5 from this array, we can set two pointers to achieve it.
+ - one is still used for the array iteration
+ - the second one always points at the position for next legal value.
+
+the pseudocode is :
+
+  if nums[iter] != val {
+    nums[anchor] = nums[iter]
+    anchor += 1
+  }
+
+ - step.1
+
+    iter                                    -> iter
+     v                                          v
+   +---+---+---+---+---+---+---+---+      +---+---+---+---+---+---+---+---+
+   | 1 | 5 | 2 | 5 | 3 | 5 | 4 | 5 |  =>  | 1 | 5 | 2 | 5 | 3 | 5 | 4 | 5 |
+   +---+---+---+---+---+---+---+---+      +---+---+---+---+---+---+---+---+
+     ^                                          ^
+   anchor (replace to 1)                   -> anchor
+   
+ - step.2
+
+        iter                                    -> iter
+         v                                          v
+   +---+---+---+---+---+---+---+---+      +---+---+---+---+---+---+---+---+
+   | 1 | 5 | 2 | 5 | 3 | 5 | 4 | 5 |  =>  | 1 | 5 | 2 | 5 | 3 | 5 | 4 | 5 |
+   +---+---+---+---+---+---+---+---+      +---+---+---+---+---+---+---+---+
+         ^                                      ^
+       anchor (skip)                          anchor
+
+ - step.3
+
+            iter                                    -> iter
+             v                                          v
+   +---+---+---+---+---+---+---+---+      +---+---+---+---+---+---+---+---+
+   | 1 | 5 | 2 | 5 | 3 | 5 | 4 | 5 |  =>  | 1 | 2 | 2 | 5 | 3 | 5 | 4 | 5 |
+   +---+---+---+---+---+---+---+---+      +---+---+---+---+---+---+---+---+
+         ^                                          ^
+       anchor (replace to 2)                   -> anchor
+   
+ - step.4
+
+                iter                                    -> iter
+                 v                                          v
+   +---+---+---+---+---+---+---+---+      +---+---+---+---+---+---+---+---+
+   | 1 | 2 | 2 | 5 | 3 | 5 | 4 | 5 |  =>  | 1 | 2 | 2 | 5 | 3 | 5 | 4 | 5 |
+   +---+---+---+---+---+---+---+---+      +---+---+---+---+---+---+---+---+
+             ^                                      ^
+           anchor (skip)                          anchor
+
+ - step.5
+
+                    iter                                    -> iter
+                     v                                          v
+   +---+---+---+---+---+---+---+---+      +---+---+---+---+---+---+---+---+
+   | 1 | 2 | 2 | 5 | 3 | 5 | 4 | 5 |  =>  | 1 | 2 | 3 | 5 | 3 | 5 | 4 | 5 |
+   +---+---+---+---+---+---+---+---+      +---+---+---+---+---+---+---+---+
+             ^                                          ^
+           anchor (replace to 3)                   -> anchor
+
+ - step.6
+
+                        iter                                    -> iter
+                         v                                          v
+   +---+---+---+---+---+---+---+---+      +---+---+---+---+---+---+---+---+
+   | 1 | 2 | 3 | 5 | 3 | 5 | 4 | 5 |  =>  | 1 | 2 | 3 | 5 | 3 | 5 | 4 | 5 |
+   +---+---+---+---+---+---+---+---+      +---+---+---+---+---+---+---+---+
+                 ^                                      ^
+               anchor (skip)                          anchor
+            
+ - step.7
+
+                            iter                                    -> iter
+                             v                                          v
+   +---+---+---+---+---+---+---+---+      +---+---+---+---+---+---+---+---+
+   | 1 | 2 | 3 | 5 | 3 | 5 | 4 | 5 |  =>  | 1 | 2 | 3 | 4 | 3 | 5 | 4 | 5 |
+   +---+---+---+---+---+---+---+---+      +---+---+---+---+---+---+---+---+
+                 ^                                          ^
+               anchor (replace to 4)                   -> anchor
+
+ - step.8
+
+                                iter
+                                 v  
+   +---+---+---+---+---+---+---+---+
+   | 1 | 2 | 3 | 4 | 3 | 5 | 4 | 5 |
+   +---+---+---+---+---+---+---+---+
+                 ^                  
+               anchor (skip)  
+
+ - eventually result
+
+    we only wanted
+   |---------------|
+   +---+---+---+---+---+---+---+---+
+   | 1 | 2 | 3 | 4 | 3 | 5 | 4 | 5 |
+   +---+---+---+---+---+---+---+---+
+                 ^
+               anchor
+```
+
+### In-place Algorithms
 
 ```
 施工中 ...
