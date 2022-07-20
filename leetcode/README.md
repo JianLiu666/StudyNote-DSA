@@ -72,6 +72,7 @@
 |  557 | [Reverse Words in a String III](./p00557/README.md) | Easy | `Two Pointers` `String` |
 |  561 | [Array Partition](./p00561/README.md) | Easy | `Array` `Greddy` `Sorting` `Counting Sort` |
 |  705 | [Design HashSet :heart:](./p00705/README.md) | Easy | `Array` `HashTable` `Linked List` `Design` `Hash Function` |
+|  706 | [Design HashMap :heart:](./p00706/README.md) | Easy | `Array` `HashTable` `Linked List` `Design` `Hash Function` |
 |  707 | [Design Linked List](./p00707/README.md) | Medium | `Linked List` `Design` |
 |  724 | [Find Pivot Index](./p00724/README.md) | Easy | `Array` `Prefix Sum` |
 |  747 | [Largest Number At Least Twice of Others](./p00747/README.md) | Easy | `Array` `Sorting` |
