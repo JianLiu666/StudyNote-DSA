@@ -32,8 +32,8 @@
 |   69 | [Sqrt(x)](./p00069/README.md) | Easy | `Math` `Binary Search` |
 |   70 | [Climbing Stairs](./p00070/README.md) | Easy | `Math` `Dynamic Programming` `Memorization` |
 |   88 | [Merge Sorted Array](./p00088/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
-|  118 | [Pascal's Triangle :heart:](./p00118/README.md) | Easy | `Arary` `Dynamic Programming` |
-|  119 | [Pascal's Triangle II](./p00119/README.md) | Easy | `Arary` `Dynamic Programming` |
+|  118 | [Pascal's Triangle](./p00118/README.md) | Easy | `Arary` `Dynamic Programming` |
+|  119 | [Pascal's Triangle II :heart:](./p00119/README.md) | Easy | `Arary` `Dynamic Programming` |
 |  121 | [Bets Time to Buy and Sell Stock](./p00121/README.md) | Easy | `Array` `Dynamic Programming` |
 |  136 | [Single Number](./p00136/README.md) | Easy | `Array` `Bit Manipulation` |
 |  138 | [Copy List with Random Pointer](./p00138/README.md) | Medium | `Hash Table` `Linked List` |
@@ -71,6 +71,7 @@
 |  509 | [Fibonacci Number](./p00509/README.md) | Easy | `Math` `Dynamic Programming` `Recursion` `Memorization` |
 |  557 | [Reverse Words in a String III](./p00557/README.md) | Easy | `Two Pointers` `String` |
 |  561 | [Array Partition](./p00561/README.md) | Easy | `Array` `Greddy` `Sorting` `Counting Sort` |
+|  705 | [Design HashSet :heart:](./p00705/README.md) | Easy | `Array` `HashTable` `Linked List` `Design` `Hash Function` |
 |  707 | [Design Linked List](./p00707/README.md) | Medium | `Linked List` `Design` |
 |  724 | [Find Pivot Index](./p00724/README.md) | Easy | `Array` `Prefix Sum` |
 |  747 | [Largest Number At Least Twice of Others](./p00747/README.md) | Easy | `Array` `Sorting` |
