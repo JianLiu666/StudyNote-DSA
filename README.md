@@ -16,7 +16,7 @@
 Data Structure
 
 +-------+                    +-------------+              +------------+
-| Array | -----------------> | Linked List | -----------> | Hash Table | --> Coming soon ...
+| Array | -----------------> | Linked List | -----------> | Hash Table | --> keep going
 +-------+                    +-------------+              +------------+
   |                            |                            |
   ├- Two-Pointer Techniques    └- Two-Pointer Techniques    └ Hash Function
@@ -25,7 +25,7 @@ Data Structure
 Algorithm
 
 +---------+        +-----------+
-| Sorting | -----> | Searching |
+| Sorting | -----> | Searching | --> keep going
 +---------+        +-----------+
   |                  |
   ├ Counting Sort    └ Binary Search
@@ -34,5 +34,4 @@ Algorithm
 
 ## Data Structure Notes
 
-- [Array](./notes/)
-- 施工中 ...
+- [Array](./notes/array.md)
