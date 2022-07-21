@@ -46,6 +46,7 @@
 |  171 | [Excel Sheet Column Number](./p00171/README.md) | Easy | `Math` `String` |
 |  189 | [Rotate Array](./p00189/README.md) | Medium | `Array` `Math` `Two Pointers` |
 |  198 | [House Robber](./p00198/README.md) | Medium | `Array` `Dynamic Programming` |
+|  202 | [Happy Number](./p00202/README.md) | Easy | `Hash Table` `Math` `Two Pointers` |
 |  203 | [Remove Linked List Elements](./p00203/README.md) | Easy | `Linked List` `Recursion` |
 |  206 | [Reverse Linked List](./p00206/README.md) | Easy | `Linked List` `Recursion` |
 |  209 | [Minimum Size Subarray Sum](./p00209/README.md) | Medium | `Array` `Binary Search` `Sliding Window` `Prefix Sum` |
