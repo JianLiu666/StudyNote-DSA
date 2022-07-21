@@ -68,7 +68,6 @@ Explanation
 施工中 ...
 
 - References
-  - [LeetCode Discuss | [Python] Easy Multiplicative Hash, explained](https://leetcode.com/problems/design-hashset/discuss/768659/Python-Easy-Multiplicative-Hash-explained)
   - [LeetCode Discuss | Real Python Solution, no cheating, open addressing](https://leetcode.com/problems/design-hashset/discuss/210494/Real-Python-Solution-no-cheating-open-addressing)
 
 
