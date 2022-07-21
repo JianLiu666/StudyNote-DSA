@@ -51,23 +51,24 @@ Explanation
 
 # 解題方向
 
-### Solved using brute-force method
+### Solved using brute-force concept
 
 題目說了資料範圍落在 `0 - 1,000,000` 之間，所以可以直接宣告一個足夠大的 `array[1000001]` 解決，我就爛，讚啦！
 
-### Solved using hash function
+### Solved using multiplicative hashing
 
-- Multiplication Method & Open Addressing
+筆記在此 [Hash Table](./../../notes/hash-table.md)
 
-真的跪了，過陣子再回頭來補 ...
+- A : 給定一個夠大的質數: $3*2^n+1$
+- M : 給定的空間，題目表示至多只會有 10,000 次的 function call，所以我選了 $2^13$ 作為空間，沒啥特別原因
+- W : 雖然通常是用 size word 作為常數使用，但只要比 M 還大即可，所以我選了 $2^20$，也沒啥特別原因
 
+#### Avoid collision in hash table by using open addressing technique
+
+施工中 ...
 
 - References
   - [LeetCode Discuss | [Python] Easy Multiplicative Hash, explained](https://leetcode.com/problems/design-hashset/discuss/768659/Python-Easy-Multiplicative-Hash-explained)
   - [LeetCode Discuss | Real Python Solution, no cheating, open addressing](https://leetcode.com/problems/design-hashset/discuss/210494/Real-Python-Solution-no-cheating-open-addressing)
-  - [Wiki | Multiplication Hashing](https://en.wikipedia.org/wiki/Hash_function#Multiplicative_hashing)
-  - [Hash Table : Intro](http://alrightchiu.github.io/SecondRound/hash-tableintrojian-jie.html)
-  - [Hash Table : Open Addressing](http://alrightchiu.github.io/SecondRound/hash-tableopen-addressing.html)
-
 
 

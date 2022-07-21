@@ -40,7 +40,42 @@ In practice, we can often employ heuristic techniques to create a hash function 
 
 ### Multiplication Method
 
-施工中 ...
+**Dfinition** : Using the first *m* bits of the *key* times an irrational number.
+
+**Formal Definition** : $h(k) = ⌊M(kA\ mod\ 1)⌋$
+- *M* is usually an integer $2^m$
+- *A* is an irrational number (or an approximation thereto) in the range $0 < A < 1$
+  - [Knuth](https://en.wikipedia.org/wiki/Donald_Knuth) suggests that *A* can be ${\sqrt{5}-1 \over 2} ≈ 0.6180339887...$
+- The modulo 1 operation removes the integer part of $k*A$
+
+```
+The multiplication method of hashing:
+
+                                          w bits
+                              |-                         -|
+                              +---------------------------+
+                              |             k             |
+                              +---------------------------+
+                              +---------------------------+
+                           x  |        s = A x 2^w        |
+                              +---------------------------+
+-----------------------------------------------------------
++---------------------------+ +---------------------------+
+|            r1             | |            r0             |
++---------------------------+ +---------------------------+
+                              |-      -| extract m bits
+                                 h(k)
+```
+
+As the above image, we only concerned with the most significant bits of *r0*, so the formula will be like:
+
+- $h(k) = ⌊(kA\ mod\ 2^w) / 2^{w-m}⌋$
+- ususally, we will suppose that the word size of the machine is *w* bits and that *k* fits into a single word.
+
+**References**
+
+- [Wikipedia | Multiplicative Hashing](https://en.wikipedia.org/wiki/Hash_function#Multiplicative_hashing)
+- [Hash Table : Intro](http://alrightchiu.github.io/SecondRound/hash-tableintrojian-jie.html)
 
 ## Avoiding collisions in hash table
 
@@ -53,3 +88,7 @@ In practice, we can often employ heuristic techniques to create a hash function 
 ### Open Addressing
 
 施工中 ...
+
+**References**
+
+- [Hash Table : Open Addressing](http://alrightchiu.github.io/SecondRound/hash-tableopen-addressing.html)

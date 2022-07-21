@@ -1,31 +1,47 @@
 package p00705
 
-type HashSet_BruteForce struct {
-	arr []bool
+type MyHashSet struct {
+	buckets [][]int
 }
 
-func Constructor() HashSet_BruteForce {
-	return HashSet_BruteForce{
-		arr: make([]bool, 1000001),
+func hasher(key int) int {
+	return ((key * 786433) & ((1 << 20) - 1)) >> 7
+}
+
+func contains(arr []int, key int) int {
+	for i, num := range arr {
+		if num == key {
+			return i
+		}
+	}
+
+	return -1
+}
+
+func Constructor() MyHashSet {
+	return MyHashSet{
+		buckets: make([][]int, 1<<13),
 	}
 }
 
-func (this *HashSet_BruteForce) Add(key int) {
-	this.arr[key] = true
+func (this *MyHashSet) Add(key int) {
+	hashed := hasher(key)
+	if contains(this.buckets[hashed], key) == -1 {
+		this.buckets[hashed] = append(this.buckets[hashed], key)
+	}
 }
 
-func (this *HashSet_BruteForce) Remove(key int) {
-	this.arr[key] = false
+func (this *MyHashSet) Remove(key int) {
+	hashed := hasher(key)
+	if idx := contains(this.buckets[hashed], key); idx > -1 {
+		this.buckets[hashed] = append(this.buckets[hashed][:idx], this.buckets[hashed][idx+1:]...)
+	}
 }
 
-func (this *HashSet_BruteForce) Contains(key int) bool {
-	return this.arr[key]
-}
+func (this *MyHashSet) Contains(key int) bool {
+	if contains(this.buckets[hasher(key)], key) == -1 {
+		return false
+	}
 
-/**
- * Your MyHashSet object will be instantiated and called as such:
- * obj := Constructor();
- * obj.Add(key);
- * obj.Remove(key);
- * param_3 := obj.Contains(key);
- */
+	return true
+}

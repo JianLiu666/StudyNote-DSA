@@ -1,18 +1,26 @@
-class HashSet_BruteForce:
+class MyHashSet:
     def __init__(self):
-        self.arr = [False] * 1000001
+        self.buckets = [[] for _ in range(1<<13)]
 
+    def hasher(self, key):
+        return ((key*786433) & (1<<20)-1) >> 7
+    
     def add(self, key: int) -> None:
-        self.arr[key] = True
+        hashed = self.hasher(key)
+        if key not in self.buckets[hashed]:
+            self.buckets[hashed].append(key)
 
     def remove(self, key: int) -> None:
-        self.arr[key] = False
+        hashed = self.hasher(key)
+        if key in self.buckets[hashed]:
+            self.buckets[hashed].remove(key)
 
     def contains(self, key: int) -> bool:
-        return self.arr[key]
+        hashed = self.hasher(key)
+        return key in self.buckets[hashed]
 
 if __name__ == '__main__':
-    obj = HashSet_BruteForce()
+    obj = MyHashSet()
     
     obj.add(1)
     obj.add(2)
