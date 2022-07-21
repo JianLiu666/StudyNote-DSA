@@ -1,19 +1,52 @@
-class HashMap_BruteForce:
-
+class Node:
+    def __init__(self, key=0, val=0):
+        self.key = key
+        self.val = val
+class MyHashMap:
     def __init__(self):
-        self.arr = [-1] * 1000001
+        self.buckets = [[] for _ in range(1 << 13)]
+
+    def hasher(self, key: int) -> int:
+        return ((key*786433) & (1<<20-1)) >> 7
 
     def put(self, key: int, value: int) -> None:
-        self.arr[key] = value
+        hashed = self.hasher(key)
+        
+        for i in range(len(self.buckets[hashed])):
+            if self.buckets[hashed][i].key == key:
+                self.buckets[hashed][i].val = value
+                return
+
+        self.buckets[hashed].append(Node(key, value))
 
     def get(self, key: int) -> int:
-        return self.arr[key]
+        hashed = self.hasher(key)
+        for i in range(len(self.buckets[hashed])):
+            if self.buckets[hashed][i].key == key:
+                return self.buckets[hashed][i].val
+
+        return -1
 
     def remove(self, key: int) -> None:
-        self.arr[key] = -1
+        hashed = self.hasher(key)
+        
+        idx = -1
+        for i in range(len(self.buckets[hashed])):
+            if self.buckets[hashed][i].key == key:
+                idx = i
+                break
+        
+        if idx == -1:
+            return
+        if idx == 0:
+            self.buckets[hashed] = self.buckets[hashed][1:]
+        elif idx == len(self.buckets[hashed])-1:
+            self.buckets[hashed].pop()
+        else:
+            self.buckets[hashed] = self.buckets[hashed][:idx] + self.buckets[hashed][idx+1:]
 
 if __name__ == '__main__':
-    obj = HashMap_BruteForce()
+    obj = MyHashMap()
     
     obj.put(1,1)
     obj.put(2,2)
