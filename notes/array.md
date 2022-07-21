@@ -1,8 +1,12 @@
 # Array
 
-> An Array is a collection of items. The items could be integers, strings, DVDs, games, books – anything really. The items are stored in neighboring (contiguous) memory locations. Because they’re stored together, checking through the entire collection of items is straightforward.
->
-> from [LeetCode Explore: Arrays 101](https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3236/)
+> *from [LeetCode Explore: Arrays 101](https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3236/)*
+
+An Array is a collection of items. The items could be integers, strings, DVDs, games, books – anything really. The items are stored in neighboring (contiguous) memory locations.
+
+Because they’re stored together, checking through the entire collection of items is straightforward.
+
+--- 
 
 - [Array](#array)
   - [What is different between Array Capacity and Array Length?](#what-is-different-between-array-capacity-and-array-length)
