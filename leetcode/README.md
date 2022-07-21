@@ -1,9 +1,9 @@
 # Fake it till you make it
 
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
-![image](https://img.shields.io/badge/Solved-80%2F2328-orange?logo=leetcode)
-![image](https://img.shields.io/badge/Easy-58-green)
-![image](https://img.shields.io/badge/Medium-21-yellow)
+![image](https://img.shields.io/badge/Solved-82%2F2328-orange?logo=leetcode)
+![image](https://img.shields.io/badge/Easy-59-green)
+![image](https://img.shields.io/badge/Medium-22-yellow)
 ![image](https://img.shields.io/badge/Hard-1-red)
 
 | #    | Title | Difficulty | Related Topics |
@@ -32,6 +32,7 @@
 |   69 | [Sqrt(x)](./p00069/README.md) | Easy | `Math` `Binary Search` |
 |   70 | [Climbing Stairs](./p00070/README.md) | Easy | `Math` `Dynamic Programming` `Memorization` |
 |   88 | [Merge Sorted Array](./p00088/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
+|   92 | [Reverse Linked List II](./p00092/README.md) | Medium | `Linked List` |
 |  118 | [Pascal's Triangle](./p00118/README.md) | Easy | `Arary` `Dynamic Programming` |
 |  119 | [Pascal's Triangle II :heart:](./p00119/README.md) | Easy | `Arary` `Dynamic Programming` |
 |  121 | [Bets Time to Buy and Sell Stock](./p00121/README.md) | Easy | `Array` `Dynamic Programming` |
