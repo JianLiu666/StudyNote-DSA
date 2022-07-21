@@ -58,4 +58,4 @@ Explanation
 
 ### Solved using hash function
 
-同 [p00705](./../p00705/README.md)，我以後再回來補 ...
+同 [p00705](./../p00705/README.md)
