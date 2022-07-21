@@ -60,8 +60,8 @@ Explanation
 筆記在此 [Hash Table](./../../notes/hash-table.md)
 
 - A : 給定一個夠大的質數: $3*2^n+1$
-- M : 給定的空間，題目表示至多只會有 10,000 次的 function call，所以我選了 $2^13$ 作為空間，沒啥特別原因
-- W : 雖然通常是用 size word 作為常數使用，但只要比 M 還大即可，所以我選了 $2^20$，也沒啥特別原因
+- M : 給定的空間，題目表示至多只會有 10,000 次的 function call，所以我選了 $2^{13}$ 作為空間，沒啥特別原因
+- W : 雖然通常是用 size word 作為常數使用，但只要比 M 還大即可，所以我選了 $2^{20}$，也沒啥特別原因
 
 #### Avoid collision in hash table by using open addressing technique
 
