@@ -54,6 +54,7 @@
 |  206 | [Reverse Linked List](./p00206/README.md) | Easy | `Linked List` `Recursion` |
 |  209 | [Minimum Size Subarray Sum](./p00209/README.md) | Medium | `Array` `Binary Search` `Sliding Window` `Prefix Sum` |
 |  217 | [Contains Duplicate](./p00217/README.md) | Easy | `Array` `Hash Table` `Sorting` |
+|  219 | [Contains Duplicate II](./p00219/README.md) | Easy | `Array` `Hash Table` `Sliding Window` |
 |  234 | [Palindrome Linked List](./p00234/README.md) | Easy | `Linked List` `Two Pointers` `Stack` `Recursion` |
 |  237 | [Delete Node in a Linked List](./p00237/README.md) | Easy | `Linked List` |
 |  242 | [Valid Anagram](./p00242/README.md) | Easy | `Hash Table` `String` `Sortinggi` |
