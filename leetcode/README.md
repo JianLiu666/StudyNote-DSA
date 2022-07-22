@@ -31,6 +31,7 @@
 |   67 | [Add Binary](./p00067/README.md) | Easy | `Math` `String` `Bit Manipulation` `Simulation` |
 |   69 | [Sqrt(x)](./p00069/README.md) | Easy | `Math` `Binary Search` |
 |   70 | [Climbing Stairs](./p00070/README.md) | Easy | `Math` `Dynamic Programming` `Memorization` |
+|   86 | [Partition List](./p00086/README.md) | Medium | `Linked List` `Two Pointers` |
 |   88 | [Merge Sorted Array](./p00088/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
 |   92 | [Reverse Linked List II](./p00092/README.md) | Medium | `Linked List` |
 |  118 | [Pascal's Triangle](./p00118/README.md) | Easy | `Arary` `Dynamic Programming` |
