@@ -1,9 +1,9 @@
 # Fake it till you make it
 
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
-![image](https://img.shields.io/badge/Solved-82%2F2328-orange?logo=leetcode)
-![image](https://img.shields.io/badge/Easy-59-green)
-![image](https://img.shields.io/badge/Medium-22-yellow)
+![image](https://img.shields.io/badge/Solved-84%2F2328-orange?logo=leetcode)
+![image](https://img.shields.io/badge/Easy-60-green)
+![image](https://img.shields.io/badge/Medium-23-yellow)
 ![image](https://img.shields.io/badge/Hard-1-red)
 
 | #    | Title | Difficulty | Related Topics |
@@ -50,6 +50,7 @@
 |  198 | [House Robber](./p00198/README.md) | Medium | `Array` `Dynamic Programming` |
 |  202 | [Happy Number](./p00202/README.md) | Easy | `Hash Table` `Math` `Two Pointers` |
 |  203 | [Remove Linked List Elements](./p00203/README.md) | Easy | `Linked List` `Recursion` |
+|  205 | [Isomorphic Strings](./p00205/README.md) | Easy | `Hash Table` `String` |
 |  206 | [Reverse Linked List](./p00206/README.md) | Easy | `Linked List` `Recursion` |
 |  209 | [Minimum Size Subarray Sum](./p00209/README.md) | Medium | `Array` `Binary Search` `Sliding Window` `Prefix Sum` |
 |  217 | [Contains Duplicate](./p00217/README.md) | Easy | `Array` `Hash Table` `Sorting` |
