@@ -81,6 +81,7 @@
 |  557 | [Reverse Words in a String III](./p00557/README.md) | Easy | `Two Pointers` `String` |
 |  561 | [Array Partition](./p00561/README.md) | Easy | `Array` `Greddy` `Sorting` `Counting Sort` |
 |  599 | [Minimum Index Sum of Two Lists](./p00599/README.md) | Easy | `Array` `Hash Table` `String` |
+|  652 | [Find Duplicate Subtrees](./p00652/README.md) | Medium | `Hash Table` `Tree` `Depth-First Search` `Binary Tree` |
 |  705 | [Design HashSet :heart:](./p00705/README.md) | Easy | `Array` `HashTable` `Linked List` `Design` `Hash Function` |
 |  706 | [Design HashMap :heart:](./p00706/README.md) | Easy | `Array` `HashTable` `Linked List` `Design` `Hash Function` |
 |  707 | [Design Linked List](./p00707/README.md) | Medium | `Linked List` `Design` |
