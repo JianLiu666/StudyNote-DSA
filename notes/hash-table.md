@@ -12,6 +12,8 @@
   - [Avoiding collisions in hash table](#avoiding-collisions-in-hash-table)
     - [Chaining](#chaining)
     - [Open Addressing](#open-addressing)
+  - [Basic Hash Table Operations](#basic-hash-table-operations)
+  - [Concepts](#concepts)
 
 ---
 
@@ -92,3 +94,11 @@ As the above image, we only concerned with the most significant bits of *r0*, so
 **References**
 
 - [Hash Table : Open Addressing](http://alrightchiu.github.io/SecondRound/hash-tableopen-addressing.html)
+
+## Basic Hash Table Operations
+
+施工中 ...
+
+## Concepts
+
+施工中 ...
