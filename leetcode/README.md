@@ -67,6 +67,7 @@
 |  326 | [Power of Three](./p00326/README.md) | Easy | `Math` `Recursion` |
 |  328 | [Odd Even Linked List](./p00328/README.md) | Medium | `Linked List` |
 |  344 | [Reverse String](./p00344/README.md) | Easy | `Two Pointers` `String` `Recursion` |
+|  347 | [Top K Frequent Elements](./p00347/README.md) | Medium | `Array` `Hash Table` `Divide and Conquer` `Sorting` `Heap (Priority Queue)` `Bucket Sort` `Counting` `Quickselect` |
 |  349 | [Intersection of Two Arrays](./p00349/README.md) | Easy | `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting` |
 |  350 | [Intersection of Two Arrays II](./p00350/README.md) | Easy | `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting` |
 |  374 | [Guess Number Higher or Lower](./p00374/README.md) | Easy | `Binary Search` `Interactive` |

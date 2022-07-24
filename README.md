@@ -30,7 +30,8 @@ Algorithm
 +---------+        +-----------+
   |                  |
   ├ Counting Sort    └ Binary Search
-  └ Merge Sort
+  ├ Merge Sort
+  └ Bucket Sort
 ```
 
 ## Data Structure Notes
