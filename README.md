@@ -14,16 +14,16 @@
 ## My DSA Road Map
 
 ```
-Data Structure
+Data Structures
 
-+-------+                    +-------------+              +------------+
-| Array | -----------------> | Linked List | -----------> | Hash Table | --> keep going
-+-------+                    +-------------+              +------------+
-  |                            |                            |
-  ├- Two-Pointer Techniques    └- Two-Pointer Techniques    ├- Hash Functions
++-------+                    +-------------+              +------------+            +---------------+
+| Array | -----------------> | Linked List | -----------> | Hash Table | ---------> | Queue & Stack | ---> keep going
++-------+                    +-------------+              +------------+            +---------------+
+  |                            |                            |                         
+  ├- Two-Pointer Techniques    └- Two-Pointer Techniques    ├- Hash Functions        
   └- In-place Algorithms                                    └- Avoiding Collisions
 
-Algorithm
+Algorithms
 
 +---------+        +-----------+
 | Sorting | -----> | Searching | --> keep going
