@@ -1,9 +1,9 @@
 # Fake it till you make it
 
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
-![image](https://img.shields.io/badge/Solved-93%2F2328-orange?logo=leetcode)
+![image](https://img.shields.io/badge/Solved-95%2F2328-orange?logo=leetcode)
 ![image](https://img.shields.io/badge/Easy-63-green)
-![image](https://img.shields.io/badge/Medium-28-yellow)
+![image](https://img.shields.io/badge/Medium-30-yellow)
 ![image](https://img.shields.io/badge/Hard-2-red)
 
 | #    | Title | Difficulty | Related Topics |
@@ -60,6 +60,7 @@
 |  219 | [Contains Duplicate II](./p00219/README.md) | Easy | `Array` `Hash Table` `Sliding Window` |
 |  234 | [Palindrome Linked List](./p00234/README.md) | Easy | `Linked List` `Two Pointers` `Stack` `Recursion` |
 |  237 | [Delete Node in a Linked List](./p00237/README.md) | Easy | `Linked List` |
+|  240 | [Search a 2D Matrix II](./p00240/README.md) | Medium | `Array` `Binary Search` `Divide and Conquer` `Matrix` |
 |  242 | [Valid Anagram](./p00242/README.md) | Easy | `Hash Table` `String` `Sortinggi` |
 |  268 | [Missing Number](./p00268/README.md) | Easy | `Array` `Hash Table` `Math` `Binary Search` `Bit Manipulation` `Sorting` |
 |  283 | [Move Zeroes](./p00283/README.md) | Easy | `Array` `Two Pointers` |
