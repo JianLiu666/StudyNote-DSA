@@ -25,7 +25,9 @@ Because they’re stored together, checking through the entire collection of ite
   - [Concepts](#concepts)
     - [Two-Pointer Techniques](#two-pointer-techniques)
       - [Head and tail pointers](#head-and-tail-pointers)
+        - [Related Problems](#related-problems)
       - [Different step pointers](#different-step-pointers)
+        - [Related Problems](#related-problems-1)
     - [In-place Algorithms](#in-place-algorithms)
 
 ---
@@ -204,6 +206,10 @@ Continue swapping the elements until the two pointers meet each other.
                  └---┘
 ```
 
+##### Related Problems
+
+- [11. Container With Most Water](/leetcode/p00011/README.md)
+
 #### Different step pointers
 
 For example : 
@@ -312,6 +318,10 @@ the pseudocode is :
                  ^
                anchor
 ```
+
+##### Related Problems
+
+- 
 
 ### In-place Algorithms
 
