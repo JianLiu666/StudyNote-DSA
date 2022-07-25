@@ -37,7 +37,7 @@ Algorithms
 ## Data Structure Notes
 
 - [Array](./notes/array.md)
-- Linked List
+- [Linked List](./notes/linked-list.md)
 - [Hash Table](./notes/hash-table.md)
 
 ## Algorithm Notes
