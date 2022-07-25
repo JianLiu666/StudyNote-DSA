@@ -1,9 +1,9 @@
 # Fake it till you make it
 
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
-![image](https://img.shields.io/badge/Solved-95%2F2328-orange?logo=leetcode)
+![image](https://img.shields.io/badge/Solved-97%2F2328-orange?logo=leetcode)
 ![image](https://img.shields.io/badge/Easy-63-green)
-![image](https://img.shields.io/badge/Medium-30-yellow)
+![image](https://img.shields.io/badge/Medium-32-yellow)
 ![image](https://img.shields.io/badge/Hard-2-red)
 
 | #    | Title | Difficulty | Related Topics |
@@ -23,6 +23,7 @@
 |   27 | [Remove Element](./p00027/README.md) | Easy | `Array` `Two Pointers` |
 |   28 | [Implement strStr()](./p00028/README.md) | Easy | `Two Pointers` `String` `String Matching` |
 |   33 | [Search in Rotated Sorted Array](./p00033/README.md) | Medium | `Array` `Binary Search` |
+|   34 | [Find First and Last Position of Element in Sorted Array](./p00034/README.md) | Medium | `Array` `Binary Search` |
 |   36 | [Valid Sudoku](./p00036/README.md) | Medium | `Array` `Hash Table` `Matrix` |
 |   38 | [Count and Say](./p00038/README.md) | Medium | `String` |
 |   41 | [First Missing Positive :heart:](./p00041/README.md) | Hard | `Array` `Hash Table` |
