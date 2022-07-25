@@ -52,6 +52,7 @@
 |  171 | [Excel Sheet Column Number](./p00171/README.md) | Easy | `Math` `String` |
 |  189 | [Rotate Array](./p00189/README.md) | Medium | `Array` `Math` `Two Pointers` |
 |  198 | [House Robber](./p00198/README.md) | Medium | `Array` `Dynamic Programming` |
+|  200 | [Number of Islands](./p00200/README.md) | Medium | `Array` `Depth-First Search` `Breadth-First Search` `Union Find` `Matrix` |
 |  202 | [Happy Number](./p00202/README.md) | Easy | `Hash Table` `Math` `Two Pointers` |
 |  203 | [Remove Linked List Elements](./p00203/README.md) | Easy | `Linked List` `Recursion` |
 |  205 | [Isomorphic Strings](./p00205/README.md) | Easy | `Hash Table` `String` |
