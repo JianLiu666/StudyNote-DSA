@@ -16,22 +16,22 @@
 ```
 Data Structures
 
-+-------+                    +-------------+              +------------+            +---------------+
-| Array | -----------------> | Linked List | -----------> | Hash Table | ---------> | Queue & Stack | ---> keep going
-+-------+                    +-------------+              +------------+            +---------------+
-  |                            |                            |                         
-  ├- Two-Pointer Techniques    └- Two-Pointer Techniques    ├- Hash Functions        
-  └- In-place Algorithms                                    └- Avoiding Collisions
+  +-------+                    +-------------+              +------------+            +---------------+
+  | Array | -----------------> | Linked List | -----------> | Hash Table | ---------> | Queue & Stack | ---> keep going
+  +-------+                    +-------------+              +------------+            +---------------+
+    |                            |                            |                         |
+    ├- Two-Pointer Techniques    └- Two-Pointer Techniques    ├- Hash Functions         └- Circular Queue
+    └- In-place Algorithms                                    └- Avoiding Collisions
 
 Algorithms
 
-+---------+        +-----------+
-| Sorting | -----> | Searching | --> keep going
-+---------+        +-----------+
-  |                  |
-  ├ Counting Sort    └ Binary Search
-  ├ Merge Sort
-  └ Bucket Sort
+  +---------+        +-----------+
+  | Sorting | -----> | Searching | --> keep going
+  +---------+        +-----------+
+    |                  |
+    ├ Counting Sort    ├ Binary Search
+    ├ Merge Sort       └ Breadth-first Search
+    └ Bucket Sort
 ```
 
 ## Data Structure Notes
