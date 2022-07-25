@@ -22,13 +22,12 @@ Because they’re stored together, checking through the entire collection of ite
       - [Deleting From Anywhere in the Array](#deleting-from-anywhere-in-the-array)
     - [Search](#search)
       - [Linear Search](#linear-search)
-  - [Concepts](#concepts)
+  - [In-place Algorithms](#in-place-algorithms)
     - [Two-Pointer Techniques](#two-pointer-techniques)
       - [Head and tail pointers](#head-and-tail-pointers)
         - [Related Problems](#related-problems)
       - [Different step pointers](#different-step-pointers)
         - [Related Problems](#related-problems-1)
-    - [In-place Algorithms](#in-place-algorithms)
 
 ---
  
@@ -140,7 +139,7 @@ Where is the 7?
 +---+---+---+---+---+---+---+---+      +---+---+---+---+---+---+---+---+      +---+---+---+---+---+---+---+---+
 ```
 
-## Concepts
+## In-place Algorithms
 
 ### Two-Pointer Techniques
 
@@ -209,6 +208,7 @@ Continue swapping the elements until the two pointers meet each other.
 ##### Related Problems
 
 - [11. Container With Most Water](/leetcode/p00011/README.md)
+- ...
 
 #### Different step pointers
 
@@ -321,10 +321,7 @@ the pseudocode is :
 
 ##### Related Problems
 
-- 
-
-### In-place Algorithms
-
-```
-施工中 ...
-```
+- [15. 3Sum](/leetcode/p00015/README.md)
+- [26. Remove Duplicates from Sorted Array](/leetcode/p00026/README.md)
+- [27. Remove Element](/leetcode/p00027/README.md)
+- ...
