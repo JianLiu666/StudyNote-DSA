@@ -95,6 +95,7 @@
 |  707 | [Design Linked List](./p00707/README.md) | Medium | `Linked List` `Design` |
 |  724 | [Find Pivot Index](./p00724/README.md) | Easy | `Array` `Prefix Sum` |
 |  747 | [Largest Number At Least Twice of Others](./p00747/README.md) | Easy | `Array` `Sorting` |
+|  752 | [Open the Lock](./p00752/README.md) | Medium | `Array` `Hash Table` `String` `Breadth-First Search` |
 |  771 | [Jewels and Stones](./p00771/README.md) | Easy | `Hash Table` `String` |
 |  876 | [Middle of the Linked List](./p00876/README.md) | Easy | `Linked List` `Two Pointers` |
 |  905 | [Sort Array By Parity](./p00905/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
