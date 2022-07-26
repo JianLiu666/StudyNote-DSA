@@ -3,45 +3,43 @@ package p00200
 // Time Complexity: O(mn)
 // Space Complexity: O(n)
 func numIslands(grid [][]byte) int {
-	grid_height := len(grid) - 1
-	grid_width := len(grid[0]) - 1
-
-	// represent the left, top, right, down direction of the cursor
-	checkList := [][]int{{0, -1}, {-1, 0}, {0, 1}, {1, 0}}
-
 	// SC: O(n)
 	q := CreateQueue(len(grid) * len(grid[0]))
-	numIslands := 0
 
 	// traverse the whole grid -> TC: O(n)
+	count := 0
 	for row, columns := range grid {
 		for col, val := range columns {
 			if val == '1' {
-				q.Put([]int{row, col})
-				grid[row][col] = '2'
-
-				// traverse this island -> TC: O(m)
-				for !q.IsEmpty() {
-					pos, _ := q.Pop()
-
-					// TC: O(4)
-					for _, offset := range checkList {
-						y := pos[0] + offset[0]
-						x := pos[1] + offset[1]
-						if x >= 0 && x <= grid_width && y >= 0 && y <= grid_height &&
-							grid[y][x] == '1' {
-							q.Put([]int{y, x})
-							grid[y][x] = '2'
-						}
-					}
-				}
-
-				numIslands++
+				// traveres whole island
+				bfs(&q, grid, row, col)
+				count++
 			}
 		}
 	}
 
-	return numIslands
+	return count
+}
+
+func bfs(q *Queue, grid [][]byte, row, col int) {
+	// represent the left, top, right, down direction of the cursor
+	checkList := [][]int{{0, -1}, {-1, 0}, {0, 1}, {1, 0}}
+
+	maxRow := len(grid) - 1
+	maxCol := len(grid[0]) - 1
+
+	q.Enqueue([]int{row, col})
+	for !q.IsEmpty() {
+		pos, _ := q.Dequeue()
+		for _, offset := range checkList {
+			y := pos[0] + offset[0]
+			x := pos[1] + offset[1]
+			if x >= 0 && x <= maxCol && y >= 0 && y <= maxRow && grid[y][x] == '1' {
+				q.Enqueue([]int{y, x})
+				grid[y][x] = '2'
+			}
+		}
+	}
 }
 
 type Queue struct {
@@ -70,7 +68,7 @@ func (this *Queue) IsFull() bool {
 	return this.size == this.capacity
 }
 
-func (this *Queue) Put(position []int) bool {
+func (this *Queue) Enqueue(position []int) bool {
 	if this.IsFull() {
 		return false
 	}
@@ -86,7 +84,7 @@ func (this *Queue) Put(position []int) bool {
 	return true
 }
 
-func (this *Queue) Pop() ([]int, bool) {
+func (this *Queue) Dequeue() ([]int, bool) {
 	if this.IsEmpty() {
 		return nil, false
 	}

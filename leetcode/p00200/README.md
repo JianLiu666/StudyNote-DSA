@@ -52,4 +52,6 @@ Output: 3
 
 # 解題方向
 
-施工中 ...
+### Solved using Breadth-First Search concept
+
+核心概念為每當踏到一塊陸地上時，就先檢查四周所有的格子是否有相連的陸地，並把他們加進 `queue` 裡，直到 `queue` 內所有的陸地都被尋訪過時，表示完整踏遍這座島了。

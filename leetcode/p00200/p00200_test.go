@@ -69,7 +69,7 @@ func TestQuestion(t *testing.T) {
 		},
 	}
 
-	for _, data := range tds {
-		ast.Equal(data.o.ans, numIslands(data.i.grid))
+	for idx, data := range tds {
+		ast.Equal(data.o.ans, numIslands(data.i.grid), idx+1)
 	}
 }
