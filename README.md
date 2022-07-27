@@ -20,8 +20,8 @@ Data Structures
   | Array | -----------------> | Linked List | -----------> | Hash Table | ---------> | Queue & Stack | ---> keep going
   +-------+                    +-------------+              +------------+            +---------------+
     |                            |                            |                         |
-    ├- Two-Pointer Techniques    └- Two-Pointer Techniques    ├- Hash Functions         └- Circular Queue
-    └- In-place Algorithms                                    └- Avoiding Collisions
+    ├- Two-Pointer Techniques    └- Two-Pointer Techniques    ├- Hash Functions         ├- Circular Queue
+    └- In-place Algorithms                                    └- Avoiding Collisions    └- Monotonic Stack
 
 Algorithms
 
