@@ -1,8 +1,8 @@
 package p00200
 
-// Time Complexity: O(mn)
-// Space Complexity: O(n)
-func numIslands(grid [][]byte) int {
+// Time Complexity: O(m+n)
+// Space Complexity: O(m)
+func numIslands_bfs(grid [][]byte) int {
 	// SC: O(n)
 	q := CreateQueue(len(grid) * len(grid[0]))
 

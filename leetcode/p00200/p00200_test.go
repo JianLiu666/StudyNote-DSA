@@ -1,6 +1,7 @@
 package p00200
 
 import (
+	"fmt"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
@@ -70,6 +71,20 @@ func TestQuestion(t *testing.T) {
 	}
 
 	for idx, data := range tds {
-		ast.Equal(data.o.ans, numIslands(data.i.grid), idx+1)
+		copyright := make([][]byte, len(data.i.grid))
+		for i := 0; i < len(data.i.grid); i++ {
+			arr := make([]byte, len(data.i.grid[i]))
+			copy(arr, data.i.grid[i])
+			copyright[i] = arr
+		}
+		ast.Equal(data.o.ans, numIslands_bfs(copyright), fmt.Sprintf("bfs case %d", idx+1))
+
+		copyright = make([][]byte, len(data.i.grid))
+		for i := 0; i < len(data.i.grid); i++ {
+			arr := make([]byte, len(data.i.grid[i]))
+			copy(arr, data.i.grid[i])
+			copyright[i] = arr
+		}
+		ast.Equal(data.o.ans, numIslands_dfs(copyright), fmt.Sprintf("dfs case %d", idx+1))
 	}
 }
