@@ -1,9 +1,9 @@
 # Fake it till you make it
 
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
-![image](https://img.shields.io/badge/Solved-97%2F2328-orange?logo=leetcode)
+![image](https://img.shields.io/badge/Solved-100%2F2328-orange?logo=leetcode)
 ![image](https://img.shields.io/badge/Easy-63-green)
-![image](https://img.shields.io/badge/Medium-32-yellow)
+![image](https://img.shields.io/badge/Medium-35-yellow)
 ![image](https://img.shields.io/badge/Hard-2-red)
 
 | #    | Title | Difficulty | Related Topics |
@@ -65,6 +65,7 @@
 |  240 | [Search a 2D Matrix II](./p00240/README.md) | Medium | `Array` `Binary Search` `Divide and Conquer` `Matrix` |
 |  242 | [Valid Anagram](./p00242/README.md) | Easy | `Hash Table` `String` `Sortinggi` |
 |  268 | [Missing Number](./p00268/README.md) | Easy | `Array` `Hash Table` `Math` `Binary Search` `Bit Manipulation` `Sorting` |
+|  279 | [Perfect Squares](./p00279/README.md) | Medium | `Math` `Dynamic Programming` `Breadth-First Search` |
 |  283 | [Move Zeroes](./p00283/README.md) | Easy | `Array` `Two Pointers` |
 |  315 | [Count of Smaller Numbers After Self :heart:](./p00315/README.md) | Hard | `Array` `Binary Search` `Divide and Conquer` `Binary Indexed Tree` `Segment Tree` `Merge Sort` `Ordered Set` |
 |  326 | [Power of Three](./p00326/README.md) | Easy | `Math` `Recursion` |
