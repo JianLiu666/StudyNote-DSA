@@ -1,9 +1,9 @@
 # Fake it till you make it
 
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
-![image](https://img.shields.io/badge/Solved-102%2F2328-orange?logo=leetcode)
+![image](https://img.shields.io/badge/Solved-104%2F2328-orange?logo=leetcode)
 ![image](https://img.shields.io/badge/Easy-63-green)
-![image](https://img.shields.io/badge/Medium-37-yellow)
+![image](https://img.shields.io/badge/Medium-39-yellow)
 ![image](https://img.shields.io/badge/Hard-2-red)
 
 | #    | Title | Difficulty | Related Topics |
@@ -45,6 +45,7 @@
 |  138 | [Copy List with Random Pointer](./p00138/README.md) | Medium | `Hash Table` `Linked List` |
 |  141 | [Linked List Cycle](./p00141/README.md) | Easy | `Hash Table` `Linked List` `Two Pointers` |
 |  142 | [Linked List Cycle II :heart:](./p00142/README.md) | Medium | `Hash Table` `Linked List` `Two Pointers` |
+|  150 | [Evaluate Reverse Polish Notation](./p00150/README.md) | Medium | `Array` `Math` `Stack` |
 |  151 | [Reverse Words in a String](./p00151/README.md) | Medium | `Two Pointers` `String` |
 |  155 | [Min Stack](./p00155/README.md) | Medium | `Stack` `Design` |
 |  160 | [Intersection of Two Linked Lists :heart:](./p00160/README.md) | Easy | `Hash Table` `Linked List` `Two Pointers` |

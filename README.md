@@ -25,13 +25,13 @@ Data Structures
 
 Algorithms
 
-  +---------+        +-----------+
-  | Sorting | -----> | Searching | --> keep going
-  +---------+        +-----------+
-    |                  |
-    ├ Counting Sort    ├ Binary Search
-    ├ Merge Sort       └ Breadth-first Search
-    └ Bucket Sort
+  +---------+         +-----------+
+  | Sorting | ------> | Searching | --> keep going
+  +---------+         +-----------+
+    |                   |
+    ├- Counting Sort    ├- Binary Search
+    ├- Merge Sort       ├- Breadth-First Search
+    └- Bucket Sort      └- Depth-First Search
 ```
 
 ## Data Structure Notes
