@@ -65,6 +65,7 @@
 |  209 | [Minimum Size Subarray Sum](./p00209/README.md) | Medium | `Array` `Binary Search` `Sliding Window` `Prefix Sum` |
 |  217 | [Contains Duplicate](./p00217/README.md) | Easy | `Array` `Hash Table` `Sorting` |
 |  219 | [Contains Duplicate II](./p00219/README.md) | Easy | `Array` `Hash Table` `Sliding Window` |
+|  225 | [Implement Stack using Queues](./p00225/README.md) | Easy | `Stack` `Design` `Queue` |
 |  232 | [Implement Queue using Stacks](./p00232/README.md) | Easy | `Stack` `Design` `Queue` |
 |  234 | [Palindrome Linked List](./p00234/README.md) | Easy | `Linked List` `Two Pointers` `Stack` `Recursion` |
 |  237 | [Delete Node in a Linked List](./p00237/README.md) | Easy | `Linked List` |
