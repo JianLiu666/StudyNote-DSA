@@ -1,9 +1,9 @@
 # Fake it till you make it
 
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
-![image](https://img.shields.io/badge/Solved-104%2F2328-orange?logo=leetcode)
+![image](https://img.shields.io/badge/Solved-107%2F2328-orange?logo=leetcode)
 ![image](https://img.shields.io/badge/Easy-63-green)
-![image](https://img.shields.io/badge/Medium-39-yellow)
+![image](https://img.shields.io/badge/Medium-42-yellow)
 ![image](https://img.shields.io/badge/Hard-2-red)
 
 | #    | Title | Difficulty | Related Topics |
@@ -88,6 +88,7 @@
 |  448 | [Find All Numbers Disappeared in an Array](./p00448/README.md) | Easy | `Array` `Hash Table` |
 |  454 | [4Sum II](./p00454/README.md) | Medium | `Array` `Hash Table` |
 |  485 | [Max Consecutive Ones](./p00485/README.md) | Easy | `Array` |
+|  494 | [Target Sum](./p00494/README.md) | Medium | `Array` `Matrix` `Simulation` |
 |  498 | [Diagonal Traverse](./p00498/README.md) | Medium | `Array` `Matrix` `Simulation` |
 |  509 | [Fibonacci Number](./p00509/README.md) | Easy | `Math` `Dynamic Programming` `Recursion` `Memorization` |
 |  557 | [Reverse Words in a String III](./p00557/README.md) | Easy | `Two Pointers` `String` |
