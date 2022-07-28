@@ -21,7 +21,8 @@ Data Structures
   +-------+                    +-------------+              +------------+            +---------------+
     |                            |                            |                         |
     ├- Two-Pointer Techniques    └- Two-Pointer Techniques    ├- Hash Functions         ├- Circular Queue
-    └- In-place Algorithms                                    └- Avoiding Collisions    └- Monotonic Stack
+    └- In-place Algorithms                                    ├- Avoiding Collisions    ├- Monotonic Stack
+                                                              └- Memorization           └- Explicit Stack
 
 Algorithms
 

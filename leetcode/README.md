@@ -38,6 +38,7 @@
 |   86 | [Partition List](./p00086/README.md) | Medium | `Linked List` `Two Pointers` |
 |   88 | [Merge Sorted Array](./p00088/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
 |   92 | [Reverse Linked List II](./p00092/README.md) | Medium | `Linked List` |
+|   94 | [Binary Tree Inorder Traversal](./p00094/README.md) | Easy | `Stack` `Tree` `Depth-First Search` `Binary Tree` |
 |  114 | [Flatten Binary Tree to Linked List](./p00114/README.md) | Medium | `Linked List` `Stack` `Tree` `Depth-First Search` `Binary Tree` |
 |  118 | [Pascal's Triangle](./p00118/README.md) | Easy | `Arary` `Dynamic Programming` |
 |  119 | [Pascal's Triangle II :heart:](./p00119/README.md) | Easy | `Arary` `Dynamic Programming` |
