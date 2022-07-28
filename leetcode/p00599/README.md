@@ -53,4 +53,4 @@ Explanation:
 
 # 解題方向
 
-施工中 ...
+可以用 Table-Stream Join 的概念處理，先把 `list1` 紀錄在 `Hash Table`，接著只要遍歷 `list2` 根據題目規則處理餐廳的口袋名單排名即可。
