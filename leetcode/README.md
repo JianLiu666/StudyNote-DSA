@@ -1,9 +1,9 @@
 # Fake it till you make it
 
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
-![image](https://img.shields.io/badge/Solved-107%2F2328-orange?logo=leetcode)
-![image](https://img.shields.io/badge/Easy-63-green)
-![image](https://img.shields.io/badge/Medium-42-yellow)
+![image](https://img.shields.io/badge/Solved-111%2F2328-orange?logo=leetcode)
+![image](https://img.shields.io/badge/Easy-66-green)
+![image](https://img.shields.io/badge/Medium-43-yellow)
 ![image](https://img.shields.io/badge/Hard-2-red)
 
 | #    | Title | Difficulty | Related Topics |
@@ -85,6 +85,7 @@
 |  380 | [Insert Delete GetRandom O(1)](./p00380/README.md) | Medium | `Array` `Hash Table` `Math` `Design` `Randomized` |
 |  383 | [Ransom Note](./p00383/README.md) | Easy | `Hash Table` `String` `Counting` |
 |  387 | [First Unique Character in a String](./p00387/README.md) | Easy | `Hash Table` `String` `Queue` `Counting` |
+|  394 | [Decode String](./p00394/README.md) | Medium | `String` `Stack` `Recursion` |
 |  412 | [Fizz Buzz](./p00412/README.md) | Easy | `Math` `String` `Simulation` |
 |  414 | [Third Maximum Number](./p00414/README.md) | Easy | `Array` `Sorting` |
 |  430 | [Flatten a Multilevel Doubly Linked List](./p00430/README.md) | Medium | `Linked List` `Depth-First Search` `Doubly Linked List` |
