@@ -1,9 +1,9 @@
 # Fake it till you make it
 
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
-![image](https://img.shields.io/badge/Solved-111%2F2328-orange?logo=leetcode)
-![image](https://img.shields.io/badge/Easy-66-green)
-![image](https://img.shields.io/badge/Medium-43-yellow)
+![image](https://img.shields.io/badge/Solved-114%2F2328-orange?logo=leetcode)
+![image](https://img.shields.io/badge/Easy-67-green)
+![image](https://img.shields.io/badge/Medium-45-yellow)
 ![image](https://img.shields.io/badge/Hard-2-red)
 
 | #    | Title | Difficulty | Related Topics |
@@ -112,6 +112,7 @@
 |  876 | [Middle of the Linked List](./p00876/README.md) | Easy | `Linked List` `Two Pointers` |
 |  890 | [Find and Replace Pattern](./p00890/README.md) | Medium | `Array` `Hash Table` `String` |
 |  905 | [Sort Array By Parity](./p00905/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
+|  916 | [Word Subsets](./p00916/README.md) | Medium | `Array` `Hash Table` `String` |
 |  941 | [Valid Mountain Array](./p00941/README.md) | Easy | `Array` |
 |  977 | [Squares of a Sorted Array](./p00977/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
 | 1051 | [Height Checker](./p01051/README.md) | Easy | `Array` `Sorting` `Counting Sort` |
