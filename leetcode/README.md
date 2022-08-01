@@ -1,9 +1,9 @@
 # Fake it till you make it
 
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
-![image](https://img.shields.io/badge/Solved-114%2F2328-orange?logo=leetcode)
-![image](https://img.shields.io/badge/Easy-67-green)
-![image](https://img.shields.io/badge/Medium-45-yellow)
+![image](https://img.shields.io/badge/Solved-118%2F2328-orange?logo=leetcode)
+![image](https://img.shields.io/badge/Easy-69-green)
+![image](https://img.shields.io/badge/Medium-47-yellow)
 ![image](https://img.shields.io/badge/Hard-2-red)
 
 | #    | Title | Difficulty | Related Topics |
@@ -72,6 +72,7 @@
 |  240 | [Search a 2D Matrix II](./p00240/README.md) | Medium | `Array` `Binary Search` `Divide and Conquer` `Matrix` |
 |  242 | [Valid Anagram](./p00242/README.md) | Easy | `Hash Table` `String` `Sortinggi` |
 |  268 | [Missing Number](./p00268/README.md) | Easy | `Array` `Hash Table` `Math` `Binary Search` `Bit Manipulation` `Sorting` |
+|  278 | [First Bad Version](./p00278/README.md) | Easy | `Binary Search` `Interactive` |
 |  279 | [Perfect Squares](./p00279/README.md) | Medium | `Math` `Dynamic Programming` `Breadth-First Search` |
 |  283 | [Move Zeroes](./p00283/README.md) | Easy | `Array` `Two Pointers` |
 |  315 | [Count of Smaller Numbers After Self :heart:](./p00315/README.md) | Hard | `Array` `Binary Search` `Divide and Conquer` `Binary Indexed Tree` `Segment Tree` `Merge Sort` `Ordered Set` |
