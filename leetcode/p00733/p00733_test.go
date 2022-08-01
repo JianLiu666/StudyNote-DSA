@@ -63,5 +63,13 @@ func TestQuestion(t *testing.T) {
 			copyright[i] = arr
 		}
 		ast.Equal(data.o.ans, floodFill_dfs(copyright, data.i.sr, data.i.sc, data.i.color), fmt.Sprintf("dfs case %d", idx+1))
+
+		copyright = make([][]int, len(data.i.image))
+		for i := 0; i < len(data.i.image); i++ {
+			arr := make([]int, len(data.i.image[i]))
+			copy(arr, data.i.image[i])
+			copyright[i] = arr
+		}
+		ast.Equal(data.o.ans, floodFill_bfs(copyright, data.i.sr, data.i.sc, data.i.color), fmt.Sprintf("bfs case %d", idx+1))
 	}
 }

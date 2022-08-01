@@ -59,3 +59,7 @@ Explanation:
 ### Solved using depth-first search concept
 
 用 `stack` 實現 DFS，為了確保不會因為 caller stack 造成 **stack over flow** 的問題，使用 explicit stack 的方式處理
+
+### Solved using breadth-first search concept
+
+用 `queue` 實現，只要注意每次尋訪時遇到已經處理的 `pixel` 跳過即可

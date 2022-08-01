@@ -1,5 +1,7 @@
 package p00733
 
+// Time Complexity: O(n)
+// Space Complexity: O(n)
 func floodFill_dfs(image [][]int, sr int, sc int, color int) [][]int {
 	if image[sr][sc] == color {
 		return image
@@ -11,19 +13,23 @@ func floodFill_dfs(image [][]int, sr int, sc int, color int) [][]int {
 	target := image[sr][sc]
 	for !stack.Empty() {
 		row, col := stack.Pop()
-		image[row][col] = color
+		// image[row][col] = color
 
 		if row-1 >= 0 && image[row-1][col] == target {
 			stack.Put(row-1, col)
+			image[row-1][col] = color
 		}
 		if row+1 < len(image) && image[row+1][col] == target {
 			stack.Put(row+1, col)
+			image[row+1][col] = color
 		}
 		if col-1 >= 0 && image[row][col-1] == target {
 			stack.Put(row, col-1)
+			image[row][col-1] = color
 		}
 		if col+1 < len(image[0]) && image[row][col+1] == target {
 			stack.Put(row, col+1)
+			image[row][col+1] = color
 		}
 	}
 
