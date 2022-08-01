@@ -1,9 +1,9 @@
 # Fake it till you make it
 
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
-![image](https://img.shields.io/badge/Solved-118%2F2328-orange?logo=leetcode)
+![image](https://img.shields.io/badge/Solved-121%2F2328-orange?logo=leetcode)
 ![image](https://img.shields.io/badge/Easy-69-green)
-![image](https://img.shields.io/badge/Medium-47-yellow)
+![image](https://img.shields.io/badge/Medium-50-yellow)
 ![image](https://img.shields.io/badge/Hard-2-red)
 
 | #    | Title | Difficulty | Related Topics |
@@ -31,6 +31,7 @@
 |   53 | [Maximum Subarray](./p00053/README.md) | Medium | `Array` `Divide and Conquer` `Dynamic Programming` |
 |   54 | [Spiral Matrix](./p00054/README.md) | Medium | `Array` `Matrix` `Simulation` |
 |   61 | [Rotate List](./p00061/README.md) | Medium | `Linked List` `Two Pointers` |
+|   62 | [62. Unique Paths](./p00062/README.md) | Medium | `Math` `Dynamic Programming` `Combinatorics` |
 |   66 | [Plus One](./p00066/README.md) | Easy | `Array` `Math` |
 |   67 | [Add Binary](./p00067/README.md) | Easy | `Math` `String` `Bit Manipulation` `Simulation` |
 |   69 | [Sqrt(x)](./p00069/README.md) | Easy | `Math` `Binary Search` |
