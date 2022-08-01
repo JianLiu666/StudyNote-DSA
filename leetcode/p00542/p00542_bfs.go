@@ -2,9 +2,9 @@ package p00542
 
 import "math"
 
-// Time Complexity: O()
-// Space Complexity: O(n)
-func updateMatrix(mat [][]int) [][]int {
+// Time Complexity: O(mn), where m is the length of rows, and n is the length of columns
+// Space Complexity: O(mn), where m is the length of rows, and n is the length of columns
+func updateMatrix_bfs(mat [][]int) [][]int {
 	res := make([][]int, len(mat))
 
 	// initialization

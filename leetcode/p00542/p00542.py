@@ -2,8 +2,8 @@ from typing import List
 from collections import deque
 
 class Solution:
-    # Time Complexity: O(n)
-    # Space Complexity: O(n)
+    # Time Complexity: O(mn), where m is the length of rows, and n is the length of columns
+    # Space Complexity: O(mn), where m is the length of rows, and n is the length of columns
     def updateMatrix(self, mat: List[List[int]]) -> List[List[int]]:
         res = [[float('inf') for _ in range(len(mat[0]))] for _ in range(len(mat))]
 

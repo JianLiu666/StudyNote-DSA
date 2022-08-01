@@ -1,6 +1,7 @@
 package p00542
 
 import (
+	"fmt"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
@@ -84,6 +85,7 @@ func TestQuestion(t *testing.T) {
 	}
 
 	for idx, data := range tds {
-		ast.Equal(data.o.ans, updateMatrix(data.i.mat), idx+1)
+		ast.Equal(data.o.ans, updateMatrix_bfs(data.i.mat), fmt.Sprintf("dfs: %v", idx+1))
+		ast.Equal(data.o.ans, updateMatrix_dp(data.i.mat), fmt.Sprintf("dp: %v", idx+1))
 	}
 }
