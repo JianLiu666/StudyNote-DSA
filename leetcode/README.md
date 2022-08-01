@@ -52,6 +52,7 @@
 |  151 | [Reverse Words in a String](./p00151/README.md) | Medium | `Two Pointers` `String` |
 |  155 | [Min Stack](./p00155/README.md) | Medium | `Stack` `Design` |
 |  160 | [Intersection of Two Linked Lists :heart:](./p00160/README.md) | Easy | `Hash Table` `Linked List` `Two Pointers` |
+|  162 | [Find Peak Element](./p00162/README.md) | Medium | `Array` `Binary Search` |
 |  167 | [Two Sum II - Input Array Is Sorted](./p00167/README.md) | Medium | `Array` `Two Pointers` `Binary Search` |
 |  169 | [Majority Element](./p00169/README.md) | Easy | `Array` `Hash Table` `Divide and Conquer` `Sorting` `Countint` |
 |  171 | [Excel Sheet Column Number](./p00171/README.md) | Easy | `Math` `String` |
