@@ -1,4 +1,4 @@
-[![image](https://img.shields.io/badge/Leetcode-Link-blue?logo=leetcode)](https://leetcode.com/problems/)
+[![image](https://img.shields.io/badge/Leetcode-Link-blue?logo=leetcode)](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)
 ![image](https://img.shields.io/badge/Difficulty-Easy-green)
 
 ---

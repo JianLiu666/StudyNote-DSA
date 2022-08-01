@@ -1,4 +1,4 @@
-[![image](https://img.shields.io/badge/Leetcode-Link-blue?logo=leetcode)](https://leetcode.com/problems/)
+[![image](https://img.shields.io/badge/Leetcode-Link-blue?logo=leetcode)](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
 ![image](https://img.shields.io/badge/Difficulty-Easy-green)
 
 ---
