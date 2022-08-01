@@ -26,9 +26,9 @@ Data Structures
 
 Algorithms
 
-  +---------+         +-----------+
-  | Sorting | ------> | Searching | --> keep going
-  +---------+         +-----------+
+  +---------+         +-----------+              +---------------------+
+  | Sorting | ------> | Searching | -----------> | Dynamic Programming | ---> keep going
+  +---------+         +-----------+              +---------------------+
     |                   |
     ├- Counting Sort    ├- Binary Search
     ├- Merge Sort       ├- Breadth-First Search
