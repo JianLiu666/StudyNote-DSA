@@ -95,6 +95,7 @@
 |  494 | [Target Sum](./p00494/README.md) | Medium | `Array` `Matrix` `Simulation` |
 |  498 | [Diagonal Traverse](./p00498/README.md) | Medium | `Array` `Matrix` `Simulation` |
 |  509 | [Fibonacci Number](./p00509/README.md) | Easy | `Math` `Dynamic Programming` `Recursion` `Memorization` |
+|  542 | [01 Matrix](./p00542/README.md) | Medium | `Array` `Dynamic Programming` `Breadth-First Search` `Matrix` |
 |  557 | [Reverse Words in a String III](./p00557/README.md) | Easy | `Two Pointers` `String` |
 |  561 | [Array Partition](./p00561/README.md) | Easy | `Array` `Greddy` `Sorting` `Counting Sort` |
 |  599 | [Minimum Index Sum of Two Lists](./p00599/README.md) | Easy | `Array` `Hash Table` `String` |
