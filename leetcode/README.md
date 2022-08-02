@@ -88,6 +88,7 @@
 |  349 | [Intersection of Two Arrays](./p00349/README.md) | Easy | `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting` |
 |  350 | [Intersection of Two Arrays II](./p00350/README.md) | Easy | `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting` |
 |  374 | [Guess Number Higher or Lower](./p00374/README.md) | Easy | `Binary Search` `Interactive` |
+|  378 | [Kth Smallest Element in a Sorted Matrix :heart:](./p00378/README.md) | Medium | `Array` `Binary Search` `Sorting` `Heap (Priority Queue)` `Matrix` |
 |  380 | [Insert Delete GetRandom O(1)](./p00380/README.md) | Medium | `Array` `Hash Table` `Math` `Design` `Randomized` |
 |  383 | [Ransom Note](./p00383/README.md) | Easy | `Hash Table` `String` `Counting` |
 |  387 | [First Unique Character in a String](./p00387/README.md) | Easy | `Hash Table` `String` `Queue` `Counting` |
