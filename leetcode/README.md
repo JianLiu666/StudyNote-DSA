@@ -28,6 +28,7 @@
 |   38 | [Count and Say](./p00038/README.md) | Medium | `String` |
 |   41 | [First Missing Positive :heart:](./p00041/README.md) | Hard | `Array` `Hash Table` |
 |   49 | [Group Anagrams](./p00049/README.md) | Medium | `Array` `Hash Table` `String` `Sorting` |
+|   50 | [Pow(x, n)](./p00050/README.md) | Medium | `Math` `Recursion` |
 |   53 | [Maximum Subarray](./p00053/README.md) | Medium | `Array` `Divide and Conquer` `Dynamic Programming` |
 |   54 | [Spiral Matrix](./p00054/README.md) | Medium | `Array` `Matrix` `Simulation` |
 |   61 | [Rotate List](./p00061/README.md) | Medium | `Linked List` `Two Pointers` |
