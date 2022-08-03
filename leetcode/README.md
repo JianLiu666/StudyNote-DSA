@@ -81,6 +81,7 @@
 |  278 | [First Bad Version](./p00278/README.md) | Easy | `Binary Search` `Interactive` |
 |  279 | [Perfect Squares](./p00279/README.md) | Medium | `Math` `Dynamic Programming` `Breadth-First Search` |
 |  283 | [Move Zeroes](./p00283/README.md) | Easy | `Array` `Two Pointers` |
+|  287 | [Find the Duplicate Number](./p00287/README.md) | Medium | `Array` `Two Pointers` `Binary Search` `Bit Manipulation` |
 |  315 | [Count of Smaller Numbers After Self :heart:](./p00315/README.md) | Hard | `Array` `Binary Search` `Divide and Conquer` `Binary Indexed Tree` `Segment Tree` `Merge Sort` `Ordered Set` |
 |  326 | [Power of Three](./p00326/README.md) | Easy | `Math` `Recursion` |
 |  328 | [Odd Even Linked List](./p00328/README.md) | Medium | `Linked List` |
