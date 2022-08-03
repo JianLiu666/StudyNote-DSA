@@ -3,8 +3,8 @@
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/ranking?logo=leetcode&color=orange)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/solved?difficulty=all&logo=leetcode&color=orange)
-![image](https://img.shields.io/badge/Easy-69-green)
-![image](https://img.shields.io/badge/Medium-50-yellow)
+![image](https://img.shields.io/badge/Easy-71-green)
+![image](https://img.shields.io/badge/Medium-53-yellow)
 ![image](https://img.shields.io/badge/Hard-2-red)
 
 | #    | Title | Difficulty | Related Topics |
@@ -117,6 +117,7 @@
 |  724 | [Find Pivot Index](./p00724/README.md) | Easy | `Array` `Prefix Sum` |
 |  733 | [Flood Fill](./p00733/README.md) | Easy | `Array` `Depth-First Search` `Breadth-First Search` `Matrix` |
 |  739 | [Daily Temperatures](./p00739/README.md) | Medium | `Array` `Stack` `Monotonic Stack` |
+|  744 | [Find Smallest Letter Greater Than Target](./p00744/README.md) | Easy | `Array` `Binary Search` |
 |  747 | [Largest Number At Least Twice of Others](./p00747/README.md) | Easy | `Array` `Sorting` |
 |  752 | [Open the Lock](./p00752/README.md) | Medium | `Array` `Hash Table` `String` `Breadth-First Search` |
 |  771 | [Jewels and Stones](./p00771/README.md) | Easy | `Hash Table` `String` |
