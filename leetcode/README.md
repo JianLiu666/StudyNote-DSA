@@ -5,7 +5,7 @@
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/solved?difficulty=all&logo=leetcode&color=orange)
 ![image](https://img.shields.io/badge/Easy-71-green)
 ![image](https://img.shields.io/badge/Medium-53-yellow)
-![image](https://img.shields.io/badge/Hard-2-red)
+![image](https://img.shields.io/badge/Hard-3-red)
 
 | #    | Title | Difficulty | Related Topics |
 | ---: | :---- |:---------- | :------------- |
@@ -53,7 +53,8 @@
 |  142 | [Linked List Cycle II :heart:](./p00142/README.md) | Medium | `Hash Table` `Linked List` `Two Pointers` |
 |  150 | [Evaluate Reverse Polish Notation](./p00150/README.md) | Medium | `Array` `Math` `Stack` |
 |  151 | [Reverse Words in a String](./p00151/README.md) | Medium | `Two Pointers` `String` |
-|  153 | [Find Minimum in Rotated Sorted Array](./p00153/README.md) | Medium | `Array` `Binary Search` |
+|  153 | [Find Minimum in Rotated Sorted Array :heart:](./p00153/README.md) | Medium | `Array` `Binary Search` |
+|  154 | [Find Minimum in Rotated Sorted Array II](./p00154/README.md) | Hard | `Array` `Binary Search` |
 |  155 | [Min Stack](./p00155/README.md) | Medium | `Stack` `Design` |
 |  160 | [Intersection of Two Linked Lists :heart:](./p00160/README.md) | Easy | `Hash Table` `Linked List` `Two Pointers` |
 |  162 | [Find Peak Element](./p00162/README.md) | Medium | `Array` `Binary Search` |
