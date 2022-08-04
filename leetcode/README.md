@@ -4,8 +4,8 @@
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/ranking?logo=leetcode&color=orange)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/solved?difficulty=all&logo=leetcode&color=orange)
 ![image](https://img.shields.io/badge/Easy-71-green)
-![image](https://img.shields.io/badge/Medium-53-yellow)
-![image](https://img.shields.io/badge/Hard-3-red)
+![image](https://img.shields.io/badge/Medium-55-yellow)
+![image](https://img.shields.io/badge/Hard-5-red)
 
 | #    | Title | Difficulty | Related Topics |
 | ---: | :---- |:---------- | :------------- |
@@ -118,6 +118,7 @@
 |  705 | [Design HashSet](./p00705/README.md) | Easy | `Array` `HashTable` `Linked List` `Design` `Hash Function` |
 |  706 | [Design HashMap](./p00706/README.md) | Easy | `Array` `HashTable` `Linked List` `Design` `Hash Function` |
 |  707 | [Design Linked List](./p00707/README.md) | Medium | `Linked List` `Design` |
+|  719 | [Find K-th Smallest Pair Distance](./p00719/README.md) | Hard | `Array` `Two Pointers` `Binary Search` `Sorting` |
 |  724 | [Find Pivot Index](./p00724/README.md) | Easy | `Array` `Prefix Sum` |
 |  733 | [Flood Fill](./p00733/README.md) | Easy | `Array` `Depth-First Search` `Breadth-First Search` `Matrix` |
 |  739 | [Daily Temperatures](./p00739/README.md) | Medium | `Array` `Stack` `Monotonic Stack` |

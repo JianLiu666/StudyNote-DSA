@@ -26,13 +26,13 @@ Data Structures
 
 Algorithms
 
-  +---------+         +-----------+              +---------------------+
-  | Sorting | ------> | Searching | -----------> | Dynamic Programming | ---> keep going
-  +---------+         +-----------+              +---------------------+
-    |                   |
-    ├- Counting Sort    ├- Binary Search
-    ├- Merge Sort       ├- Breadth-First Search
-    └- Bucket Sort      └- Depth-First Search
+  +---------+         +-----------+              +-----------+
+  | Sorting | ------> | Searching | -----------> | Recursion | ---> keep going
+  +---------+         +-----------+              +-----------+
+    |                   |                          |
+    ├- Counting Sort    ├- Binary Search           ├- Divide and Conquer
+    ├- Merge Sort       ├- Breadth-First Search    ├- Backtracking
+    └- Bucket Sort      └- Depth-First Search      └- Dynamic Programming
 ```
 
 ## Data Structure Notes
