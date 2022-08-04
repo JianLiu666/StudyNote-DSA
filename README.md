@@ -16,11 +16,11 @@
 ```
 Data Structures
 
-  +-------+                    +-------------+              +------------+            +---------------+
-  | Array | -----------------> | Linked List | -----------> | Hash Table | ---------> | Queue & Stack | ---> keep going
-  +-------+                    +-------------+              +------------+            +---------------+
-    |                            |                            |                         |
-    ├- Two-Pointer Techniques    ├- Two-Pointer Techniques    ├- Hash Functions         ├- Circular Queue
+  +-------+                    +-------------+              +------------+            +---------------+      +------+
+  | Array | -----------------> | Linked List | -----------> | Hash Table | ---------> | Queue & Stack | ---> | Tree | ---> keep going
+  +-------+                    +-------------+              +------------+            +---------------+      +------+
+    |                            |                            |                         |                     |
+    ├- Two-Pointer Techniques    ├- Two-Pointer Techniques    ├- Hash Functions         ├- Circular Queue     └- Binary Search Tree
     └- In-place Algorithms       └- Cycle Detection           ├- Avoiding Collisions    ├- Monotonic Stack
                                                               └- Memorization           └- Explicit Stack
 
