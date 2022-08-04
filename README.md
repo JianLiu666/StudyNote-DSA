@@ -30,9 +30,11 @@ Algorithms
   | Sorting | ------> | Searching | -----------> | Recursion | ---> keep going
   +---------+         +-----------+              +-----------+
     |                   |                          |
-    ├- Counting Sort    ├- Binary Search           ├- Divide and Conquer
-    ├- Merge Sort       ├- Breadth-First Search    ├- Backtracking
-    └- Bucket Sort      └- Depth-First Search      └- Dynamic Programming
+    ├- Counting Sort    ├- Binary Search           ├- Memoization
+    ├- Merge Sort       ├- Breadth-First Search    ├- Tail Recursion
+    └- Bucket Sort      └- Depth-First Search      ├- Divide and Conquer
+                                                   ├- Backtracking
+                                                   └- Dynamic Programming
 ```
 
 ## Data Structure Notes
