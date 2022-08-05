@@ -54,6 +54,7 @@
 |  141 | [Linked List Cycle](./p00141/README.md) | Easy | `Hash Table` `Linked List` `Two Pointers` |
 |  142 | [Linked List Cycle II :heart:](./p00142/README.md) | Medium | `Hash Table` `Linked List` `Two Pointers` |
 |  144 | [Binary Tree Preorder Traversal](./p00144/README.md) | Easy | `Stack` `Tree` `Depth-First Search` `Binary Tree` |
+|  145 | [Binary Tree Postorder Traversal](./p00145/README.md) | Easy | `Stack` `Tree` `Depth-First Search` `Binary Tree` |
 |  150 | [Evaluate Reverse Polish Notation](./p00150/README.md) | Medium | `Array` `Math` `Stack` |
 |  151 | [Reverse Words in a String](./p00151/README.md) | Medium | `Two Pointers` `String` |
 |  153 | [Find Minimum in Rotated Sorted Array :heart:](./p00153/README.md) | Medium | `Array` `Binary Search` |
