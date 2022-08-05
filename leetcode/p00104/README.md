@@ -41,5 +41,46 @@ Output: 2
 
 # 解題方向
 
-BFS 暖身題
+### Solved using Breadth-First Search concept
 
+BFS 暖身題，`Queue` 解決
+
+### Solved using Recursion concept
+
+**Top-down solution**
+
+核心程式碼片段
+
+```go
+func helper(node *TreeNode, depth int, maximum *int) {
+    if node == nil {
+        return
+    }
+
+    if depth > *maximum {
+        *maximum = depth
+    }
+
+    helper(node.Left, depth+1, maximum)
+    helper(node.Right, depth+1, maximum)
+}
+```
+
+**Bottom-up solution**
+
+```go
+func helper(node *TreeNode, depth int) int {
+    if node == nil {
+        return depth
+    }
+
+    return max(helper(node.Left, depth+1), helper(node.Right, depth+1))
+}
+
+func max(a, b int) int {
+    if a > b {
+        return a
+    }
+    return b
+}
+```

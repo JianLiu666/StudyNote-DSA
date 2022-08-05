@@ -8,7 +8,7 @@ type TreeNode struct {
 
 // Time Complexity: O(n)
 // Space Complexity: O(n)
-func maxDepth(root *TreeNode) int {
+func maxDepth_bfs(root *TreeNode) int {
 	if root == nil {
 		return 0
 	}
