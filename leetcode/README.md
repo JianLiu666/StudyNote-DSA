@@ -43,6 +43,7 @@
 |   88 | [Merge Sorted Array](./p00088/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
 |   92 | [Reverse Linked List II](./p00092/README.md) | Medium | `Linked List` |
 |   94 | [Binary Tree Inorder Traversal](./p00094/README.md) | Easy | `Stack` `Tree` `Depth-First Search` `Binary Tree` |
+|  101 | [Symmetric Tree](./p00101/README.md) | Easy | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
 |  102 | [Binary Tree Level Order Traversal](./p00102/README.md) | Medium | `Tree` `Breadth-First Search` `Binary Tree` |
 |  104 | [Maximum Depth of Binary Tree](./p00104/README.md) | Easy | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
 |  114 | [Flatten Binary Tree to Linked List](./p00114/README.md) | Medium | `Linked List` `Stack` `Tree` `Depth-First Search` `Binary Tree` |
