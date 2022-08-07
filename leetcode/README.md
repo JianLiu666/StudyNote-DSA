@@ -46,6 +46,7 @@
 |  101 | [Symmetric Tree](./p00101/README.md) | Easy | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
 |  102 | [Binary Tree Level Order Traversal](./p00102/README.md) | Medium | `Tree` `Breadth-First Search` `Binary Tree` |
 |  104 | [Maximum Depth of Binary Tree](./p00104/README.md) | Easy | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
+|  105 | [Construct Binary Tree from Preorder and Inorder Traversal](./p00105/README.md) | Medium | `Array` `Hash Table` `Divide and Conquer` `Tree` `Binary Tree` |
 |  106 | [Construct Binary Tree from Inorder and Postorder Traversal](./p00106/README.md) | Medium | `Array` `Hash Table` `Divide and Conquer` `Tree` `Binary Tree` |
 |  112 | [Path Sum](./p00112/README.md) | Easy | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
 |  114 | [Flatten Binary Tree to Linked List](./p00114/README.md) | Medium | `Linked List` `Stack` `Tree` `Depth-First Search` `Binary Tree` |
