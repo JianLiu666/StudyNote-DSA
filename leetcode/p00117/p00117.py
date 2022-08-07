@@ -11,7 +11,7 @@ class Node:
 class Solution:
     # Time Complexity: O(n)
     # Space Complexity: O(n)
-    def connect_bfs(self, root: 'Optional[Node]') -> 'Optional[Node]':
+    def connect(self, root: 'Optional[Node]') -> 'Optional[Node]':
 
         def putNodes(q: deque, node: 'Optional[Node]'):
             if node.left:
@@ -36,22 +36,4 @@ class Solution:
                 putNodes(q, right)
                 left = right
         
-        return root
-
-    # Time Complexity: O(n)
-    # Space Complexity: O(n), where n is the implicit call stack
-    def connect_recursion(self, root: 'Optional[Node]') -> 'Optional[Node]':
-        def helper(left: 'Optional[Node]', right: 'Optional[Node]'):
-            if not left or not right:
-                return
-            
-            left.next = right
-            helper(left.left, left.right)
-            helper(left.right, right.left)
-            helper(right.left, right.right)
-
-        if not root:
-            return root
-        
-        helper(root.left, root.right)
         return root
