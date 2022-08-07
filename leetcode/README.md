@@ -4,8 +4,8 @@
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/ranking?logo=leetcode&color=orange)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/solved?difficulty=all&logo=leetcode&color=orange)
 ![image](https://img.shields.io/badge/Easy-77-green)
-![image](https://img.shields.io/badge/Medium-59-yellow)
-![image](https://img.shields.io/badge/Hard-6-red)
+![image](https://img.shields.io/badge/Medium-62-yellow)
+![image](https://img.shields.io/badge/Hard-7-red)
 
 | #    | Title | Difficulty | Related Topics |
 | ---: | :---- |:---------- | :------------- |
@@ -50,6 +50,7 @@
 |  106 | [Construct Binary Tree from Inorder and Postorder Traversal](./p00106/README.md) | Medium | `Array` `Hash Table` `Divide and Conquer` `Tree` `Binary Tree` |
 |  112 | [Path Sum](./p00112/README.md) | Easy | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
 |  114 | [Flatten Binary Tree to Linked List](./p00114/README.md) | Medium | `Linked List` `Stack` `Tree` `Depth-First Search` `Binary Tree` |
+|  116 | [Populating Next Right Pointers in Each Node](./p00116/README.md) | Medium | `Linked List` `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
 |  118 | [Pascal's Triangle](./p00118/README.md) | Easy | `Arary` `Dynamic Programming` |
 |  119 | [Pascal's Triangle II :heart:](./p00119/README.md) | Easy | `Arary` `Dynamic Programming` |
 |  121 | [Bets Time to Buy and Sell Stock](./p00121/README.md) | Easy | `Array` `Dynamic Programming` |
