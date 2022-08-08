@@ -55,4 +55,12 @@ Output: 68
 
 # 解題方向
 
+### Solved using Dynamic Programming concept
+
 跟經典的上樓梯問題其實很像，每一次的子問題都只跟上一次的結果有關，因此我們只需要給定一個 `fixed array` 來儲存 `a,e,i,o,u` 每一次的變化持續累加即可
+
+### Soved using Matrix concept
+
+透過矩陣快速冪方式實現
+
+施工中 ...
