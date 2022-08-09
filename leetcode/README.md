@@ -85,6 +85,7 @@
 |  225 | [Implement Stack using Queues](./p00225/README.md) | Easy | `Stack` `Design` `Queue` |
 |  232 | [Implement Queue using Stacks](./p00232/README.md) | Easy | `Stack` `Design` `Queue` |
 |  234 | [Palindrome Linked List](./p00234/README.md) | Easy | `Linked List` `Two Pointers` `Stack` `Recursion` |
+|  236 | [Lowest Common Ancestor of a Binary Tree](./p00236/README.md) | Medium | `Tree` `Depth-First Search` `Binary Tree` |
 |  237 | [Delete Node in a Linked List](./p00237/README.md) | Easy | `Linked List` |
 |  240 | [Search a 2D Matrix II](./p00240/README.md) | Medium | `Array` `Binary Search` `Divide and Conquer` `Matrix` |
 |  242 | [Valid Anagram](./p00242/README.md) | Easy | `Hash Table` `String` `Sortinggi` |
