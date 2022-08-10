@@ -3,9 +3,9 @@
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/ranking?logo=leetcode&color=orange)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/solved?difficulty=all&logo=leetcode&color=orange)
-![image](https://img.shields.io/badge/Easy-77-green)
-![image](https://img.shields.io/badge/Medium-62-yellow)
-![image](https://img.shields.io/badge/Hard-7-red)
+![image](https://img.shields.io/badge/Easy-78-green)
+![image](https://img.shields.io/badge/Medium-67-yellow)
+![image](https://img.shields.io/badge/Hard-8-red)
 
 | #    | Title | Difficulty | Related Topics |
 | ---: | :---- |:---------- | :------------- |
@@ -43,6 +43,7 @@
 |   88 | [Merge Sorted Array](./p00088/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
 |   92 | [Reverse Linked List II](./p00092/README.md) | Medium | `Linked List` |
 |   94 | [Binary Tree Inorder Traversal](./p00094/README.md) | Easy | `Stack` `Tree` `Depth-First Search` `Binary Tree` |
+|   98 | [Validate Binary Search Tree](./p00098/README.md) | Medium | `Tree` `Depth-First Search` `Binary Search Tree` `Binary Tree` |
 |  101 | [Symmetric Tree](./p00101/README.md) | Easy | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
 |  102 | [Binary Tree Level Order Traversal](./p00102/README.md) | Medium | `Tree` `Breadth-First Search` `Binary Tree` |
 |  104 | [Maximum Depth of Binary Tree](./p00104/README.md) | Easy | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
