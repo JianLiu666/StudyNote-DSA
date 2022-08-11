@@ -12,24 +12,15 @@ func isValidBST(root *TreeNode) bool {
 	res := []int{}
 
 	s := CreateStrack()
-	s.Put(root)
+	for root != nil || !s.Empty() {
+		for root != nil {
+			s.Put(root)
+			root = root.Left
+		}
 
-	memo := map[*TreeNode]bool{}
-	for !s.Empty() {
-		node := s.Pop()
-		if node.Left == nil || memo[node.Left] {
-			res = append(res, node.Val)
-		}
-		if !memo[node] {
-			memo[node] = true
-			if node.Right != nil {
-				s.Put(node.Right)
-			}
-			if node.Left != nil {
-				s.Put(node)
-				s.Put(node.Left)
-			}
-		}
+		root = s.Pop()
+		res = append(res, root.Val)
+		root = root.Right
 	}
 
 	for i := 1; i < len(res); i++ {
