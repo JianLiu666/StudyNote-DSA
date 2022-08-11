@@ -119,6 +119,7 @@
 |  414 | [Third Maximum Number](./p00414/README.md) | Easy | `Array` `Sorting` |
 |  430 | [Flatten a Multilevel Doubly Linked List](./p00430/README.md) | Medium | `Linked List` `Depth-First Search` `Doubly Linked List` |
 |  448 | [Find All Numbers Disappeared in an Array](./p00448/README.md) | Easy | `Array` `Hash Table` |
+|  450 | [Delete Node in a BST](./p00450/README.md) | Medium | `Tree` `Binary Search Tree` `Binary Tree` |
 |  454 | [4Sum II](./p00454/README.md) | Medium | `Array` `Hash Table` |
 |  485 | [Max Consecutive Ones](./p00485/README.md) | Easy | `Array` |
 |  494 | [Target Sum](./p00494/README.md) | Medium | `Array` `Matrix` `Simulation` |
