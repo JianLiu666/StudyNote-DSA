@@ -132,6 +132,7 @@
 |  652 | [Find Duplicate Subtrees](./p00652/README.md) | Medium | `Hash Table` `Tree` `Depth-First Search` `Binary Tree` |
 |  658 | [Find K Closest Elements :heart:](./p00658/README.md) | Medium | `Array` `Two Pointers` `Binary Search` `Sorting` `Heap (Priority Queue)` |
 |  700 | [Search in a Binary Search Tree](./p00700/README.md) | Easy | `Tree` `Binary Search Tree` `Binary Tree` |
+|  701 | [Insert into a Binary Search Tree](./p00701/README.md) | Medium | `Tree` `Binary Search Tree` `Binary Tree` |
 |  704 | [Binary Search](./p00704/README.md) | Easy | `Array` `Binary Search` |
 |  705 | [Design HashSet](./p00705/README.md) | Easy | `Array` `HashTable` `Linked List` `Design` `Hash Function` |
 |  706 | [Design HashMap](./p00706/README.md) | Easy | `Array` `HashTable` `Linked List` `Design` `Hash Function` |
