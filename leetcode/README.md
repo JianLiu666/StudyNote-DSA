@@ -3,8 +3,8 @@
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/ranking?logo=leetcode&color=orange)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/solved?difficulty=all&logo=leetcode&color=orange)
-![image](https://img.shields.io/badge/Easy-78-green)
-![image](https://img.shields.io/badge/Medium-67-yellow)
+![image](https://img.shields.io/badge/Easy-80-green)
+![image](https://img.shields.io/badge/Medium-70-yellow)
 ![image](https://img.shields.io/badge/Hard-8-red)
 
 | #    | Title | Difficulty | Related Topics |
@@ -50,6 +50,7 @@
 |  105 | [Construct Binary Tree from Preorder and Inorder Traversal](./p00105/README.md) | Medium | `Array` `Hash Table` `Divide and Conquer` `Tree` `Binary Tree` |
 |  106 | [Construct Binary Tree from Inorder and Postorder Traversal](./p00106/README.md) | Medium | `Array` `Hash Table` `Divide and Conquer` `Tree` `Binary Tree` |
 |  108 | [Convert Sorted Array to Binary Search Tree](./p00108/README.md) | Easy | `Array` `Divide and Conquer` `Tree` `Binary Search Tree` `Binary Tree` |
+|  110 | [Balanced Binary Tree](./p00110/README.md) | Easy | `Tree` `Depth-First Search` `Binary Tree` |
 |  112 | [Path Sum](./p00112/README.md) | Easy | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
 |  114 | [Flatten Binary Tree to Linked List](./p00114/README.md) | Medium | `Linked List` `Stack` `Tree` `Depth-First Search` `Binary Tree` |
 |  116 | [Populating Next Right Pointers in Each Node](./p00116/README.md) | Medium | `Linked List` `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
