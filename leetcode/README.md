@@ -24,6 +24,7 @@
 |   26 | [Remove Duplicates from Sorted Array](./p00026/README.md) | Easy | `Array` `Two Pointers` |
 |   27 | [Remove Element](./p00027/README.md) | Easy | `Array` `Two Pointers` |
 |   28 | [Implement strStr()](./p00028/README.md) | Easy | `Two Pointers` `String` `String Matching` |
+|   30 | [Substring with Concatenation of All Words](./p00030/README.md) | Hard | `Hash Table` `String` `Sliding Window` |
 |   33 | [Search in Rotated Sorted Array](./p00033/README.md) | Medium | `Array` `Binary Search` |
 |   34 | [Find First and Last Position of Element in Sorted Array](./p00034/README.md) | Medium | `Array` `Binary Search` |
 |   36 | [Valid Sudoku](./p00036/README.md) | Medium | `Array` `Hash Table` `Matrix` |
