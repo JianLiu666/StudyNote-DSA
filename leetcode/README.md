@@ -44,6 +44,7 @@
 |   92 | [Reverse Linked List II](./p00092/README.md) | Medium | `Linked List` |
 |   94 | [Binary Tree Inorder Traversal](./p00094/README.md) | Easy | `Stack` `Tree` `Depth-First Search` `Binary Tree` |
 |   98 | [Validate Binary Search Tree](./p00098/README.md) | Medium | `Tree` `Depth-First Search` `Binary Search Tree` `Binary Tree` |
+|  100 | [Same Tree](./p00100/README.md) | Easy | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
 |  101 | [Symmetric Tree](./p00101/README.md) | Easy | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
 |  102 | [Binary Tree Level Order Traversal](./p00102/README.md) | Medium | `Tree` `Breadth-First Search` `Binary Tree` |
 |  104 | [Maximum Depth of Binary Tree](./p00104/README.md) | Easy | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
