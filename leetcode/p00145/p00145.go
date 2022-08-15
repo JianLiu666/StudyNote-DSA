@@ -15,23 +15,21 @@ func postorderTraversal(root *TreeNode) []int {
 	}
 
 	s := CreateStack()
-	s.Put(root)
-
-	memo := map[*TreeNode]bool{}
-	for !s.Empty() {
-		node := s.Pop()
-
-		if (node.Left == nil || memo[node.Left]) && (node.Right == nil || memo[node.Right]) {
-			memo[node] = true
-			res = append(res, node.Val)
-		} else {
-			s.Put(node)
-			if node.Left != nil && !memo[node.Left] {
-				s.Put(node.Left)
-			} else if node.Right != nil && !memo[node.Right] {
-				s.Put(node.Right)
-			}
+	for root != nil || !s.Empty() {
+		for root != nil {
+			res = append(res, root.Val)
+			s.Put(root)
+			root = root.Right
 		}
+		root = s.Pop()
+		root = root.Left
+	}
+
+	head, tail := 0, len(res)-1
+	for head < tail {
+		res[head], res[tail] = res[tail], res[head]
+		head++
+		tail--
 	}
 
 	return res

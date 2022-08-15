@@ -15,22 +15,14 @@ func inorderTraversal(root *TreeNode) []int {
 	}
 
 	s := CreateStack()
-	s.Put(root)
-
-	visited := map[*TreeNode]bool{}
-	for !s.IsEmpty() {
-		node := s.Pop()
-
-		if node.Left != nil && !visited[node.Left] {
-			s.Put(node)
-			s.Put(node.Left)
-		} else {
-			res = append(res, node.Val)
-			visited[node] = true
-			if node.Right != nil && !visited[node.Right] {
-				s.Put(node.Right)
-			}
+	for root != nil || !s.IsEmpty() {
+		for root != nil {
+			s.Put(root)
+			root = root.Left
 		}
+		root = s.Pop()
+		res = append(res, root.Val)
+		root = root.Right
 	}
 
 	return res

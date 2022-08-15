@@ -15,17 +15,14 @@ func preorderTraversal(root *TreeNode) []int {
 	}
 
 	s := CreateStack()
-	s.Put(root)
-
-	for !s.Empty() {
-		node := s.Pop()
-		res = append(res, node.Val)
-		if node.Right != nil {
-			s.Put(node.Right)
+	for root != nil || !s.Empty() {
+		for root != nil {
+			res = append(res, root.Val)
+			s.Put(root)
+			root = root.Left
 		}
-		if node.Left != nil {
-			s.Put(node.Left)
-		}
+		root = s.Pop()
+		root = root.Right
 	}
 
 	return res

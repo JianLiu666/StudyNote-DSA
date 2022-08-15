@@ -14,19 +14,14 @@ class Solution:
         if not root:
             return res
         
-        visited = set()
-        stack = [root]
-        while len(stack) > 0:
-            node = stack.pop()
-
-            if node.left and node.left not in visited:
-                stack.append(node)
-                stack.append(node.left)
-            else:
-                res.append(node.val)
-                visited.add(node)
-                if node.right and node.right not in visited:
-                    stack.append(node.right)
+        stack = []
+        while root or len(stack) > 0:
+            while root:
+                stack.append(root)
+                root = root.left
+            root = stack.pop()
+            res.append(root.val)
+            root = root.right
         
         return res
 

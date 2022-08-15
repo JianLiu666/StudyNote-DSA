@@ -14,13 +14,13 @@ class Solution:
         if not root:
             return res
 
-        stack = [root]
-        while len(stack) > 0:
-            node = stack.pop()
-            res.append(node.val)
-            if node.right:
-                stack.append(node.right)
-            if node.left:
-                stack.append(node.left)
+        stack = []
+        while root or len(stack) > 0:
+            while root:
+                res.append(root.val)
+                stack.append(root)
+                root = root.left
+            root = stack.pop()
+            root = root.right
 
         return res
