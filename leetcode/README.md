@@ -135,6 +135,7 @@
 |  557 | [Reverse Words in a String III](./p00557/README.md) | Easy | `Two Pointers` `String` |
 |  561 | [Array Partition](./p00561/README.md) | Easy | `Array` `Greddy` `Sorting` `Counting Sort` |
 |  566 | [Reshape the Matrix](./p00566/README.md) | Easy | `Array` `Matrix` `Simulation` |
+|  589 | [N-ary Tree Preorder Traversal](./p00589/README.md) | Easy | `Stack` `Tree` `Depth-First Search` |
 |  599 | [Minimum Index Sum of Two Lists](./p00599/README.md) | Easy | `Array` `Hash Table` `String` |
 |  622 | [Design Circular Queue](./p00622/README.md) | Medium | `Array` `Linked List` `Design` `Queue` |
 |  652 | [Find Duplicate Subtrees](./p00652/README.md) | Medium | `Hash Table` `Tree` `Depth-First Search` `Binary Tree` |
