@@ -47,4 +47,4 @@ Recursive solution is trivial, could you do it iteratively?
 
 # 解題方向
 
-施工中 ...
+DFS 暖身題，跟一般的 BST **post-order traversal** 做法一樣，差別在改成對 `children array` 處理而已

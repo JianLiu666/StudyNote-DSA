@@ -41,5 +41,5 @@ Output: [[1],[2,3,4,5],[6,7,8,9,10],[11,12,13],[14]]
 
 # 解題方向
 
-施工中 ...
+BFS 暖身題，跟一般的 BST level-order traversal 做法一樣，差別在改成對 `children array` 處理而已
 

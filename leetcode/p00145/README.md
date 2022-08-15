@@ -50,4 +50,4 @@ Recursive solution is trivial, could you do it iteratively?
 
 # 解題方向
 
-施工中 ...
+DFS 暖身題，trikcy 一點的解法是對 BST 由右至左遍歷後，在把要輸出的 `array` 頭尾反轉過來之後就是 **postorder** 了

@@ -44,4 +44,4 @@ Output: 5
 
 # 解題方向
 
-施工中 ...
+BFS 暖身題，跟 level-order traversal 的想法一樣，差別在多紀錄 `depth` 而已
