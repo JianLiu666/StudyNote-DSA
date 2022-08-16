@@ -3,9 +3,9 @@
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/ranking?logo=leetcode&color=orange)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/solved?difficulty=all&logo=leetcode&color=orange)
-![image](https://img.shields.io/badge/Easy-80-green)
-![image](https://img.shields.io/badge/Medium-70-yellow)
-![image](https://img.shields.io/badge/Hard-8-red)
+![image](https://img.shields.io/badge/Easy-88-green)
+![image](https://img.shields.io/badge/Medium-72-yellow)
+![image](https://img.shields.io/badge/Hard-9-red)
 
 | #    | Title | Difficulty | Related Topics |
 | ---: | :---- |:---------- | :------------- |
@@ -40,6 +40,7 @@
 |   67 | [Add Binary](./p00067/README.md) | Easy | `Math` `String` `Bit Manipulation` `Simulation` |
 |   69 | [Sqrt(x)](./p00069/README.md) | Easy | `Math` `Binary Search` |
 |   70 | [Climbing Stairs](./p00070/README.md) | Easy | `Math` `Dynamic Programming` `Memorization` |
+|   74 | [Search a 2D Matrix](./p00074/README.md) | Medium | `Array` `Binary Search` `Matrix` |
 |   86 | [Partition List](./p00086/README.md) | Medium | `Linked List` `Two Pointers` |
 |   88 | [Merge Sorted Array](./p00088/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
 |   92 | [Reverse Linked List II](./p00092/README.md) | Medium | `Linked List` |
