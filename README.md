@@ -34,8 +34,8 @@ Algorithms
     |                    |                          |
     ├- Bubble Sort       ├- Binary Search           ├- Memoization
     ├- Insertion Sort    ├- Breadth-First Search    ├- Tail Recursion
-    ├- Selection Sort    └- Depth-First Search      ├- Divide and Conquer
-    ├- Counting Sort                                ├- Backtracking
+    ├- Selection Sort    └- Depth-First Search      ├- Backtracking
+    ├- Counting Sort                                ├- Divide and Conquer
     ├- Merge Sort                                   └- Dynamic Programming
     └- Bucket Sort    
 ```

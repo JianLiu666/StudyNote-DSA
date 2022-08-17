@@ -163,6 +163,7 @@
 |  752 | [Open the Lock](./p00752/README.md) | Medium | `Array` `Hash Table` `String` `Breadth-First Search` |
 |  771 | [Jewels and Stones](./p00771/README.md) | Easy | `Hash Table` `String` |
 |  779 | [K-th Symbol in Grammar](./p00779/README.md) | Medium | `Math` `Bit Manipulation` `Recursion` |
+|  804 | [Unique Morse Code Words](./p00804/README.md) | Easy | `Array` `Hash Table` `String` |
 |  823 | [Binary Trees With Factors](./p00823/README.md) | Medium | `Array` `Hash Table` `Dynamic Programming` |
 |  841 | [Keys and Rooms](./p00841/README.md) | Medium | `Depth-First Search` `Breadth-First Search` `Graph` |
 |  876 | [Middle of the Linked List](./p00876/README.md) | Easy | `Linked List` `Two Pointers` |
