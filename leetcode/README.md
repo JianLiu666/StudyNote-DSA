@@ -181,3 +181,4 @@
 | 1346 | [Check If N and Its Double Exist](./p01346/README.md) | Easy | `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting` |
 | 1480 | [Running Sum of 1d Array](./p01480/README.md) | Easy | `Array` `Prefix Sum` |
 | 1689 | [Partitioning Into Minimum Number Of Deci-Binary Numbers](./p01689/README.md) | Medium | `String` `Greedy` |
+| 2367 | [Number of Arithmetic Triplets](./p02367/README.md) | Medium | `Array` `Hash Table` `Two Pointers` `Enumeration` |
