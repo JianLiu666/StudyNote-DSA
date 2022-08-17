@@ -28,16 +28,16 @@ Data Structures
 
 Algorithms
 
-  +---------+          +-----------+              +-----------+
-  | Sorting | -------> | Searching | -----------> | Recursion | ---> keep going
-  +---------+          +-----------+              +-----------+
-    |                    |                          |
-    ├- Bubble Sort       ├- Binary Search           ├- Memoization
-    ├- Insertion Sort    ├- Breadth-First Search    ├- Tail Recursion
-    ├- Selection Sort    └- Depth-First Search      ├- Backtracking
-    ├- Counting Sort                                ├- Divide and Conquer
-    ├- Merge Sort                                   └- Dynamic Programming
-    └- Bucket Sort    
+  +---------+          +-----------+              +-----------+            +---------------------+
+  | Sorting | -------> | Searching | -----------> | Recursion | ---------> | Dynamic Programming | ---> keep going
+  +---------+          +-----------+              +-----------+            +---------------------+
+    |                    |                          |                        |
+    ├- Bubble Sort       ├- Binary Search           ├- Memoization           ├- Top-down
+    ├- Insertion Sort    ├- Breadth-First Search    ├- Tail Recursion        └- Bottom-up
+    ├- Selection Sort    └- Depth-First Search      ├- Enumeration
+    ├- Counting Sort                                ├- Backtracking
+    ├- Merge Sort                                   └- Divide and Conquer
+    └- Bucket Sort
 ```
 
 ## Data Structure Notes
