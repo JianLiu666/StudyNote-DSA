@@ -181,5 +181,6 @@
 | 1346 | [Check If N and Its Double Exist](./p01346/README.md) | Easy | `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting` |
 | 1480 | [Running Sum of 1d Array](./p01480/README.md) | Easy | `Array` `Prefix Sum` |
 | 1689 | [Partitioning Into Minimum Number Of Deci-Binary Numbers](./p01689/README.md) | Medium | `String` `Greedy` |
+| 1925 | [Count Square Sum Triples](./p01925/README.md) | Easy | `Math` `Enumeration` |
 | 2309 | [Greatest English Letter in Upper and Lower Case](./p02309/README.md) | Easy | `Hash Table` `String` `Enumeration` |
 | 2367 | [Number of Arithmetic Triplets](./p02367/README.md) | Easy | `Array` `Hash Table` `Two Pointers` `Enumeration` |
