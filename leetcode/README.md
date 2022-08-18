@@ -98,6 +98,7 @@
 |  237 | [Delete Node in a Linked List](./p00237/README.md) | Easy | `Linked List` |
 |  240 | [Search a 2D Matrix II](./p00240/README.md) | Medium | `Array` `Binary Search` `Divide and Conquer` `Matrix` |
 |  242 | [Valid Anagram](./p00242/README.md) | Easy | `Hash Table` `String` `Sortinggi` |
+|  257 | [Binary Tree Paths](./p00257/README.md) | Easy | `String` `Backtracking` `Tree` `Depth-First Search` `Binary Tree` |
 |  268 | [Missing Number](./p00268/README.md) | Easy | `Array` `Hash Table` `Math` `Binary Search` `Bit Manipulation` `Sorting` |
 |  278 | [First Bad Version](./p00278/README.md) | Easy | `Binary Search` `Interactive` |
 |  279 | [Perfect Squares](./p00279/README.md) | Medium | `Math` `Dynamic Programming` `Breadth-First Search` |
