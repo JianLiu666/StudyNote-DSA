@@ -81,6 +81,7 @@
 |  171 | [Excel Sheet Column Number](./p00171/README.md) | Easy | `Math` `String` |
 |  173 | [Binary Search Tree Iterator](./p00173/README.md) | Medium | `Stack` `Tree` `Design` `Binary Search Tree` `Binary Tree` `Iterator` |
 |  189 | [Rotate Array](./p00189/README.md) | Medium | `Array` `Math` `Two Pointers` |
+|  191 | [Number of 1 Bits](./p00191/README.md) | Easy | `Divide and Conquer` `Bit Manipulation` |
 |  198 | [House Robber](./p00198/README.md) | Medium | `Array` `Dynamic Programming` |
 |  200 | [Number of Islands](./p00200/README.md) | Medium | `Array` `Depth-First Search` `Breadth-First Search` `Union Find` `Matrix` |
 |  202 | [Happy Number](./p00202/README.md) | Easy | `Hash Table` `Math` `Two Pointers` |
