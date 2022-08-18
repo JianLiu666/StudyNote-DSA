@@ -36,8 +36,8 @@ Algorithms
     ├- Insertion Sort    ├- Breadth-First Search    ├- Tail Recursion        └- Bottom-up
     ├- Selection Sort    └- Depth-First Search      ├- Enumeration
     ├- Counting Sort                                ├- Backtracking
-    ├- Merge Sort                                   └- Divide and Conquer
-    └- Bucket Sort
+    ├- Merge Sort                                   ├- Branch and Bound
+    └- Bucket Sort                                  └- Divide and Conquer
 ```
 
 ## Data Structure Notes
