@@ -3,8 +3,8 @@
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/ranking?logo=leetcode&color=orange)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/solved?difficulty=all&logo=leetcode&color=orange)
-![image](https://img.shields.io/badge/Easy-88-green)
-![image](https://img.shields.io/badge/Medium-72-yellow)
+![image](https://img.shields.io/badge/Easy-98-green)
+![image](https://img.shields.io/badge/Medium-75-yellow)
 ![image](https://img.shields.io/badge/Hard-9-red)
 
 | #    | Title | Difficulty | Related Topics |
@@ -174,6 +174,7 @@
 |  941 | [Valid Mountain Array](./p00941/README.md) | Easy | `Array` |
 |  977 | [Squares of a Sorted Array](./p00977/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
 | 1051 | [Height Checker](./p01051/README.md) | Easy | `Array` `Sorting` `Counting Sort` |
+| 1079 | [Letter Tile Possibilities](./p01079/README.md) | Medium | `String` `Backtracking` |
 | 1089 | [Duplicate Zeros](./p01089/README.md) | Easy | `Array` `Two Pointers` |
 | 1220 | [Count Vowels Permutation](./p01220/README.md) | Hard | `Dynamic Programming` |
 | 1295 | [Find Numbers with Even Number of Digits](./p01295/README.md) | Easy | `Array` |
