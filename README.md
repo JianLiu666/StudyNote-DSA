@@ -35,10 +35,10 @@ Algorithms
     ├- Bubble Sort       ├- Binary Search           ├- Memoization           ├- Top-down
     ├- Insertion Sort    ├- Breadth-First Search    ├- Recursion             └- Bottom-up
     ├- Selection Sort    └- Depth-First Search      ├- Tail Recursion    
-    ├- Counting Sort                                ├- Enumeration       
+    ├- Quick Sort                                   ├- Enumeration       
     ├- Merge Sort                                   ├- Backtracking      
-    └- Bucket Sort                                  ├- Branch and Bound  
-                                                    └- Divide and Conquer
+    ├- Counting Sort                                ├- Branch and Bound  
+    └- Bucket Sort                                  └- Divide and Conquer
 ```
 
 ## Data Structure Notes
