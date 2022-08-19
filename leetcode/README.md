@@ -41,6 +41,7 @@
 |   69 | [Sqrt(x)](./p00069/README.md) | Easy | `Math` `Binary Search` |
 |   70 | [Climbing Stairs](./p00070/README.md) | Easy | `Math` `Dynamic Programming` `Memorization` |
 |   74 | [Search a 2D Matrix](./p00074/README.md) | Medium | `Array` `Binary Search` `Matrix` |
+|   83 | [Remove Duplicates from Sorted List](./p00083/README.md) | Easy | `Linked List` |
 |   86 | [Partition List](./p00086/README.md) | Medium | `Linked List` `Two Pointers` |
 |   88 | [Merge Sorted Array](./p00088/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
 |   92 | [Reverse Linked List II](./p00092/README.md) | Medium | `Linked List` |
