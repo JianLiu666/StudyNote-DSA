@@ -111,6 +111,7 @@
 |  315 | [Count of Smaller Numbers After Self :heart:](./p00315/README.md) | Hard | `Array` `Binary Search` `Divide and Conquer` `Binary Indexed Tree` `Segment Tree` `Merge Sort` `Ordered Set` |
 |  326 | [Power of Three](./p00326/README.md) | Easy | `Math` `Recursion` |
 |  328 | [Odd Even Linked List](./p00328/README.md) | Medium | `Linked List` |
+|  342 | [Power of Four](./p00342/README.md) | Easy | `Math` `Bit Manipulation` `Recursion` |
 |  344 | [Reverse String](./p00344/README.md) | Easy | `Two Pointers` `String` `Recursion` |
 |  347 | [Top K Frequent Elements](./p00347/README.md) | Medium | `Array` `Hash Table` `Divide and Conquer` `Sorting` `Heap (Priority Queue)` `Bucket Sort` `Counting` `Quickselect` |
 |  349 | [Intersection of Two Arrays](./p00349/README.md) | Easy | `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting` |
