@@ -172,6 +172,7 @@
 |  804 | [Unique Morse Code Words](./p00804/README.md) | Easy | `Array` `Hash Table` `String` |
 |  823 | [Binary Trees With Factors](./p00823/README.md) | Medium | `Array` `Hash Table` `Dynamic Programming` |
 |  841 | [Keys and Rooms](./p00841/README.md) | Medium | `Depth-First Search` `Breadth-First Search` `Graph` |
+|  875 | [Koko Eating Bananas](./p00875/README.md) | Medium | `Array` `Binary Searh` |
 |  876 | [Middle of the Linked List](./p00876/README.md) | Easy | `Linked List` `Two Pointers` |
 |  890 | [Find and Replace Pattern](./p00890/README.md) | Medium | `Array` `Hash Table` `String` |
 |  905 | [Sort Array By Parity](./p00905/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
