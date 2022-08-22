@@ -23,6 +23,7 @@ Data Structures
     ├- Two-Pointer Techniques    ├- Two-Pointer Techniques    ├- Hash Functions         ├- Circular Queue     ├- Tree Traversals
     └- In-place Algorithms       └- Cycle Detection           └- Avoiding Collisions    ├- Monotonic Stack    ├- Binary Tree
                                                                                         └- Explicit Stack     ├- Binary Search Tree
+                                                                                                              ├- Binary Heap Tree
                                                                                                               ├- N-ary Tree
                                                                                                               └- Trie
 
@@ -38,7 +39,9 @@ Algorithms
     ├- Quick Sort                                   ├- Enumeration       
     ├- Merge Sort                                   ├- Backtracking      
     ├- Counting Sort                                ├- Branch and Bound  
-    └- Bucket Sort                                  └- Divide and Conquer
+    ├- Bucket Sort                                  └- Divide and Conquer
+    ├- Tree Sort
+    └- Heap Sort
 ```
 
 ## Data Structure Notes
