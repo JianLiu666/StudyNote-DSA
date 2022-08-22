@@ -5,6 +5,7 @@ import (
 	"strings"
 )
 
+// Using Array to implement Binary Search Tree
 type BSTArray struct {
 	bst []int
 }
