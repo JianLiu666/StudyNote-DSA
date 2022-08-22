@@ -8,7 +8,7 @@ type TreeNode struct {
 
 // Time Complexity: O(n)
 // Space Complexity: O(n)
-func isValidBST(root *TreeNode) bool {
+func isValidBST_inorder(root *TreeNode) bool {
 	res := []int{}
 
 	s := CreateStrack()

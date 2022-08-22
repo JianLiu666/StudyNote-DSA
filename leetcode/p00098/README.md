@@ -56,4 +56,3 @@ Explanation:
 
 ### Solved using Recursion concept
 
-以 inorder traversal 的思路實作 recursion function，將尋訪過程中的 `node.val` 包裝成 `array` 回傳回來後比對是否符合 **ascending order**
