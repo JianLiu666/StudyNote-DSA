@@ -137,6 +137,7 @@
 |  485 | [Max Consecutive Ones](./p00485/README.md) | Easy | `Array` |
 |  494 | [Target Sum](./p00494/README.md) | Medium | `Array` `Matrix` `Simulation` |
 |  498 | [Diagonal Traverse](./p00498/README.md) | Medium | `Array` `Matrix` `Simulation` |
+|  501 | [Find Mode in Binary Search Tree](./p00501/README.md) | Easy | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
 |  509 | [Fibonacci Number](./p00509/README.md) | Easy | `Math` `Dynamic Programming` `Recursion` `Memorization` |
 |  530 | [Minimum Absolute Difference in BST](./p00530/README.md) | Easy | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Search Tree` `Binary Tree` |
 |  542 | [01 Matrix](./p00542/README.md) | Medium | `Array` `Dynamic Programming` `Breadth-First Search` `Matrix` |
