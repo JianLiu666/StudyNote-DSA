@@ -21,9 +21,9 @@ Data Structures
   +-------+                    +-------------+              +------------+            +---------------+      +------+
     |                            |                            |                         |                     |
     ├- Two-Pointer Techniques    ├- Two-Pointer Techniques    ├- Hash Functions         ├- Circular Queue     ├- Tree Traversals
-    └- In-place Algorithms       └- Cycle Detection           ├- Avoiding Collisions    ├- Monotonic Stack    ├- Binary Tree
-                                                              └- Rolling Hash           └- Explicit Stack     ├- Binary Search Tree
-                                                                                                              ├- Binary Heap Tree
+    └- In-place Algorithms       └- Cycle Detection           ├- Rolling Hash           ├- Monotonic Stack    ├- Binary Tree
+                                                              ├- Chaining               └- Explicit Stack     ├- Binary Search Tree
+                                                              └- Open Addressing                              ├- Binary Heap Tree
                                                                                                               ├- N-ary Tree
                                                                                                               └- Trie
 

@@ -155,6 +155,7 @@
 |  654 | [Maximum Binary Tree](./p00654/README.md) | Medium | `Array` `Divide and Conquer` `Stack` `Tree` `Monotonic Stack` `Binary Tree` |
 |  658 | [Find K Closest Elements :heart:](./p00658/README.md) | Medium | `Array` `Two Pointers` `Binary Search` `Sorting` `Heap (Priority Queue)` |
 |  680 | [Valid Palindrome II](./p00680/README.md) | Easy | `Two Pointers` `String` `Greedy` |
+|  695 | [Max Area of Island](./p00695/README.md) | Medium | `Array` `Depth-First Search` `Breadth-First Search` `Union Find` `Matrix` |
 |  700 | [Search in a Binary Search Tree](./p00700/README.md) | Easy | `Tree` `Binary Search Tree` `Binary Tree` |
 |  701 | [Insert into a Binary Search Tree](./p00701/README.md) | Medium | `Tree` `Binary Search Tree` `Binary Tree` |
 |  703 | [Kth Largest Element in a Stream](./p00703/README.md) | Easy | `Tree` `Design` `Binary Search Tree` `Heap (Priority Queue)` `Binary Tree` `Data Stream` |
