@@ -135,6 +135,7 @@
 |  450 | [Delete Node in a BST](./p00450/README.md) | Medium | `Tree` `Binary Search Tree` `Binary Tree` |
 |  454 | [4Sum II](./p00454/README.md) | Medium | `Array` `Hash Table` |
 |  455 | [Assign Cookies](./p00455/README.md) | Easy | `Array` `Greedy` `Sorting` |
+|  459 | [Repeated Substring Pattern](./p00459/README.md) | Easy | `String` `String Matching` |
 |  485 | [Max Consecutive Ones](./p00485/README.md) | Easy | `Array` |
 |  494 | [Target Sum](./p00494/README.md) | Medium | `Array` `Matrix` `Simulation` |
 |  498 | [Diagonal Traverse](./p00498/README.md) | Medium | `Array` `Matrix` `Simulation` |
