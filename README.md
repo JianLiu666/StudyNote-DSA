@@ -40,7 +40,6 @@ Algorithms
     ├- Merge Sort                                   ├- Backtracking      
     ├- Counting Sort                                ├- Branch and Bound  
     ├- Bucket Sort                                  └- Divide and Conquer
-    ├- Tree Sort
     └- Heap Sort
 ```
 

@@ -1,5 +1,10 @@
 package bht
 
+import (
+	"strconv"
+	"strings"
+)
+
 // Using Array to implement Binary Heap Tree
 type BHTArray struct {
 	bht    []int
@@ -23,6 +28,42 @@ func CreateBHTArray(nums []int) BHTArray {
 	return instance
 }
 
+func (t *BHTArray) String() string {
+	var s strings.Builder
+	if t.bht[0] == 0 {
+		return s.String()
+	}
+
+	s.WriteString(strconv.Itoa(t.bht[0]))
+	for i := 1; i <= t.endIdx; i++ {
+		s.WriteString(",")
+		if t.bht[i] == 0 {
+			s.WriteString("x")
+		} else {
+			s.WriteString(strconv.Itoa(t.bht[i]))
+		}
+	}
+
+	return s.String()
+}
+
+func (t *BHTArray) Remove() {
+	t.bht[0], t.bht[t.endIdx] = t.bht[t.endIdx], t.bht[0]
+	t.endIdx--
+
+	t.shiftDown(0)
+}
+
+func (t *BHTArray) Add(val int) {
+	if t.endIdx+1 > len(t.bht)-1 {
+		t.expandSpace()
+	}
+
+	t.endIdx++
+	t.bht[t.endIdx] = val
+	t.shiftUp(t.endIdx)
+}
+
 func (t *BHTArray) shiftDown(idx int) {
 	if idx > t.endIdx {
 		return
@@ -36,6 +77,18 @@ func (t *BHTArray) shiftDown(idx int) {
 	if t.bht[idx] < t.bht[childIdx] {
 		t.bht[idx], t.bht[childIdx] = t.bht[childIdx], t.bht[idx]
 		t.shiftDown(childIdx)
+	}
+}
+
+func (t *BHTArray) shiftUp(idx int) {
+	if idx <= 0 {
+		return
+	}
+
+	parantIdx := (idx+1)/2 - 1
+	if t.bht[idx] > t.bht[parantIdx] {
+		t.bht[idx], t.bht[parantIdx] = t.bht[parantIdx], t.bht[idx]
+		t.shiftUp(parantIdx)
 	}
 }
 
@@ -58,4 +111,12 @@ func (t *BHTArray) getBiggerChildIdx(idx int) (childIdx int) {
 	}
 
 	return
+}
+
+func (t *BHTArray) expandSpace() {
+	newBHT := make([]int, len(t.bht)*2)
+	for i, val := range t.bht {
+		newBHT[i] = val
+	}
+	t.bht = newBHT
 }
