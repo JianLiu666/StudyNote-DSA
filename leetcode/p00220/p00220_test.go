@@ -51,4 +51,13 @@ func TestBuiltinSearh(t *testing.T) {
 	fmt.Println(sort.Search(len(arr), func(i int) bool {
 		return arr[i] > 55
 	}))
+
+	arr = []int{}
+	fmt.Println(sort.Search(len(arr), func(i int) bool {
+		return arr[i] > 55
+	}))
+
+	arr = []int{10, 20, 30, 40}
+	arr = arr[4:]
+	fmt.Println(arr)
 }

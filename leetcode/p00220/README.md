@@ -49,4 +49,11 @@ Output: false
 
 ### Solved using Sliding Window concept
 
-施工中 ...
+一邊遍歷 `nums` 一邊維護一個長度為 `k+1` 的 sliding window，每當遇到新資料時：
+
+- 如果 sliding window 少於 `k+1`，以 ascending order 的方式將新資料加進 window
+- 當 sliding window 已經超過 `k+1` 筆時，要先將最舊的一筆資料移除(i.e., `nums[i-k-1]`) 後，才能加入新資料
+- 每當有新資料加入時就跟左右鄰居相比，看看差異值是否落在 `t` 之內
+
+### Solved using Bucket Sort concept
+
