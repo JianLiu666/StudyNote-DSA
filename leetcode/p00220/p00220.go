@@ -2,9 +2,49 @@ package p00220
 
 import "sort"
 
+// Time Complexity: O(n)
+// Space Complexity: O(k)
+func containsNearbyAlmostDuplicate_bucketsort(nums []int, k int, t int) bool {
+	buckets := map[int]int{}
+	for i := 0; i < len(nums); i++ {
+		if i > k {
+			delete(buckets, bucketIdx(nums[i-k-1], t))
+		}
+
+		idx := bucketIdx(nums[i], t)
+		if _, exists := buckets[idx]; exists {
+			return true
+		}
+		if num, exists := buckets[idx-1]; exists && nums[i]-num <= t {
+			return true
+		}
+		if num, exists := buckets[idx+1]; exists && num-nums[i] <= t {
+			return true
+		}
+
+		buckets[idx] = nums[i]
+	}
+
+	return false
+}
+
+func bucketIdx(num, t int) int {
+	if num == 0 || t == 0 {
+		return num
+	}
+
+	if num > 0 {
+		return num / (t + 1)
+	}
+
+	// 確保正負數不會被放進同一個格子裡
+	// e.g. nums = [2147483647,-1,2147483647], k = 1, t = 2147483647
+	return num/t - 1
+}
+
 // Time Complexity: O(nlogk)
 // Space Complexity: O(k)
-func containsNearbyAlmostDuplicate(nums []int, k int, t int) bool {
+func containsNearbyAlmostDuplicate_binarysearch(nums []int, k int, t int) bool {
 	window := []int{}
 	for i := 0; i < len(nums); i++ {
 		if i > k {

@@ -39,10 +39,15 @@ func TestQuestion(t *testing.T) {
 			input{nums: []int{1, 5, 9, 1, 5, 9}, k: 2, t: 3},
 			output{ans: false},
 		},
+		{
+			input{nums: []int{2147483647, -1, 2147483647}, k: 1, t: 2147483647},
+			output{ans: false},
+		},
 	}
 
 	for idx, data := range tds {
-		ast.Equal(data.o.ans, containsNearbyAlmostDuplicate(data.i.nums, data.i.k, data.i.t), idx+1)
+		ast.Equal(data.o.ans, containsNearbyAlmostDuplicate_binarysearch(data.i.nums, data.i.k, data.i.t), fmt.Sprintf("Binary Search: %v", idx+1))
+		ast.Equal(data.o.ans, containsNearbyAlmostDuplicate_bucketsort(data.i.nums, data.i.k, data.i.t), fmt.Sprintf("Bucket Sort: %v", idx+1))
 	}
 }
 
