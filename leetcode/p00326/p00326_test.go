@@ -1,6 +1,7 @@
 package p00326
 
 import (
+	"fmt"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
@@ -37,7 +38,8 @@ func TestQuestion(t *testing.T) {
 		},
 	}
 
-	for _, data := range tds {
-		ast.Equal(data.o.ans, isPowerOfThree(data.i.n))
+	for idx, data := range tds {
+		ast.Equal(data.o.ans, isPowerOfThree_recursion(data.i.n), fmt.Sprintf("Recursion: %v", idx+1))
+		ast.Equal(data.o.ans, isPowerOfThree_limitation(data.i.n), fmt.Sprintf("Integer Limitation: %v", idx+1))
 	}
 }
