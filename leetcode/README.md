@@ -3,8 +3,8 @@
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/ranking?logo=leetcode&color=orange)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/solved?difficulty=all&logo=leetcode&color=orange)
-![image](https://img.shields.io/badge/Easy-103-green)
-![image](https://img.shields.io/badge/Medium-77-yellow)
+![image](https://img.shields.io/badge/Easy-105-green)
+![image](https://img.shields.io/badge/Medium-83-yellow)
 ![image](https://img.shields.io/badge/Hard-9-red)
 
 | #    | Title | Difficulty | Related Topics |
@@ -34,6 +34,7 @@
 |   50 | [Pow(x, n)](./p00050/README.md) | Medium | `Math` `Recursion` |
 |   53 | [Maximum Subarray](./p00053/README.md) | Medium | `Array` `Divide and Conquer` `Dynamic Programming` |
 |   54 | [Spiral Matrix](./p00054/README.md) | Medium | `Array` `Matrix` `Simulation` |
+|   56 | [Merge Intervals](./p00054/README.md) | Medium | `Array` `Sorting` |
 |   61 | [Rotate List](./p00061/README.md) | Medium | `Linked List` `Two Pointers` |
 |   62 | [62. Unique Paths](./p00062/README.md) | Medium | `Math` `Dynamic Programming` `Combinatorics` |
 |   66 | [Plus One](./p00066/README.md) | Easy | `Array` `Math` |
