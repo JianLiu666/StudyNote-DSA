@@ -92,6 +92,7 @@
 |  203 | [Remove Linked List Elements](./p00203/README.md) | Easy | `Linked List` `Recursion` |
 |  205 | [Isomorphic Strings](./p00205/README.md) | Easy | `Hash Table` `String` |
 |  206 | [Reverse Linked List](./p00206/README.md) | Easy | `Linked List` `Recursion` |
+|  208 | [Implement Trie (Prefix Tree)](./p00208/README.md) | Medium | `Hash Table` `String` `Design` `Trie` |
 |  209 | [Minimum Size Subarray Sum](./p00209/README.md) | Medium | `Array` `Binary Search` `Sliding Window` `Prefix Sum` |
 |  217 | [Contains Duplicate](./p00217/README.md) | Easy | `Array` `Hash Table` `Sorting` |
 |  219 | [Contains Duplicate II](./p00219/README.md) | Easy | `Array` `Hash Table` `Sliding Window` |
