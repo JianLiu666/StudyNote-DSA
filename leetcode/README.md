@@ -3,8 +3,8 @@
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/ranking?logo=leetcode&color=orange)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/solved?difficulty=all&logo=leetcode&color=orange)
-![image](https://img.shields.io/badge/Easy-105-green)
-![image](https://img.shields.io/badge/Medium-83-yellow)
+![image](https://img.shields.io/badge/Easy-106-green)
+![image](https://img.shields.io/badge/Medium-88-yellow)
 ![image](https://img.shields.io/badge/Hard-9-red)
 
 | #    | Title | Difficulty | Related Topics |
@@ -206,4 +206,5 @@
 | 1925 | [Count Square Sum Triples](./p01925/README.md) | Easy | `Math` `Enumeration` |
 | 2309 | [Greatest English Letter in Upper and Lower Case](./p02309/README.md) | Easy | `Hash Table` `String` `Enumeration` |
 | 2367 | [Number of Arithmetic Triplets](./p02367/README.md) | Easy | `Array` `Hash Table` `Two Pointers` `Enumeration` |
+| 2389 | [Longest Subsequence With Limited Sum](./p02389/README.md) | Easy | 施工中... |
 | 2390 | [Removing Stars From a String](./p02390/README.md) | Medium | 施工中... |
