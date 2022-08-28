@@ -206,3 +206,4 @@
 | 1925 | [Count Square Sum Triples](./p01925/README.md) | Easy | `Math` `Enumeration` |
 | 2309 | [Greatest English Letter in Upper and Lower Case](./p02309/README.md) | Easy | `Hash Table` `String` `Enumeration` |
 | 2367 | [Number of Arithmetic Triplets](./p02367/README.md) | Easy | `Array` `Hash Table` `Two Pointers` `Enumeration` |
+| 2390 | [Removing Stars From a String](./p02390/README.md) | Medium | 施工中... |
