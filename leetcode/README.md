@@ -154,6 +154,7 @@
 |  542 | [01 Matrix](./p00542/README.md) | Medium | `Array` `Dynamic Programming` `Breadth-First Search` `Matrix` |
 |  557 | [Reverse Words in a String III](./p00557/README.md) | Easy | `Two Pointers` `String` |
 |  559 | [Maximum Depth of N-ary Tree](./p00559/README.md) | Easy | `Tree` `Depth-First Search` `Breadth-First Search` |
+|  560 | [Subarray Sum Equals K](./p00560/README.md) | Medium | `Array` `Hash Table` `Prefix Sum` |
 |  561 | [Array Partition](./p00561/README.md) | Easy | `Array` `Greddy` `Sorting` `Counting Sort` |
 |  566 | [Reshape the Matrix](./p00566/README.md) | Easy | `Array` `Matrix` `Simulation` |
 |  589 | [N-ary Tree Preorder Traversal](./p00589/README.md) | Easy | `Stack` `Tree` `Depth-First Search` |
