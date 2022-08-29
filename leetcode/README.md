@@ -118,6 +118,7 @@
 |  315 | [Count of Smaller Numbers After Self :heart:](./p00315/README.md) | Hard | `Array` `Binary Search` `Divide and Conquer` `Binary Indexed Tree` `Segment Tree` `Merge Sort` `Ordered Set` |
 |  326 | [Power of Three](./p00326/README.md) | Easy | `Math` `Recursion` |
 |  328 | [Odd Even Linked List](./p00328/README.md) | Medium | `Linked List` |
+|  334 | [Increasing Triplet Subsequence](./p00334/README.md) | Medium | `Array` `Greedy` |
 |  342 | [Power of Four](./p00342/README.md) | Easy | `Math` `Bit Manipulation` `Recursion` |
 |  344 | [Reverse String](./p00344/README.md) | Easy | `Two Pointers` `String` `Recursion` |
 |  347 | [Top K Frequent Elements](./p00347/README.md) | Medium | `Array` `Hash Table` `Divide and Conquer` `Sorting` `Heap (Priority Queue)` `Bucket Sort` `Counting` `Quickselect` |
@@ -137,6 +138,7 @@
 |  414 | [Third Maximum Number](./p00414/README.md) | Easy | `Array` `Sorting` |
 |  429 | [N-ary Tree Level Order Traversal](./p00429/README.md) | Medium | `Tree` `Breadth-First Search` |
 |  430 | [Flatten a Multilevel Doubly Linked List](./p00430/README.md) | Medium | `Linked List` `Depth-First Search` `Doubly Linked List` |
+|  435 | [Non-overlapping Intervals](./p00435/README.md) | Medium | `Array` `Dynamic Programming` `Greedy` `Sorting` |
 |  448 | [Find All Numbers Disappeared in an Array](./p00448/README.md) | Easy | `Array` `Hash Table` |
 |  450 | [Delete Node in a BST](./p00450/README.md) | Medium | `Tree` `Binary Search Tree` `Binary Tree` |
 |  454 | [4Sum II](./p00454/README.md) | Medium | `Array` `Hash Table` |
