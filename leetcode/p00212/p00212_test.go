@@ -1,6 +1,7 @@
 package p00212
 
 import (
+	"sort"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
@@ -40,6 +41,19 @@ func TestQuestion(t *testing.T) {
 		{
 			input{
 				board: [][]byte{
+					{'o', 'a', 'b', 'n'},
+					{'o', 't', 'a', 'e'},
+					{'a', 'h', 'k', 'r'},
+					{'a', 'f', 'l', 'v'}},
+				words: []string{"oa", "oaa"},
+			},
+			output{
+				ans: []string{"oa", "oaa"},
+			},
+		},
+		{
+			input{
+				board: [][]byte{
 					{'a', 'b'},
 					{'c', 'd'}},
 				words: []string{"abcb"},
@@ -48,9 +62,42 @@ func TestQuestion(t *testing.T) {
 				ans: []string{},
 			},
 		},
+		{
+			input{
+				board: [][]byte{
+					{'a', 'a'}},
+				words: []string{"aaa"},
+			},
+			output{
+				ans: []string{},
+			},
+		},
+		{
+			input{
+				board: [][]byte{
+					{'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a'},
+					{'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a'},
+					{'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a'},
+					{'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a'},
+					{'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a'},
+					{'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a'},
+					{'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a'},
+					{'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a'},
+					{'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a'},
+					{'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a'},
+					{'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a'},
+					{'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a'}},
+				words: []string{"a", "aa", "aaa", "aaaa", "aaaaa", "aaaaaa", "aaaaaaa", "aaaaaaaa", "aaaaaaaaa", "aaaaaaaaaa"},
+			},
+			output{
+				ans: []string{"a", "aa", "aaa", "aaaa", "aaaaa", "aaaaaa", "aaaaaaa", "aaaaaaaa", "aaaaaaaaa", "aaaaaaaaaa"},
+			},
+		},
 	}
 
 	for idx, data := range tds {
-		ast.Equal(data.o.ans, findWords(data.i.board, data.i.words), idx+1)
+		res := findWords(data.i.board, data.i.words)
+		sort.Strings(res)
+		ast.Equal(data.o.ans, res, idx+1)
 	}
 }

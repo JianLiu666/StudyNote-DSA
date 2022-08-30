@@ -53,3 +53,6 @@ Output: []
 ### Solved using Trie concept
 
 最近很喜歡往 LeetCodeCN 看大神的分享，[這篇](https://leetcode.cn/problems/word-search-ii/solution/gong-shui-san-xie-yi-ti-shuang-jie-hui-s-am8f/)解釋的很詳細 ~~(肯定不是因為中文比較親切的關係)~~
+
+核心概念就是將 `words` 用 `Trie` 維護，只要 prefix words 沒中就提早終止，另外要確保尋訪過的字元不能重複，所以再多用一個與 `board` 大小相同的 `matrix` 來記錄走過的路
+- 為了能夠更快的 **pruning**，只要已經命中過的 `word` 就從 `Trie` 中移除
