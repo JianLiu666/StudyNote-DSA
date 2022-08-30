@@ -161,6 +161,7 @@
 |  590 | [N-ary Tree Postorder Traversal](./p00590/README.md) | Easy | `Stack` `Tree` `Depth-First Search` |
 |  599 | [Minimum Index Sum of Two Lists](./p00599/README.md) | Easy | `Array` `Hash Table` `String` |
 |  622 | [Design Circular Queue](./p00622/README.md) | Medium | `Array` `Linked List` `Design` `Queue` |
+|  648 | [Replace Words](./p00648/README.md) | Medium | `Array` `Hash Table` `String` `Trie` |
 |  652 | [Find Duplicate Subtrees](./p00652/README.md) | Medium | `Hash Table` `Tree` `Depth-First Search` `Binary Tree` |
 |  653 | [Two Sum IV - Input is a BST](./p00653/README.md) | Easy | `Hash Table` `Two Pointers` `Tree` `Depth-First Search` `Breadth-First Search` `Binary Search Tree` `Binary Tree` |
 |  654 | [Maximum Binary Tree](./p00654/README.md) | Medium | `Array` `Divide and Conquer` `Stack` `Tree` `Monotonic Stack` `Binary Tree` |
