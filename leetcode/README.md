@@ -137,6 +137,7 @@
 |  410 | [Split Array Largest Sum](./p00410/README.md) | Hard | `Array` `Binary Search` `Dynamic Programming` `Greedy` |
 |  412 | [Fizz Buzz](./p00412/README.md) | Easy | `Math` `String` `Simulation` |
 |  414 | [Third Maximum Number](./p00414/README.md) | Easy | `Array` `Sorting` |
+|  415 | [Add Strings](./p00415/README.md) | Easy | `Math` `String` `Simulation` |
 |  429 | [N-ary Tree Level Order Traversal](./p00429/README.md) | Medium | `Tree` `Breadth-First Search` |
 |  430 | [Flatten a Multilevel Doubly Linked List](./p00430/README.md) | Medium | `Linked List` `Depth-First Search` `Doubly Linked List` |
 |  435 | [Non-overlapping Intervals](./p00435/README.md) | Medium | `Array` `Dynamic Programming` `Greedy` `Sorting` |
