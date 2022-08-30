@@ -33,14 +33,14 @@ Algorithms
   | Sorting | -------> | Searching | -----------> | Fundamental | -------> | Dynamic Programming | ---> keep going
   +---------+          +-----------+              +-------------+          +---------------------+
     |                    |                          |                        |
-    ├- Bubble Sort       ├- Binary Search           ├- Memoization           ├- Top-down
-    ├- Insertion Sort    ├- Breadth-First Search    ├- Recursion             └- Bottom-up
-    ├- Selection Sort    └- Depth-First Search      ├- Tail Recursion    
-    ├- Quick Sort                                   ├- Enumeration       
-    ├- Merge Sort                                   ├- Backtracking      
-    ├- Counting Sort                                ├- Branch and Bound  
-    ├- Bucket Sort                                  └- Divide and Conquer
-    └- Heap Sort
+    ├- Bubble Sort       ├- Binary Search           ├- Prefix Sum            ├- Top-down
+    ├- Insertion Sort    ├- Breadth-First Search    ├- Memoization           └- Bottom-up
+    ├- Selection Sort    └- Depth-First Search      ├- Recursion         
+    ├- Quick Sort                                   ├- Tail Recursion    
+    ├- Merge Sort                                   ├- Enumeration       
+    ├- Counting Sort                                ├- Backtracking      
+    ├- Bucket Sort                                  ├- Branch and Bound  
+    └- Heap Sort                                    └- Divide and Conquer
 ```
 
 ## Data Structure Notes
