@@ -116,6 +116,7 @@
 |  279 | [Perfect Squares](./p00279/README.md) | Medium | `Math` `Dynamic Programming` `Breadth-First Search` |
 |  283 | [Move Zeroes](./p00283/README.md) | Easy | `Array` `Two Pointers` |
 |  287 | [Find the Duplicate Number](./p00287/README.md) | Medium | `Array` `Two Pointers` `Binary Search` `Bit Manipulation` |
+|  290 | [Word Pattern](./p00290/README.md) | Easy | `Hash Table` `String` |
 |  297 | [Serialize and Deserialize Binary Tree](./p00297/README.md) | Hard | `String` `Tree` `Depth-First Search` `Breadth-First Search` `Design` `Binary Tree` |
 |  300 | [Longest Increasing Subsequence](./p00300/README.md) | Medium | `Array` `Binary Search` `Dynamic Programming` |
 |  315 | [Count of Smaller Numbers After Self :heart:](./p00315/README.md) | Hard | `Array` `Binary Search` `Divide and Conquer` `Binary Indexed Tree` `Segment Tree` `Merge Sort` `Ordered Set` |
