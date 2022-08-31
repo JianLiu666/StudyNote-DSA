@@ -189,6 +189,7 @@
 |  744 | [Find Smallest Letter Greater Than Target](./p00744/README.md) | Easy | `Array` `Binary Search` |
 |  747 | [Largest Number At Least Twice of Others](./p00747/README.md) | Easy | `Array` `Sorting` |
 |  752 | [Open the Lock](./p00752/README.md) | Medium | `Array` `Hash Table` `String` `Breadth-First Search` |
+|  763 | [Partition Labels](./p00763/README.md) | Medium | `Hash Table` `Two Pointers` `String` `Greedy` |
 |  771 | [Jewels and Stones](./p00771/README.md) | Easy | `Hash Table` `String` |
 |  779 | [K-th Symbol in Grammar](./p00779/README.md) | Medium | `Math` `Bit Manipulation` `Recursion` |
 |  804 | [Unique Morse Code Words](./p00804/README.md) | Easy | `Array` `Hash Table` `String` |
