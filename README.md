@@ -16,16 +16,16 @@
 ```
 Data Structures
 
-  +-------+                    +-------------+              +------------+            +---------------+      +------+
-  | Array | -----------------> | Linked List | -----------> | Hash Table | ---------> | Queue & Stack | ---> | Tree | ---> keep going
-  +-------+                    +-------------+              +------------+            +---------------+      +------+
-    |                            |                            |                         |                     |
-    ├- Two-Pointer Techniques    ├- Two-Pointer Techniques    ├- Hash Functions         ├- Circular Queue     ├- Tree Traversals
-    └- In-place Algorithms       └- Cycle Detection           ├- Rolling Hash           ├- Monotonic Stack    ├- Binary Tree
-                                                              ├- Chaining               └- Explicit Stack     ├- Binary Search Tree
-                                                              └- Open Addressing                              ├- Binary Heap Tree
-                                                                                                              ├- N-ary Tree
-                                                                                                              └- Trie
+  +-------+                    +-------------+              +------------+            +---------------+      +------+                +-------+
+  | Array | -----------------> | Linked List | -----------> | Hash Table | ---------> | Queue & Stack | ---> | Tree | -------------> | Graph | ---> keep going
+  +-------+                    +-------------+              +------------+            +---------------+      +------+                +-------+
+    |                            |                            |                         |                     |                       |
+    ├- Two-Pointer Techniques    ├- Two-Pointer Techniques    ├- Hash Functions         ├- Circular Queue     ├- Tree Traversals      ├- Rooted Tree
+    └- In-place Algorithms       └- Cycle Detection           ├- Rolling Hash           ├- Monotonic Stack    ├- Binary Tree          └- Directed Acyclic Graph
+                                                              ├- Chaining               └- Explicit Stack     ├- Binary Search Tree  
+                                                              └- Open Addressing                              ├- Binary Heap Tree    
+                                                                                                              ├- N-ary Tree          
+                                                                                                              └- Trie                
 
 Algorithms
 
