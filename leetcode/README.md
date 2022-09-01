@@ -212,6 +212,7 @@
 | 1338 | [Reduce Array Size to The Half](./p01338/README.md) | Medium | `Array` `Hash Table` `Greedy` `Sorting` `Heap (Priority Queue)` |
 | 1342 | [Number of Steps to Reduce a Number to Zero](./p01342/README.md) | Easy | `Math` `Bit Manipulation` |
 | 1346 | [Check If N and Its Double Exist](./p01346/README.md) | Easy | `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting` |
+| 1448 | [Count Good Nodes in Binary Tree](./p01448/README.md) | Medium | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
 | 1480 | [Running Sum of 1d Array](./p01480/README.md) | Easy | `Array` `Prefix Sum` |
 | 1689 | [Partitioning Into Minimum Number Of Deci-Binary Numbers](./p01689/README.md) | Medium | `String` `Greedy` |
 | 1863 | [Sum of All Subset XOR Totals](./p01863/README.md) | Easy | `Array` `Math` `Backtracking` `Bit Manipulation` `Combinatorics` |
