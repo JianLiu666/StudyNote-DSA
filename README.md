@@ -20,12 +20,13 @@ Data Structures
   | Array | ------------------> | Linked List | ------------> | Hash Table | ------> | Queue & Stack | ---> | Tree | --------------> | Graph | ---> keep going
   +-------+                     +-------------+               +------------+         +---------------+      +------+                 +-------+
     |                             |                             |                      |                     |                        |
-    ├- Two-Pointer Techniques     ├- Two-Pointer Techniques     ├- Hash Functions      ├- Circular Queue     ├- Tree Traversals       ├- Undirected Graphs
-    └- In-place Algorithms        └- Cycle Detection            ├- Rolling Hash        ├- Monotonic Stack    ├- Binary Tree           |   └- Rooted Tree
-                                                                ├- Chaining            └- Explicit Stack     ├- Binary Search Tree    ├- Directed Graphs
-                                                                └- Open Addressing                           ├- Binary Heap Tree      |   └- Directed Acyclic Graph
-                                                                                                             ├- N-ary Tree            ├- Adjacency Matrix
-                                                                                                             └- Trie                  ├- Adjacency List
+    ├- Two-Pointer Techniques     ├- Two-Pointer Techniques     ├- Hash Functions      ├- Circular Queue     ├- Tree Traversals       ├- Adjacency Matrix
+    └- In-place Algorithms        └- Cycle Detection            ├- Rolling Hash        ├- Monotonic Stack    ├- Binary Tree           ├- Adjacency List
+                                                                ├- Chaining            └- Explicit Stack     ├- Binary Search Tree    ├- Undirected Graphs
+                                                                └- Open Addressing                           ├- Binary Heap Tree      |   └- Rooted Tree
+                                                                                                             ├- N-ary Tree            ├- Directed Graphs
+                                                                                                             └- Trie                  |   ├- Directed Acyclic Graph
+                                                                                                                                      |   └- Topological Sorting
                                                                                                                                       └- Disjoint Set
 
 Algorithms
