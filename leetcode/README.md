@@ -7,6 +7,14 @@
 ![image](https://img.shields.io/badge/Medium-102-yellow)
 ![image](https://img.shields.io/badge/Hard-10-red)
 
+## LeetCode Journey
+
+- 2022.06.22 : 開始學習 DSA
+- 2022.06.27 : 開始踏上 LeetCode 刷題之路
+- 2022.08.28 : 第一次參加 Weekly Contest
+
+## Solved Problems
+
 | #    | Title | Difficulty | Related Topics |
 | ---: | :---- |:---------- | :------------- |
 |    1 | [Two Sum](./p00001/README.md) | Easy | `Array` `Hash Table` |
@@ -224,3 +232,5 @@
 | 2367 | [Number of Arithmetic Triplets](./p02367/README.md) | Easy | `Array` `Hash Table` `Two Pointers` `Enumeration` |
 | 2389 | [Longest Subsequence With Limited Sum](./p02389/README.md) | Easy | 施工中... |
 | 2390 | [Removing Stars From a String](./p02390/README.md) | Medium | 施工中... |
+
+---
