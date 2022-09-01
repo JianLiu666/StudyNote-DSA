@@ -23,8 +23,8 @@ Data Structures
     ├- Two-Pointer Techniques     ├- Two-Pointer Techniques     ├- Hash Functions      ├- Circular Queue     ├- Tree Traversals       ├- Adjacency Matrix
     ├- In-place Algorithms        └- Cycle Detection            ├- Rolling Hash        ├- Monotonic Stack    ├- Binary Tree           ├- Adjacency List
     └- String                                                   ├- Chaining            └- Explicit Stack     ├- Binary Search Tree    ├- Undirected Graphs
-        └ Knuth–Morris–Pratt                                    └- Open Addressing                           ├- Binary Heap Tree      |   └- Rooted Tree
-                                                                                                             ├- N-ary Tree            ├- Directed Graphs
+        ├- Knuth–Morris–Pratt                                   └- Open Addressing                           ├- Binary Heap Tree      |   └- Rooted Tree
+        └- Manacher Algorithm                                                                                ├- N-ary Tree            ├- Directed Graphs
                                                                                                              └- Trie                  |   ├- Directed Acyclic Graph
                                                                                                                                       |   └- Topological Sorting
                                                                                                                                       └- Disjoint Set
