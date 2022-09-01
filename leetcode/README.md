@@ -4,7 +4,7 @@
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/ranking?logo=leetcode&color=orange)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/solved?difficulty=all&logo=leetcode&color=orange)
 ![image](https://img.shields.io/badge/Easy-107-green)
-![image](https://img.shields.io/badge/Medium-98-yellow)
+![image](https://img.shields.io/badge/Medium-102-yellow)
 ![image](https://img.shields.io/badge/Hard-10-red)
 
 | #    | Title | Difficulty | Related Topics |
@@ -12,6 +12,7 @@
 |    1 | [Two Sum](./p00001/README.md) | Easy | `Array` `Hash Table` |
 |    2 | [Add Two Numbers](./p00002/README.md) | Medium | `Linked List` `Math` `Recursion` |
 |    3 | [Longest Substring Without Repeating Characters](./p00003/README.md) | Medium | `Hash Table` `String` `Sliding Window` |
+|    5 | [Longest Palindromic Substring](./p00003/README.md) | Medium | `String` `Dynamic Programming` |
 |    7 | [Reverse Integer](./p00007/README.md) | Medium | `Math` |
 |   11 | [Container With Most Water](./p00011/README.md) | Medium | `Array` `Two Pointers` `Greedy` |
 |   13 | [Roman to Integer](./p00013/README.md) | Easy | `Hash Table` `Math` `String` |
