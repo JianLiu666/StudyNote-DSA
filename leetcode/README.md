@@ -44,6 +44,7 @@
 |   67 | [Add Binary](./p00067/README.md) | Easy | `Math` `String` `Bit Manipulation` `Simulation` |
 |   69 | [Sqrt(x)](./p00069/README.md) | Easy | `Math` `Binary Search` |
 |   70 | [Climbing Stairs](./p00070/README.md) | Easy | `Math` `Dynamic Programming` `Memorization` |
+|   73 | [Set Matrix Zeroes](./p00073/README.md) | Medium | `Array` `Hash Table` `Matrix` |
 |   74 | [Search a 2D Matrix](./p00074/README.md) | Medium | `Array` `Binary Search` `Matrix` |
 |   75 | [Sort Colors](./p00075/README.md) | Medium | `Array` `Two Pointers` `Sorting` |
 |   83 | [Remove Duplicates from Sorted List](./p00083/README.md) | Easy | `Linked List` |
