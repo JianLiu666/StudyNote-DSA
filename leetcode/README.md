@@ -30,6 +30,7 @@
 |   36 | [Valid Sudoku](./p00036/README.md) | Medium | `Array` `Hash Table` `Matrix` |
 |   38 | [Count and Say](./p00038/README.md) | Medium | `String` |
 |   41 | [First Missing Positive :heart:](./p00041/README.md) | Hard | `Array` `Hash Table` |
+|   43 | [Multiply Strings](./p00043/README.md) | Medium | `Math` `String` `Simulation` |
 |   48 | [Rotate Image](./p00048/README.md) | Medium | `Array` `Math` `Matrix` |
 |   49 | [Group Anagrams](./p00049/README.md) | Medium | `Array` `Hash Table` `String` `Sorting` |
 |   50 | [Pow(x, n)](./p00050/README.md) | Medium | `Math` `Recursion` |
