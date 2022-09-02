@@ -186,6 +186,7 @@
 |  658 | [Find K Closest Elements :heart:](./p00658/README.md) | Medium | `Array` `Two Pointers` `Binary Search` `Sorting` `Heap (Priority Queue)` |
 |  677 | [Map Sum Pairs](./p00680/README.md) | Easy | `Hash Table` `String` `Design` `Trie` |
 |  680 | [Valid Palindrome II](./p00680/README.md) | Easy | `Two Pointers` `String` `Greedy` |
+|  687 | [Longest Univalue Path](./p00687/README.md) | Medium | `Tree` `Depth-First Search` `Binary Tree` |
 |  695 | [Max Area of Island](./p00695/README.md) | Medium | `Array` `Depth-First Search` `Breadth-First Search` `Union Find` `Matrix` |
 |  700 | [Search in a Binary Search Tree](./p00700/README.md) | Easy | `Tree` `Binary Search Tree` `Binary Tree` |
 |  701 | [Insert into a Binary Search Tree](./p00701/README.md) | Medium | `Tree` `Binary Search Tree` `Binary Tree` |
