@@ -179,6 +179,7 @@
 |  599 | [Minimum Index Sum of Two Lists](./p00599/README.md) | Easy | `Array` `Hash Table` `String` |
 |  622 | [Design Circular Queue](./p00622/README.md) | Medium | `Array` `Linked List` `Design` `Queue` |
 |  637 | [Average of Levels in Binary Tree](./p00637/README.md) | Easy | `Easy` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
+|  646 | [Maximum Length of Pair Chain](./p00646/README.md) | Medium | `Array` `Dynamic Programming` `Greedy` `Sorting` |
 |  648 | [Replace Words](./p00648/README.md) | Medium | `Array` `Hash Table` `String` `Trie` |
 |  652 | [Find Duplicate Subtrees](./p00652/README.md) | Medium | `Hash Table` `Tree` `Depth-First Search` `Binary Tree` |
 |  653 | [Two Sum IV - Input is a BST](./p00653/README.md) | Easy | `Hash Table` `Two Pointers` `Tree` `Depth-First Search` `Breadth-First Search` `Binary Search Tree` `Binary Tree` |

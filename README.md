@@ -16,34 +16,40 @@
 ```
 Data Structures
 
-  +-------+                     +-------------+               +------------+         +---------------+      +------+                 +-------+
-  | Array | ------------------> | Linked List | ------------> | Hash Table | ------> | Queue & Stack | ---> | Tree | --------------> | Graph | ---> keep going
-  +-------+                     +-------------+               +------------+         +---------------+      +------+                 +-------+
-    |                             |                             |                      |                     |                        |
-    ├- Two-Pointer Techniques     ├- Two-Pointer Techniques     ├- Hash Functions      ├- Circular Queue     ├- Tree Traversals       ├- Adjacency Matrix
-    ├- In-place Algorithms        └- Cycle Detection            ├- Rolling Hash        ├- Monotonic Stack    ├- Binary Tree           ├- Adjacency List
-    └- String                                                   ├- Chaining            └- Explicit Stack     ├- Binary Search Tree    ├- Undirected Graphs
-        ├- Knuth–Morris–Pratt                                   └- Open Addressing                           ├- Binary Heap Tree      |   └- Rooted Tree
-        └- Manacher Algorithm                                                                                ├- N-ary Tree            ├- Directed Graphs
-                                                                                                             └- Trie                  |   ├- Directed Acyclic Graph
-                                                                                                                                      |   └- Topological Sorting
-                                                                                                                                      └- Disjoint Set
+  +-------+                     +-------------+               +------------+         +---------------+          +------+                     +-------+
+  | Array | ------------------> | Linked List | ------------> | Hash Table | ------> | Queue & Stack | -------> | Tree | ------------------> | Graph | ---> keep going
+  +-------+                     +-------------+               +------------+         +---------------+          +------+                     +-------+
+    |                             |                             |                      |                          |                             |
+    ├- Two-Pointer Techniques     ├- Two-Pointer Techniques     ├- Hash Functions      ├- Queue                   ├- Tree Traversals            ├- Adjacency Matrix
+    ├- In-place Algorithms        └- Cycle Detection            ├- Rolling Hash        |   └- Circular Queue      ├- Binary Tree                ├- Adjacency List
+    └- String                                                   ├- Chaining            └- Stack                   |   ├- Binary Search Tree     ├- Undirected Graphs
+        ├- Knuth–Morris–Pratt                                   └- Open Addressing         ├- Monotonic Stack     |   └- Binary Heap Tree       |   └- Rooted Tree
+        └- Manacher Algorithm                                                              └- Explicit Stack      ├- N-ary Tree                 ├- Directed Graphs
+                                                                                                                  └- Trie                       |   ├- Directed Acyclic Graph
+                                                                                                                                                |   └- Topological Sorting
+                                                                                                                                                └- Disjoint Set
+                                                                                                                                                    └- Minimum Spanning Trees
 
 Algorithms
 
-  +---------+           +-----------+               +-------------+           +---------------------+
-  | Sorting | --------> | Searching | ------------> | Fundamental | --------> | Dynamic Programming | ---> keep going
-  +---------+           +-----------+               +-------------+           +---------------------+
-    |                     |                           |                         |
-    ├- Bubble Sort        ├- Binary Search            ├- Prefix Sum             ├- Top-down
-    ├- Insertion Sort     ├- Breadth-First Search     ├- Memoization            └- Bottom-up
-    ├- Selection Sort     └- Depth-First Search       ├- Recursion         
-    ├- Quick Sort                                     ├- Tail Recursion    
-    ├- Merge Sort                                     ├- Enumeration       
-    ├- Counting Sort                                  ├- Backtracking      
-    ├- Bucket Sort                                    ├- Branch and Bound  
-    └- Heap Sort                                      └- Divide and Conquer
-```
+  +---------+                   +-----------+               +-------------+             +---------------------+
+  | Sorting | ----------------> | Searching | ------------> | Fundamental | ----------> | Dynamic Programming | ---> keep going
+  +---------+                   +-----------+               +-------------+             +---------------------+
+    |                             |                           |                           |
+    ├- Comparison                 ├- Binary Search            ├- Prefix Sum               ├- Top-down
+    |   ├- Stable                 ├- Breadth-First Search     ├- Memoization              └- Bottom-up
+    |   |   ├- Bubble Sort        ├- Depth-First Search       ├- Recursion           
+    |   |   ├- Insertion Sort     └- Graph Search             ├- Tail Recursion      
+    |   |   └- Merge Sort             ├- Dijkstra             ├- Enumeration         
+    |   └- Unstable                   ├- Bellman-Ford         |   ├- Backtracking      
+    |       ├- Selection Sort         ├- Floyd-Warshall       |   └- Branch and Bound  
+    |       ├- Quick Sort             └- Union Find           └- Divide and Conquer    
+    |       └- Heap Sort      
+    └- Non-comparison         
+        └- Stable             
+            ├- Counting Sort  
+            └- Bucket Sort    
+``` 
 
 ## Data Structure Notes
 
