@@ -228,6 +228,7 @@
 | 1346 | [Check If N and Its Double Exist](./p01346/README.md) | Easy | `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting` |
 | 1448 | [Count Good Nodes in Binary Tree](./p01448/README.md) | Medium | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
 | 1480 | [Running Sum of 1d Array](./p01480/README.md) | Easy | `Array` `Prefix Sum` |
+| 1582 | [Special Positions in a Binary Matrix](./p01582/README.md) | Easy | `Array` `Matrix` |
 | 1689 | [Partitioning Into Minimum Number Of Deci-Binary Numbers](./p01689/README.md) | Medium | `String` `Greedy` |
 | 1863 | [Sum of All Subset XOR Totals](./p01863/README.md) | Easy | `Array` `Math` `Backtracking` `Bit Manipulation` `Combinatorics` |
 | 1925 | [Count Square Sum Triples](./p01925/README.md) | Easy | `Math` `Enumeration` |
