@@ -8,39 +8,37 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
-// Time Complexity: O(n)
-// Space Complexity: O(n)
+// Time Complexity: O(2^n), where n is the depth of tree
+// Space Complexity: O(2^n)
 func findDuplicateSubtrees(root *TreeNode) []*TreeNode {
-	seen := map[string]int{}
-	res := []*TreeNode{}
+	memo := map[string]bool{}
+	duplicates := map[string]*TreeNode{}
 
-	_, res = dfs(root, "", seen, res)
+	dfs(memo, duplicates, root)
+
+	res := []*TreeNode{}
+	for _, node := range duplicates {
+		res = append(res, node)
+	}
 	return res
 }
 
-func dfs(node *TreeNode, s1 string, seen map[string]int, res []*TreeNode) (string, []*TreeNode) {
-	if node.Left != nil {
-		s1, res = dfs(node.Left, s1, seen, res)
-	} else {
-		s1 += "n"
+func dfs(memo map[string]bool, duplicates map[string]*TreeNode, root *TreeNode) string {
+	if root == nil {
+		return "x"
 	}
 
-	s2 := ""
-	if node.Right != nil {
-		s2, res = dfs(node.Right, s2, seen, res)
-	} else {
-		s2 += "n"
+	key := fmt.Sprintf("%v,%v,%v",
+		root.Val,
+		dfs(memo, duplicates, root.Left),
+		dfs(memo, duplicates, root.Right),
+	)
+
+	if memo[key] {
+		duplicates[key] = root
+		return key
 	}
 
-	s := fmt.Sprintf("%s%s0%d", s1, s2, node.Val)
-	if count, exists := seen[s]; exists {
-		if count == 0 {
-			seen[s]++
-			res = append(res, node)
-		}
-	} else {
-		seen[s] = 0
-	}
-
-	return s, res
+	memo[key] = true
+	return key
 }

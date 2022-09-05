@@ -54,6 +54,9 @@ Output: [[2,3],[3]]
 
 # 解題方向
 
-透過 Depth-First 的思路依序尋訪所有的子節點，並將尋訪結果加進 `Hash Table` 後檢查是否有相同的 `sub-tree`
+### Solved using Depth-First Search concept
 
-- 注意過程中可能會出現多次重複的 `sub-tree`，留意不要重複累加即可
+因為相同的兩個 subtrees 很可能是不對稱的，如圖1所示，所以我們只能把尋訪過的紀錄用一個 `Hash Table` 保存起來
+
+- 按照 postorder 的思路遍歷整棵樹，在回到 subtree root 的時候在比較當前的 key 是否有相同的存在過
+- hash key 的做法: `{root},{left subtree},{right subtree}`
