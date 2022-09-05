@@ -97,6 +97,7 @@
 |  169 | [Majority Element](./p00169/README.md) | Easy | `Array` `Hash Table` `Divide and Conquer` `Sorting` `Countint` |
 |  171 | [Excel Sheet Column Number](./p00171/README.md) | Easy | `Math` `String` |
 |  173 | [Binary Search Tree Iterator](./p00173/README.md) | Medium | `Stack` `Tree` `Design` `Binary Search Tree` `Binary Tree` `Iterator` |
+|  187 | [Repeated DNA Sequences](./p00187/README.md) | Medium | `Hash Table` `String` `Bit Manipulation` `Sliding Window` `Rolling Hash` `Hash Function` |
 |  189 | [Rotate Array](./p00189/README.md) | Medium | `Array` `Math` `Two Pointers` |
 |  191 | [Number of 1 Bits](./p00191/README.md) | Easy | `Divide and Conquer` `Bit Manipulation` |
 |  198 | [House Robber](./p00198/README.md) | Medium | `Array` `Dynamic Programming` |
