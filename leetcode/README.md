@@ -3,8 +3,8 @@
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/ranking?logo=leetcode&color=orange)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/solved?difficulty=all&logo=leetcode&color=orange)
-![image](https://img.shields.io/badge/Easy-107-green)
-![image](https://img.shields.io/badge/Medium-102-yellow)
+![image](https://img.shields.io/badge/Easy-108-green)
+![image](https://img.shields.io/badge/Medium-108-yellow)
 ![image](https://img.shields.io/badge/Hard-10-red)
 
 ## LeetCode Journey
@@ -85,6 +85,7 @@
 |  138 | [Copy List with Random Pointer](./p00138/README.md) | Medium | `Hash Table` `Linked List` |
 |  141 | [Linked List Cycle](./p00141/README.md) | Easy | `Hash Table` `Linked List` `Two Pointers` |
 |  142 | [Linked List Cycle II :heart:](./p00142/README.md) | Medium | `Hash Table` `Linked List` `Two Pointers` |
+|  143 | [Reorder List](./p00143/README.md) | Medium | `Linked List` `Two Pointers` `Stack` `Recursion` |
 |  144 | [Binary Tree Preorder Traversal](./p00144/README.md) | Easy | `Stack` `Tree` `Depth-First Search` `Binary Tree` |
 |  145 | [Binary Tree Postorder Traversal](./p00145/README.md) | Easy | `Stack` `Tree` `Depth-First Search` `Binary Tree` |
 |  150 | [Evaluate Reverse Polish Notation](./p00150/README.md) | Medium | `Array` `Math` `Stack` |
