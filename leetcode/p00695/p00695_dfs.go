@@ -1,8 +1,8 @@
 package p00695
 
-// Time Complexity: O(n^2)
-// Space Complexity: O(n)
-func maxAreaOfIsland(grid [][]int) int {
+// Time Complexity: O(mn), where m is the height of grid, n is the width of grid
+// Space Complexity: O(mn)
+func maxAreaOfIsland_DFS(grid [][]int) int {
 	max_row, max_col := len(grid), len(grid[0])
 
 	s := CreateStack()
