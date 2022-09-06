@@ -62,3 +62,11 @@ Output: 0
 核心概念為每當踏到一塊陸地上時，先決定一個方向持續前進，直到走到邊界後再換下個方向繼續前進，直到踏遍整座島
 
 記得當每踏遍一座島時，檢查一下這座島是不是最大的島嶼即可
+
+### Solved using Union Find concept
+
+用 `disjoint set` 的想法重新寫過一次，disjoint set 的 `index` 可以自行維護，我在這邊是直接把座標轉換成 `string` 作為 index key
+
+在遍歷整個 `grid` 的時候只要遇到陸地，就新增進 disjoint set，同時往回頭(左/上)確認是否屬於相同的 root
+
+詳細流程直接看程式碼吧

@@ -10,12 +10,16 @@ func maxAreaOfIsland_UnionFind(grid [][]int) int {
 	for row, columns := range grid {
 		for col, val := range columns {
 			if val == 1 {
+				// 自定義 hash key
 				key := genKey(row, col)
+				// 動態增加新的節點
 				u.Add(key)
 
+				// 將節點與上面的陸地關聯成同一個子集
 				if row-1 >= 0 && grid[row-1][col] == 1 {
 					u.Union(key, genKey(row-1, col))
 				}
+				// 將節點與左邊的陸地關聯成同一個子集
 				if col-1 >= 0 && grid[row][col-1] == 1 {
 					u.Union(key, genKey(row, col-1))
 				}
@@ -40,7 +44,7 @@ func max(a, b int) int {
 type UnionFind struct {
 	parent  map[string]string
 	rank    map[string]int
-	maximum int
+	maximum int // 記錄題目所需的島嶼最大面積
 }
 
 func CreateUnionFind() UnionFind {
