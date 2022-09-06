@@ -4,8 +4,8 @@
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/ranking?logo=leetcode&color=orange)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/solved?difficulty=all&logo=leetcode&color=orange)
 ![image](https://img.shields.io/badge/Easy-108-green)
-![image](https://img.shields.io/badge/Medium-108-yellow)
-![image](https://img.shields.io/badge/Hard-10-red)
+![image](https://img.shields.io/badge/Medium-110-yellow)
+![image](https://img.shields.io/badge/Hard-11-red)
 
 ## LeetCode Journey
 
@@ -173,6 +173,7 @@
 |  509 | [Fibonacci Number](./p00509/README.md) | Easy | `Math` `Dynamic Programming` `Recursion` `Memorization` |
 |  530 | [Minimum Absolute Difference in BST](./p00530/README.md) | Easy | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Search Tree` `Binary Tree` |
 |  542 | [01 Matrix](./p00542/README.md) | Medium | `Array` `Dynamic Programming` `Breadth-First Search` `Matrix` |
+|  547 | [Number of Provinces](./p00547/README.md) | Medium | `Depth-First Search` `Breadth-First Search` `Union Find` `Graph` |
 |  557 | [Reverse Words in a String III](./p00557/README.md) | Easy | `Two Pointers` `String` |
 |  559 | [Maximum Depth of N-ary Tree](./p00559/README.md) | Easy | `Tree` `Depth-First Search` `Breadth-First Search` |
 |  560 | [Subarray Sum Equals K](./p00560/README.md) | Medium | `Array` `Hash Table` `Prefix Sum` |
