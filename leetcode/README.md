@@ -75,6 +75,7 @@
 |  108 | [Convert Sorted Array to Binary Search Tree](./p00108/README.md) | Easy | `Array` `Divide and Conquer` `Tree` `Binary Search Tree` `Binary Tree` |
 |  110 | [Balanced Binary Tree](./p00110/README.md) | Easy | `Tree` `Depth-First Search` `Binary Tree` |
 |  112 | [Path Sum](./p00112/README.md) | Easy | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
+|  113 | [Path Sum II](./p00113/README.md) | Medium | `Backtracking` `Tree` `Depth-First Search` `Binary Tree` |
 |  114 | [Flatten Binary Tree to Linked List](./p00114/README.md) | Medium | `Linked List` `Stack` `Tree` `Depth-First Search` `Binary Tree` |
 |  116 | [Populating Next Right Pointers in Each Node](./p00116/README.md) | Medium | `Linked List` `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
 |  117 | [Populating Next Right Pointers in Each Node II](./p00117/README.md) | Medium | `Linked List` `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
