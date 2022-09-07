@@ -239,6 +239,7 @@
 | 1480 | [Running Sum of 1d Array](./p01480/README.md) | Easy | `Array` `Prefix Sum` |
 | 1582 | [Special Positions in a Binary Matrix](./p01582/README.md) | Easy | `Array` `Matrix` |
 | 1689 | [Partitioning Into Minimum Number Of Deci-Binary Numbers](./p01689/README.md) | Medium | `String` `Greedy` |
+| 1823 | [Find the Winner of the Circular Game](./p01823/README.md) | Medium | `Array` `Math` `Recursion` `Queue` `Simulation` |
 | 1863 | [Sum of All Subset XOR Totals](./p01863/README.md) | Easy | `Array` `Math` `Backtracking` `Bit Manipulation` `Combinatorics` |
 | 1925 | [Count Square Sum Triples](./p01925/README.md) | Easy | `Math` `Enumeration` |
 | 2309 | [Greatest English Letter in Upper and Lower Case](./p02309/README.md) | Easy | `Hash Table` `String` `Enumeration` |
