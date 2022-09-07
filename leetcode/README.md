@@ -3,8 +3,8 @@
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/ranking?logo=leetcode&color=orange)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/solved?difficulty=all&logo=leetcode&color=orange)
-![image](https://img.shields.io/badge/Easy-108-green)
-![image](https://img.shields.io/badge/Medium-110-yellow)
+![image](https://img.shields.io/badge/Easy-109-green)
+![image](https://img.shields.io/badge/Medium-114-yellow)
 ![image](https://img.shields.io/badge/Hard-11-red)
 
 ## LeetCode Journey
@@ -68,6 +68,7 @@
 |  100 | [Same Tree](./p00100/README.md) | Easy | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
 |  101 | [Symmetric Tree](./p00101/README.md) | Easy | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
 |  102 | [Binary Tree Level Order Traversal](./p00102/README.md) | Medium | `Tree` `Breadth-First Search` `Binary Tree` |
+|  103 | [Binary Tree Zigzag Level Order Traversal](./p00103/README.md) | Medium | `Tree` `Breadth-First Search` `Binary Tree` |
 |  104 | [Maximum Depth of Binary Tree](./p00104/README.md) | Easy | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
 |  105 | [Construct Binary Tree from Preorder and Inorder Traversal](./p00105/README.md) | Medium | `Array` `Hash Table` `Divide and Conquer` `Tree` `Binary Tree` |
 |  106 | [Construct Binary Tree from Inorder and Postorder Traversal](./p00106/README.md) | Medium | `Array` `Hash Table` `Divide and Conquer` `Tree` `Binary Tree` |
