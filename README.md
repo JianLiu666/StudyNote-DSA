@@ -16,19 +16,20 @@
 ```
 Data Structures
 
-  +-------+                     +-------------+               +------------+         +---------------+          +------+                     +-------+
-  | Array | ------------------> | Linked List | ------------> | Hash Table | ------> | Queue & Stack | -------> | Tree | ------------------> | Graph | ---> keep going
-  +-------+                     +-------------+               +------------+         +---------------+          +------+                     +-------+
-    |                             |                             |                      |                          |                             |
-    ├- Two-Pointer Techniques     ├- Two-Pointer Techniques     ├- Hash Functions      ├- Queue                   ├- Tree Traversals            ├- Adjacency Matrix
-    ├- In-place Algorithms        └- Cycle Detection            ├- Rolling Hash        |   └- Circular Queue      ├- Binary Tree                ├- Adjacency List
-    └- String                                                   ├- Chaining            └- Stack                   |   ├- Binary Search Tree     ├- Undirected Graphs
-        ├- Knuth–Morris–Pratt                                   └- Open Addressing         ├- Monotonic Stack     |   └- Binary Heap Tree       |   └- Rooted Tree
-        └- Manacher Algorithm                                                              └- Explicit Stack      ├- N-ary Tree                 ├- Directed Graphs
-                                                                                                                  └- Trie                       |   ├- Directed Acyclic Graph
-                                                                                                                                                |   └- Topological Sorting
-                                                                                                                                                └- Disjoint Set
-                                                                                                                                                    └- Minimum Spanning Trees
+  +-------+                     +-------------+               +------------+         +---------------+          +------+                        +-------+
+  | Array | ------------------> | Linked List | ------------> | Hash Table | ------> | Queue & Stack | -------> | Tree | ---------------------> | Graph | ---> keep going
+  +-------+                     +-------------+               +------------+         +---------------+          +------+                        +-------+
+    |                             |                             |                      |                          |                               |
+    ├- Two-Pointer Techniques     ├- Two-Pointer Techniques     ├- Hash Functions      ├- Queue                   ├- Tree Traversals              ├- Adjacency Matrix
+    ├- In-place Algorithms        └- Cycle Detection            ├- Rolling Hash        |   └- Circular Queue      |   ├- Pre-order Traversal      ├- Adjacency List
+    └- String                                                   ├- Chaining            └- Stack                   |   ├- In-order Traversal       ├- Undirected Graphs
+        ├- Knuth–Morris–Pratt                                   └- Open Addressing         ├- Monotonic Stack     |   ├- Post-order Traversal     |   └- Rooted Tree
+        └- Manacher Algorithm                                                              └- Explicit Stack      |   └- Morris Traversal         ├- Directed Graphs
+                                                                                                                  ├- Binary Tree                  |   ├- Directed Acyclic Graph
+                                                                                                                  |   ├- Binary Search Tree       |   └- Topological Sorting
+                                                                                                                  |   └- Binary Heap Tree         └- Disjoint Set
+                                                                                                                  ├- N-ary Tree                       └- Minimum Spanning Trees
+                                                                                                                  └- Trie                                                      
 
 Algorithms
 
