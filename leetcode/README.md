@@ -248,6 +248,7 @@
 | 1823 | [Find the Winner of the Circular Game](./p01823/README.md) | Medium | `Array` `Math` `Recursion` `Queue` `Simulation` |
 | 1863 | [Sum of All Subset XOR Totals](./p01863/README.md) | Easy | `Array` `Math` `Backtracking` `Bit Manipulation` `Combinatorics` |
 | 1925 | [Count Square Sum Triples](./p01925/README.md) | Easy | `Math` `Enumeration` |
+| 1996 | [The Number of Weak Characters in the Game](./p01996/README.md) | Medium | `Array` `Stack` `Greedy` `Sorting` `Monotonic Stack` |
 | 2309 | [Greatest English Letter in Upper and Lower Case](./p02309/README.md) | Easy | `Hash Table` `String` `Enumeration` |
 | 2367 | [Number of Arithmetic Triplets](./p02367/README.md) | Easy | `Array` `Hash Table` `Two Pointers` `Enumeration` |
 | 2389 | [Longest Subsequence With Limited Sum](./p02389/README.md) | Easy | `Array` `Binary Search` `Greedy` `Sorting` `Prefix Sum` |
