@@ -227,6 +227,7 @@
 |  905 | [Sort Array By Parity](./p00905/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
 |  916 | [Word Subsets](./p00916/README.md) | Medium | `Array` `Hash Table` `String` |
 |  941 | [Valid Mountain Array](./p00941/README.md) | Easy | `Array` |
+|  948 | [Bag of Tokens](./p00948/README.md) | Medium | `Array` `Two Pointers` `Greedy` `Sorting` |
 |  977 | [Squares of a Sorted Array](./p00977/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
 |  997 | [Find the Town Judge](./p00997/README.md) | Easy | `Array` `Hash Table` `Graph` |
 | 1051 | [Height Checker](./p01051/README.md) | Easy | `Array` `Sorting` `Counting Sort` |
