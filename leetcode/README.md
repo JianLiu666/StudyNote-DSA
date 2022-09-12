@@ -116,6 +116,7 @@
 |  209 | [Minimum Size Subarray Sum](./p00209/README.md) | Medium | `Array` `Binary Search` `Sliding Window` `Prefix Sum` |
 |  211 | [Design Add and Search Words Data Structure](./p00211/README.md) | Medium | `String` `Depth-First Search` `Design` `Trie` |
 |  212 | [Word Search II](./p00212/README.md) | Hard | `Array` `String` `Backtracking` `Trie` `Matrix` |
+|  215 | [Kth Largest Element in an Array](./p00215/README.md) | Medium | `Array` `Divide and Conquer` `Sorting` `Heap (Priority Queue)` `Quickselect` |
 |  217 | [Contains Duplicate](./p00217/README.md) | Easy | `Array` `Hash Table` `Sorting` |
 |  219 | [Contains Duplicate II](./p00219/README.md) | Easy | `Array` `Hash Table` `Sliding Window` |
 |  225 | [Implement Stack using Queues](./p00225/README.md) | Easy | `Stack` `Design` `Queue` |
