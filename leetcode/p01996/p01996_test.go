@@ -1,6 +1,7 @@
 package p01996
 
 import (
+	"fmt"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
@@ -38,6 +39,7 @@ func TestQuestion(t *testing.T) {
 	}
 
 	for idx, data := range tds {
-		ast.Equal(data.o.ans, numberOfWeakCharacters(data.i.properties), idx+1)
+		ast.Equal(data.o.ans, numberOfWeakCharacters(data.i.properties), fmt.Sprintf("Sorting: %v", idx+1))
+		ast.Equal(data.o.ans, numberOfWeakCharacters_stack(data.i.properties), fmt.Sprintf("Monotonic Stack: %v", idx+1))
 	}
 }

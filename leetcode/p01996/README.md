@@ -71,3 +71,9 @@ Explanation:
  - `e.g. properties = [[5,1],[5,2],[5,3],[4,1],[4,2],[3,1]]`
 
 如上所示，我們在遍歷的過程中只要記下當前能夠找到最大的 `defense`，就可以比對出 **Weak Character** 了
+
+### Solved using Monotonic Stack concept 
+
+一樣是來自 LeetCodeCN [官方解法](https://leetcode.cn/problems/the-number-of-weak-characters-in-the-game/solution/you-xi-zhong-ruo-jiao-se-de-shu-liang-by-3d2g/)
+
+差別在於用一個由小到大排序的 Monotonic Stack 來維護 `defense`，也就是說當 `properties[j] > properties[i] ` 時就是我們要找到的 **Week Character**
