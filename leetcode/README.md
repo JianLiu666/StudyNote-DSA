@@ -157,6 +157,7 @@
 |  387 | [First Unique Character in a String](./p00387/README.md) | Easy | `Hash Table` `String` `Queue` `Counting` |
 |  393 | [UTF-8 Validation](./p00393/README.md) | Medium | `Array` `Bit Manipulation` |
 |  394 | [Decode String](./p00394/README.md) | Medium | `String` `Stack` `Recursion` |
+|  399 | [Evaluate Division](./p00399/README.md) | Medium | `Array` `Depth-First Search` `Breadth-First Search` `Union Find` `Graph` `Shortest Path` |
 |  409 | [Longest Palindrome](./p00409/README.md) | Easy | `Hash Table` `String` `Greedy` |
 |  410 | [Split Array Largest Sum](./p00410/README.md) | Hard | `Array` `Binary Search` `Dynamic Programming` `Greedy` |
 |  412 | [Fizz Buzz](./p00412/README.md) | Easy | `Math` `String` `Simulation` |
