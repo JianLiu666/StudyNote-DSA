@@ -4,8 +4,8 @@
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/ranking?logo=leetcode&color=orange)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/solved?difficulty=all&logo=leetcode&color=orange)
 ![image](https://img.shields.io/badge/Easy-109-green)
-![image](https://img.shields.io/badge/Medium-117-yellow)
-![image](https://img.shields.io/badge/Hard-11-red)
+![image](https://img.shields.io/badge/Medium-123-yellow)
+![image](https://img.shields.io/badge/Hard-12-red)
 
 ## LeetCode Journey
 
@@ -155,6 +155,7 @@
 |  380 | [Insert Delete GetRandom O(1)](./p00380/README.md) | Medium | `Array` `Hash Table` `Math` `Design` `Randomized` |
 |  383 | [Ransom Note](./p00383/README.md) | Easy | `Hash Table` `String` `Counting` |
 |  387 | [First Unique Character in a String](./p00387/README.md) | Easy | `Hash Table` `String` `Queue` `Counting` |
+|  393 | [UTF-8 Validation](./p00393/README.md) | Medium | `Array` `Bit Manipulation` |
 |  394 | [Decode String](./p00394/README.md) | Medium | `String` `Stack` `Recursion` |
 |  409 | [Longest Palindrome](./p00409/README.md) | Easy | `Hash Table` `String` `Greedy` |
 |  410 | [Split Array Largest Sum](./p00410/README.md) | Hard | `Array` `Binary Search` `Dynamic Programming` `Greedy` |
