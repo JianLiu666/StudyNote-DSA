@@ -22,29 +22,29 @@ Data Structures
     |                             |                             |                      |                          |                               |
     ├─ Two-Pointer Techniques     ├─ Two-Pointer Techniques     ├─ Hash Functions      ├─ Queue                   ├─ Tree Traversals              ├─ Adjacency Matrix
     ├─ In-place Algorithms        └─ Cycle Detection            ├─ Rolling Hash        |   └─ Circular Queue      |   ├─ Pre-order Traversal      ├─ Adjacency List
-    └─ String                                                   ├─ Chaining            └─ Stack                   |   ├─ In-order Traversal       ├─ Undirected Graphs
-        ├─ Knuth–Morris–Pratt                                   └─ Open Addressing         ├─ Monotonic Stack     |   ├─ Post-order Traversal     |   └─ Rooted Tree
-        └─ Manacher Algorithm                                                              └─ Explicit Stack      |   └─ Morris Traversal         ├─ Directed Graphs
-                                                                                                                  ├─ Binary Tree                  |   ├─ Directed Acyclic Graph
+    ├─ Prefix Sum                                               ├─ Chaining            └─ Stack                   |   ├─ In-order Traversal       ├─ Undirected Graphs
+    └─ String                                                   ├─ Open Addressing         ├─ Monotonic Stack     |   ├─ Post-order Traversal     |   └─ Rooted Tree
+        ├─ Knuth–Morris–Pratt                                   └─ Memoization             └─ Explicit Stack      |   └─ Morris Traversal         ├─ Directed Graphs
+        └─ Manacher Algorithm                                                                                     ├─ Binary Tree                  |   ├─ Directed Acyclic Graph
                                                                                                                   |   ├─ Binary Search Tree       |   └─ Topological Sorting
                                                                                                                   |   └─ Binary Heap Tree         └─ Disjoint Set
                                                                                                                   ├─ N-ary Tree                       └─ Minimum Spanning Trees
-                                                                                                                  └─ Trie                                                      
+                                                                                                                  └─ Trie                     
 
 Algorithms
 
-  +---------+                   +-----------+               +-------------+             +---------------------+
-  | Sorting | ----------------> | Searching | ------------> | Fundamental | ----------> | Dynamic Programming | ---> keep going
-  +---------+                   +-----------+               +-------------+             +---------------------+
-    |                             |                           |                           |
-    ├─ Comparison                 ├─ Binary Search            ├─ Prefix Sum               ├─ Top-down
-    |   ├─ Stable                 ├─ Breadth-First Search     ├─ Memoization              └─ Bottom-up
-    |   |   ├─ Bubble Sort        ├─ Depth-First Search       ├─ Recursion           
-    |   |   ├─ Insertion Sort     └─ Graph Search             ├─ Tail Recursion      
-    |   |   └─ Merge Sort             ├─ Dijkstra             ├─ Enumeration         
-    |   └─ Unstable                   ├─ Bellman-Ford         |   ├─ Backtracking      
-    |       ├─ Selection Sort         ├─ Floyd-Warshall       |   └─ Branch and Bound  
-    |       ├─ Quick Sort             └─ Union Find           └─ Divide and Conquer    
+  +---------+                   +-----------+               +-----------+               +---------------------+
+  | Sorting | ----------------> | Searching | ------------> | Recursion | ------------> | Dynamic Programming | ---> keep going
+  +---------+                   +-----------+               +-----------+               +---------------------+
+    |                             |                           |                            |
+    ├─ Comparison                 ├─ Binary Search            ├─ Tail Recursion            ├─ Top-down
+    |   ├─ Stable                 ├─ Breadth-First Search     ├─ Enumeration               └─ Bottom-up
+    |   |   ├─ Bubble Sort        ├─ Depth-First Search       |   ├─ Backtracking     
+    |   |   ├─ Insertion Sort     └─ Graph Search             |   └─ Branch and Bound 
+    |   |   └─ Merge Sort             ├─ Dijkstra             ├─ Divide and Conquer   
+    |   └─ Unstable                   ├─ Bellman-Ford         └─ Master Theorem       
+    |       ├─ Selection Sort         ├─ Floyd-Warshall   
+    |       ├─ Quick Sort             └─ Union Find       
     |       └─ Heap Sort      
     └─ Non-comparison         
         └─ Stable             
