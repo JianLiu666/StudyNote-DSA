@@ -48,5 +48,10 @@ Explanation:
 
 # 解題方向
 
-施工中 ...
+LeetCodeCN 的這篇[精選解答](https://leetcode.cn/problems/median-of-two-sorted-arrays/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-w-2/)寫得不錯可以參考
 
+這題感覺只要過一陣子不寫就會忘記了QQ
+
+**解法三:**
+
+我們可以把中位數問題轉換成找到第 `k` 與 `k+1` 個位置的數字，在排除資料時用 Binary Search 的思路優化，加速收斂
