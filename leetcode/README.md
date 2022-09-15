@@ -60,6 +60,7 @@
 |   73 | [Set Matrix Zeroes](./p00073/README.md) | Medium | `Array` `Hash Table` `Matrix` |
 |   74 | [Search a 2D Matrix](./p00074/README.md) | Medium | `Array` `Binary Search` `Matrix` |
 |   75 | [Sort Colors](./p00075/README.md) | Medium | `Array` `Two Pointers` `Sorting` |
+|   77 | [Combinations](./p00077/README.md) | Medium | `Backtracking` |
 |   82 | [Remove Duplicates from Sorted List II](./p00082/README.md) | Medium | `Linked List` `Two Pointers` |
 |   83 | [Remove Duplicates from Sorted List](./p00083/README.md) | Easy | `Linked List` |
 |   86 | [Partition List](./p00086/README.md) | Medium | `Linked List` `Two Pointers` |
