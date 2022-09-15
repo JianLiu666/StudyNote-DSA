@@ -1,5 +1,7 @@
 package p00037
 
+// Time Complexity: O(9^(9*9))
+// Space Complexity: O(n)
 func solveSudoku(board [][]byte) {
 	// 為了方便後續計算, index 從 1 開始記錄
 	rows := make([]int, 10)
