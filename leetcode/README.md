@@ -4,8 +4,8 @@
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/ranking?logo=leetcode&color=orange)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/solved?difficulty=all&logo=leetcode&color=orange)
 ![image](https://img.shields.io/badge/Easy-109-green)
-![image](https://img.shields.io/badge/Medium-123-yellow)
-![image](https://img.shields.io/badge/Hard-12-red)
+![image](https://img.shields.io/badge/Medium-128-yellow)
+![image](https://img.shields.io/badge/Hard-13-red)
 
 ## LeetCode Journey
 
@@ -259,6 +259,7 @@
 | 1863 | [Sum of All Subset XOR Totals](./p01863/README.md) | Easy | `Array` `Math` `Backtracking` `Bit Manipulation` `Combinatorics` |
 | 1925 | [Count Square Sum Triples](./p01925/README.md) | Easy | `Math` `Enumeration` |
 | 1996 | [The Number of Weak Characters in the Game](./p01996/README.md) | Medium | `Array` `Stack` `Greedy` `Sorting` `Monotonic Stack` |
+| 2007 | [Find Original Array From Doubled Array](./p02007/README.md) | Medium | `Array` `Hash Table` `Greedy` `Sorting` |
 | 2309 | [Greatest English Letter in Upper and Lower Case](./p02309/README.md) | Easy | `Hash Table` `String` `Enumeration` |
 | 2367 | [Number of Arithmetic Triplets](./p02367/README.md) | Easy | `Array` `Hash Table` `Two Pointers` `Enumeration` |
 | 2389 | [Longest Subsequence With Limited Sum](./p02389/README.md) | Easy | `Array` `Binary Search` `Greedy` `Sorting` `Prefix Sum` |
