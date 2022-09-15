@@ -39,6 +39,7 @@
 |   33 | [Search in Rotated Sorted Array](./p00033/README.md) | Medium | `Array` `Binary Search` |
 |   34 | [Find First and Last Position of Element in Sorted Array](./p00034/README.md) | Medium | `Array` `Binary Search` |
 |   36 | [Valid Sudoku](./p00036/README.md) | Medium | `Array` `Hash Table` `Matrix` |
+|   37 | [Sudoku Solver](./p00037/README.md) | Hard | `Array` `Backtracking` `Matrix` |
 |   38 | [Count and Say](./p00038/README.md) | Medium | `String` |
 |   41 | [First Missing Positive :heart:](./p00041/README.md) | Hard | `Array` `Hash Table` |
 |   43 | [Multiply Strings](./p00043/README.md) | Medium | `Math` `String` `Simulation` |
