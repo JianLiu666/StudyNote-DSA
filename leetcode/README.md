@@ -30,6 +30,7 @@
 |   19 | [Remove Nth Node From End of List](./p00019/README.md) | Medium | `Linked List` `Two Pointers` |
 |   20 | [Valid Parentheses](./p00020/README.md) | Easy | `String` `Stack` |
 |   21 | [Merge Two Sorted Lists](./p00021/README.md) | Easy | `Linked List` `Recursion` |
+|   22 | [Generate Parentheses](./p00022/README.md) | Medium | `String` `Dynamic Programming` `Backtracking` |
 |   24 | [Swap Nodes in Pairs](./p00024/README.md) | Medium | `Linked List` `Recursion` |
 |   25 | [Reverse Nodes in k-Group](./p00025/README.md) | Hard | `Linked List` `Recursion` |
 |   26 | [Remove Duplicates from Sorted Array](./p00026/README.md) | Easy | `Array` `Two Pointers` |
