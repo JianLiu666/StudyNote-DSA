@@ -64,6 +64,7 @@
 |   77 | [Combinations](./p00077/README.md) | Medium | `Backtracking` |
 |   82 | [Remove Duplicates from Sorted List II](./p00082/README.md) | Medium | `Linked List` `Two Pointers` |
 |   83 | [Remove Duplicates from Sorted List](./p00083/README.md) | Easy | `Linked List` |
+|   84 | [Largest Rectangle in Histogram](./p00084/README.md) | Hard | `Array` `Stack` `Monotonic Stack` |
 |   86 | [Partition List](./p00086/README.md) | Medium | `Linked List` `Two Pointers` |
 |   88 | [Merge Sorted Array](./p00088/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
 |   92 | [Reverse Linked List II](./p00092/README.md) | Medium | `Linked List` |
