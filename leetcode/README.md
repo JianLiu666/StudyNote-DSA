@@ -27,6 +27,7 @@
 |   13 | [Roman to Integer](./p00013/README.md) | Easy | `Hash Table` `Math` `String` |
 |   14 | [Longest Common Prefix](./p00014/README.md) | Easy | `String` |
 |   15 | [3Sum](./p00015/README.md) | Medium | `Array` `Two Pointers` `Sorting` |
+|   17 | [Letter Combinations of a Phone Number](./p00017/README.md) | Medium | `Hash Table` `String` `Backtracking` |
 |   19 | [Remove Nth Node From End of List](./p00019/README.md) | Medium | `Linked List` `Two Pointers` |
 |   20 | [Valid Parentheses](./p00020/README.md) | Easy | `String` `Stack` |
 |   21 | [Merge Two Sorted Lists](./p00021/README.md) | Easy | `Linked List` `Recursion` |
