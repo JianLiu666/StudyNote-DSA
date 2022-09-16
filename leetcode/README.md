@@ -126,6 +126,7 @@
 |  212 | [Word Search II](./p00212/README.md) | Hard | `Array` `String` `Backtracking` `Trie` `Matrix` |
 |  215 | [Kth Largest Element in an Array](./p00215/README.md) | Medium | `Array` `Divide and Conquer` `Sorting` `Heap (Priority Queue)` `Quickselect` |
 |  217 | [Contains Duplicate](./p00217/README.md) | Easy | `Array` `Hash Table` `Sorting` |
+|  218 | [The Skyline Problem](./p00218/README.md) | Hard | `Array` `Divide and Conquer` `Binary Indexed Tree` `Segment Tree` `Line Sweep` `Heap (Priority Queue)` `Ordered Set` |
 |  219 | [Contains Duplicate II](./p00219/README.md) | Easy | `Array` `Hash Table` `Sliding Window` |
 |  225 | [Implement Stack using Queues](./p00225/README.md) | Easy | `Stack` `Design` `Queue` |
 |  226 | [Invert Binary Tree](./p00226/README.md) | Easy | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
