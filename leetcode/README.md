@@ -124,6 +124,7 @@
 |  207 | [Course Schedule](./p00207/README.md) | Medium | `Depth-First Search` `Breadth-First Search` `Graph` `Topological Sort` |
 |  208 | [Implement Trie (Prefix Tree)](./p00208/README.md) | Medium | `Hash Table` `String` `Design` `Trie` |
 |  209 | [Minimum Size Subarray Sum](./p00209/README.md) | Medium | `Array` `Binary Search` `Sliding Window` `Prefix Sum` |
+|  210 | [Course Schedule II](./p00210/README.md) | Medium | `Depth-First Search` `Breadth-First Search` `Graph` `Topological Sort` |
 |  211 | [Design Add and Search Words Data Structure](./p00211/README.md) | Medium | `String` `Depth-First Search` `Design` `Trie` |
 |  212 | [Word Search II](./p00212/README.md) | Hard | `Array` `String` `Backtracking` `Trie` `Matrix` |
 |  215 | [Kth Largest Element in an Array](./p00215/README.md) | Medium | `Array` `Divide and Conquer` `Sorting` `Heap (Priority Queue)` `Quickselect` |
