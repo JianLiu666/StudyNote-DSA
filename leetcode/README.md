@@ -221,6 +221,7 @@
 |  705 | [Design HashSet](./p00705/README.md) | Easy | `Array` `HashTable` `Linked List` `Design` `Hash Function` |
 |  706 | [Design HashMap](./p00706/README.md) | Easy | `Array` `HashTable` `Linked List` `Design` `Hash Function` |
 |  707 | [Design Linked List](./p00707/README.md) | Medium | `Linked List` `Design` |
+|  718 | [Maximum Length of Repeated Subarray](./p00718/README.md) | Medium | `Array` `Binary Search` `Dynamic Programming` `Sliding Window` `Rolling Hash` `Hash Function` |
 |  719 | [Find K-th Smallest Pair Distance](./p00719/README.md) | Hard | `Array` `Two Pointers` `Binary Search` `Sorting` |
 |  724 | [Find Pivot Index](./p00724/README.md) | Easy | `Array` `Prefix Sum` |
 |  733 | [Flood Fill](./p00733/README.md) | Easy | `Array` `Depth-First Search` `Breadth-First Search` `Matrix` |
