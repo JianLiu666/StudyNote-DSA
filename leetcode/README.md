@@ -3,9 +3,9 @@
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/ranking?logo=leetcode&color=orange)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/solved?difficulty=all&logo=leetcode&color=orange)
-![image](https://img.shields.io/badge/Easy-109-green)
-![image](https://img.shields.io/badge/Medium-128-yellow)
-![image](https://img.shields.io/badge/Hard-13-red)
+![image](https://img.shields.io/badge/Easy-110-green)
+![image](https://img.shields.io/badge/Medium-138-yellow)
+![image](https://img.shields.io/badge/Hard-17-red)
 
 ## LeetCode Journey
 
@@ -248,6 +248,7 @@
 |  948 | [Bag of Tokens](./p00948/README.md) | Medium | `Array` `Two Pointers` `Greedy` `Sorting` |
 |  973 | [K Closest Points to Origin](./p00973/README.md) | Medium | `Array` `Math` `Divide and Conquer` `Geometry` `Sorting` `Heap (Priority Queue)` `Quickselect` |
 |  977 | [Squares of a Sorted Array](./p00977/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
+|  985 | [Sum of Even Numbers After Queries](./p00985/README.md) | Medium | `Array` `Simulation` |
 |  997 | [Find the Town Judge](./p00997/README.md) | Easy | `Array` `Hash Table` `Graph` |
 | 1051 | [Height Checker](./p01051/README.md) | Easy | `Array` `Sorting` `Counting Sort` |
 | 1079 | [Letter Tile Possibilities](./p01079/README.md) | Medium | `String` `Backtracking` |
