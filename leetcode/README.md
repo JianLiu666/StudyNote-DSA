@@ -255,6 +255,7 @@
 | 1051 | [Height Checker](./p01051/README.md) | Easy | `Array` `Sorting` `Counting Sort` |
 | 1079 | [Letter Tile Possibilities](./p01079/README.md) | Medium | `String` `Backtracking` |
 | 1089 | [Duplicate Zeros](./p01089/README.md) | Easy | `Array` `Two Pointers` |
+| 1200 | [Minimum Absolute Difference](./p01200/README.md) | Easy | `Array` `Sorting` |
 | 1202 | [Smallest String With Swaps](./p01202/README.md) | Medium | `Dynamic Programming` |
 | 1220 | [Count Vowels Permutation](./p01220/README.md) | Hard | `Dynamic Programming` |
 | 1249 | [Minimum Remove to Make Valid Parentheses](./p01249/README.md) | Medium | `String` `Stack` |
