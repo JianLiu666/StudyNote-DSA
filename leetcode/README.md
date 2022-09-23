@@ -267,6 +267,7 @@
 | 1480 | [Running Sum of 1d Array](./p01480/README.md) | Easy | `Array` `Prefix Sum` |
 | 1557 | [Minimum Number of Vertices to Reach All Nodes](./p01557/README.md) | Medium | `Graph` |
 | 1582 | [Special Positions in a Binary Matrix](./p01582/README.md) | Easy | `Array` `Matrix` |
+| 1680 | [Concatenation of Consecutive Binary Numbers](./p01680/README.md) | Medium | `Matrix` `Bit Manipulation` `Simulation` |
 | 1689 | [Partitioning Into Minimum Number Of Deci-Binary Numbers](./p01689/README.md) | Medium | `String` `Greedy` |
 | 1823 | [Find the Winner of the Circular Game](./p01823/README.md) | Medium | `Array` `Math` `Recursion` `Queue` `Simulation` |
 | 1863 | [Sum of All Subset XOR Totals](./p01863/README.md) | Easy | `Array` `Math` `Backtracking` `Bit Manipulation` `Combinatorics` |
