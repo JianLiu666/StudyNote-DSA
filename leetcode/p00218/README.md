@@ -61,4 +61,7 @@ Output: [[0,3],[5,0]]
 
 # 解題方向
 
-施工中 ...
+這題來來回回看了好幾遍，還是不熟悉 `Line Sweep` 的技巧，先記錄下參考過的資料
+
+- [LeetCode Solution](https://leetcode.com/problems/the-skyline-problem/discuss/281898/Golang-Max-heap-%2B-external-pointer.-O(N*logN)-time-O(N)-space.)
+- [LeetCodeCN Solution](https://leetcode.cn/problems/the-skyline-problem/solution/gong-shui-san-xie-sao-miao-xian-suan-fa-0z6xc/)
