@@ -3,9 +3,9 @@
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/ranking?logo=leetcode&color=orange)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/solved?difficulty=all&logo=leetcode&color=orange)
-![image](https://img.shields.io/badge/Easy-110-green)
-![image](https://img.shields.io/badge/Medium-138-yellow)
-![image](https://img.shields.io/badge/Hard-17-red)
+![image](https://img.shields.io/badge/Easy-111-green)
+![image](https://img.shields.io/badge/Medium-142-yellow)
+![image](https://img.shields.io/badge/Hard-20-red)
 
 ## LeetCode Journey
 
@@ -108,6 +108,7 @@
 |  155 | [Min Stack](./p00155/README.md) | Medium | `Stack` `Design` |
 |  160 | [Intersection of Two Linked Lists :heart:](./p00160/README.md) | Easy | `Hash Table` `Linked List` `Two Pointers` |
 |  162 | [Find Peak Element](./p00162/README.md) | Medium | `Array` `Binary Search` |
+|  164 | [Maximum Gap](./p00164/README.md) | Hard | `Array` `Sorting` `Bucket Sort` `Radix Sort` |
 |  167 | [Two Sum II - Input Array Is Sorted](./p00167/README.md) | Medium | `Array` `Two Pointers` `Binary Search` |
 |  169 | [Majority Element](./p00169/README.md) | Easy | `Array` `Hash Table` `Divide and Conquer` `Sorting` `Countint` |
 |  171 | [Excel Sheet Column Number](./p00171/README.md) | Easy | `Math` `String` |
