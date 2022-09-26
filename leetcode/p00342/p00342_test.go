@@ -40,5 +40,6 @@ func TestQuestion(t *testing.T) {
 
 	for idx, data := range tds {
 		ast.Equal(data.o.ans, isPowerOfFour_recursion(data.i.n), fmt.Sprintf("Recursion: %v", idx+1))
+		ast.Equal(data.o.ans, isPowerOfFour_bitmanipulation(data.i.n), fmt.Sprintf("Bit Manipulation: %v", idx+1))
 	}
 }
