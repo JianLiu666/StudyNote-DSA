@@ -278,6 +278,7 @@
 | 1996 | [The Number of Weak Characters in the Game](./p01996/README.md) | Medium | `Array` `Stack` `Greedy` `Sorting` `Monotonic Stack` |
 | 2007 | [Find Original Array From Doubled Array](./p02007/README.md) | Medium | `Array` `Hash Table` `Greedy` `Sorting` |
 | 2309 | [Greatest English Letter in Upper and Lower Case](./p02309/README.md) | Easy | `Hash Table` `String` `Enumeration` |
+| 2343 | [Query Kth Smallest Trimmed Number](./p02343/README.md) | Medium | `Array` `String` `Divide and Conquer` `Sorting` `Heap (Priority Queue)` `Radix Sort` `Quickselect` |
 | 2367 | [Number of Arithmetic Triplets](./p02367/README.md) | Easy | `Array` `Hash Table` `Two Pointers` `Enumeration` |
 | 2389 | [Longest Subsequence With Limited Sum](./p02389/README.md) | Easy | `Array` `Binary Search` `Greedy` `Sorting` `Prefix Sum` |
 | 2390 | [Removing Stars From a String](./p02390/README.md) | Medium | `String` `Stack` `Simulation` |
