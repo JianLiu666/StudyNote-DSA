@@ -239,6 +239,7 @@
 |  804 | [Unique Morse Code Words](./p00804/README.md) | Easy | `Array` `Hash Table` `String` |
 |  814 | [Binary Tree Pruning](./p00814/README.md) | Medium | `Tree` `Depth-First Search` `Binary Tree` |
 |  823 | [Binary Trees With Factors](./p00823/README.md) | Medium | `Array` `Hash Table` `Dynamic Programming` |
+|  838 | [Push Dominoes](./p00838/README.md) | Medium | `Two Pointers` `String` `Dynamic Programming` |
 |  839 | [Similar String Groups](./p00839/README.md) | Hard | `Array` `String` `Depth-First Search` `Breadth-First Search` `Union Find` |
 |  841 | [Keys and Rooms](./p00841/README.md) | Medium | `Depth-First Search` `Breadth-First Search` `Graph` |
 |  869 | [Reordered Power of 2](./p00869/README.md) | Medium | `Math` `Sorting` `Counting` `Enumeration` |
