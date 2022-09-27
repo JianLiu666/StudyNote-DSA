@@ -6,9 +6,9 @@ type Node struct {
 	Random *Node
 }
 
-// Time Complexity: O(n)
+// Time Complexity: O(2n)
 // Space Complexity: O(n)
-func copyRandomList(head *Node) *Node {
+func copyRandomList_2n(head *Node) *Node {
 	if head == nil {
 		return nil
 	}
@@ -45,4 +45,38 @@ func copyRandomList(head *Node) *Node {
 	}
 
 	return res
+}
+
+// Time Complexity: O(n)
+// Space Complexity: O(n)
+func copyRandomList_n(head *Node) *Node {
+	// 建立一個 hash map, key: old_node, value: new_node
+	// 如此一來就可以做到再一次遍歷時就建立一份 copyright, 且同時將 random node 也做好
+	copyright := map[*Node]*Node{}
+	copyright[nil] = nil
+
+	origin := head
+	for origin != nil {
+		// 確保 copyright 已經存在對應的 new_node, 避免 nil pointer
+		if copyright[origin] == nil {
+			copyright[origin] = &Node{}
+		}
+		copyright[origin].Val = origin.Val
+
+		// 確保 copyright 沒有對應的 new_node, 避免重新初始化將原本就有的 new_node 覆蓋掉
+		if origin.Next != nil && copyright[origin.Next] == nil {
+			copyright[origin.Next] = &Node{}
+		}
+		copyright[origin].Next = copyright[origin.Next]
+
+		// 確保 copyright 沒有對應的 new_node, 避免重新初始化將原本就有的 new_node 覆蓋掉
+		if origin.Random != nil && copyright[origin.Random] == nil {
+			copyright[origin.Random] = &Node{}
+		}
+		copyright[origin].Random = copyright[origin.Random]
+
+		origin = origin.Next
+	}
+
+	return copyright[head]
 }

@@ -64,3 +64,5 @@ Output: [[3,null],[3,0],[3,null]]
 
 **Step.1 :** 先複製出一組與 `head` 相同的 `Linked List`，然後在過程中將兩邊的節點用 `Hash Table` 對應
 **Step.2 :** 再從頭尋訪一次 `head` 處理 `random` 對應
+
+fyi, 重看一遍之後發現 discuss 有一個跟鬼一樣的[解法](https://leetcode.com/problems/copy-list-with-random-pointer/discuss/43485/Clear-and-short-python-O(2n)-and-O(n)-solution)
