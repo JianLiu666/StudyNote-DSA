@@ -93,6 +93,7 @@
 |  121 | [Bets Time to Buy and Sell Stock](./p00121/README.md) | Easy | `Array` `Dynamic Programming` |
 |  122 | [Best Time to Buy and Sell Stock II](./p00122/README.md) | Medium | `Array` `Dynamic Programming` `Greedy` |
 |  125 | [Valid Palindrome](./p00125/README.md) | Easy | `Two Pointers` `String` |
+|  128 | [Longest Consecutive Sequence](./p00128/README.md) | Medium | `Array` `Hash Table` `Union Find` |
 |  133 | [Clone Graph](./p00133/README.md) | Medium | `Hash Table` `Depth-First Search` `Breadth-First Search` `Graph` |
 |  136 | [Single Number](./p00136/README.md) | Easy | `Array` `Bit Manipulation` |
 |  138 | [Copy List with Random Pointer](./p00138/README.md) | Medium | `Hash Table` `Linked List` |
