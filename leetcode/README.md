@@ -65,6 +65,7 @@
 |   74 | [Search a 2D Matrix](./p00074/README.md) | Medium | `Array` `Binary Search` `Matrix` |
 |   75 | [Sort Colors](./p00075/README.md) | Medium | `Array` `Two Pointers` `Sorting` |
 |   77 | [Combinations](./p00077/README.md) | Medium | `Backtracking` |
+|   78 | [Subsets](./p00078/README.md) | Medium | `Array` `Backtracking` `Bit Manipulation` |
 |   82 | [Remove Duplicates from Sorted List II](./p00082/README.md) | Medium | `Linked List` `Two Pointers` |
 |   83 | [Remove Duplicates from Sorted List](./p00083/README.md) | Easy | `Linked List` |
 |   84 | [Largest Rectangle in Histogram](./p00084/README.md) | Hard | `Array` `Stack` `Monotonic Stack` |
