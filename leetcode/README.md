@@ -44,7 +44,7 @@
 |   36 | [Valid Sudoku](./p00036/README.md) | Medium | `Array` `Hash Table` `Matrix` |
 |   37 | [Sudoku Solver](./p00037/README.md) | Hard | `Array` `Backtracking` `Matrix` |
 |   38 | [Count and Say](./p00038/README.md) | Medium | `String` |
-|   41 | [First Missing Positive :heart:](./p00041/README.md) | Hard | `Array` `Hash Table` |
+|   41 | [First Missing Positive](./p00041/README.md) | Hard | `Array` `Hash Table` |
 |   43 | [Multiply Strings](./p00043/README.md) | Medium | `Math` `String` `Simulation` |
 |   46 | [Permutations](./p00046/README.md) | Medium | `Array` `Backtracking` |
 |   48 | [Rotate Image](./p00048/README.md) | Medium | `Array` `Math` `Matrix` |
@@ -92,7 +92,7 @@
 |  116 | [Populating Next Right Pointers in Each Node](./p00116/README.md) | Medium | `Linked List` `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
 |  117 | [Populating Next Right Pointers in Each Node II](./p00117/README.md) | Medium | `Linked List` `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
 |  118 | [Pascal's Triangle](./p00118/README.md) | Easy | `Arary` `Dynamic Programming` |
-|  119 | [Pascal's Triangle II :heart:](./p00119/README.md) | Easy | `Arary` `Dynamic Programming` |
+|  119 | [Pascal's Triangle II](./p00119/README.md) | Easy | `Arary` `Dynamic Programming` |
 |  121 | [Bets Time to Buy and Sell Stock](./p00121/README.md) | Easy | `Array` `Dynamic Programming` |
 |  122 | [Best Time to Buy and Sell Stock II](./p00122/README.md) | Medium | `Array` `Dynamic Programming` `Greedy` |
 |  125 | [Valid Palindrome](./p00125/README.md) | Easy | `Two Pointers` `String` |
@@ -101,17 +101,17 @@
 |  136 | [Single Number](./p00136/README.md) | Easy | `Array` `Bit Manipulation` |
 |  138 | [Copy List with Random Pointer](./p00138/README.md) | Medium | `Hash Table` `Linked List` |
 |  141 | [Linked List Cycle](./p00141/README.md) | Easy | `Hash Table` `Linked List` `Two Pointers` |
-|  142 | [Linked List Cycle II :heart:](./p00142/README.md) | Medium | `Hash Table` `Linked List` `Two Pointers` |
+|  142 | [Linked List Cycle II](./p00142/README.md) | Medium | `Hash Table` `Linked List` `Two Pointers` |
 |  143 | [Reorder List](./p00143/README.md) | Medium | `Linked List` `Two Pointers` `Stack` `Recursion` |
 |  144 | [Binary Tree Preorder Traversal](./p00144/README.md) | Easy | `Stack` `Tree` `Depth-First Search` `Binary Tree` |
 |  145 | [Binary Tree Postorder Traversal](./p00145/README.md) | Easy | `Stack` `Tree` `Depth-First Search` `Binary Tree` |
 |  147 | [Insertion Sort List](./p00147/README.md) | Medium | `Linked List` `Sorting` |
 |  150 | [Evaluate Reverse Polish Notation](./p00150/README.md) | Medium | `Array` `Math` `Stack` |
 |  151 | [Reverse Words in a String](./p00151/README.md) | Medium | `Two Pointers` `String` |
-|  153 | [Find Minimum in Rotated Sorted Array :heart:](./p00153/README.md) | Medium | `Array` `Binary Search` |
+|  153 | [Find Minimum in Rotated Sorted Array](./p00153/README.md) | Medium | `Array` `Binary Search` |
 |  154 | [Find Minimum in Rotated Sorted Array II](./p00154/README.md) | Hard | `Array` `Binary Search` |
 |  155 | [Min Stack](./p00155/README.md) | Medium | `Stack` `Design` |
-|  160 | [Intersection of Two Linked Lists :heart:](./p00160/README.md) | Easy | `Hash Table` `Linked List` `Two Pointers` |
+|  160 | [Intersection of Two Linked Lists](./p00160/README.md) | Easy | `Hash Table` `Linked List` `Two Pointers` |
 |  162 | [Find Peak Element](./p00162/README.md) | Medium | `Array` `Binary Search` |
 |  164 | [Maximum Gap](./p00164/README.md) | Hard | `Array` `Sorting` `Bucket Sort` `Radix Sort` |
 |  167 | [Two Sum II - Input Array Is Sorted](./p00167/README.md) | Medium | `Array` `Two Pointers` `Binary Search` |
@@ -159,7 +159,8 @@
 |  290 | [Word Pattern](./p00290/README.md) | Easy | `Hash Table` `String` |
 |  297 | [Serialize and Deserialize Binary Tree](./p00297/README.md) | Hard | `String` `Tree` `Depth-First Search` `Breadth-First Search` `Design` `Binary Tree` |
 |  300 | [Longest Increasing Subsequence](./p00300/README.md) | Medium | `Array` `Binary Search` `Dynamic Programming` |
-|  315 | [Count of Smaller Numbers After Self :heart:](./p00315/README.md) | Hard | `Array` `Binary Search` `Divide and Conquer` `Binary Indexed Tree` `Segment Tree` `Merge Sort` `Ordered Set` |
+|  315 | [Count of Smaller Numbers After Self](./p00315/README.md) | Hard | `Array` `Binary Search` `Divide and Conquer` `Binary Indexed Tree` `Segment Tree` `Merge Sort` `Ordered Set` |
+|  322 | [Coin Change](./p00322/README.md) | Medium | `Array` `Dynamic Programming` `Breadth-First Search` |
 |  326 | [Power of Three](./p00326/README.md) | Easy | `Math` `Recursion` |
 |  328 | [Odd Even Linked List](./p00328/README.md) | Medium | `Linked List` |
 |  334 | [Increasing Triplet Subsequence](./p00334/README.md) | Medium | `Array` `Greedy` |
@@ -171,7 +172,7 @@
 |  367 | [367. Valid Perfect Square](./p00367/README.md) | Easy | `Math` `Binary Search` |
 |  374 | [Guess Number Higher or Lower](./p00374/README.md) | Easy | `Binary Search` `Interactive` |
 |  377 | [Combination Sum IV](./p00377/README.md) | Medium | `Array` `Dynamic Programming` |
-|  378 | [Kth Smallest Element in a Sorted Matrix :heart:](./p00378/README.md) | Medium | `Array` `Binary Search` `Sorting` `Heap (Priority Queue)` `Matrix` |
+|  378 | [Kth Smallest Element in a Sorted Matrix](./p00378/README.md) | Medium | `Array` `Binary Search` `Sorting` `Heap (Priority Queue)` `Matrix` |
 |  380 | [Insert Delete GetRandom O(1)](./p00380/README.md) | Medium | `Array` `Hash Table` `Math` `Design` `Randomized` |
 |  383 | [Ransom Note](./p00383/README.md) | Easy | `Hash Table` `String` `Counting` |
 |  387 | [First Unique Character in a String](./p00387/README.md) | Easy | `Hash Table` `String` `Queue` `Counting` |
@@ -219,7 +220,7 @@
 |  652 | [Find Duplicate Subtrees](./p00652/README.md) | Medium | `Hash Table` `Tree` `Depth-First Search` `Binary Tree` |
 |  653 | [Two Sum IV - Input is a BST](./p00653/README.md) | Easy | `Hash Table` `Two Pointers` `Tree` `Depth-First Search` `Breadth-First Search` `Binary Search Tree` `Binary Tree` |
 |  654 | [Maximum Binary Tree](./p00654/README.md) | Medium | `Array` `Divide and Conquer` `Stack` `Tree` `Monotonic Stack` `Binary Tree` |
-|  658 | [Find K Closest Elements :heart:](./p00658/README.md) | Medium | `Array` `Two Pointers` `Binary Search` `Sorting` `Heap (Priority Queue)` |
+|  658 | [Find K Closest Elements](./p00658/README.md) | Medium | `Array` `Two Pointers` `Binary Search` `Sorting` `Heap (Priority Queue)` |
 |  677 | [Map Sum Pairs](./p00680/README.md) | Easy | `Hash Table` `String` `Design` `Trie` |
 |  680 | [Valid Palindrome II](./p00680/README.md) | Easy | `Two Pointers` `String` `Greedy` |
 |  687 | [Longest Univalue Path](./p00687/README.md) | Medium | `Tree` `Depth-First Search` `Binary Tree` |
