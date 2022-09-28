@@ -116,6 +116,7 @@
 |  173 | [Binary Search Tree Iterator](./p00173/README.md) | Medium | `Stack` `Tree` `Design` `Binary Search Tree` `Binary Tree` `Iterator` |
 |  187 | [Repeated DNA Sequences](./p00187/README.md) | Medium | `Hash Table` `String` `Bit Manipulation` `Sliding Window` `Rolling Hash` `Hash Function` |
 |  189 | [Rotate Array](./p00189/README.md) | Medium | `Array` `Math` `Two Pointers` |
+|  190 | [Reverse Bits](./p00190/README.md) | Easy | `Divide and Conquer` `Bit Manipulation` |
 |  191 | [Number of 1 Bits](./p00191/README.md) | Easy | `Divide and Conquer` `Bit Manipulation` |
 |  198 | [House Robber](./p00198/README.md) | Medium | `Array` `Dynamic Programming` |
 |  199 | [Binary Tree Right Side View](./p00198/README.md) | Medium | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
