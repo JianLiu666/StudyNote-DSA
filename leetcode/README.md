@@ -3,8 +3,8 @@
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/ranking?logo=leetcode&color=orange)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/solved?difficulty=all&logo=leetcode&color=orange)
-![image](https://img.shields.io/badge/Easy-111-green)
-![image](https://img.shields.io/badge/Medium-142-yellow)
+![image](https://img.shields.io/badge/Easy-114-green)
+![image](https://img.shields.io/badge/Medium-154-yellow)
 ![image](https://img.shields.io/badge/Hard-20-red)
 
 ## LeetCode Journey
@@ -41,6 +41,7 @@
 |   30 | [Substring with Concatenation of All Words](./p00030/README.md) | Hard | `Hash Table` `String` `Sliding Window` |
 |   33 | [Search in Rotated Sorted Array](./p00033/README.md) | Medium | `Array` `Binary Search` |
 |   34 | [Find First and Last Position of Element in Sorted Array](./p00034/README.md) | Medium | `Array` `Binary Search` |
+|   35 | [Search Insert Position](./p00035/README.md) | Easy | `Array` `Binary Search` |
 |   36 | [Valid Sudoku](./p00036/README.md) | Medium | `Array` `Hash Table` `Matrix` |
 |   37 | [Sudoku Solver](./p00037/README.md) | Hard | `Array` `Backtracking` `Matrix` |
 |   38 | [Count and Say](./p00038/README.md) | Medium | `String` |
