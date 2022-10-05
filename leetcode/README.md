@@ -215,6 +215,7 @@
 |  599 | [Minimum Index Sum of Two Lists](./p00599/README.md) | Easy | `Array` `Hash Table` `String` |
 |  606 | [Construct String from Binary Tree](./p00606/README.md) | Easy | `String` `Tree` `Depth-First Search` `Binary Tree` |
 |  622 | [Design Circular Queue](./p00622/README.md) | Medium | `Array` `Linked List` `Design` `Queue` |
+|  623 | [Add One Row to Tree](./p00623/README.md) | Medium | `Tree` `Dpeth-First Search` `Breadth-First Search` `Binary Tree` |
 |  637 | [Average of Levels in Binary Tree](./p00637/README.md) | Easy | `Easy` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
 |  646 | [Maximum Length of Pair Chain](./p00646/README.md) | Medium | `Array` `Dynamic Programming` `Greedy` `Sorting` |
 |  648 | [Replace Words](./p00648/README.md) | Medium | `Array` `Hash Table` `String` `Trie` |
