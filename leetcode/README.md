@@ -3,8 +3,8 @@
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/ranking?logo=leetcode&color=orange)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/solved?difficulty=all&logo=leetcode&color=orange)
-![image](https://img.shields.io/badge/Easy-114-green)
-![image](https://img.shields.io/badge/Medium-154-yellow)
+![image](https://img.shields.io/badge/Easy-115-green)
+![image](https://img.shields.io/badge/Medium-160-yellow)
 ![image](https://img.shields.io/badge/Hard-20-red)
 
 ## LeetCode Journey
