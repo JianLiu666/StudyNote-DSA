@@ -262,6 +262,7 @@
 |  948 | [Bag of Tokens](./p00948/README.md) | Medium | `Array` `Two Pointers` `Greedy` `Sorting` |
 |  973 | [K Closest Points to Origin](./p00973/README.md) | Medium | `Array` `Math` `Divide and Conquer` `Geometry` `Sorting` `Heap (Priority Queue)` `Quickselect` |
 |  977 | [Squares of a Sorted Array](./p00977/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
+|  981 | [Time Based Key-Value Store](./p00981/README.md) | Medium | `Hash Table` `String` `Binary Search` `Design` |
 |  985 | [Sum of Even Numbers After Queries](./p00985/README.md) | Medium | `Array` `Simulation` |
 |  990 | [Satisfiability of Equality Equations](./p00990/README.md) | Medium | `Array` `String` `Union Find` `Graph` |
 |  997 | [Find the Town Judge](./p00997/README.md) | Easy | `Array` `Hash Table` `Graph` |
