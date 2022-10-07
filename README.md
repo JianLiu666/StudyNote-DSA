@@ -29,7 +29,8 @@ Data Structures
                                                                                                                   |   ├─ Binary Search Tree       |   └─ Topological Sorting
                                                                                                                   |   └─ Binary Heap Tree         └─ Disjoint Set
                                                                                                                   ├─ N-ary Tree                       └─ Minimum Spanning Trees
-                                                                                                                  └─ Trie                     
+                                                                                                                  ├─ Trie                     
+                                                                                                                  └─ Segment Tree
 
 Algorithms
 
