@@ -247,6 +247,7 @@
 |  763 | [Partition Labels](./p00763/README.md) | Medium | `Hash Table` `Two Pointers` `String` `Greedy` |
 |  771 | [Jewels and Stones](./p00771/README.md) | Easy | `Hash Table` `String` |
 |  779 | [K-th Symbol in Grammar](./p00779/README.md) | Medium | `Math` `Bit Manipulation` `Recursion` |
+|  784 | [Letter Case Permutation](./p00784/README.md) | Medium | `String` `Backtracking` `Bit Manipulation` |
 |  804 | [Unique Morse Code Words](./p00804/README.md) | Easy | `Array` `Hash Table` `String` |
 |  814 | [Binary Tree Pruning](./p00814/README.md) | Medium | `Tree` `Depth-First Search` `Binary Tree` |
 |  823 | [Binary Trees With Factors](./p00823/README.md) | Medium | `Array` `Hash Table` `Dynamic Programming` |
