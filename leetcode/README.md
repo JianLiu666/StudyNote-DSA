@@ -3,8 +3,8 @@
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/ranking?logo=leetcode&color=orange)
 ![image](https://badges.peiyuan.ch/leetcode/jianliu0616/solved?difficulty=all&logo=leetcode&color=orange)
-![image](https://img.shields.io/badge/Easy-115-green)
-![image](https://img.shields.io/badge/Medium-160-yellow)
+![image](https://img.shields.io/badge/Easy-116-green)
+![image](https://img.shields.io/badge/Medium-161-yellow)
 ![image](https://img.shields.io/badge/Hard-20-red)
 
 ## LeetCode Journey
@@ -267,6 +267,7 @@
 |  981 | [Time Based Key-Value Store](./p00981/README.md) | Medium | `Hash Table` `String` `Binary Search` `Design` |
 |  985 | [Sum of Even Numbers After Queries](./p00985/README.md) | Medium | `Array` `Simulation` |
 |  990 | [Satisfiability of Equality Equations](./p00990/README.md) | Medium | `Array` `String` `Union Find` `Graph` |
+|  994 | [Rotting Oranges](./p00994/README.md) | Medium | `Array` `Breadth-First Search` `Matrix` |
 |  997 | [Find the Town Judge](./p00997/README.md) | Easy | `Array` `Hash Table` `Graph` |
 | 1051 | [Height Checker](./p01051/README.md) | Easy | `Array` `Sorting` `Counting Sort` |
 | 1079 | [Letter Tile Possibilities](./p01079/README.md) | Medium | `String` `Backtracking` |
