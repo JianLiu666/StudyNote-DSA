@@ -94,6 +94,7 @@
 |  117 | [Populating Next Right Pointers in Each Node II](./p00117/README.md) | Medium | `Linked List` `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
 |  118 | [Pascal's Triangle](./p00118/README.md) | Easy | `Arary` `Dynamic Programming` |
 |  119 | [Pascal's Triangle II](./p00119/README.md) | Easy | `Arary` `Dynamic Programming` |
+|  120 | [Triangle](./p00120/README.md) | Medium | `Array` `Dynamic Programming` |
 |  121 | [Bets Time to Buy and Sell Stock](./p00121/README.md) | Easy | `Array` `Dynamic Programming` |
 |  122 | [Best Time to Buy and Sell Stock II](./p00122/README.md) | Medium | `Array` `Dynamic Programming` `Greedy` |
 |  125 | [Valid Palindrome](./p00125/README.md) | Easy | `Two Pointers` `String` |
