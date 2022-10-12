@@ -144,6 +144,7 @@
 |  225 | [Implement Stack using Queues](./p00225/README.md) | Easy | `Stack` `Design` `Queue` |
 |  226 | [Invert Binary Tree](./p00226/README.md) | Easy | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
 |  230 | [Kth Smallest Element in a BST](./p00230/README.md) | Medium | `Tree` `Depth-First Search` `Binary Search Tree` `Binary Tree` |
+|  231 | [Power of Two](./p00231/README.md) | Easy | `Math` `Bit Manipulation` `Recursion` |
 |  232 | [Implement Queue using Stacks](./p00232/README.md) | Easy | `Stack` `Design` `Queue` |
 |  234 | [Palindrome Linked List](./p00234/README.md) | Easy | `Linked List` `Two Pointers` `Stack` `Recursion` |
 |  235 | [Lowest Common Ancestor of a Binary Search Tree](./p00235/README.md) | Easy | `Tree` `Depth-First Search` `Binary Search Tree` `Binary Tree` |
