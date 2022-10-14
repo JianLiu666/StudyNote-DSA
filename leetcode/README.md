@@ -297,6 +297,7 @@
 | 1925 | [Count Square Sum Triples](./p01925/README.md) | Easy | `Math` `Enumeration` |
 | 1996 | [The Number of Weak Characters in the Game](./p01996/README.md) | Medium | `Array` `Stack` `Greedy` `Sorting` `Monotonic Stack` |
 | 2007 | [Find Original Array From Doubled Array](./p02007/README.md) | Medium | `Array` `Hash Table` `Greedy` `Sorting` |
+| 2095 | [Delete the Middle Node of a Linked List](./p02095/README.md) | Medium | `Linked List` `Two Pointers` |
 | 2309 | [Greatest English Letter in Upper and Lower Case](./p02309/README.md) | Easy | `Hash Table` `String` `Enumeration` |
 | 2343 | [Query Kth Smallest Trimmed Number](./p02343/README.md) | Medium | `Array` `String` `Divide and Conquer` `Sorting` `Heap (Priority Queue)` `Radix Sort` `Quickselect` |
 | 2367 | [Number of Arithmetic Triplets](./p02367/README.md) | Easy | `Array` `Hash Table` `Two Pointers` `Enumeration` |
