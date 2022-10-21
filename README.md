@@ -3,8 +3,9 @@
 - [Data Structure and Algorithm](#data-structure-and-algorithm)
   - [Introduction](#introduction)
   - [My DSA Road Map](#my-dsa-road-map)
-  - [Data Structure Notes](#data-structure-notes)
-  - [Algorithm Notes](#algorithm-notes)
+    - [Data Structure Notes](#data-structure-notes)
+    - [Algorithm Notes](#algorithm-notes)
+  - [References](#references)
 
 ---
 ## Introduction
@@ -53,13 +54,20 @@ Algorithms
             └─ Bucket Sort    
 ``` 
 
-## Data Structure Notes
+### Data Structure Notes
 
 - [Array](./notes/array.md)
 - [Linked List](./notes/linked-list.md)
 - [Hash Table](./notes/hash-table.md)
 
-## Algorithm Notes
+### Algorithm Notes
 
 - Sorting
 - Searching
+
+## References
+
+- [官神請受我一拜🧎🏻](https://github.com/wisdompeak/LeetCode)
+- [CList-LeetCode](https://clist.by/resource/leetcode.com/)
+- [LeetCode Problem Rating](https://zerotrac.github.io/leetcode_problem_rating/#/)
+- [Grind 75](https://www.techinterviewhandbook.org/grind75)
