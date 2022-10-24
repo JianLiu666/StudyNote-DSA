@@ -34,7 +34,7 @@ func TestQuestion(t *testing.T) {
 		},
 	}
 
-	for _, data := range tds {
-		ast.Equal(data.o.ans, search(data.i.nums, data.i.target))
+	for idx, data := range tds {
+		ast.Equal(data.o.ans, search(data.i.nums, data.i.target), idx+1)
 	}
 }
