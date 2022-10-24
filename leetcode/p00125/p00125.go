@@ -5,6 +5,7 @@ import "strings"
 // Time Complexity: O(n)
 // Space Complexity: O(n)
 func isPalindrome(s string) bool {
+	// 過濾非法字元
 	var builder strings.Builder
 	for _, ch := range s {
 		if (ch >= 'a' && ch <= 'z') || (ch >= '0' && ch <= '9') {
@@ -13,12 +14,13 @@ func isPalindrome(s string) bool {
 			builder.WriteRune(ch + 32)
 		}
 	}
+	s = builder.String()
 
-	str := builder.String()
+	// check by two pointers
 	head := 0
-	tail := len(str) - 1
+	tail := len(s) - 1
 	for head < tail {
-		if str[head] != str[tail] {
+		if s[head] != s[tail] {
 			return false
 		}
 		head++
