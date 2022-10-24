@@ -8,43 +8,38 @@ type ListNode struct {
 // Time Complexity: O(n)
 // Space Complexity: O(1)
 func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
-	if list1 == nil {
-		return list2
-	}
-	if list2 == nil {
-		return list1
-	}
+	dummy := &ListNode{}
+	cursor := dummy
 
-	var head *ListNode
-	var tail *ListNode
+	for list1 != nil || list2 != nil {
+		tmp := &ListNode{}
 
-	if list1.Val <= list2.Val {
-		head = list1
-		tail = head
-		list1 = list1.Next
-	} else {
-		head = list2
-		tail = head
-		list2 = list2.Next
-	}
-
-	for list1 != nil && list2 != nil {
-		if list1.Val <= list2.Val {
-			tail.Next = list1
-			tail = tail.Next
-			list1 = list1.Next
-		} else {
-			tail.Next = list2
-			tail = tail.Next
+		if list1 != nil && list2 != nil {
+			if list1.Val < list2.Val {
+				tmp.Val = list1.Val
+				list1 = list1.Next
+			} else {
+				tmp.Val = list2.Val
+				list2 = list2.Next
+			}
+		} else if list1 == nil {
+			tmp.Val = list2.Val
 			list2 = list2.Next
+		} else {
+			tmp.Val = list1.Val
+			list1 = list1.Next
 		}
+
+		cursor.Next = tmp
+		cursor = cursor.Next
 	}
 
-	if list1 != nil {
-		tail.Next = list1
-	} else {
-		tail.Next = list2
-	}
+	return dummy.Next
+}
 
-	return head
+func min(a, b int) int {
+	if a < b {
+		return a
+	}
+	return b
 }
