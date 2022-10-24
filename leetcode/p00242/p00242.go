@@ -7,19 +7,15 @@ func isAnagram(s string, t string) bool {
 		return false
 	}
 
+	// rune 可以保存 unicode 編碼
 	memo := map[rune]int{}
-
 	for _, ch := range s {
 		memo[ch]++
 	}
 
 	for _, ch := range t {
-		if count, exists := memo[ch]; exists {
-			if count == 0 {
-				return false
-			}
-			memo[ch]--
-		} else {
+		memo[ch]--
+		if memo[ch] < 0 {
 			return false
 		}
 	}

@@ -32,9 +32,13 @@ func TestQuestion(t *testing.T) {
 			input{s: "rat", t: "car"},
 			output{ans: false},
 		},
+		{
+			input{s: "一二三四五六七八九十", t: "一十二九三八四七五六"},
+			output{ans: true},
+		},
 	}
 
-	for _, data := range tds {
-		ast.Equal(data.o.ans, isAnagram(data.i.s, data.i.t))
+	for idx, data := range tds {
+		ast.Equal(data.o.ans, isAnagram(data.i.s, data.i.t), idx+1)
 	}
 }
