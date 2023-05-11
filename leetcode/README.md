@@ -273,6 +273,7 @@
 |  990 | [Satisfiability of Equality Equations](./p00990/README.md) | Medium | `Array` `String` `Union Find` `Graph` |
 |  994 | [Rotting Oranges](./p00994/README.md) | Medium | `Array` `Breadth-First Search` `Matrix` |
 |  997 | [Find the Town Judge](./p00997/README.md) | Easy | `Array` `Hash Table` `Graph` |
+| 1035 | [Uncrossed Lines](./p01035/README.md) | Medium | `Array` `Dynamic Programming` |
 | 1051 | [Height Checker](./p01051/README.md) | Easy | `Array` `Sorting` `Counting Sort` |
 | 1079 | [Letter Tile Possibilities](./p01079/README.md) | Medium | `String` `Backtracking` |
 | 1089 | [Duplicate Zeros](./p01089/README.md) | Easy | `Array` `Two Pointers` |
