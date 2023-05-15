@@ -18,6 +18,7 @@ func swapNodes(head *ListNode, k int) *ListNode {
 		cursor = cursor.Next
 	}
 
+	// 同時移動 cursor, right 直到 curosr 走到 list 盡頭
 	for cursor.Next != nil {
 		right = right.Next
 		cursor = cursor.Next
