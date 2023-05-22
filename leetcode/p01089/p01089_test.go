@@ -1,6 +1,7 @@
 package p01089
 
 import (
+	"fmt"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
@@ -39,10 +40,29 @@ func TestQuestion(t *testing.T) {
 			input{arr: []int{1, 5, 2, 0, 6, 8, 1, 0, 0}},
 			output{ans: []int{1, 5, 2, 0, 0, 6, 8, 1, 0}},
 		},
+		{
+			input{arr: []int{8, 4, 5, 0, 0, 0, 7}},
+			output{ans: []int{8, 4, 5, 0, 0, 0, 0}},
+		},
+		{
+			input{arr: []int{0, 0, 0, 0, 0, 0, 0}},
+			output{ans: []int{0, 0, 0, 0, 0, 0, 0}},
+		},
+		{
+			input{arr: []int{8, 4, 5, 0, 0, 0, 0, 7}},
+			output{ans: []int{8, 4, 5, 0, 0, 0, 0, 0}},
+		},
 	}
 
-	for _, data := range tds {
-		duplicateZeros(data.i.arr)
-		ast.Equal(data.o.ans, data.i.arr)
+	for idx, data := range tds {
+		copyright := make([]int, len(data.i.arr))
+		copy(copyright, data.i.arr)
+		duplicateZeros_sc_o1(copyright)
+		ast.Equal(data.o.ans, copyright, fmt.Sprintf("Space Complexity O(1): %v", idx+1))
+
+		copyright = make([]int, len(data.i.arr))
+		copy(copyright, data.i.arr)
+		duplicateZeros_sc_on(copyright)
+		ast.Equal(data.o.ans, copyright, fmt.Sprintf("Space Complexity O(n): %v", idx+1))
 	}
 }
