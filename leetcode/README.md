@@ -309,5 +309,6 @@
 | 2389 | [Longest Subsequence With Limited Sum](./p02389/README.md) | Easy | `Array` `Binary Search` `Greedy` `Sorting` `Prefix Sum` |
 | 2390 | [Removing Stars From a String](./p02390/README.md) | Medium | `String` `Stack` `Simulation` |
 | 2416 | [Sum of Prefix Scores of Strings](./p02416/README.md) | Hard | `Array` `String` `Trie` `Counting` |
+| 2542 | [Maximum Subsequence Score](./p02542/README.md) | Medium | `Array` `Greedy` `Sorting` `Heap (Priority Queue)` |
 
 ---
