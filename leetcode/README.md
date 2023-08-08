@@ -56,6 +56,7 @@
 |   54 | [Spiral Matrix](./p00054/README.md) | Medium | `Array` `Matrix` `Simulation` |
 |   55 | [Jump Game](./p00055/README.md) | Medium | `Array` `Dynamic Programming` `Greedy` |
 |   56 | [Merge Intervals](./p00056/README.md) | Medium | `Array` `Sorting` |
+|   57 | [Insert Interval](./p00057/README.md) | Medium | `Array` |
 |   59 | [Spiral Matrix II](./p00059/README.md) | Medium | `Array` `Matrix` `Simulation` |
 |   61 | [Rotate List](./p00061/README.md) | Medium | `Linked List` `Two Pointers` |
 |   62 | [62. Unique Paths](./p00062/README.md) | Medium | `Math` `Dynamic Programming` `Combinatorics` |
@@ -277,6 +278,7 @@
 | 1051 | [Height Checker](./p01051/README.md) | Easy | `Array` `Sorting` `Counting Sort` |
 | 1079 | [Letter Tile Possibilities](./p01079/README.md) | Medium | `String` `Backtracking` |
 | 1089 | [Duplicate Zeros](./p01089/README.md) | Easy | `Array` `Two Pointers` |
+| 1140 | [tone Game II](./p01140/README.md) | Medium | `Array` `Math` `Dynamic Programming` `Prefix Sum` `Game Theory` |
 | 1200 | [Minimum Absolute Difference](./p01200/README.md) | Easy | `Array` `Sorting` |
 | 1202 | [Smallest String With Swaps](./p01202/README.md) | Medium | `Dynamic Programming` |
 | 1220 | [Count Vowels Permutation](./p01220/README.md) | Hard | `Dynamic Programming` |
