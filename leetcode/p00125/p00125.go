@@ -3,23 +3,20 @@ package p00125
 import "strings"
 
 // Time Complexity: O(n)
-// Space Complexity: O(n)
+// Space Complexity: O(1)
 func isPalindrome(s string) bool {
-	// 過濾非法字元
-	var builder strings.Builder
-	for _, ch := range s {
-		if (ch >= 'a' && ch <= 'z') || (ch >= '0' && ch <= '9') {
-			builder.WriteRune(ch)
-		} else if ch >= 'A' && ch <= 'Z' {
-			builder.WriteRune(ch + 32)
-		}
-	}
-	s = builder.String()
+	s = strings.ToLower(s)
 
-	// check by two pointers
-	head := 0
-	tail := len(s) - 1
+	head, tail := 0, len(s)-1
+
 	for head < tail {
+		for head < tail && !isValid(s[head]) {
+			head++
+		}
+		for head < tail && !isValid(s[tail]) {
+			tail--
+		}
+
 		if s[head] != s[tail] {
 			return false
 		}
@@ -27,5 +24,12 @@ func isPalindrome(s string) bool {
 		tail--
 	}
 
+	return true
+}
+
+func isValid(a byte) bool {
+	if a < '0' || (a > '9' && a < 'A') || (a > 'Z' && a < 'a') || a > 'z' {
+		return false
+	}
 	return true
 }
