@@ -193,6 +193,7 @@
 |  415 | [Add Strings](./p00415/README.md) | Easy | `Math` `String` `Simulation` |
 |  417 | [Pacific Atlantic Water Flow](./p00417/README.md) | Medium | `Array` `Depth-First Search` `Breadth-First Search` `Matrix` |
 |  421 | [Maximum XOR of Two Numbers in an Array](./p00421/README.md) | Medium | `Array` `Hash Table` `Bit Manipulation` `Trie` |
+|  424 | [Longest Repeating Character Replacement](./p00424/README.md) | Medium | `Hash Table` `String` `Sliding Window` |
 |  429 | [N-ary Tree Level Order Traversal](./p00429/README.md) | Medium | `Tree` `Breadth-First Search` |
 |  430 | [Flatten a Multilevel Doubly Linked List](./p00430/README.md) | Medium | `Linked List` `Depth-First Search` `Doubly Linked List` |
 |  435 | [Non-overlapping Intervals](./p00435/README.md) | Medium | `Array` `Dynamic Programming` `Greedy` `Sorting` |
