@@ -173,6 +173,7 @@
 |  326 | [Power of Three](./p00326/README.md) | Easy | `Math` `Recursion` |
 |  328 | [Odd Even Linked List](./p00328/README.md) | Medium | `Linked List` |
 |  334 | [Increasing Triplet Subsequence](./p00334/README.md) | Medium | `Array` `Greedy` |
+|  336 | [Palindrome Pairs](./p00336/README.md) | Hard | `Array` `Hash Table` `String` `Trie` |
 |  342 | [Power of Four](./p00342/README.md) | Easy | `Math` `Bit Manipulation` `Recursion` |
 |  344 | [Reverse String](./p00344/README.md) | Easy | `Two Pointers` `String` `Recursion` |
 |  347 | [Top K Frequent Elements](./p00347/README.md) | Medium | `Array` `Hash Table` `Divide and Conquer` `Sorting` `Heap (Priority Queue)` `Bucket Sort` `Counting` `Quickselect` |
