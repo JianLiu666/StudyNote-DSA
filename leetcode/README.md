@@ -68,6 +68,7 @@
 |   73 | [Set Matrix Zeroes](./p00073/README.md) | Medium | `Array` `Hash Table` `Matrix` |
 |   74 | [Search a 2D Matrix](./p00074/README.md) | Medium | `Array` `Binary Search` `Matrix` |
 |   75 | [Sort Colors](./p00075/README.md) | Medium | `Array` `Two Pointers` `Sorting` |
+|   76 | [Minimum Window Substring](./p00076/README.md) | Hard | `Hash Table` `String` `Sliding Window` |
 |   77 | [Combinations](./p00077/README.md) | Medium | `Backtracking` |
 |   78 | [Subsets](./p00078/README.md) | Medium | `Array` `Backtracking` `Bit Manipulation` |
 |   79 | [Word Search](./p00079/README.md) | Medium | `Array` `Backtracking` `Matrix` |
