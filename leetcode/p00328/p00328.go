@@ -8,21 +8,20 @@ type ListNode struct {
 // Time Complexity: O(n)
 // Space Complexity: O(1)
 func oddEvenList(head *ListNode) *ListNode {
-	if head == nil || head.Next == nil {
+	if head == nil {
 		return head
 	}
 
-	previous := head
-	current := head.Next
+	odd, even := head, head.Next
+	evenBegin := even
 
-	for current != nil && current.Next != nil {
-		tmp := previous.Next
-		previous.Next = current.Next
-		current.Next = current.Next.Next
-		previous = previous.Next
-		previous.Next = tmp
-		current = current.Next
+	for even != nil && even.Next != nil {
+		odd.Next = odd.Next.Next
+		even.Next = even.Next.Next
+		odd = odd.Next
+		even = even.Next
 	}
+	odd.Next = evenBegin
 
 	return head
 }
