@@ -8,43 +8,35 @@ type ListNode struct {
 // Time Complexity: O(n)
 // Space Complexity: O(1)
 func isPalindrome(head *ListNode) bool {
-	if head.Next == nil {
-		return true
-	}
-
-	slow := head
-	fast := head
+	// step.1 find the middle of linked list
+	slow, fast := head, head
 	for fast != nil && fast.Next != nil {
+		slow = slow.Next
 		fast = fast.Next.Next
-		if fast == nil {
-			tmp := slow.Next
-			slow.Next = nil
-			slow = tmp
-		} else {
-			slow = slow.Next
-		}
 	}
 
-	previous := slow
-	current := previous.Next
-	previous.Next = nil
+	// 當 linked list 長度是奇數時, 需要往後位移一個 node 才是要判斷回文的起點(終點)
+	if fast != nil {
+		slow = slow.Next
+	}
 
+	// step.2 reverse the half of linked list
+	var last, current, next *ListNode
+	current = slow
 	for current != nil {
-		tmp := current.Next
-		current.Next = previous
-		previous = current
-		current = tmp
+		next = current.Next
+		current.Next = last
+		last, current = current, next
 	}
 
-	tail := previous
-	for head != nil && tail != nil {
-		if head.Val != tail.Val {
+	// step.3 check palindrome
+	left, right := head, last
+	for right != nil {
+		if left.Val != right.Val {
 			return false
 		}
-
-		head = head.Next
-		tail = tail.Next
+		left = left.Next
+		right = right.Next
 	}
-
 	return true
 }
