@@ -111,6 +111,7 @@
 |  143 | [Reorder List](./p00143/README.md) | Medium | `Linked List` `Two Pointers` `Stack` `Recursion` |
 |  144 | [Binary Tree Preorder Traversal](./p00144/README.md) | Easy | `Stack` `Tree` `Depth-First Search` `Binary Tree` |
 |  145 | [Binary Tree Postorder Traversal](./p00145/README.md) | Easy | `Stack` `Tree` `Depth-First Search` `Binary Tree` |
+|  146 | [LRU Cache](./p00146/README.md) | Medium | `Hash Table` `Linked List` `Design` `Doubly-Linked List` |
 |  147 | [Insertion Sort List](./p00147/README.md) | Medium | `Linked List` `Sorting` |
 |  150 | [Evaluate Reverse Polish Notation](./p00150/README.md) | Medium | `Array` `Math` `Stack` |
 |  151 | [Reverse Words in a String](./p00151/README.md) | Medium | `Two Pointers` `String` |
