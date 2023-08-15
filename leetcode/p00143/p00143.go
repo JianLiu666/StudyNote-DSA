@@ -8,53 +8,29 @@ type ListNode struct {
 // Time Complexity: O(n)
 // Space Complexity: O(n)
 func reorderList(head *ListNode) {
-	stack := CreateStack()
+	stack := []*ListNode{}
 
+	// step.1 find the middle of linked list
 	slow, fast := head, head
 	for fast != nil && fast.Next != nil {
 		slow = slow.Next
 		fast = fast.Next.Next
 	}
 
+	// step.2 push nodes of last halfs to the stack
 	for slow != nil {
-		stack.Put(slow)
+		stack = append(stack, slow)
 		slow = slow.Next
 	}
 
+	// step.3 merge two half from first and last halfs together
 	current := head
-	for !stack.Empty() {
-		node := stack.Pop()
+	for len(stack) > 0 {
+		node := stack[len(stack)-1]
+		stack = stack[:len(stack)-1]
 		node.Next = current.Next
 		current.Next = node
 		current = current.Next.Next
 	}
 	current.Next = nil
-}
-
-type Stack struct {
-	arr  []*ListNode
-	size int
-}
-
-func CreateStack() Stack {
-	return Stack{
-		arr:  make([]*ListNode, 0),
-		size: 0,
-	}
-}
-
-func (s *Stack) Empty() bool {
-	return s.size == 0
-}
-
-func (s *Stack) Put(val *ListNode) {
-	s.arr = append(s.arr, val)
-	s.size++
-}
-
-func (s *Stack) Pop() *ListNode {
-	val := s.arr[s.size-1]
-	s.size--
-	s.arr = s.arr[:s.size]
-	return val
 }
