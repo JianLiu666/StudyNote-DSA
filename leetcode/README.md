@@ -113,6 +113,7 @@
 |  145 | [Binary Tree Postorder Traversal](./p00145/README.md) | Easy | `Stack` `Tree` `Depth-First Search` `Binary Tree` |
 |  146 | [LRU Cache](./p00146/README.md) | Medium | `Hash Table` `Linked List` `Design` `Doubly-Linked List` |
 |  147 | [Insertion Sort List](./p00147/README.md) | Medium | `Linked List` `Sorting` |
+|  148 | [Sort List](./p00148/README.md) | Medium | `Linked List` `Two Pointers` `Divide and Conquer` `Sorting` `Merge Sort` |
 |  150 | [Evaluate Reverse Polish Notation](./p00150/README.md) | Medium | `Array` `Math` `Stack` |
 |  151 | [Reverse Words in a String](./p00151/README.md) | Medium | `Two Pointers` `String` |
 |  153 | [Find Minimum in Rotated Sorted Array](./p00153/README.md) | Medium | `Array` `Binary Search` |
