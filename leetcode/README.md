@@ -255,6 +255,7 @@
 |  719 | [Find K-th Smallest Pair Distance](./p00719/README.md) | Hard | `Array` `Two Pointers` `Binary Search` `Sorting` |
 |  724 | [Find Pivot Index](./p00724/README.md) | Easy | `Array` `Prefix Sum` |
 |  733 | [Flood Fill](./p00733/README.md) | Easy | `Array` `Depth-First Search` `Breadth-First Search` `Matrix` |
+|  735 | [Asteroid Collision](./p00735/README.md) | Medium | `Array` `Stack` `Simulation` |
 |  739 | [Daily Temperatures](./p00739/README.md) | Medium | `Array` `Stack` `Monotonic Stack` |
 |  744 | [Find Smallest Letter Greater Than Target](./p00744/README.md) | Easy | `Array` `Binary Search` |
 |  747 | [Largest Number At Least Twice of Others](./p00747/README.md) | Easy | `Array` `Sorting` |
