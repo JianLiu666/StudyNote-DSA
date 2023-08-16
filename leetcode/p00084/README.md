@@ -51,3 +51,7 @@ Output: 4
 - LeetCodeCN [精選解答](https://leetcode.cn/problems/largest-rectangle-in-histogram/solution/84-by-ikaruga/)
 
 看圖理解後的推導過程就不難了，剩下的直接在程式碼裡面說明吧
+
+#### 2023.08.17
+
+[multi-pass solution](https://www.youtube.com/watch?v=mesaogfSjD4) 請參考官神前半段講解
