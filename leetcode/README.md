@@ -222,6 +222,7 @@
 |  525 | [Contiguous Array](./p00525/README.md) | Medium | `Array` `Hash Table` `Prefix Sum` |
 |  530 | [Minimum Absolute Difference in BST](./p00530/README.md) | Easy | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Search Tree` `Binary Tree` |
 |  542 | [01 Matrix](./p00542/README.md) | Medium | `Array` `Dynamic Programming` `Breadth-First Search` `Matrix` |
+|  543 | [Diameter of Binary Tree](./p00543/README.md) | Easy | `Tree` `Depth-First Search` `Binary Tree` |
 |  547 | [Number of Provinces](./p00547/README.md) | Medium | `Depth-First Search` `Breadth-First Search` `Union Find` `Graph` |
 |  557 | [Reverse Words in a String III](./p00557/README.md) | Easy | `Two Pointers` `String` |
 |  559 | [Maximum Depth of N-ary Tree](./p00559/README.md) | Easy | `Tree` `Depth-First Search` `Breadth-First Search` |
