@@ -230,6 +230,7 @@
 |  561 | [Array Partition](./p00561/README.md) | Easy | `Array` `Greddy` `Sorting` `Counting Sort` |
 |  566 | [Reshape the Matrix](./p00566/README.md) | Easy | `Array` `Matrix` `Simulation` |
 |  567 | [Permutation in String](./p00567/README.md) | Medium | `Hash Table` `Two Pointers` `String` `Sliding Window` |
+|  572 | [Subtree of Another Tree](./p00572/README.md) | Easy | `Tree` `Depth-First Search` `String Matching` `Binary Tree` `Hash Function` |
 |  589 | [N-ary Tree Preorder Traversal](./p00589/README.md) | Easy | `Stack` `Tree` `Depth-First Search` |
 |  590 | [N-ary Tree Postorder Traversal](./p00590/README.md) | Easy | `Stack` `Tree` `Depth-First Search` |
 |  599 | [Minimum Index Sum of Two Lists](./p00599/README.md) | Easy | `Array` `Hash Table` `String` |
