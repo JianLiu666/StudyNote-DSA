@@ -277,6 +277,7 @@
 |  875 | [Koko Eating Bananas](./p00875/README.md) | Medium | `Array` `Binary Searh` |
 |  876 | [Middle of the Linked List](./p00876/README.md) | Easy | `Linked List` `Two Pointers` |
 |  890 | [Find and Replace Pattern](./p00890/README.md) | Medium | `Array` `Hash Table` `String` |
+|  895 | [Maximum Frequency Stack](./p00895/README.md) | Hard | `Hash Table` `Stack` `Design` `Ordered Set` |
 |  905 | [Sort Array By Parity](./p00905/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
 |  912 | [Sort an Array](./p00912/README.md) | Medium | `Array` `Divide and Conquer` `Sorting` `Heap (Priority Queue)` `Merge Sort` `Bucket Sort` `Radix Sort` `Counting Sort` |
 |  916 | [Word Subsets](./p00916/README.md) | Medium | `Array` `Hash Table` `String` |
