@@ -1,3 +1,5 @@
+//go:build ignore
+
 #include <vector>
 #include <set>
 
