@@ -245,6 +245,7 @@
 |  653 | [Two Sum IV - Input is a BST](./p00653/README.md) | Easy | `Hash Table` `Two Pointers` `Tree` `Depth-First Search` `Breadth-First Search` `Binary Search Tree` `Binary Tree` |
 |  654 | [Maximum Binary Tree](./p00654/README.md) | Medium | `Array` `Divide and Conquer` `Stack` `Tree` `Monotonic Stack` `Binary Tree` |
 |  658 | [Find K Closest Elements](./p00658/README.md) | Medium | `Array` `Two Pointers` `Binary Search` `Sorting` `Heap (Priority Queue)` |
+|  662 | [Maximum Width of Binary Tree](./p00662/README.md) | Medium | `Tree` `Depth-First Search` `Breath-First Search` `Binary Tree` |
 |  677 | [Map Sum Pairs](./p00680/README.md) | Easy | `Hash Table` `String` `Design` `Trie` |
 |  680 | [Valid Palindrome II](./p00680/README.md) | Easy | `Two Pointers` `String` `Greedy` |
 |  687 | [Longest Univalue Path](./p00687/README.md) | Medium | `Tree` `Depth-First Search` `Binary Tree` |
