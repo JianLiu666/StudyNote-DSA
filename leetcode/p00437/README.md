@@ -30,3 +30,7 @@
 **空間複雜度**
 - 暫存開銷: O(1)
 - recursion 開銷: O(n) or O(logn), 理由同上
+
+### Memorization
+
+可以參考這篇 [leetcode solution](https://leetcode.com/problems/path-sum-iii/solutions/141424/python-step-by-step-walk-through-easy-to-understand-two-solutions-comparison/)
