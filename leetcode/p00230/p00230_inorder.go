@@ -9,47 +9,22 @@ type TreeNode struct {
 // Time Complexity: O(2^n)
 // Space Complexity: O(n)
 func kthSmallest_inorder(root *TreeNode, k int) int {
-	s := CreateStack()
-	s.Put(root)
+	monotonicQueue := []int{}
+	dfs(root, k, &monotonicQueue)
+	return monotonicQueue[k-1]
+}
 
-	arr := []int{}
-	for root != nil || !s.Empty() {
-		for root != nil {
-			s.Put(root)
-			root = root.Left
-		}
-		root = s.Pop()
-		arr = append(arr, root.Val)
-		root = root.Right
+func dfs(root *TreeNode, k int, q *[]int) {
+	if root == nil {
+		return
 	}
 
-	return arr[k-1]
-}
+	dfs(root.Left, k, q)
 
-type Stack struct {
-	items []*TreeNode
-	size  int
-}
-
-func CreateStack() Stack {
-	return Stack{
-		items: make([]*TreeNode, 0),
-		size:  0,
+	*q = append(*q, root.Val)
+	if len(*q) >= k {
+		return
 	}
-}
 
-func (s *Stack) Empty() bool {
-	return s.size == 0
-}
-
-func (s *Stack) Put(val *TreeNode) {
-	s.items = append(s.items, val)
-	s.size++
-}
-
-func (s *Stack) Pop() *TreeNode {
-	val := s.items[s.size-1]
-	s.size--
-	s.items = s.items[:s.size]
-	return val
+	dfs(root.Right, k, q)
 }
