@@ -1,63 +1,62 @@
 package p00211
 
 type Node struct {
-	Childs [26]*Node
-	IsEnd  bool
-}
-
-func CreateNode() *Node {
-	return &Node{
-		Childs: [26]*Node{},
-		IsEnd:  false,
-	}
+	children [26]*Node
+	end      bool
 }
 
 type WordDictionary struct {
-	Root *Node
+	root *Node
 }
 
 func Constructor() WordDictionary {
 	return WordDictionary{
-		Root: CreateNode(),
+		root: &Node{},
 	}
 }
 
 func (this *WordDictionary) AddWord(word string) {
-	current := this.Root
+	cursor := this.root
 	for _, ch := range word {
-		if current.Childs[ch-'a'] == nil {
-			current.Childs[ch-'a'] = CreateNode()
+		idx := ch - 'a'
+		if cursor.children[idx] == nil {
+			cursor.children[idx] = &Node{}
 		}
-		current = current.Childs[ch-'a']
+		cursor = cursor.children[idx]
 	}
-	current.IsEnd = true
+	cursor.end = true
 }
 
 func (this *WordDictionary) Search(word string) bool {
-	return this.dfs(this.Root, word, 0)
+	return this.dfs(this.root, word, 0)
 }
 
 func (this *WordDictionary) dfs(root *Node, word string, idx int) bool {
 	if idx == len(word) {
-		return root.IsEnd
+		return root.end
 	}
 
-	if word[idx] != '.' && root.Childs[word[idx]-'a'] == nil {
-		return false
-	}
-
-	if word[idx] != '.' {
-		return this.dfs(root.Childs[word[idx]-'a'], word, idx+1)
-	} else {
-		for _, node := range root.Childs {
-			if node == nil {
+	if word[idx] == '.' {
+		for _, child := range root.children {
+			if child == nil {
 				continue
 			}
-			if found := this.dfs(node, word, idx+1); found {
+			if this.dfs(child, word, idx+1) {
 				return true
 			}
 		}
+		return false
 	}
 
-	return false
+	if root.children[word[idx]-'a'] == nil {
+		return false
+	}
+	return this.dfs(root.children[word[idx]-'a'], word, idx+1)
 }
+
+/**
+ * Your WordDictionary object will be instantiated and called as such:
+ * obj := Constructor();
+ * obj.AddWord(word);
+ * param_2 := obj.Search(word);
+ */
