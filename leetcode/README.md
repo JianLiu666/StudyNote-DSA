@@ -102,6 +102,7 @@
 |  120 | [Triangle](./p00120/README.md) | Medium | `Array` `Dynamic Programming` |
 |  121 | [Bets Time to Buy and Sell Stock](./p00121/README.md) | Easy | `Array` `Dynamic Programming` |
 |  122 | [Best Time to Buy and Sell Stock II](./p00122/README.md) | Medium | `Array` `Dynamic Programming` `Greedy` |
+|  124 | [Binary Tree Maximum Path Sum](./p00124/README.md) | Hard | `Dynamic Programming` `Tree` `Depth-First Search` `Binary Tree` |
 |  125 | [Valid Palindrome](./p00125/README.md) | Easy | `Two Pointers` `String` |
 |  128 | [Longest Consecutive Sequence](./p00128/README.md) | Medium | `Array` `Hash Table` `Union Find` |
 |  133 | [Clone Graph](./p00133/README.md) | Medium | `Hash Table` `Depth-First Search` `Breadth-First Search` `Graph` |
