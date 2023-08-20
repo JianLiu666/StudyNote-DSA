@@ -59,3 +59,5 @@ Explanation:
 這題的核心問題在於檢查 `Graph` 本身是否為合法的 DAG (i.e., 不存在循環)
 
 首先先將 `Graph` 按照題目給定的 `prerequisites` 建構完畢後，用 DFS 搭配 `Hash Table` 的觀念切入來檢查是否出現循環
+
+更新了 BFS 與 DFS 的做法
