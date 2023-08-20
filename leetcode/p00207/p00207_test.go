@@ -1,6 +1,7 @@
 package p00207
 
 import (
+	"fmt"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
@@ -251,6 +252,7 @@ func TestQuestion(t *testing.T) {
 	}
 
 	for idx, data := range tds {
-		ast.Equal(data.o.ans, canFinish(data.i.numCourses, data.i.prerequisites), idx+1)
+		ast.Equal(data.o.ans, canFinish_dfs(data.i.numCourses, data.i.prerequisites), fmt.Sprintf("DFS: %v", idx+1))
+		ast.Equal(data.o.ans, canFinish_bfs(data.i.numCourses, data.i.prerequisites), fmt.Sprintf("BFS: %v", idx+1))
 	}
 }
