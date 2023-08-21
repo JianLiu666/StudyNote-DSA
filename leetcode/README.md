@@ -263,6 +263,7 @@
 |  707 | [Design Linked List](./p00707/README.md) | Medium | `Linked List` `Design` |
 |  718 | [Maximum Length of Repeated Subarray](./p00718/README.md) | Medium | `Array` `Binary Search` `Dynamic Programming` `Sliding Window` `Rolling Hash` `Hash Function` |
 |  719 | [Find K-th Smallest Pair Distance](./p00719/README.md) | Hard | `Array` `Two Pointers` `Binary Search` `Sorting` |
+|  721 | [Accounts Merge](./p00721/README.md) | Medium | `Arary` `String` `Depth-First Search` `Breadth-First Search` `Union Find` |
 |  724 | [Find Pivot Index](./p00724/README.md) | Easy | `Array` `Prefix Sum` |
 |  733 | [Flood Fill](./p00733/README.md) | Easy | `Array` `Depth-First Search` `Breadth-First Search` `Matrix` |
 |  735 | [Asteroid Collision](./p00735/README.md) | Medium | `Array` `Stack` `Simulation` |
