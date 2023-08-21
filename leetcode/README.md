@@ -176,6 +176,7 @@
 |  290 | [Word Pattern](./p00290/README.md) | Easy | `Hash Table` `String` |
 |  297 | [Serialize and Deserialize Binary Tree](./p00297/README.md) | Hard | `String` `Tree` `Depth-First Search` `Breadth-First Search` `Design` `Binary Tree` |
 |  300 | [Longest Increasing Subsequence](./p00300/README.md) | Medium | `Array` `Binary Search` `Dynamic Programming` |
+|  310 | [Minimum Height Trees](./p00310/README.md) | Medium | `Depth-First Search` `Breadth-First Search` `Graph` `Topological Sort` |
 |  315 | [Count of Smaller Numbers After Self](./p00315/README.md) | Hard | `Array` `Binary Search` `Divide and Conquer` `Binary Indexed Tree` `Segment Tree` `Merge Sort` `Ordered Set` |
 |  322 | [Coin Change](./p00322/README.md) | Medium | `Array` `Dynamic Programming` `Breadth-First Search` |
 |  326 | [Power of Three](./p00326/README.md) | Easy | `Math` `Recursion` |
