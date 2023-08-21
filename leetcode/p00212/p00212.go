@@ -1,135 +1,83 @@
 package p00212
 
-// Time Complexity: O(m*n*4^10),
-//  - where
-//     m is the height of board,
-//     n is the width of board,
-//     4^10 means each cell has 4 directions can traversal and the maximum of each word is 10
-// Space Complexity: O(m*n), where m is the number of words, n is the length of each word
-func findWords(board [][]byte, words []string) []string {
-	// 紀錄行走過的路線
-	visited := [13][13]bool{}
-	// 紀錄符合的單字
-	existed := map[string]bool{}
+var Directions [4][2]int = [4][2]int{{1, 0}, {-1, 0}, {0, 1}, {0, -1}}
 
-	trie := CreateTrie()
+func findWords(board [][]byte, words []string) []string {
+	result := []string{}
+
+	trieRoot := &TrieNode{}
+	visited := map[[2]int]bool{}
+
+	// 把所有的字串都加進 trie
 	for _, word := range words {
-		trie.Put(word)
+		cursor := trieRoot
+		for _, ch := range word {
+			idx := ch - 'a'
+			if cursor.children[idx] == nil {
+				cursor.children[idx] = &TrieNode{}
+			}
+			cursor = cursor.children[idx]
+			cursor.count++
+		}
+		cursor.end = true
 	}
 
 	for row, columns := range board {
-		for col, val := range columns {
-			helper(board, visited, existed, &trie, string(val), row, col)
+		for col := range columns {
+			dfs(board, row, col, visited, trieRoot, trieRoot, []byte{}, &result)
 		}
 	}
 
-	res := []string{}
-	for word := range existed {
-		res = append(res, word)
-	}
-	return res
+	return result
 }
 
-func helper(board [][]byte, visited [13][13]bool, existed map[string]bool, trie *Trie, word string, row, col int) {
-	exist := trie.Exists(word)
-	if exist == 0 {
+func dfs(board [][]byte, row, col int, visited map[[2]int]bool, trieRoot, trieCursor *TrieNode, word []byte, result *[]string) {
+	if row < 0 || row >= len(board) || col < 0 || col >= len(board[row]) {
 		return
 	}
-	if exist == 2 && !existed[word] {
-		existed[word] = true
-		trie.Delete(word)
-	}
-
-	visited[row][col] = true
-	if row-1 >= 0 && !visited[row-1][col] {
-		helper(board, visited, existed, trie, word+string(board[row-1][col]), row-1, col)
-	}
-	if row+1 < len(board) && !visited[row+1][col] {
-		helper(board, visited, existed, trie, word+string(board[row+1][col]), row+1, col)
-	}
-	if col-1 >= 0 && !visited[row][col-1] {
-		helper(board, visited, existed, trie, word+string(board[row][col-1]), row, col-1)
-	}
-	if col+1 < len(board[0]) && !visited[row][col+1] {
-		helper(board, visited, existed, trie, word+string(board[row][col+1]), row, col+1)
-	}
-	visited[row][col] = false
-}
-
-type Node struct {
-	Childs    [26]*Node
-	NumChilds int
-	IsEnd     bool
-}
-
-func CreateNode() *Node {
-	return &Node{
-		Childs: [26]*Node{},
-		IsEnd:  false,
-	}
-}
-
-type Trie struct {
-	Root *Node
-}
-
-func CreateTrie() Trie {
-	return Trie{
-		Root: CreateNode(),
-	}
-}
-
-// Time Complexity: O(n), where n is the length of word
-// Space Complexity: O(n)
-func (t *Trie) Put(s string) {
-	current := t.Root
-	for _, ch := range s {
-		if current.Childs[ch-'a'] == nil {
-			current.Childs[ch-'a'] = CreateNode()
-			current.NumChilds++
-		}
-		current = current.Childs[ch-'a']
-	}
-	current.IsEnd = true
-}
-
-// Time Complexity: O(n), where n is the length of word
-// Space Complexity: O(n)
-func (t *Trie) Delete(s string) {
-	stack := []*Node{}
-	current := t.Root
-	for _, ch := range s {
-		current = current.Childs[ch-'a']
-		stack = append(stack, current)
-	}
-
-	current, stack = stack[len(stack)-1], stack[:len(stack)-1]
-	if len(stack)+1 == len(s) && current.NumChilds > 0 {
+	if visited[[2]int{row, col}] {
 		return
 	}
-	for len(stack) > 0 {
-		current, stack = stack[len(stack)-1], stack[:len(stack)-1]
-		if current.NumChilds > 1 {
-			return
-		}
-		current.Childs[s[len(stack)]-'a'] = nil
+	// 只要當前的 curosr 沒辦法繼續在 trie 裡面走下去, 那就可以提早結束了 (early pruning)
+	if trieCursor.children[board[row][col]-'a'] == nil || trieCursor.children[board[row][col]-'a'].count == 0 {
+		return
 	}
+
+	// 只有 trieCursor 不用退回的原因是因為雖然這是 reference
+	// 但是 golang 在 function call 傳遞的參數永遠都是 call by value, 所以只是把這個地址在複製一份當作參數
+	// 現在的這個 trieCursor 指向的地址不會因為 dfs 的過程被改變
+	trieCursor = trieCursor.children[board[row][col]-'a']
+	word = append(word, board[row][col])
+
+	// 命中之後就把這個字串從 trie 裡面移除, 減少以後重複查找的必要, 也是 early pruning
+	if trieCursor.end {
+		*result = append(*result, string(word))
+		removeWord(trieRoot, string(word))
+	}
+
+	visited[[2]int{row, col}] = true
+	for _, offset := range Directions {
+		nextRow, nextCol := row+offset[0], col+offset[1]
+		dfs(board, nextRow, nextCol, visited, trieRoot, trieCursor, word, result)
+	}
+	visited[[2]int{row, col}] = false
+
+	word = word[:len(word)-1]
+
+	return
 }
 
-// 查找是否有符合的單字
-// 0: 未命中, 1: 符合 prefix, 2: 完全命中
-// Time Complexity: O(n), where n is the length of word
-// Space Complexity: O(1)
-func (t *Trie) Exists(s string) int {
-	current := t.Root
-	for _, ch := range s {
-		if current.Childs[ch-'a'] == nil {
-			return 0
-		}
-		current = current.Childs[ch-'a']
+type TrieNode struct {
+	children [26]*TrieNode
+	end      bool
+	count    int
+}
+
+func removeWord(root *TrieNode, word string) {
+	for _, ch := range word {
+		idx := ch - 'a'
+		root = root.children[idx]
+		root.count--
 	}
-	if current.IsEnd {
-		return 2
-	}
-	return 1
+	root.end = false
 }
