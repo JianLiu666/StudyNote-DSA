@@ -182,6 +182,7 @@
 |  322 | [Coin Change](./p00322/README.md) | Medium | `Array` `Dynamic Programming` `Breadth-First Search` |
 |  326 | [Power of Three](./p00326/README.md) | Easy | `Math` `Recursion` |
 |  328 | [Odd Even Linked List](./p00328/README.md) | Medium | `Linked List` |
+|  329 | [Longest Increasing Path in a Matrix](./p00329/README.md) | Hard | `Array` `Dynamic Programming` `Depth-First Search` `Breadth-First Search` `Graph` `Topological Sort` `Memorization` `Matrix` |
 |  334 | [Increasing Triplet Subsequence](./p00334/README.md) | Medium | `Array` `Greedy` |
 |  336 | [Palindrome Pairs](./p00336/README.md) | Hard | `Array` `Hash Table` `String` `Trie` |
 |  342 | [Power of Four](./p00342/README.md) | Easy | `Math` `Bit Manipulation` `Recursion` |
