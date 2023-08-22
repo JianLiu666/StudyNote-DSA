@@ -281,6 +281,7 @@
 |  787 | [Cheapest Flights Within K Stops](./p00787/README.md) | Medium | `Dynamic Programming` `Depth-First Search` `Breadth-First Search` `Graph` `Heap (Priority Queue)` `Shortest Path` |
 |  804 | [Unique Morse Code Words](./p00804/README.md) | Easy | `Array` `Hash Table` `String` |
 |  814 | [Binary Tree Pruning](./p00814/README.md) | Medium | `Tree` `Depth-First Search` `Binary Tree` |
+|  815 | [Bus Routes](./p00815/README.md) | Hard | `Array` `Hash Table` `Breadth-First Search` |
 |  823 | [Binary Trees With Factors](./p00823/README.md) | Medium | `Array` `Hash Table` `Dynamic Programming` |
 |  838 | [Push Dominoes](./p00838/README.md) | Medium | `Two Pointers` `String` `Dynamic Programming` |
 |  839 | [Similar String Groups](./p00839/README.md) | Hard | `Array` `String` `Depth-First Search` `Breadth-First Search` `Union Find` |
