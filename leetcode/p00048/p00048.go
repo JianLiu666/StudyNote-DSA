@@ -1,6 +1,6 @@
 package p00048
 
-// Time Complexity: O(n), where n is the number of cells in matrix
+// Time Complexity: O(size), where n is the number of cells in matrix
 // Space Complexity: O(1)
 func rotate_bruteforce(matrix [][]int) {
 	end := len(matrix) - 1
@@ -22,16 +22,17 @@ func rotate_linearalgebra(matrix [][]int) {
 	size := len(matrix)
 
 	// transpose
-	for i := 0; i < size; i++ {
-		for j := i; j < size; j++ {
-			matrix[j][i], matrix[i][j] = matrix[i][j], matrix[j][i]
+	// 從左上到右下斜線翻轉
+	for row := 0; row < size; row++ {
+		for col := 0; col < row; col++ {
+			matrix[row][col], matrix[col][row] = matrix[col][row], matrix[row][col]
 		}
 	}
 
 	// reflect
-	for c := 0; c < size/2; c++ {
-		for r := 0; r < size; r++ {
-			matrix[r][c], matrix[r][size-1-c] = matrix[r][size-1-c], matrix[r][c]
+	for row := 0; row < size; row++ {
+		for col := 0; col < size/2; col++ {
+			matrix[row][col], matrix[row][size-1-col] = matrix[row][size-1-col], matrix[row][col]
 		}
 	}
 }
