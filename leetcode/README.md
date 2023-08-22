@@ -175,6 +175,7 @@
 |  283 | [Move Zeroes](./p00283/README.md) | Easy | `Array` `Two Pointers` |
 |  287 | [Find the Duplicate Number](./p00287/README.md) | Medium | `Array` `Two Pointers` `Binary Search` `Bit Manipulation` |
 |  290 | [Word Pattern](./p00290/README.md) | Easy | `Hash Table` `String` |
+|  295 | [Find Median from Data Stream](./p00295/README.md) | Hard | `Two Pointers` `Design` `Sorting` `Heap (Priority Queue)` `Data Stream` |
 |  297 | [Serialize and Deserialize Binary Tree](./p00297/README.md) | Hard | `String` `Tree` `Depth-First Search` `Breadth-First Search` `Design` `Binary Tree` |
 |  300 | [Longest Increasing Subsequence](./p00300/README.md) | Medium | `Array` `Binary Search` `Dynamic Programming` |
 |  310 | [Minimum Height Trees](./p00310/README.md) | Medium | `Depth-First Search` `Breadth-First Search` `Graph` `Topological Sort` |
