@@ -34,6 +34,7 @@
 |   20 | [Valid Parentheses](./p00020/README.md) | Easy | `String` `Stack` |
 |   21 | [Merge Two Sorted Lists](./p00021/README.md) | Easy | `Linked List` `Recursion` |
 |   22 | [Generate Parentheses](./p00022/README.md) | Medium | `String` `Dynamic Programming` `Backtracking` |
+|   23 | [Merge k Sorted Lists](./p00023/README.md) | Hard | `Linked List` `Divide and Conquer` `Heap (Priority Queue)` `Merge Sort` |
 |   24 | [Swap Nodes in Pairs](./p00024/README.md) | Medium | `Linked List` `Recursion` |
 |   25 | [Reverse Nodes in k-Group](./p00025/README.md) | Hard | `Linked List` `Recursion` |
 |   26 | [Remove Duplicates from Sorted Array](./p00026/README.md) | Easy | `Array` `Two Pointers` |
