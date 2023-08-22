@@ -330,6 +330,7 @@
 | 1582 | [Special Positions in a Binary Matrix](./p01582/README.md) | Easy | `Array` `Matrix` |
 | 1680 | [Concatenation of Consecutive Binary Numbers](./p01680/README.md) | Medium | `Matrix` `Bit Manipulation` `Simulation` |
 | 1689 | [Partitioning Into Minimum Number Of Deci-Binary Numbers](./p01689/README.md) | Medium | `String` `Greedy` |
+| 1700 | [Number of Students Unable to Eat Lunch](./p01700/README.md) | Easy | `Array` `Stack` `Queue` `Simulation` |
 | 1721 | [Swapping Nodes in a Linked List](./p01721/README.md) | Medium | `Linked List` `Two Pointers` |
 | 1823 | [Find the Winner of the Circular Game](./p01823/README.md) | Medium | `Array` `Math` `Recursion` `Queue` `Simulation` |
 | 1832 | [Check if the Sentence Is Pangram](./p01832/README.md) | Easy | `Hash Table` `String` |
