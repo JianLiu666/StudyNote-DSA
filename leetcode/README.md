@@ -318,6 +318,7 @@
 | 1249 | [Minimum Remove to Make Valid Parentheses](./p01249/README.md) | Medium | `String` `Stack` |
 | 1295 | [Find Numbers with Even Number of Digits](./p01295/README.md) | Easy | `Array` |
 | 1299 | [Replace Elements with Greatest Element on Right Side](./p01299/README.md) | Easy | `Array` |
+| 1332 | [Remove Palindromic Subsequences](./p01332/README.md) | Easy | `Two Pointers` `String` |
 | 1338 | [Reduce Array Size to The Half](./p01338/README.md) | Medium | `Array` `Hash Table` `Greedy` `Sorting` `Heap (Priority Queue)` |
 | 1342 | [Number of Steps to Reduce a Number to Zero](./p01342/README.md) | Easy | `Math` `Bit Manipulation` |
 | 1346 | [Check If N and Its Double Exist](./p01346/README.md) | Easy | `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting` |
