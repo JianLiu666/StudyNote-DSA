@@ -1,60 +1,46 @@
 package p00981
 
-type Info struct {
-	Value     string
-	Timestamp int
+type Element struct {
+	value     string
+	timestamp int
 }
 
 type TimeMap struct {
-	items map[string][]*Info
+	data map[string][]*Element
 }
 
 func Constructor() TimeMap {
-	return TimeMap{
-		items: map[string][]*Info{},
-	}
+	return TimeMap{data: map[string][]*Element{}}
 }
 
 func (this *TimeMap) Set(key string, value string, timestamp int) {
-	if this.items[key] == nil {
-		this.items[key] = []*Info{}
+	if _, exists := this.data[key]; !exists {
+		this.data[key] = []*Element{}
 	}
-	this.items[key] = append(this.items[key], &Info{
-		Value:     value,
-		Timestamp: timestamp,
-	})
+	this.data[key] = append(this.data[key], &Element{value: value, timestamp: timestamp})
 }
 
 func (this *TimeMap) Get(key string, timestamp int) string {
-	if arr, ok := this.items[key]; ok {
-		head, tail := 0, len(arr)-1
-		for head < tail {
-			mid := (head + tail) / 2
-			if arr[mid].Timestamp == timestamp {
-				return arr[mid].Value
-			}
-			if arr[mid].Timestamp > timestamp {
-				tail = mid
-			} else {
-				head = mid + 1
-			}
-		}
-
-		if arr[tail].Timestamp > timestamp {
-			if tail == 0 {
-				return ""
-			}
-			return arr[tail-1].Value
-		}
-		return arr[tail].Value
+	if _, exists := this.data[key]; !exists {
+		return ""
+	}
+	if this.data[key][0].timestamp > timestamp {
+		return ""
 	}
 
-	return ""
-}
+	arr := this.data[key]
+	head, tail := 0, len(arr)-1
+	for head <= tail {
+		mid := (head + tail) / 2
+		if arr[mid].timestamp == timestamp {
+			return arr[mid].value
+		}
+		if arr[mid].timestamp < timestamp {
+			head = mid + 1
+		} else {
+			tail = mid - 1
+		}
+	}
 
-/**
- * Your TimeMap object will be instantiated and called as such:
- * obj := Constructor();
- * obj.Set(key,value,timestamp);
- * param_2 := obj.Get(key,timestamp);
- */
+	return arr[head-1].value
+}
