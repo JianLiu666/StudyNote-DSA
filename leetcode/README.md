@@ -247,6 +247,7 @@
 |  621 | [Task Scheduler](./p00621/README.md) | Medium | `Array` `Hash Table` `Greedy` `Sorting` `Heap (Priority Queue)` `Counting` |
 |  622 | [Design Circular Queue](./p00622/README.md) | Medium | `Array` `Linked List` `Design` `Queue` |
 |  623 | [Add One Row to Tree](./p00623/README.md) | Medium | `Tree` `Dpeth-First Search` `Breadth-First Search` `Binary Tree` |
+|  632 | [Smallest Range Covering Elements from K Lists](./p00632/README.md) | Hard | `Array` `Hash Table` `Greedy` `Sliding Window` `Sorting` `Heap (Priority Queue)` |
 |  637 | [Average of Levels in Binary Tree](./p00637/README.md) | Easy | `Easy` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
 |  646 | [Maximum Length of Pair Chain](./p00646/README.md) | Medium | `Array` `Dynamic Programming` `Greedy` `Sorting` |
 |  648 | [Replace Words](./p00648/README.md) | Medium | `Array` `Hash Table` `String` `Trie` |
