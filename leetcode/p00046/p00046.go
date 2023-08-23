@@ -3,20 +3,36 @@ package p00046
 // Time Complexity: O(n!)
 // Space Complexity: O(n)
 func permute(nums []int) [][]int {
-	res := [][]int{}
-	dfs(&res, []int{}, nums)
-	return res
+	result := [][]int{}
+
+	visited := map[int]bool{}
+	for _, n := range nums {
+		visited[n] = false
+	}
+	dfs(visited, 0, len(nums), []int{}, &result)
+
+	return result
 }
 
-func dfs(res *[][]int, path, nums []int) {
-	if len(nums) == 1 {
-		*res = append(*res, append(append([]int{}, path...), nums...))
+func dfs(visited map[int]bool, i, n int, path []int, result *[][]int) {
+	if i == n {
+		dst := make([]int, n)
+		copy(dst, path)
+		*result = append(*result, dst)
 		return
 	}
 
-	for i := 0; i < len(nums); i++ {
-		path = append(path, nums[i])
-		dfs(res, path, append(append([]int{}, nums[:i]...), nums[i+1:]...))
+	for k, v := range visited {
+		if v {
+			continue
+		}
+
+		visited[k] = true
+		path = append(path, k)
+
+		dfs(visited, i+1, n, path, result)
+
+		visited[k] = false
 		path = path[:len(path)-1]
 	}
 }
