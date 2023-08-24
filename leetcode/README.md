@@ -56,6 +56,7 @@
 |   48 | [Rotate Image](./p00048/README.md) | Medium | `Array` `Math` `Matrix` |
 |   49 | [Group Anagrams](./p00049/README.md) | Medium | `Array` `Hash Table` `String` `Sorting` |
 |   50 | [Pow(x, n)](./p00050/README.md) | Medium | `Math` `Recursion` |
+|   51 | [N-Queens](./p00051/README.md) | Hard | `Array` `Backtracking` |
 |   52 | [N-Queens II](./p00052/README.md) | Hard | `Backtracking` |
 |   53 | [Maximum Subarray](./p00053/README.md) | Medium | `Array` `Divide and Conquer` `Dynamic Programming` |
 |   54 | [Spiral Matrix](./p00054/README.md) | Medium | `Array` `Matrix` `Simulation` |
