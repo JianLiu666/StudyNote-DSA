@@ -41,6 +41,7 @@
 |   27 | [Remove Element](./p00027/README.md) | Easy | `Array` `Two Pointers` |
 |   28 | [Implement strStr()](./p00028/README.md) | Easy | `Two Pointers` `String` `String Matching` |
 |   30 | [Substring with Concatenation of All Words](./p00030/README.md) | Hard | `Hash Table` `String` `Sliding Window` |
+|   31 | [Next Permutation](./p00031/README.md) | Medium | `Array` `Two Pointers` |
 |   32 | [Longest Valid Parentheses](./p00032/README.md) | Hard | `String` `Dynamic Programming` `Stack` |
 |   33 | [Search in Rotated Sorted Array](./p00033/README.md) | Medium | `Array` `Binary Search` |
 |   34 | [Find First and Last Position of Element in Sorted Array](./p00034/README.md) | Medium | `Array` `Binary Search` |
