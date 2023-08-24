@@ -124,6 +124,7 @@
 |  148 | [Sort List](./p00148/README.md) | Medium | `Linked List` `Two Pointers` `Divide and Conquer` `Sorting` `Merge Sort` |
 |  150 | [Evaluate Reverse Polish Notation](./p00150/README.md) | Medium | `Array` `Math` `Stack` |
 |  151 | [Reverse Words in a String](./p00151/README.md) | Medium | `Two Pointers` `String` |
+|  152 | [Maximum Product Subarray](./p00152/README.md) | Medium | `Array` `Dynamic Programming` |
 |  153 | [Find Minimum in Rotated Sorted Array](./p00153/README.md) | Medium | `Array` `Binary Search` |
 |  154 | [Find Minimum in Rotated Sorted Array II](./p00154/README.md) | Hard | `Array` `Binary Search` |
 |  155 | [Min Stack](./p00155/README.md) | Medium | `Stack` `Design` |
