@@ -209,6 +209,7 @@
 |  412 | [Fizz Buzz](./p00412/README.md) | Easy | `Math` `String` `Simulation` |
 |  414 | [Third Maximum Number](./p00414/README.md) | Easy | `Array` `Sorting` |
 |  415 | [Add Strings](./p00415/README.md) | Easy | `Math` `String` `Simulation` |
+|  416 | [artition Equal Subset Sum](./p00416/README.md) | Medium | `Array` `Dynamic Programming` |
 |  417 | [Pacific Atlantic Water Flow](./p00417/README.md) | Medium | `Array` `Depth-First Search` `Breadth-First Search` `Matrix` |
 |  421 | [Maximum XOR of Two Numbers in an Array](./p00421/README.md) | Medium | `Array` `Hash Table` `Bit Manipulation` `Trie` |
 |  424 | [Longest Repeating Character Replacement](./p00424/README.md) | Medium | `Hash Table` `String` `Sliding Window` |
