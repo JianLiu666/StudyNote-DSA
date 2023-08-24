@@ -3,20 +3,22 @@ package p00053
 // Time Complexity: O(n)
 // Space Complexity: O(1)
 func maxSubArray(nums []int) int {
-	res := nums[0]
-	cur := nums[0]
+	// 預設選擇第一個 element 做為初始值
+	result := nums[0]
 
-	for i := 1; i < len(nums); i++ {
-		if cur < 0 || cur+nums[i] < 0 {
-			cur = nums[i]
-		} else {
-			cur += nums[i]
-		}
-
-		if cur > res {
-			res = cur
-		}
+	dp := make([]int, len(nums)+1)
+	for i := 1; i <= len(nums); i++ {
+		// 每次都可以選擇要繼續累加前面的, 或者是歸零重來
+		dp[i] = max(dp[i-1], 0) + nums[i-1]
+		result = max(result, dp[i])
 	}
 
-	return res
+	return result
+}
+
+func max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
 }
