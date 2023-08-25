@@ -157,6 +157,7 @@
 |  217 | [Contains Duplicate](./p00217/README.md) | Easy | `Array` `Hash Table` `Sorting` |
 |  218 | [The Skyline Problem](./p00218/README.md) | Hard | `Array` `Divide and Conquer` `Binary Indexed Tree` `Segment Tree` `Line Sweep` `Heap (Priority Queue)` `Ordered Set` |
 |  219 | [Contains Duplicate II](./p00219/README.md) | Easy | `Array` `Hash Table` `Sliding Window` |
+|  221 | [Maximal Square](./p00221/README.md) | Medium | `Array` `Dynamic Programming` `Matrix` |
 |  224 | [Basic Calculator](./p00224/README.md) | Hard | `Math` `String` `Stack` `Recursion` |
 |  225 | [Implement Stack using Queues](./p00225/README.md) | Easy | `Stack` `Design` `Queue` |
 |  226 | [Invert Binary Tree](./p00226/README.md) | Easy | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
