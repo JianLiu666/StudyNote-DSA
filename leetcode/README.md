@@ -82,6 +82,7 @@
 |   84 | [Largest Rectangle in Histogram](./p00084/README.md) | Hard | `Array` `Stack` `Monotonic Stack` |
 |   86 | [Partition List](./p00086/README.md) | Medium | `Linked List` `Two Pointers` |
 |   88 | [Merge Sorted Array](./p00088/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
+|   91 | [Decode Ways](./p00091/README.md) | Medium | `String` `Dynamic Programming` |
 |   92 | [Reverse Linked List II](./p00092/README.md) | Medium | `Linked List` |
 |   94 | [Binary Tree Inorder Traversal](./p00094/README.md) | Easy | `Stack` `Tree` `Depth-First Search` `Binary Tree` |
 |   95 | [Unique Binary Search Trees II](./p00095/README.md) | Medium | `Dynamic Programming` `Backtracking` `Tree` `Binary Search Tree` `Binary Tree` |
