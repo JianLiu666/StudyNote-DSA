@@ -335,6 +335,7 @@
 | 1557 | [Minimum Number of Vertices to Reach All Nodes](./p01557/README.md) | 1512 | `Graph` |
 | 1578 | [Minimum Time to Make Rope Colorful](./p01578/README.md) | 1574 | `Array` `String` `Dynamic Programming` `Greedy` |
 | 1582 | [Special Positions in a Binary Matrix](./p01582/README.md) | 1321 | `Array` `Matrix` |
+| 1657 | [Determine if Two Strings Are Close](./p01657/README.md) | 1530 | `Hash Table` `String` `Sorting` |
 | 1680 | [Concatenation of Consecutive Binary Numbers](./p01680/README.md) | 1629 | `Matrix` `Bit Manipulation` `Simulation` |
 | 1689 | [Partitioning Into Minimum Number Of Deci-Binary Numbers](./p01689/README.md) | 1355 | `String` `Greedy` |
 | 1700 | [Number of Students Unable to Eat Lunch](./p01700/README.md) | 1404 | `Array` `Stack` `Queue` `Simulation` |
