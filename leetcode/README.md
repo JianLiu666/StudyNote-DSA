@@ -279,79 +279,79 @@
 |  735 | [Asteroid Collision](./p00735/README.md) | Medium | `Array` `Stack` `Simulation` |
 |  739 | [Daily Temperatures](./p00739/README.md) | Medium | `Array` `Stack` `Monotonic Stack` |
 |  744 | [Find Smallest Letter Greater Than Target](./p00744/README.md) | Easy | `Array` `Binary Search` |
-|  747 | [Largest Number At Least Twice of Others](./p00747/README.md) | Easy | `Array` `Sorting` |
-|  752 | [Open the Lock](./p00752/README.md) | Medium | `Array` `Hash Table` `String` `Breadth-First Search` |
-|  763 | [Partition Labels](./p00763/README.md) | Medium | `Hash Table` `Two Pointers` `String` `Greedy` |
-|  771 | [Jewels and Stones](./p00771/README.md) | Easy | `Hash Table` `String` |
-|  779 | [K-th Symbol in Grammar](./p00779/README.md) | Medium | `Math` `Bit Manipulation` `Recursion` |
-|  784 | [Letter Case Permutation](./p00784/README.md) | Medium | `String` `Backtracking` `Bit Manipulation` |
-|  787 | [Cheapest Flights Within K Stops](./p00787/README.md) | Medium | `Dynamic Programming` `Depth-First Search` `Breadth-First Search` `Graph` `Heap (Priority Queue)` `Shortest Path` |
-|  804 | [Unique Morse Code Words](./p00804/README.md) | Easy | `Array` `Hash Table` `String` |
-|  814 | [Binary Tree Pruning](./p00814/README.md) | Medium | `Tree` `Depth-First Search` `Binary Tree` |
-|  815 | [Bus Routes](./p00815/README.md) | Hard | `Array` `Hash Table` `Breadth-First Search` |
-|  823 | [Binary Trees With Factors](./p00823/README.md) | Medium | `Array` `Hash Table` `Dynamic Programming` |
-|  838 | [Push Dominoes](./p00838/README.md) | Medium | `Two Pointers` `String` `Dynamic Programming` |
+|  747 | [Largest Number At Least Twice of Others](./p00747/README.md) | 1188 | `Array` `Sorting` |
+|  752 | [Open the Lock](./p00752/README.md) | 1877 | `Array` `Hash Table` `String` `Breadth-First Search` |
+|  763 | [Partition Labels](./p00763/README.md) | 1443 | `Hash Table` `Two Pointers` `String` `Greedy` |
+|  771 | [Jewels and Stones](./p00771/README.md) | 1164 | `Hash Table` `String` |
+|  779 | [K-th Symbol in Grammar](./p00779/README.md) | 1571 | `Math` `Bit Manipulation` `Recursion` |
+|  784 | [Letter Case Permutation](./p00784/README.md) | 1341 | `String` `Backtracking` `Bit Manipulation` |
+|  787 | [Cheapest Flights Within K Stops](./p00787/README.md) | 1786 | `Dynamic Programming` `Depth-First Search` `Breadth-First Search` `Graph` `Heap (Priority Queue)` `Shortest Path` |
+|  804 | [Unique Morse Code Words](./p00804/README.md) | 1307 | `Array` `Hash Table` `String` |
+|  814 | [Binary Tree Pruning](./p00814/README.md) | 1380 | `Tree` `Depth-First Search` `Binary Tree` |
+|  815 | [Bus Routes](./p00815/README.md) | 1964 | `Array` `Hash Table` `Breadth-First Search` |
+|  823 | [Binary Trees With Factors](./p00823/README.md) | 1899 | `Array` `Hash Table` `Dynamic Programming` |
+|  838 | [Push Dominoes](./p00838/README.md) | 1638 | `Two Pointers` `String` `Dynamic Programming` |
 |  839 | [Similar String Groups](./p00839/README.md) | Hard | `Array` `String` `Depth-First Search` `Breadth-First Search` `Union Find` |
-|  841 | [Keys and Rooms](./p00841/README.md) | Medium | `Depth-First Search` `Breadth-First Search` `Graph` |
-|  863 | [All Nodes Distance K in Binary Tree](./p00863/README.md) | Medium | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
-|  869 | [Reordered Power of 2](./p00869/README.md) | Medium | `Math` `Sorting` `Counting` `Enumeration` |
-|  875 | [Koko Eating Bananas](./p00875/README.md) | Medium | `Array` `Binary Searh` |
-|  876 | [Middle of the Linked List](./p00876/README.md) | Easy | `Linked List` `Two Pointers` |
-|  890 | [Find and Replace Pattern](./p00890/README.md) | Medium | `Array` `Hash Table` `String` |
-|  895 | [Maximum Frequency Stack](./p00895/README.md) | Hard | `Hash Table` `Stack` `Design` `Ordered Set` |
-|  905 | [Sort Array By Parity](./p00905/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
+|  841 | [Keys and Rooms](./p00841/README.md) | 1412 | `Depth-First Search` `Breadth-First Search` `Graph` |
+|  863 | [All Nodes Distance K in Binary Tree](./p00863/README.md) | 1663 | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
+|  869 | [Reordered Power of 2](./p00869/README.md) | 1504 | `Math` `Sorting` `Counting` `Enumeration` |
+|  875 | [Koko Eating Bananas](./p00875/README.md) | 1765 | `Array` `Binary Searh` |
+|  876 | [Middle of the Linked List](./p00876/README.md) | 1231 | `Linked List` `Two Pointers` |
+|  890 | [Find and Replace Pattern](./p00890/README.md) | 1414 | `Array` `Hash Table` `String` |
+|  895 | [Maximum Frequency Stack](./p00895/README.md) | 2027 | `Hash Table` `Stack` `Design` `Ordered Set` |
+|  905 | [Sort Array By Parity](./p00905/README.md) | 1178 | `Array` `Two Pointers` `Sorting` |
 |  912 | [Sort an Array](./p00912/README.md) | Medium | `Array` `Divide and Conquer` `Sorting` `Heap (Priority Queue)` `Merge Sort` `Bucket Sort` `Radix Sort` `Counting Sort` |
-|  916 | [Word Subsets](./p00916/README.md) | Medium | `Array` `Hash Table` `String` |
-|  941 | [Valid Mountain Array](./p00941/README.md) | Easy | `Array` |
-|  948 | [Bag of Tokens](./p00948/README.md) | Medium | `Array` `Two Pointers` `Greedy` `Sorting` |
-|  973 | [K Closest Points to Origin](./p00973/README.md) | Medium | `Array` `Math` `Divide and Conquer` `Geometry` `Sorting` `Heap (Priority Queue)` `Quickselect` |
-|  977 | [Squares of a Sorted Array](./p00977/README.md) | Easy | `Array` `Two Pointers` `Sorting` |
-|  981 | [Time Based Key-Value Store](./p00981/README.md) | Medium | `Hash Table` `String` `Binary Search` `Design` |
-|  985 | [Sum of Even Numbers After Queries](./p00985/README.md) | Medium | `Array` `Simulation` |
-|  990 | [Satisfiability of Equality Equations](./p00990/README.md) | Medium | `Array` `String` `Union Find` `Graph` |
-|  994 | [Rotting Oranges](./p00994/README.md) | Medium | `Array` `Breadth-First Search` `Matrix` |
-|  997 | [Find the Town Judge](./p00997/README.md) | Easy | `Array` `Hash Table` `Graph` |
+|  916 | [Word Subsets](./p00916/README.md) | 1624 | `Array` `Hash Table` `String` |
+|  941 | [Valid Mountain Array](./p00941/README.md) | 1208 | `Array` |
+|  948 | [Bag of Tokens](./p00948/README.md) | 1762 | `Array` `Two Pointers` `Greedy` `Sorting` |
+|  973 | [K Closest Points to Origin](./p00973/README.md) | 1213 | `Array` `Math` `Divide and Conquer` `Geometry` `Sorting` `Heap (Priority Queue)` `Quickselect` |
+|  977 | [Squares of a Sorted Array](./p00977/README.md) | 1129 | `Array` `Two Pointers` `Sorting` |
+|  981 | [Time Based Key-Value Store](./p00981/README.md) | 1574 | `Hash Table` `String` `Binary Search` `Design` |
+|  985 | [Sum of Even Numbers After Queries](./p00985/README.md) | 1198 | `Array` `Simulation` |
+|  990 | [Satisfiability of Equality Equations](./p00990/README.md) | 1638 | `Array` `String` `Union Find` `Graph` |
+|  994 | [Rotting Oranges](./p00994/README.md) | 1432 | `Array` `Breadth-First Search` `Matrix` |
+|  997 | [Find the Town Judge](./p00997/README.md) | 1201 | `Array` `Hash Table` `Graph` |
 | 1004 | [Max Consecutive Ones III](./p01004/README.md) | 1655 | `Array` `Binary Search` `Sliding Window` `Prefix Sum` |
-| 1035 | [Uncrossed Lines](./p01035/README.md) | Medium | `Array` `Dynamic Programming` |
-| 1051 | [Height Checker](./p01051/README.md) | Easy | `Array` `Sorting` `Counting Sort` |
-| 1079 | [Letter Tile Possibilities](./p01079/README.md) | Medium | `String` `Backtracking` |
-| 1089 | [Duplicate Zeros](./p01089/README.md) | Easy | `Array` `Two Pointers` |
-| 1140 | [tone Game II](./p01140/README.md) | Medium | `Array` `Math` `Dynamic Programming` `Prefix Sum` `Game Theory` |
-| 1200 | [Minimum Absolute Difference](./p01200/README.md) | Easy | `Array` `Sorting` |
-| 1202 | [Smallest String With Swaps](./p01202/README.md) | Medium | `Dynamic Programming` |
-| 1220 | [Count Vowels Permutation](./p01220/README.md) | Hard | `Dynamic Programming` |
-| 1249 | [Minimum Remove to Make Valid Parentheses](./p01249/README.md) | Medium | `String` `Stack` |
-| 1295 | [Find Numbers with Even Number of Digits](./p01295/README.md) | Easy | `Array` |
-| 1299 | [Replace Elements with Greatest Element on Right Side](./p01299/README.md) | Easy | `Array` |
-| 1332 | [Remove Palindromic Subsequences](./p01332/README.md) | Easy | `Two Pointers` `String` |
-| 1338 | [Reduce Array Size to The Half](./p01338/README.md) | Medium | `Array` `Hash Table` `Greedy` `Sorting` `Heap (Priority Queue)` |
-| 1342 | [Number of Steps to Reduce a Number to Zero](./p01342/README.md) | Easy | `Math` `Bit Manipulation` |
-| 1346 | [Check If N and Its Double Exist](./p01346/README.md) | Easy | `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting` |
-| 1457 | [Pseudo-Palindromic Paths in a Binary Tree](./p01457/README.md) | Medium | `Bit Manipulation` `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
-| 1448 | [Count Good Nodes in Binary Tree](./p01448/README.md) | Medium | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
-| 1480 | [Running Sum of 1d Array](./p01480/README.md) | Easy | `Array` `Prefix Sum` |
-| 1508 | [Range Sum of Sorted Subarray Sums](./p01508/README.md) | Medium | `Array` `Two Pointers` `Binary Search` `Sorting` |
-| 1557 | [Minimum Number of Vertices to Reach All Nodes](./p01557/README.md) | Medium | `Graph` |
-| 1578 | [Minimum Time to Make Rope Colorful](./p01578/README.md) | Medium | `Array` `String` `Dynamic Programming` `Greedy` |
-| 1582 | [Special Positions in a Binary Matrix](./p01582/README.md) | Easy | `Array` `Matrix` |
-| 1680 | [Concatenation of Consecutive Binary Numbers](./p01680/README.md) | Medium | `Matrix` `Bit Manipulation` `Simulation` |
-| 1689 | [Partitioning Into Minimum Number Of Deci-Binary Numbers](./p01689/README.md) | Medium | `String` `Greedy` |
-| 1700 | [Number of Students Unable to Eat Lunch](./p01700/README.md) | Easy | `Array` `Stack` `Queue` `Simulation` |
-| 1721 | [Swapping Nodes in a Linked List](./p01721/README.md) | Medium | `Linked List` `Two Pointers` |
-| 1823 | [Find the Winner of the Circular Game](./p01823/README.md) | Medium | `Array` `Math` `Recursion` `Queue` `Simulation` |
-| 1832 | [Check if the Sentence Is Pangram](./p01832/README.md) | Easy | `Hash Table` `String` |
-| 1863 | [Sum of All Subset XOR Totals](./p01863/README.md) | Easy | `Array` `Math` `Backtracking` `Bit Manipulation` `Combinatorics` |
-| 1925 | [Count Square Sum Triples](./p01925/README.md) | Easy | `Math` `Enumeration` |
-| 1996 | [The Number of Weak Characters in the Game](./p01996/README.md) | Medium | `Array` `Stack` `Greedy` `Sorting` `Monotonic Stack` |
-| 2007 | [Find Original Array From Doubled Array](./p02007/README.md) | Medium | `Array` `Hash Table` `Greedy` `Sorting` |
-| 2095 | [Delete the Middle Node of a Linked List](./p02095/README.md) | Medium | `Linked List` `Two Pointers` |
-| 2130 | [Maximum Twin Sum of a Linked List](./p02130/README.md) | Medium | `Linked List` `Two Pointers` `Stack` |
-| 2309 | [Greatest English Letter in Upper and Lower Case](./p02309/README.md) | Easy | `Hash Table` `String` `Enumeration` |
-| 2343 | [Query Kth Smallest Trimmed Number](./p02343/README.md) | Medium | `Array` `String` `Divide and Conquer` `Sorting` `Heap (Priority Queue)` `Radix Sort` `Quickselect` |
-| 2367 | [Number of Arithmetic Triplets](./p02367/README.md) | Easy | `Array` `Hash Table` `Two Pointers` `Enumeration` |
-| 2389 | [Longest Subsequence With Limited Sum](./p02389/README.md) | Easy | `Array` `Binary Search` `Greedy` `Sorting` `Prefix Sum` |
-| 2390 | [Removing Stars From a String](./p02390/README.md) | Medium | `String` `Stack` `Simulation` |
-| 2416 | [Sum of Prefix Scores of Strings](./p02416/README.md) | Hard | `Array` `String` `Trie` `Counting` |
-| 2542 | [Maximum Subsequence Score](./p02542/README.md) | Medium | `Array` `Greedy` `Sorting` `Heap (Priority Queue)` |
+| 1035 | [Uncrossed Lines](./p01035/README.md) | 1805 | `Array` `Dynamic Programming` |
+| 1051 | [Height Checker](./p01051/README.md) | 1303 | `Array` `Sorting` `Counting Sort` |
+| 1079 | [Letter Tile Possibilities](./p01079/README.md) | 1740 | `String` `Backtracking` |
+| 1089 | [Duplicate Zeros](./p01089/README.md) | 1262 | `Array` `Two Pointers` |
+| 1140 | [tone Game II](./p01140/README.md) | 2034 | `Array` `Math` `Dynamic Programming` `Prefix Sum` `Game Theory` |
+| 1200 | [Minimum Absolute Difference](./p01200/README.md) | 1198 | `Array` `Sorting` |
+| 1202 | [Smallest String With Swaps](./p01202/README.md) | 1855 | `Dynamic Programming` |
+| 1220 | [Count Vowels Permutation](./p01220/README.md) | 1729 | `Dynamic Programming` |
+| 1249 | [Minimum Remove to Make Valid Parentheses](./p01249/README.md) | 1657 | `String` `Stack` |
+| 1295 | [Find Numbers with Even Number of Digits](./p01295/README.md) | 1139 | `Array` |
+| 1299 | [Replace Elements with Greatest Element on Right Side](./p01299/README.md) | 1219 | `Array` |
+| 1332 | [Remove Palindromic Subsequences](./p01332/README.md) | 1628 | `Two Pointers` `String` |
+| 1338 | [Reduce Array Size to The Half](./p01338/README.md) | 1303 | `Array` `Hash Table` `Greedy` `Sorting` `Heap (Priority Queue)` |
+| 1342 | [Number of Steps to Reduce a Number to Zero](./p01342/README.md) | 1163 | `Math` `Bit Manipulation` |
+| 1346 | [Check If N and Its Double Exist](./p01346/README.md) | 1225 | `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting` |
+| 1448 | [Count Good Nodes in Binary Tree](./p01448/README.md) | 1360 | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
+| 1457 | [Pseudo-Palindromic Paths in a Binary Tree](./p01457/README.md) | 1405 | `Bit Manipulation` `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
+| 1480 | [Running Sum of 1d Array](./p01480/README.md) | 1104 | `Array` `Prefix Sum` |
+| 1508 | [Range Sum of Sorted Subarray Sums](./p01508/README.md) | 1402 | `Array` `Two Pointers` `Binary Search` `Sorting` |
+| 1557 | [Minimum Number of Vertices to Reach All Nodes](./p01557/README.md) | 1512 | `Graph` |
+| 1578 | [Minimum Time to Make Rope Colorful](./p01578/README.md) | 1574 | `Array` `String` `Dynamic Programming` `Greedy` |
+| 1582 | [Special Positions in a Binary Matrix](./p01582/README.md) | 1321 | `Array` `Matrix` |
+| 1680 | [Concatenation of Consecutive Binary Numbers](./p01680/README.md) | 1629 | `Matrix` `Bit Manipulation` `Simulation` |
+| 1689 | [Partitioning Into Minimum Number Of Deci-Binary Numbers](./p01689/README.md) | 1355 | `String` `Greedy` |
+| 1700 | [Number of Students Unable to Eat Lunch](./p01700/README.md) | 1404 | `Array` `Stack` `Queue` `Simulation` |
+| 1721 | [Swapping Nodes in a Linked List](./p01721/README.md) | 1386 | `Linked List` `Two Pointers` |
+| 1823 | [Find the Winner of the Circular Game](./p01823/README.md) | 1412 | `Array` `Math` `Recursion` `Queue` `Simulation` |
+| 1832 | [Check if the Sentence Is Pangram](./p01832/README.md) | 1116 | `Hash Table` `String` |
+| 1863 | [Sum of All Subset XOR Totals](./p01863/README.md) | 1372 | `Array` `Math` `Backtracking` `Bit Manipulation` `Combinatorics` |
+| 1925 | [Count Square Sum Triples](./p01925/README.md) | 1323 | `Math` `Enumeration` |
+| 1996 | [The Number of Weak Characters in the Game](./p01996/README.md) | 1860 | `Array` `Stack` `Greedy` `Sorting` `Monotonic Stack` |
+| 2007 | [Find Original Array From Doubled Array](./p02007/README.md) | 1557 | `Array` `Hash Table` `Greedy` `Sorting` |
+| 2095 | [Delete the Middle Node of a Linked List](./p02095/README.md) | 1324 | `Linked List` `Two Pointers` |
+| 2130 | [Maximum Twin Sum of a Linked List](./p02130/README.md) | 1317 | `Linked List` `Two Pointers` `Stack` |
+| 2309 | [Greatest English Letter in Upper and Lower Case](./p02309/README.md) | 1242 | `Hash Table` `String` `Enumeration` |
+| 2343 | [Query Kth Smallest Trimmed Number](./p02343/README.md) | 1651 | `Array` `String` `Divide and Conquer` `Sorting` `Heap (Priority Queue)` `Radix Sort` `Quickselect` |
+| 2367 | [Number of Arithmetic Triplets](./p02367/README.md) | 1203 | `Array` `Hash Table` `Two Pointers` `Enumeration` |
+| 2389 | [Longest Subsequence With Limited Sum](./p02389/README.md) | 1387 | `Array` `Binary Search` `Greedy` `Sorting` `Prefix Sum` |
+| 2390 | [Removing Stars From a String](./p02390/README.md) | 1347 | `String` `Stack` `Simulation` |
+| 2416 | [Sum of Prefix Scores of Strings](./p02416/README.md) | 1725 | `Array` `String` `Trie` `Counting` |
+| 2542 | [Maximum Subsequence Score](./p02542/README.md) | 2056 | `Array` `Greedy` `Sorting` `Heap (Priority Queue)` |
 
 ---
