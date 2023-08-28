@@ -6,39 +6,52 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
-// Time Complexity: O(n)
-// Space Complexity: O(n)
+// Time Complexity: O(logn)
+// Space Complexity: O(logn)
 func deleteNode(root *TreeNode, key int) *TreeNode {
-	// 完全沒有命中目標
 	if root == nil {
-		return root
+		return nil
+	}
+
+	// 前序遍歷
+	if root.Val == key {
+		// case.1 要刪除的節點沒有任何子節點
+		if root.Left == nil && root.Right == nil {
+			return nil
+		}
+
+		// case.2 要刪除的節點只有一邊有子節點
+		if root.Left == nil && root.Right != nil {
+			return root.Right
+		}
+		if root.Left != nil && root.Right == nil {
+			return root.Left
+		}
+
+		// case.3 兩邊都有子節點, 挑最小的子節點來交換
+		// 這邊挑的是右子樹最小的 (或是要挑左子樹最大的也可以)
+		// 取到最小的子節點後, 一定要先把他從原本的位置刪除後, 才可以提上來重新接好左右子樹
+		minNode := findMinNode(root.Right)
+		leftSubtree := root.Left
+		rightSubtree := deleteNode(root.Right, minNode.Val)
+		minNode.Left = leftSubtree
+		minNode.Right = rightSubtree
+		return minNode
 	}
 
 	if root.Val > key {
 		root.Left = deleteNode(root.Left, key)
-	} else if root.Val < key {
+	}
+	if root.Val < key {
 		root.Right = deleteNode(root.Right, key)
-	} else {
-		// 只有右子節點或是左右子節點都沒有的情況
-		if root.Left == nil {
-			return root.Right
-		}
-		// 只有左子節點的情況
-		if root.Right == nil {
-			return root.Left
-		}
-		// 左右子節點都存在的情況, 選擇用 right subtree 的最小節點替換
-		minNode := findMinNode(root.Right)
-		root.Val = minNode.Val
-		root.Right = deleteNode(root.Right, minNode.Val)
 	}
 
 	return root
 }
 
-func findMinNode(node *TreeNode) *TreeNode {
-	for node.Left != nil {
-		node = node.Left
+func findMinNode(root *TreeNode) *TreeNode {
+	if root.Left == nil {
+		return root
 	}
-	return node
+	return findMinNode(root.Left)
 }
