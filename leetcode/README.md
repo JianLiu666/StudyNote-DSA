@@ -327,6 +327,7 @@
 | 1338 | [Reduce Array Size to The Half](./p01338/README.md) | 1303 | `Array` `Hash Table` `Greedy` `Sorting` `Heap (Priority Queue)` |
 | 1342 | [Number of Steps to Reduce a Number to Zero](./p01342/README.md) | 1163 | `Math` `Bit Manipulation` |
 | 1346 | [Check If N and Its Double Exist](./p01346/README.md) | 1225 | `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting` |
+| 1372 | [Longest ZigZag Path in a Binary Tree](./p01372/README.md) | 1713 | `Dynamic Programming` `Tree` `Depth-First Search` `Binary Tree` |
 | 1448 | [Count Good Nodes in Binary Tree](./p01448/README.md) | 1360 | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
 | 1457 | [Pseudo-Palindromic Paths in a Binary Tree](./p01457/README.md) | 1405 | `Bit Manipulation` `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
 | 1480 | [Running Sum of 1d Array](./p01480/README.md) | 1104 | `Array` `Prefix Sum` |
