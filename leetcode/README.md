@@ -330,6 +330,7 @@
 | 1372 | [Longest ZigZag Path in a Binary Tree](./p01372/README.md) | 1713 | `Dynamic Programming` `Tree` `Depth-First Search` `Binary Tree` |
 | 1448 | [Count Good Nodes in Binary Tree](./p01448/README.md) | 1360 | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
 | 1457 | [Pseudo-Palindromic Paths in a Binary Tree](./p01457/README.md) | 1405 | `Bit Manipulation` `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` |
+| 1466 | [Reorder Routes to Make All Paths Lead to the City Zero](./p01466/README.md) | 1633 | `Depth-First Search` `Breadth-First Search` `Graph` |
 | 1480 | [Running Sum of 1d Array](./p01480/README.md) | 1104 | `Array` `Prefix Sum` |
 | 1493 | [Longest Subarray of 1's After Deleting One Element](./p01493/README.md) | 1423 | `Array` `Dynamic Programming` `Sliding Window` |
 | 1508 | [Range Sum of Sorted Subarray Sums](./p01508/README.md) | 1402 | `Array` `Two Pointers` `Binary Search` `Sorting` |
