@@ -356,6 +356,7 @@
 | 2389 | [Longest Subsequence With Limited Sum](./p02389/README.md) | 1387 | `Array` `Binary Search` `Greedy` `Sorting` `Prefix Sum` |
 | 2390 | [Removing Stars From a String](./p02390/README.md) | 1347 | `String` `Stack` `Simulation` |
 | 2416 | [Sum of Prefix Scores of Strings](./p02416/README.md) | 1725 | `Array` `String` `Trie` `Counting` |
+| 2462 | [Total Cost to Hire K Workers](./p02462/README.md) | 1763 | `Array` `Two Pointers` `Heap (Priority Queue)` `Simulation` |
 | 2542 | [Maximum Subsequence Score](./p02542/README.md) | 2056 | `Array` `Greedy` `Sorting` `Heap (Priority Queue)` |
 
 ---
