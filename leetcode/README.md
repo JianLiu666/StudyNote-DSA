@@ -222,6 +222,7 @@
 |  448 | [Find All Numbers Disappeared in an Array](./p00448/README.md) | Easy | `Array` `Hash Table` |
 |  450 | [Delete Node in a BST](./p00450/README.md) | Medium | `Tree` `Binary Search Tree` `Binary Tree` |
 |  451 | [Sort Characters By Frequency](./p00451/README.md) | Medium | `Hash Table` `String` `Sorting` `Heap (Priority Queue)` `Bucket Sort` `Counting` |
+|  452 | [Minimum Number of Arrows to Burst Balloons](./p00452/README.md) | Medium | `Array` `Greedy` `Sorting` |
 |  454 | [4Sum II](./p00454/README.md) | Medium | `Array` `Hash Table` |
 |  455 | [Assign Cookies](./p00455/README.md) | Easy | `Array` `Greedy` `Sorting` |
 |  459 | [Repeated Substring Pattern](./p00459/README.md) | Easy | `String` `String Matching` |
