@@ -322,6 +322,7 @@
 | 1202 | [Smallest String With Swaps](./p01202/README.md) | 1855 | `Dynamic Programming` |
 | 1220 | [Count Vowels Permutation](./p01220/README.md) | 1729 | `Dynamic Programming` |
 | 1249 | [Minimum Remove to Make Valid Parentheses](./p01249/README.md) | 1657 | `String` `Stack` |
+| 1268 | [Search Suggestions System](./p01268/README.md) | 1573 | `Array` `String` `Binary Search` `Trie` `Sorting` `Heap (Priority Queue)` |
 | 1295 | [Find Numbers with Even Number of Digits](./p01295/README.md) | 1139 | `Array` |
 | 1299 | [Replace Elements with Greatest Element on Right Side](./p01299/README.md) | 1219 | `Array` |
 | 1332 | [Remove Palindromic Subsequences](./p01332/README.md) | 1628 | `Two Pointers` `String` |
