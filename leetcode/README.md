@@ -152,6 +152,7 @@
 |  211 | [Design Add and Search Words Data Structure](./p00211/README.md) | Medium | `String` `Depth-First Search` `Design` `Trie` |
 |  212 | [Word Search II](./p00212/README.md) | Hard | `Array` `String` `Backtracking` `Trie` `Matrix` |
 |  215 | [Kth Largest Element in an Array](./p00215/README.md) | Medium | `Array` `Divide and Conquer` `Sorting` `Heap (Priority Queue)` `Quickselect` |
+|  216 | [Combination Sum III](./p00216/README.md) | Medium | `Array` `Backtracking` |
 |  217 | [Contains Duplicate](./p00217/README.md) | Easy | `Array` `Hash Table` `Sorting` |
 |  218 | [The Skyline Problem](./p00218/README.md) | Hard | `Array` `Divide and Conquer` `Binary Indexed Tree` `Segment Tree` `Line Sweep` `Heap (Priority Queue)` `Ordered Set` |
 |  219 | [Contains Duplicate II](./p00219/README.md) | Easy | `Array` `Hash Table` `Sliding Window` |
