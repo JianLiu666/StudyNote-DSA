@@ -350,6 +350,7 @@
 | 2007 | [Find Original Array From Doubled Array](./p02007/README.md) | 1557 | `Array` `Hash Table` `Greedy` `Sorting` |
 | 2095 | [Delete the Middle Node of a Linked List](./p02095/README.md) | 1324 | `Linked List` `Two Pointers` |
 | 2130 | [Maximum Twin Sum of a Linked List](./p02130/README.md) | 1317 | `Linked List` `Two Pointers` `Stack` |
+| 2300 | [Successful Pairs of Spells and Potions](./p02300/README.md) | 1476 | `Array` `Two Pointers` `Binary Search` `Sorting` |
 | 2309 | [Greatest English Letter in Upper and Lower Case](./p02309/README.md) | 1242 | `Hash Table` `String` `Enumeration` |
 | 2343 | [Query Kth Smallest Trimmed Number](./p02343/README.md) | 1651 | `Array` `String` `Divide and Conquer` `Sorting` `Heap (Priority Queue)` `Radix Sort` `Quickselect` |
 | 2367 | [Number of Arithmetic Triplets](./p02367/README.md) | 1203 | `Array` `Hash Table` `Two Pointers` `Enumeration` |
