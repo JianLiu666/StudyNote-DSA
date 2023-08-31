@@ -57,3 +57,4 @@ Explanation:
 
 直接看程式碼
 
+[LeetCode 官方解](https://leetcode.com/problems/gas-station/editorial/) 也說得很清楚
