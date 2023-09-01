@@ -65,6 +65,7 @@
 |   62 | [62. Unique Paths](./p00062/README.md) | Medium | `Math` `Dynamic Programming` `Combinatorics` |
 |   66 | [Plus One](./p00066/README.md) | Easy | `Array` `Math` |
 |   67 | [Add Binary](./p00067/README.md) | Easy | `Math` `String` `Bit Manipulation` `Simulation` |
+|   68 | [Text Justification](./p00068/README.md) | Hard | `Array` `String` `Simulation` |
 |   69 | [Sqrt(x)](./p00069/README.md) | Easy | `Math` `Binary Search` |
 |   70 | [Climbing Stairs](./p00070/README.md) | Easy | `Math` `Dynamic Programming` `Memorization` |
 |   73 | [Set Matrix Zeroes](./p00073/README.md) | Medium | `Array` `Hash Table` `Matrix` |
