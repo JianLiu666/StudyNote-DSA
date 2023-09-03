@@ -3,28 +3,17 @@ package p00205
 // Time Complexity: O(n)
 // Space Complexity: O(1)
 func isIsomorphic(s string, t string) bool {
-	if len(s) != len(t) {
-		return false
-	}
+	sPattern, tPattern := map[byte]int{}, map[byte]int{}
 
-	mappingTable := map[byte]byte{}
-	seen := map[byte]bool{}
-
-	for i := 0; i < len(s); i++ {
-		if ch, exists := mappingTable[s[i]]; exists {
-			if ch != t[i] {
-				return false
-			}
-
+	for i := range s {
+		if sPattern[s[i]] != tPattern[t[i]] {
+			// 兩邊上一次遇到的 index 不一樣, 表示順序不對
+			return false
 		} else {
-			if _, exists := seen[t[i]]; exists {
-				return false
-			}
-
-			mappingTable[s[i]] = t[i]
-			seen[t[i]] = true
+			// 將各自的字母紀錄相同的 index
+			sPattern[s[i]] = i + 1
+			tPattern[t[i]] = i + 1
 		}
 	}
-
 	return true
 }
