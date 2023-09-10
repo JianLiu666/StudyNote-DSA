@@ -20,16 +20,20 @@ func subarraySum_bruteforce(nums []int, k int) int {
 // Time Complexity: O(n)
 // Space Complexity: O(n)
 func subarraySum_presum(nums []int, k int) int {
-	memo := map[int]int{0: 1}
-	preSum := 0
 	count := 0
 
+	memo := map[int]int{}
+	memo[0] = 1 // 表示 preSum = 0 的時候出現了 1 次
+
+	preSum := 0
 	for i := 0; i < len(nums); i++ {
 		preSum += nums[i]
 
-		if memo[preSum-k] > 0 {
-			count += memo[preSum-k]
-		}
+		// 這題題目的問題可以用 preSum[j] - preSum[i-1] == k 來表示 subarray[i,j] == k
+		// 所以我們可以求 preSum[j] - k == preSum[i-1] 的次數
+		// 來反推 preSum[j] - preSum[i-1] == k
+		count += memo[preSum-k]
+
 		memo[preSum]++
 	}
 
