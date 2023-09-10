@@ -1,5 +1,7 @@
 package p00530
 
+import "math"
+
 type TreeNode struct {
 	Val   int
 	Left  *TreeNode
@@ -7,28 +9,44 @@ type TreeNode struct {
 }
 
 // Time Complexity: O(n)
-// Space Complexity: O(n)
+// Space Complexity: O(logn)
 func getMinimumDifference(root *TreeNode) int {
-	res := []int{}
+	result := math.MaxInt
+	dfs(root, nil, &result)
+	return result
+}
 
-	stack := []*TreeNode{}
-	for root != nil || len(stack) > 0 {
-		for root != nil {
-			stack = append(stack, root)
-			root = root.Left
-		}
-
-		root, stack = stack[len(stack)-1], stack[:len(stack)-1]
-		res = append(res, root.Val)
-		root = root.Right
+func dfs(root, prev *TreeNode, result *int) *TreeNode {
+	if root == nil {
+		return prev
 	}
 
-	min := res[1] - res[0]
-	for i := 2; i < len(res); i++ {
-		if res[i]-res[i-1] < min {
-			min = res[i] - res[i-1]
-		}
-	}
+	// in-order traversal
+	// left
+	prev = dfs(root.Left, prev, result)
 
-	return min
+	// root
+	if prev != nil {
+		*result = min(*result, abs(root.Val-prev.Val))
+	}
+	prev = root
+
+	// right
+	prev = dfs(root.Right, prev, result)
+
+	return prev
+}
+
+func abs(a int) int {
+	if a < 0 {
+		return -a
+	}
+	return a
+}
+
+func min(a, b int) int {
+	if a < b {
+		return a
+	}
+	return b
 }
