@@ -308,6 +308,7 @@
 |  905 | [Sort Array By Parity](./p00905/README.md) | 1178 | `Array` `Two Pointers` `Sorting` |
 |  912 | [Sort an Array](./p00912/README.md) | Medium | `Array` `Divide and Conquer` `Sorting` `Heap (Priority Queue)` `Merge Sort` `Bucket Sort` `Radix Sort` `Counting Sort` |
 |  916 | [Word Subsets](./p00916/README.md) | 1624 | `Array` `Hash Table` `String` |
+|  918 | [Maximum Sum Circular Subarray](./p00918/README.md) | 1777 | `Array` `Divide and Conquer` `Dynamic Programming` `Queue` `Monotonic Queue` |
 |  941 | [Valid Mountain Array](./p00941/README.md) | 1208 | `Array` |
 |  948 | [Bag of Tokens](./p00948/README.md) | 1762 | `Array` `Two Pointers` `Greedy` `Sorting` |
 |  973 | [K Closest Points to Origin](./p00973/README.md) | 1213 | `Array` `Math` `Divide and Conquer` `Geometry` `Sorting` `Heap (Priority Queue)` `Quickselect` |
