@@ -3,39 +3,39 @@ package p00004
 // Time Complexity: O(log(m+n)), where m is the number of nums1, n is the number of nums2
 // Space Complexity: O(1)
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
-	len1 := len(nums1)
-	len2 := len(nums2)
-	left := (len1 + len2 + 1) / 2  // 從 1 開始數
-	right := (len1 + len2 + 2) / 2 // 從 1 開始數
+	n, m := len(nums1), len(nums2)
 
-	return float64(findKth(nums1, 0, len1-1, nums2, 0, len2-1, left)+findKth(nums1, 0, len1-1, nums2, 0, len2-1, right)) * 0.5
+	left := findKth(nums1, nums2, 0, n, 0, m, (n+m+1)/2)
+	right := findKth(nums1, nums2, 0, n, 0, m, (n+m+2)/2)
+	return float64(left+right) / 2
 }
 
-func findKth(nums1 []int, start1, end1 int, nums2 []int, start2, end2 int, k int) int {
-	len1 := end1 - start1 + 1
-	len2 := end2 - start2 + 1
-
-	if len1 == 0 {
-		return nums2[start2+k-1]
+func findKth(nums1, nums2 []int, s1, e1, s2, e2, k int) int {
+	l1, l2 := e1-s1, e2-s2
+	if l1 > l2 {
+		// 為了方便比較是否有其中一個 array 被排空了, 固定將第一個 array 設定成比較小的
+		return findKth(nums2, nums1, s2, e2, s1, e1, k)
 	}
-	if len2 == 0 {
-		return nums1[start1+k-1]
+	if l1 == 0 {
+		return nums2[s2+k-1]
 	}
 	if k == 1 {
-		return Min(nums1[start1], nums2[start2])
+		return min(nums1[s1], nums2[s2])
 	}
 
-	min1 := start1 + Min(len1, k/2) - 1
-	min2 := start2 + Min(len2, k/2) - 1
+	// 確保不會溢位, 最多就取到 array 的最後一個元素
+	i := s1 + min(l1, k/2) - 1
+	j := s2 + min(l2, k/2) - 1
 
-	if nums1[min1] < nums2[min2] {
-		return findKth(nums1, min1+1, end1, nums2, start2, end2, k-(min1-start1+1))
+	if nums1[i] <= nums2[j] {
+		return findKth(nums1, nums2, i+1, e1, s2, e2, k-(i-s1+1))
+	} else {
+		return findKth(nums1, nums2, s1, e1, j+1, e2, k-(j-s2+1))
 	}
-	return findKth(nums1, start1, end1, nums2, min2+1, end2, k-(min2-start2+1))
 }
 
-func Min(a, b int) int {
-	if a <= b {
+func min(a, b int) int {
+	if a < b {
 		return a
 	}
 	return b
