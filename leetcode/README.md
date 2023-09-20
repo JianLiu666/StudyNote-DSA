@@ -1,8 +1,9 @@
 # Fake it till you make it
 
 [![image](https://img.shields.io/badge/It's%20Me%2C-Jian-blue?logo=github)](https://leetcode.com/jianliu0616/)
-![image](https://badges.peiyuan.ch/leetcode/jianliu0616/ranking?logo=leetcode&color=orange)
-![image](https://badges.peiyuan.ch/leetcode/jianliu0616/solved?difficulty=all&logo=leetcode&color=orange)
+![image](https://img.shields.io/badge/dynamic/json?style=flat-square&labelColor=black&color=%23ffa116&label=Contest&query=ratingQuantile&url=https%3A%2F%2Fbadge.xyli.tech/%2Fapi%2Fusers%2Fjianliu0616&logo=leetcode&logoColor=yellow)
+![image](https://img.shields.io/badge/dynamic/json?style=flat-square&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fbadge.xyli.tech/%2Fapi%2Fusers%2Fjianliu0616&logo=leetcode&logoColor=yellow)
+
 
 ## LeetCode Journey
 
@@ -10,8 +11,8 @@
 - 2022.06.27 : 開始踏上 LeetCode 刷題之路
 - 2022.08.28 : 第一次參加 Weekly Contest
 - 2022.09.18 : 第一次完賽 Weekly Contest
-- 2023.09.03 : 1700+
-- 2023.09.17 : 1800+
+- 2023.09.03 : 週賽成績第一次突破 1700+
+- 2023.09.17 : 週賽成績第一次突破 1800+
 
 ## Solved Problems
 
