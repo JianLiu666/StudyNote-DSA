@@ -10,6 +10,8 @@
 - 2022.06.27 : 開始踏上 LeetCode 刷題之路
 - 2022.08.28 : 第一次參加 Weekly Contest
 - 2022.09.18 : 第一次完賽 Weekly Contest
+- 2023.09.03 : 1700+
+- 2023.09.17 : 1800+
 
 ## Solved Problems
 
