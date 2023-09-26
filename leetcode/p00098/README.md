@@ -52,7 +52,5 @@ Explanation:
 
 ### Solved using Depth-First Search concept
 
-用 DFS 實作 inorder traversal 得到 `array`，在對這個 `array` 檢查是否符合 **ascending order**
-
-### Solved using Recursion concept
-
+BST 特性, left subtree 的最大值一定會比 root 還小, right subtree 的最小值一定會比最大值還大  
+所以可以用 dfs 把 lower bound and upper bound 定好之後往下傳遞, 只要不合法就提早結束  
