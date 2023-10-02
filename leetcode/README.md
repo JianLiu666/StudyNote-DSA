@@ -355,6 +355,7 @@
 | 1721 | [Swapping Nodes in a Linked List](./p01721/README.md) | 1386 | `Linked List` `Two Pointers` |
 | 1823 | [Find the Winner of the Circular Game](./p01823/README.md) | 1412 | `Array` `Math` `Recursion` `Queue` `Simulation` |
 | 1832 | [Check if the Sentence Is Pangram](./p01832/README.md) | 1116 | `Hash Table` `String` |
+| 1851 | [Minimum Interval to Include Each Query](./p01851/README.md) | 2286 | `Array` `Binary Search` `Line Sweep` `Sorting` `Heap (Priority Queue)` |
 | 1863 | [Sum of All Subset XOR Totals](./p01863/README.md) | 1372 | `Array` `Math` `Backtracking` `Bit Manipulation` `Combinatorics` |
 | 1925 | [Count Square Sum Triples](./p01925/README.md) | 1323 | `Math` `Enumeration` |
 | 1996 | [The Number of Weak Characters in the Game](./p01996/README.md) | 1860 | `Array` `Stack` `Greedy` `Sorting` `Monotonic Stack` |
