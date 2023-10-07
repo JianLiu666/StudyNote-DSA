@@ -327,6 +327,7 @@
 | 1079 | [Letter Tile Possibilities](./p01079/README.md) | 1740 | `String` `Backtracking` |
 | 1089 | [Duplicate Zeros](./p01089/README.md) | 1262 | `Array` `Two Pointers` |
 | 1140 | [tone Game II](./p01140/README.md) | 2034 | `Array` `Math` `Dynamic Programming` `Prefix Sum` `Game Theory` |
+| 1143 | [Longest Common Subsequence](./p01143/README.md) | Medium | `String` `Dynamic Programming` |
 | 1200 | [Minimum Absolute Difference](./p01200/README.md) | 1198 | `Array` `Sorting` |
 | 1202 | [Smallest String With Swaps](./p01202/README.md) | 1855 | `Dynamic Programming` |
 | 1220 | [Count Vowels Permutation](./p01220/README.md) | 1729 | `Dynamic Programming` |
