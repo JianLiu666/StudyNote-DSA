@@ -18,14 +18,53 @@ function twoSum(nums: number[], target: number): number[] {
     return [];
 }
 
+type input = {
+    nums: number[];
+    target: number;
+}
+    
+type output = {
+    ans: number[];
+}
+
+type testdata = {
+    input: input;
+    output: output;
+}
+
+const tds: testdata[] = [
+    {
+        input: {
+            nums: [2, 7, 11, 15],
+            target: 9,
+        },
+        output: {
+            ans: [0, 1],
+        },
+    },
+    {
+        input: {
+            nums: [3, 2, 4],
+            target: 6,
+        },
+        output: {
+            ans: [1, 2],
+        },
+    }, 
+    {
+        input: {
+            nums: [3, 3],
+            target: 6,
+        },
+        output: {
+            ans: [0, 1],
+        },
+    }
+]
 
 if (require.main === module) {
-    const result1 = twoSum([2, 7, 11, 15], 9);
-    assert.deepStrictEqual(result1, [0, 1], "Test 1 failed");
-
-    const result2 = twoSum([3, 2, 4], 6);
-    assert.deepStrictEqual(result2, [1, 2], "Test 2 failed");
-    
-    const result3 = twoSum([3, 3], 6);
-    assert.deepStrictEqual(result3, [0, 1], "Test 3 failed");
+    for (const td of tds) {
+        const result = twoSum(td.input.nums, td.input.target);
+        assert.deepStrictEqual(result, td.output.ans, `Test failed: expected ${td.output.ans}, but got ${result}`);
+    }
 }
