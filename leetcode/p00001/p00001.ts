@@ -1,3 +1,5 @@
+import assert from "assert";
+
 // Time Complexity: O(n)
 // Space Complexity: O(n)
 function twoSum(nums: number[], target: number): number[] {
@@ -16,23 +18,14 @@ function twoSum(nums: number[], target: number): number[] {
     return [];
 }
 
-function arraysEqual(a: number[], b: number[]): boolean {
-    return a.length === b.length && a.every((val, index) => val === b[index]);
-}
-
-function assert(condition: boolean, message: string): void {
-    if (!condition) {
-        throw new Error(`Assertion failed: ${message}`);
-    }
-}
 
 if (require.main === module) {
     const result1 = twoSum([2, 7, 11, 15], 9);
-    assert(arraysEqual(result1, [0, 1]), `Test 1 failed: expected [0, 1], got [${result1}]`);
+    assert.deepStrictEqual(result1, [0, 1], "Test 1 failed");
 
     const result2 = twoSum([3, 2, 4], 6);
-    assert(arraysEqual(result2, [1, 2]), `Test 2 failed: expected [1, 2], got [${result2}]`);
+    assert.deepStrictEqual(result2, [1, 2], "Test 2 failed");
     
     const result3 = twoSum([3, 3], 6);
-    assert(arraysEqual(result3, [0, 1]), `Test 3 failed: expected [0, 1], got [${result3}]`);
+    assert.deepStrictEqual(result3, [0, 1], "Test 3 failed");
 }
