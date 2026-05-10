@@ -48,6 +48,38 @@ Explanation:
 
 # 解題方向
 
+#### 2026.05.10 重刷 NeetCode 150 時卡關看解答的做法
+
+```
+分析問題:
+- 已知 nums1, nums2 是兩個不一定等長的 ascending order array, 找到 p50 返回
+- 如果元素總數量是偶數, 就要返回平均值
+
+間單想法:
+- median = (nums1.length + nums2.length + 1) // 2
+- 可能落在 nums1 or nums2
+
+視覺化來看:
+
+nums1: [ ... mid1 ... ]
+nums2: [ ... mid2 ... ], mid1 & mid2 左邊元素加總的數量要等於 median
+- 現在的問題是不知道 nums1, nums2 應該要排除多少左邊數字？
+
+用這個方式來看:
+nums1: [ ... l1 | r1 ... ]
+nums2: [ ... l2 | r2 ... ]
+        左半部 ^   ^ 右半部
+
+如果 l1 <= r2 && l2 <= r1, 找到完全符合的中位數
+如果 l1 > r2, 表示 nums1 佔據太多元素, 需要收窄 mid1
+反之如果 l2 > r1, 表示 nums2 佔據太多元素, 需要收窄 mid2
+
+只要可以定位一邊的 nums, 就能同時定位兩邊
+用長度較小的 array 來定位上下界 (low, high), 即:
+- mid1 = (low + high) / 2
+- mid2 = median - mid1
+```
+
 #### 2023.09.13 在刷一次後試著用自己的想法分析一遍  
 
 ```
